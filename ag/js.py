@@ -40,15 +40,18 @@ def load_obj(text: str) -> dict[str, Any]:
         text = text.split("```", 2)[-1].strip()
     span = _find_json_span(text)
     if span is None:
-        raise ValueError("no_json_object_found")
+        raise ValueError("no_json_object_found: nessun oggetto JSON rilevato")
     a, b = span
     chunk = text[a:b]
     try:
         obj = json.loads(chunk)
-    except json.JSONDecodeError:
-        obj = ast.literal_eval(chunk)
+    except json.JSONDecodeError as je:
+        try:
+            obj = ast.literal_eval(chunk)
+        except Exception as ae:
+            raise ValueError(f"json_parse_error: {je}") from ae
     if not isinstance(obj, dict):
-        raise ValueError("json_root_not_object")
+        raise ValueError("json_root_not_object: root non è un dict")
     for k in obj.keys():
         if not isinstance(k, str):
             raise ValueError("json_keys_not_str")

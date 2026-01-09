@@ -21,14 +21,15 @@ class Br:
     browser_app: str = ""
     auto_consent: bool = False
     headless: bool = False
-    os_cursor: bool = False
     action_delay_ms: int = 0
     view_only: bool = False
+    use_system_cursor: bool = True
     _attached: bool = False
     _pw: Any = None
     _browser: Any = None
     _ctx: Any = None
     page: Any = None
+    _screen_offset: tuple[float, float] = (0.0, 0.0)
 
     def _default_cdp_url(self) -> str:
         return consts.DEFAULT_CDP_URL
@@ -41,23 +42,60 @@ class Br:
             raise RuntimeError("playwright_missing") from e
 
         self._pw = await async_playwright().start()
-        
-        # Always use managed Playwright mode (Chromium)
-        try:
-            self._browser = await self._pw.chromium.launch(headless=self.headless)
-        except Exception as e:
-             logger.error(f"Errore avvio Chromium: {e}")
-             raise RuntimeError("playwright_browsers_missing") from e
-        self._attached = False
 
-        contexts = list(getattr(self._browser, "contexts", []))
-        self._ctx = contexts[0] if contexts else await self._browser.new_context()
-        self.page = await self._ctx.new_page()
+        # support legacy/default "chromium" as alias of playwright-managed browser
+        browser_mode = (self.browser or "playwright").lower()
+        if browser_mode in {"playwright", "chromium"}:
+            try:
+                self._browser = await self._pw.chromium.launch(headless=self.headless)
+            except Exception as e:
+                logger.error(f"Errore avvio Chromium: {e}")
+                raise RuntimeError("playwright_browsers_missing") from e
+            self._attached = False
+
+            contexts = list(getattr(self._browser, "contexts", []))
+            self._ctx = contexts[0] if contexts else await self._browser.new_context()
+            self.page = await self._ctx.new_page()
+
+        elif browser_mode in {"cdp", "system"}:
+            cdp_url = self.cdp_url or self._default_cdp_url()
+            try:
+                self._browser = await self._pw.chromium.connect_over_cdp(cdp_url)
+            except Exception as e:
+                err = "system_browser_connection_failed" if browser_mode == "system" else "cdp_connection_failed"
+                logger.error(f"Connessione CDP fallita ({cdp_url}): {e}")
+                raise RuntimeError(err) from e
+
+            contexts = list(getattr(self._browser, "contexts", []))
+            if not contexts:
+                err = "system_browser_not_found" if browser_mode == "system" else "cdp_no_context"
+                logger.error(f"Nessun contesto disponibile via CDP ({cdp_url})")
+                raise RuntimeError(err)
+
+            self._attached = True
+            self._ctx = contexts[0]
+            pages = list(getattr(self._ctx, "pages", []))
+            self.page = pages[0] if pages else await self._ctx.new_page()
+        else:
+            raise ValueError(f"browser non supportato: {self.browser}")
         self.page.set_default_timeout(self.timeout_ms)
 
-        # Add stealth scripts
         await self.page.add_init_script(consts.JS_HIDE_WEBDRIVER)
-        await self.install_cursor()
+        await self._install_ui()
+        
+        if self.use_system_cursor and sys_input.is_available():
+            pass
+
+    async def _install_ui(self) -> None:
+        if self.view_only or not self.page:
+            return
+        try:
+            await self.page.evaluate(consts.JS_INSTALL_CURSOR)
+        except Exception:
+            pass
+
+    async def reinstall_ui(self) -> None:
+        await self._install_ui()
 
     async def stop(self) -> None:
         if self.view_only:
@@ -94,7 +132,10 @@ class Br:
             return
 
         await self.page.goto(url, wait_until="domcontentloaded")
-        if self.auto_consent and "google." in url:
+        await self._install_ui()
+        self._screen_offset = await self._get_screen_offset()
+        
+        if self.auto_consent:
             if await self._click_consent():
                 await self.page.wait_for_timeout(400)
 
@@ -102,13 +143,13 @@ class Br:
         if self.view_only:
             return
         await self.page.go_back(wait_until="domcontentloaded")
+        await self._install_ui()
 
     async def title(self) -> str:
         if self.view_only:
             return "Browser esterno"
         try:
-            t = await self.page.title()
-            return str(t)
+            return str(await self.page.title())
         except Exception:
             return ""
 
@@ -120,32 +161,16 @@ class Br:
         except Exception:
             return ""
 
-    async def install_cursor(self) -> None:
-        if self.view_only or not self.page:
-            return
-        try:
-            await self.page.evaluate(consts.JS_INSTALL_CURSOR)
-        except Exception as e:
-            logger.debug(f"Errore installazione cursore: {e}")
-
     async def set_status(self, msg: str) -> None:
         if self.view_only or not self.page:
             return
         try:
-            safe_msg = msg.replace("'", "\\'")
-            await self.page.evaluate(f"const el = document.getElementById('ag-status'); if(el) el.innerText = '🤖 {safe_msg}';")
+            safe_msg = msg.replace("'", "\\'").replace("\n", " ")
+            await self.page.evaluate(f"window.__agSetStatus && window.__agSetStatus('{safe_msg}')")
         except Exception:
             pass
 
-    async def move_cursor_visual(self, x: float, y: float) -> None:
-        if self.view_only or not self.page:
-            return
-        try:
-            await self.page.evaluate(f"const el = document.getElementById('ag-cursor'); if(el) el.style.transform = 'translate({x}px, {y}px)'")
-        except Exception:
-            pass
-
-    async def get_screen_offset(self) -> tuple[float, float]:
+    async def _get_screen_offset(self) -> tuple[float, float]:
         if self.view_only or not self.page:
             return (0.0, 0.0)
         try:
@@ -154,31 +179,29 @@ class Br:
         except Exception:
             return (0.0, 0.0)
 
-    async def _get_physical_coords(self, x: float, y: float, offset: tuple[float, float] | None = None) -> tuple[float, float]:
-        if offset is None:
-            off_x, off_y = await self.get_screen_offset()
-        else:
-            off_x, off_y = offset
-        return off_x + x, off_y + y
+    def _to_screen_coords(self, x: float, y: float) -> tuple[float, float]:
+        return self._screen_offset[0] + x, self._screen_offset[1] + y
 
-    async def mouse_move_physical(self, x: float, y: float, offset: tuple[float, float] | None = None) -> None:
-        # Visual cursor update
-        await self.move_cursor_visual(x, y)
-        if self.os_cursor and not self.headless:
-            try:
-                px, py = await self._get_physical_coords(x, y, offset=offset)
-                sys_input.move(px, py)
-            except Exception:
-                pass
+    async def move_cursor(self, x: float, y: float) -> None:
+        if self.view_only or not self.page:
+            return
+        
+        if self.use_system_cursor and sys_input.is_available() and not self.headless:
+            sx, sy = self._to_screen_coords(x, y)
+            sys_input.move(sx, sy)
         
         try:
             await self.page.mouse.move(x, y)
         except Exception:
             pass
 
-    async def click_physical(self, x: float, y: float) -> None:
-        # Move visual cursor to location
-        await self.move_cursor_visual(x, y)
+    async def click_at(self, x: float, y: float) -> None:
+        if self.view_only:
+            return
+        
+        if self.use_system_cursor and sys_input.is_available() and not self.headless:
+            sx, sy = self._to_screen_coords(x, y)
+            sys_input.click(sx, sy)
         
         try:
             await self.page.mouse.click(x, y)
@@ -194,7 +217,7 @@ class Br:
                 return
             except Exception as e:
                 msg = str(e)
-                if "Execution context was destroyed" in msg or "most likely because of a navigation" in msg:
+                if "Execution context was destroyed" in msg or "navigation" in msg:
                     try:
                         await self.page.wait_for_load_state("domcontentloaded", timeout=5000)
                         await self.page.wait_for_timeout(100)
@@ -206,7 +229,7 @@ class Br:
 
     async def extract_text(self, budget: int) -> str:
         if self.view_only:
-            return "Browser aperto in modalità esterna. Il contenuto non è accessibile."
+            return "Browser in modalità esterna."
         if not self.page:
             return ""
 
@@ -221,7 +244,7 @@ class Br:
             except Exception as e:
                 last_err = e
                 msg = str(e)
-                if "Execution context was destroyed" in msg or "most likely because of a navigation" in msg:
+                if "Execution context was destroyed" in msg or "navigation" in msg:
                     try:
                         await self.page.wait_for_load_state("domcontentloaded", timeout=5000)
                         await self.page.wait_for_timeout(150)
@@ -249,11 +272,6 @@ class Br:
         except Exception:
             return None
 
-    async def click_at(self, x: float, y: float) -> None:
-        if self.view_only:
-            return
-        await self.click_physical(x, y)
-
     async def _click_consent(self) -> bool:
         if self.view_only:
             return False
@@ -261,7 +279,6 @@ class Br:
 
         frames = list(getattr(self.page, "frames", []))
         
-        # Check main page first
         for sel in consts.COOKIE_CONSENT_SELECTORS:
             try:
                 loc = self.page.locator(sel).first
@@ -271,7 +288,6 @@ class Br:
             except Exception:
                 continue
 
-        # Check frames
         for fr in frames:
             for sel in consts.COOKIE_CONSENT_SELECTORS:
                 try:
@@ -310,7 +326,6 @@ class Br:
                 continue
         
         if not target:
-            # Fallback generico
             try:
                 target = self.page.locator("input[type='text'], textarea, [contenteditable]").first
             except Exception:
@@ -318,17 +333,16 @@ class Br:
         
         if target:
             try:
-                # Move visual cursor to center of element
                 box = await target.bounding_box()
                 if box:
                     cx = box["x"] + box["width"] / 2
                     cy = box["y"] + box["height"] / 2
-                    await self.move_cursor_visual(cx, cy)
+                    await self.move_cursor(cx, cy)
 
                 await target.click()
-                await self.page.wait_for_timeout(200)
+                await self.page.wait_for_timeout(150)
                 await target.fill("")
-                await target.type(text, delay=50)
+                await target.type(text, delay=40)
             except Exception:
                 pass
     
@@ -343,6 +357,10 @@ class Br:
     async def scroll(self, dy: int) -> None:
         if self.view_only or not self.page:
             return
+        
+        if self.use_system_cursor and sys_input.is_available() and not self.headless:
+            sys_input.scroll(-dy // 100)
+        
         try:
             await self.page.mouse.wheel(0, int(dy))
         except Exception:

@@ -1,22 +1,54 @@
 from __future__ import annotations
 
-# Browser
-DEFAULT_CDP_URL = "http://127.0.0.1:9222"
+import json
+import os
+from typing import Dict
+
+DEFAULT_CDP_URL = os.environ.get("AG_CDP_URL_DEFAULT", "http://127.0.0.1:9222")
 DEFAULT_TIMEOUT_MS = 30000
 
-# Selectors
+# URL configurabili per evitare valori hardcoded nelle strategie
+DEFAULT_HOME_URL = os.environ.get("AG_HOME_URL", "https://google.com")
+ALT_SEARCH_URL = os.environ.get("AG_ALT_URL", "https://bing.com")
+DEFAULT_TARGET_SITE = os.environ.get("AG_TARGET_SITE", "https://openai.com")
+EXAMPLE_ARTICLE_URL = os.environ.get("AG_EXAMPLE_ARTICLE_URL", "https://example.com/article")
+ALT_NEWS_URL = os.environ.get("AG_ALT_NEWS_URL", "https://news.google.com")
+ALT_QUERY_BASE = os.environ.get("AG_ALT_QUERY_BASE", "https://duckduckgo.com/?q=")
+BOOT_GITHUB_URL = os.environ.get("AG_BOOT_GITHUB_URL", "https://github.com/test")
+
+def _load_known_sites() -> Dict[str, str]:
+    raw = os.environ.get("AG_KNOWN_SITES", "")
+    if raw:
+        try:
+            obj = json.loads(raw)
+            if isinstance(obj, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in obj.items()):
+                return obj
+        except Exception:
+            pass
+    return {
+        "openai": "https://openai.com",
+        "google": "https://google.com",
+        "github": "https://github.com",
+        "wikipedia": "https://wikipedia.org",
+        "youtube": "https://youtube.com",
+        "twitter": "https://twitter.com",
+        "x.com": "https://x.com",
+        "linkedin": "https://linkedin.com",
+        "facebook": "https://facebook.com",
+        "reddit": "https://reddit.com",
+        "amazon": "https://amazon.com",
+        "stackoverflow": "https://stackoverflow.com",
+    }
+
+KNOWN_SITES = _load_known_sites()
+
 COOKIE_CONSENT_SELECTORS = [
     "button:has-text('Accetta')",
-    "button:has-text('Accetto')",
-    "button:has-text('Accetta tutto')",
-    "button:has-text('Accetta tutti')",
-    "button:has-text('I agree')",
-    "button:has-text('Accept all')",
     "button:has-text('Accept')",
-    "button#L2AGLb",  # Google 'Accept all' ID
-    "button#QS5gu",   # Google 'Reject all' ID
-    "div[role='dialog'] button:has-text('Accetta tutto')",
-    "form[action*='consent'] button"
+    "button:has-text('Agree')",
+    "button:has-text('OK')",
+    "[role='dialog'] button",
+    "form[action*='consent'] button",
 ]
 
 MAC_BROWSER_APPS = [
@@ -40,11 +72,8 @@ MAC_EXCLUDED_APPS = {
     "/Applications/ChatGPT Atlas.app"
 }
 
-# JS Scripts
 JS_HIDE_WEBDRIVER = """
-    Object.defineProperty(navigator, 'webdriver', {
-        get: () => undefined
-    });
+    Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
 """
 
 JS_EXTRACT_TEXT = """
@@ -53,7 +82,6 @@ JS_EXTRACT_TEXT = """
             if (!e) return false;
             const style = window.getComputedStyle(e);
             if (style.display === 'none' || style.visibility === 'hidden' || style.opacity === '0') return false;
-            if (style.pointerEvents === 'none') return false;
             const rect = e.getBoundingClientRect();
             return rect.width > 0 && rect.height > 0;
         }
@@ -61,17 +89,16 @@ JS_EXTRACT_TEXT = """
         function getSelector(e) {
             if (e.id) return '#' + CSS.escape(e.id);
             if (e.name) return `[name="${CSS.escape(e.name)}"]`;
-            
             let sel = e.tagName.toLowerCase();
             if (e.className && typeof e.className === 'string') {
-                const classes = e.className.split(/\s+/).filter(c => c.length > 0 && !c.match(/^[\d]/));
+                const classes = e.className.split(/\\s+/).filter(c => c.length > 0 && !c.match(/^[\\d]/));
                 if (classes.length > 0) sel += '.' + classes.map(c => CSS.escape(c)).join('.');
             }
             return sel;
         }
 
-        let output = "--- ELEMENTI INTERATTIVI (Usa questi selettori) ---\\n";
-        const elems = document.querySelectorAll('a, button, input, textarea, select, [role="button"], [role="link"], [role="menuitem"], [onclick], [tabindex]');
+        let output = "--- ELEMENTI INTERATTIVI ---\\n";
+        const elems = document.querySelectorAll('a, button, input, textarea, select, [role="button"], [role="link"], [onclick], [tabindex]');
         
         let count = 0;
         for (const el of elems) {
@@ -87,9 +114,7 @@ JS_EXTRACT_TEXT = """
             }
             if (!text && el.tagName === 'A') {
                 const img = el.querySelector('img');
-                if (img) {
-                    text = img.getAttribute('alt') || "";
-                }
+                if (img) text = img.getAttribute('alt') || "";
             }
             if (!text) continue;
 
@@ -97,10 +122,8 @@ JS_EXTRACT_TEXT = """
             count++;
         }
 
-        output += "\\n--- CONTENUTO TESTUALE ---\\n";
-        const bodyText = document.body.innerText || "";
-        output += bodyText.replace(/\\s+/g, ' ').slice(0, 1500);
-        
+        output += "\\n--- CONTENUTO ---\\n";
+        output += (document.body.innerText || "").replace(/\\s+/g, ' ').slice(0, 1500);
         return output;
     }
 """
@@ -113,59 +136,14 @@ JS_GET_SCREEN_OFFSET = """
 """
 
 JS_INSTALL_CURSOR = """() => {
-    if (document.getElementById('ag-cursor')) return;
-    
-    const c = document.createElement('div');
-    c.id = 'ag-cursor';
-    c.style.position = 'fixed';
-    c.style.width = '24px';
-    c.style.height = '24px';
-    c.style.zIndex = '2147483647';
-    c.style.pointerEvents = 'none';
-    c.style.transition = 'transform 0.08s cubic-bezier(0.2, 0.8, 0.2, 1)';
-    c.style.transform = 'translate(-100px, -100px)';
-    c.style.filter = 'drop-shadow(0 2px 4px rgba(0,0,0,0.4))';
-    c.innerHTML = `
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M5.5 3.5L11.5 19.5L14.5 13.5L20.5 13.5L5.5 3.5Z" fill="black" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
-    </svg>
-    `;
-    document.body.appendChild(c);
-    
+    if (document.getElementById('ag-status')) return;
     const s = document.createElement('div');
     s.id = 'ag-status';
-    s.style.position = 'fixed';
-    s.style.bottom = '20px';
-    s.style.right = '20px';
-    s.style.padding = '12px 20px';
-    s.style.background = 'rgba(0, 0, 0, 0.85)';
-    s.style.color = 'white';
-    s.style.fontFamily = 'system-ui, -apple-system, sans-serif';
-    s.style.fontSize = '14px';
-    s.style.borderRadius = '8px';
-    s.style.boxShadow = '0 4px 15px rgba(0,0,0,0.3)';
-    s.style.zIndex = '2147483647';
-    s.style.backdropFilter = 'blur(10px)';
-    s.style.border = '1px solid rgba(255,255,255,0.1)';
-    s.style.transition = 'opacity 0.3s ease';
-    s.innerText = '🤖 Agente attivo';
+    s.style.cssText = 'position:fixed;bottom:20px;right:20px;padding:10px 14px;background:rgba(0,0,0,0.65);color:white;font-family:system-ui;font-size:13px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.25);z-index:2147483647;backdrop-filter:blur(8px)';
+    s.innerText = '●';
     document.body.appendChild(s);
+    window.__agSetStatus = (msg) => {
+        const el = document.getElementById('ag-status');
+        if (el) el.innerText = msg || '●';
+    };
 }"""
-
-# LLM
-SYSTEM_PROMPT = (
-    "Sei un LLM Planner ingegneristico. Produci SOLO JSON valido, senza testo extra.\n"
-    "Azioni ammesse: navigate, click, type, press, wait, extract, back, done.\n"
-    "Regole:\n"
-    "- Usa sempre doppi apici: JSON strict.\n"
-    "- Usa selector CSS quando possibile.\n"
-    "- Se devi cercare, usa: {\"action\":\"type\",\"selector\":\"input\",\"text\":\"...\"} poi {\"action\":\"press\",\"key\":\"Enter\"}.\n"
-    "- Non inventare dati: se serve leggere, usa extract.\n"
-    "- Se url è about:blank e l'obiettivo contiene un sito, fai navigate.\n"
-    "- SE SEI SU GOOGLE SEARCH: Clicca sul primo risultato utile (spesso h3 o a > h3).\n"
-    "Schema Act: {action, url?, selector?, text?, key?, ms?, field?}.\n"
-    "Esempi:\n"
-    "{\"action\":\"navigate\",\"url\":\"https://www.google.com\"}\n"
-    "{\"action\":\"click\",\"selector\":\"h3\"}\n"
-    "{\"action\":\"done\",\"text\":\"...\"}\n"
-)

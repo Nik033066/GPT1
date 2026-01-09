@@ -2,9 +2,11 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 import os
+import re
 from typing import Any, Protocol, cast
 
 from ag.logger import get_logger
+from ag import consts
 
 logger = get_logger(__name__)
 
@@ -16,11 +18,77 @@ class LLM(Protocol):
 
 @dataclass
 class MockLLM:
+    KNOWN_SITES: dict[str, str] | None = None
+
+    def __post_init__(self) -> None:
+        if self.KNOWN_SITES is None:
+            self.KNOWN_SITES = dict(consts.KNOWN_SITES)
+    
     def gen(self, sys: str, user: str) -> str:
-        _ = sys
-        if "google" in user.lower():
-            return '{"action":"navigate","url":"https://www.google.com"}'
-        return '{"action":"done","text":"ok"}'
+        u = user.lower()
+        
+        obj_match = re.search(r'OBIETTIVO:\s*(.+?)(?:\n|$)', user, re.I)
+        goal = obj_match.group(1).strip().lower() if obj_match else ""
+        
+        if "about:blank" in u or ("url:" in u and "url: about:blank" in u.replace(" ", "")):
+            url = self._find_direct_url(goal)
+            if url:
+                return f'{{"action":"navigate","url":"{url}","thought":"Navigo direttamente"}}'
+            return f'{{"action":"navigate","url":"{consts.DEFAULT_HOME_URL}","thought":"Vado al motore predefinito"}}'
+        
+        if "prima di continuare" in u or "accetta tutto" in u:
+            if "#L2AGLb" in user:
+                return '{"action":"click","selector":"#L2AGLb","thought":"Accetto cookie"}'
+            if "#W0wltc" in user:
+                return '{"action":"click","selector":"#W0wltc","thought":"Rifiuto cookie"}'
+        
+        if "google.com" in u and not self._is_on_target(u, goal):
+            url = self._find_direct_url(goal)
+            if url:
+                return f'{{"action":"navigate","url":"{url}","thought":"Navigo al sito richiesto"}}'
+            
+            if "#APjFqb" in user or "textarea" in u:
+                query = self._smart_query(goal) if goal else "ricerca"
+                return f'{{"action":"type","selector":"#APjFqb","text":"{query}","thought":"Scrivo la ricerca"}}'
+        
+        if "type #APjFqb" in u or "type textarea" in u:
+            return '{"action":"press","key":"Enter","thought":"Invio la ricerca"}'
+        
+        if ("search?q=" in u or "risultati" in u) and "h3" in u:
+            return '{"action":"click","selector":"h3","thought":"Clicco primo risultato"}'
+        
+        if self._is_on_target(u, goal):
+            return '{"action":"done","text":"Pagina raggiunta","thought":"Obiettivo completato"}'
+        
+        return '{"action":"extract","thought":"Analizzo la pagina"}'
+
+    def _find_direct_url(self, goal: str) -> str | None:
+        if not self.KNOWN_SITES:
+            return None
+        for site, url in self.KNOWN_SITES.items():
+            if site in goal:
+                return url
+        url_match = re.search(r'(https?://[^\s]+|[a-z0-9-]+\.[a-z]{2,})', goal)
+        if url_match:
+            found = url_match.group(1)
+            if not found.startswith("http"):
+                return f"https://{found}"
+            return found
+        return None
+    
+    def _is_on_target(self, page_content: str, goal: str) -> bool:
+        if not goal:
+            return False
+        for site in (self.KNOWN_SITES or {}):
+            if site in goal and site in page_content:
+                return True
+        return False
+
+    def _smart_query(self, goal: str) -> str:
+        clean = re.sub(r'\b(cerca|trova|apri|vai|dammi|fammi|vorrei|voglio|puoi|per favore)\b', '', goal, flags=re.I)
+        clean = re.sub(r'\b(il|lo|la|i|gli|le|un|una|uno|di|a|da|in|su|per|con)\b', '', clean, flags=re.I)
+        clean = re.sub(r'\s+', ' ', clean).strip()
+        return clean[:80] if clean else "ricerca"
 
     def warmup(self) -> None:
         pass
@@ -37,7 +105,6 @@ class HfLLM:
 
     def _pick_device(self) -> str:
         import torch
-
         if self.device != "auto":
             return self.device
         if torch.cuda.is_available():
@@ -54,7 +121,7 @@ class HfLLM:
         dev = self._pick_device()
         dtype = torch.float16 if dev in {"cuda", "mps"} else torch.float32
 
-        logger.info(f"Caricamento modello {self.model_id} su {dev}...")
+        logger.info(f"Caricamento {self.model_id} su {dev}...")
 
         token = os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_TOKEN")
         try:
@@ -70,7 +137,6 @@ class HfLLM:
             )
         except (GatedRepoError, OSError) as e:
             if "gated repo" in str(e).lower() or "gatedrepoerror" in str(e).lower() or "401" in str(e):
-                logger.error(f"Autorizzazione richiesta per {self.model_id}")
                 raise RuntimeError("hf_auth_required") from e
             raise
 
@@ -95,10 +161,7 @@ class HfLLM:
         try:
             try:
                 prompt = tok.apply_chat_template(
-                    messages,
-                    tokenize=False,
-                    add_generation_prompt=True,
-                    enable_thinking=False,
+                    messages, tokenize=False, add_generation_prompt=True, enable_thinking=False,
                 )
             except TypeError:
                 prompt = tok.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
@@ -108,9 +171,6 @@ class HfLLM:
         inputs = tok(prompt, return_tensors="pt").to(mdl.device)
         input_len = inputs.input_ids.shape[1]
         out = mdl.generate(
-            **inputs,
-            max_new_tokens=160,
-            do_sample=False,
-            eos_token_id=tok.eos_token_id,
+            **inputs, max_new_tokens=160, do_sample=False, eos_token_id=tok.eos_token_id,
         )
         return str(tok.decode(out[0][input_len:], skip_special_tokens=True))

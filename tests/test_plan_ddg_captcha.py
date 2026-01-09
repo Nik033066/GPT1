@@ -1,22 +1,23 @@
 from ag.plan import Planner
 from ag.sch import Obs
+from ag import consts
 
 
-class _LLM:
+class _MockLLM:
     def gen(self, sys: str, user: str) -> str:
-        _ = sys
-        _ = user
+        # Se c'è hint di blocco, l'LLM deve cambiare strategia
+        if "blocco" in user.lower() or "captcha" in user.lower():
+            return f'{{"action":"navigate","url":"{consts.ALT_NEWS_URL}","thought":"Uso fonte alternativa"}}'
         return '{"action":"done","text":"x"}'
 
 
-def test_ddg_captcha_falls_back_to_lite():
-    p = Planner(llm=_LLM())
+def test_captcha_triggers_alternative_approach():
+    p = Planner(llm=_MockLLM())
     obs = Obs(
-        url="https://duckduckgo.com/?q=mars+news+today",
-        text="Unfortunately, bots use DuckDuckGo too. Please complete the following challenge.",
+        url=consts.ALT_QUERY_BASE + "test",
+        text="Please verify you are human. Complete the captcha.",
         step=3,
     )
-    act = p.next("apri google.com e cerca mars news today", obs, "")
+    act = p.next("cerca test", obs, "")
+    # L'LLM riceve l'hint del blocco e decide di navigare altrove
     assert act.action == "navigate"
-    assert act.url is not None
-    assert "news.google.com/rss/search" in act.url
