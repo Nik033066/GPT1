@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import asyncio
-import random
 import sys
 import time
 from pathlib import Path
@@ -29,7 +28,7 @@ class AgentSession:
     def __init__(self, llm: LLM, cfg: Cfg):
         self._planner = Planner(llm=llm, mode=cfg.planner_mode, demo_mode=cfg.demo_mode)
         self._mem = Mem()
-        self._cur = Cur()
+        self._cur = Cur(demo_mode=cfg.demo_mode)
 
     async def run(self, goal: str, cfg: Cfg, br: Br) -> RunRes:
         res = RunRes(goal=goal)
@@ -104,8 +103,10 @@ async def _move_cursor_to(br: Br, cur: Cur, selector: str) -> bool:
     
     cx, cy, w = bb
     
+    
     if cur.x == 0.0 and cur.y == 0.0:
-        cur.set(cx + random.uniform(-80, 80), cy + random.uniform(-80, 80))
+        
+        cur.set(cx, cy)
     
     if not br.headless:
         for x, y, delay_ms in cur.iter_timed(cx, cy, w):
@@ -113,8 +114,15 @@ async def _move_cursor_to(br: Br, cur: Cur, selector: str) -> bool:
             if delay_ms > 0:
                 await asyncio.sleep(delay_ms / 1000.0)
     else:
-        for x, y in cur.move(cx, cy, w):
-            await br.move_cursor(x, y)
+        # Anche in headless mode, aggiungi delay in demo mode per rendere visibile il movimento
+        if cur.demo_mode:
+            for x, y, delay_ms in cur.iter_timed(cx, cy, w):
+                await br.move_cursor(x, y)
+                if delay_ms > 0:
+                    await asyncio.sleep(delay_ms / 1000.0)
+        else:
+            for x, y in cur.move(cx, cy, w):
+                await br.move_cursor(x, y)
     
     await br.move_cursor(cx, cy)
     return True
@@ -156,6 +164,8 @@ async def _handle_action(act: Act, obs: Obs, mem: Mem, br: Br, cur: Cur, res: Ru
         await br.set_status("Scrivo...")
         await _move_cursor_to(br, cur, act.selector)
         await br.type_into(act.selector, act.text)
+        if act.key:
+            await br.press(act.key)
         short = act.text.replace("\n", " ").strip()
         mem.add(f"type {act.selector}={short[:60]}")
         

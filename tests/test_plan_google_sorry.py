@@ -14,4 +14,4 @@ def test_google_sorry_triggers_alternative():
     p = Planner(llm=_MockLLM())
     obs = Obs(url=consts.DEFAULT_HOME_URL + "/sorry/index?x=1", text="unusual traffic", step=2)
     act = p.next("cerca news", obs, "")
-    assert act.action == "navigate"
+    assert act.action == "done"

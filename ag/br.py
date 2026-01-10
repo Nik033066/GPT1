@@ -94,6 +94,33 @@ class Br:
         except Exception:
             pass
 
+    async def _ensure_page(self) -> None:
+        if self.view_only:
+            return
+        if self._ctx is None:
+            return
+        try:
+            if self.page is not None and hasattr(self.page, "is_closed") and self.page.is_closed():
+                self.page = None
+        except Exception:
+            pass
+
+        if self.page is None:
+            try:
+                self.page = await self._ctx.new_page()
+            except Exception:
+                return
+            try:
+                self.page.set_default_timeout(self.timeout_ms)
+            except Exception:
+                pass
+            try:
+                await self.page.add_init_script(consts.JS_HIDE_WEBDRIVER)
+            except Exception:
+                pass
+            await self._install_ui()
+            self._screen_offset = await self._get_screen_offset()
+
     async def reinstall_ui(self) -> None:
         await self._install_ui()
 
@@ -131,23 +158,52 @@ class Br:
                 webbrowser.open(url)
             return
 
-        await self.page.goto(url, wait_until="domcontentloaded")
-        await self._install_ui()
-        self._screen_offset = await self._get_screen_offset()
-        
-        if self.auto_consent:
-            if await self._click_consent():
-                await self.page.wait_for_timeout(400)
+        await self._ensure_page()
+
+        try:
+            await self.page.wait_for_timeout(200)
+            await self.page.goto(url, wait_until="domcontentloaded")
+            
+            # Verify page is alive
+            await self.page.evaluate("1")
+            
+            await self._install_ui()
+            self._screen_offset = await self._get_screen_offset()
+            
+            if self.auto_consent:
+                if await self._click_consent():
+                    await self.page.wait_for_timeout(400)
+                    
+        except Exception as e:
+            logger.warning(f"Navigazione fallita: {e}")
+            # Se la pagina è chiusa, prova a ricrearla
+            if "Target page" in str(e) or "closed" in str(e):
+                try:
+                    if self._ctx:
+                        self.page = await self._ctx.new_page()
+                        self.page.set_default_timeout(self.timeout_ms)
+                        try:
+                            await self.page.add_init_script(consts.JS_HIDE_WEBDRIVER)
+                        except Exception:
+                            pass
+                        await self.page.goto(url, wait_until="domcontentloaded")
+                        await self._install_ui()
+                        self._screen_offset = await self._get_screen_offset()
+                except Exception as e2:
+                    logger.error(f"Impossibile recuperare la pagina: {e2}")
+                    raise
 
     async def back(self) -> None:
         if self.view_only:
             return
+        await self._ensure_page()
         await self.page.go_back(wait_until="domcontentloaded")
         await self._install_ui()
 
     async def title(self) -> str:
         if self.view_only:
             return "Browser esterno"
+        await self._ensure_page()
         try:
             return str(await self.page.title())
         except Exception:
@@ -156,6 +212,7 @@ class Br:
     async def url(self) -> str:
         if self.view_only:
             return ""
+        await self._ensure_page()
         try:
             return str(self.page.url)
         except Exception:
@@ -164,6 +221,7 @@ class Br:
     async def set_status(self, msg: str) -> None:
         if self.view_only or not self.page:
             return
+        await self._ensure_page()
         try:
             safe_msg = msg.replace("'", "\\'").replace("\n", " ")
             await self.page.evaluate(f"window.__agSetStatus && window.__agSetStatus('{safe_msg}')")
@@ -185,6 +243,11 @@ class Br:
     async def move_cursor(self, x: float, y: float) -> None:
         if self.view_only or not self.page:
             return
+        await self._ensure_page()
+        
+        # Limita le coordinate per prevenire movimenti troppo verso il basso
+        max_y = 2000  # Limite massimo per Y (puoi regolare questo valore)
+        y = min(y, max_y)
         
         if self.use_system_cursor and sys_input.is_available() and not self.headless:
             sx, sy = self._to_screen_coords(x, y)
@@ -198,6 +261,7 @@ class Br:
     async def click_at(self, x: float, y: float) -> None:
         if self.view_only:
             return
+        await self._ensure_page()
         
         if self.use_system_cursor and sys_input.is_available() and not self.headless:
             sx, sy = self._to_screen_coords(x, y)
@@ -211,12 +275,16 @@ class Br:
     async def screenshot(self, path: str) -> None:
         if self.view_only or not self.page:
             return
+        await self._ensure_page()
         for _ in range(2):
             try:
                 await self.page.screenshot(path=path)
                 return
             except Exception as e:
                 msg = str(e)
+                if "Target page" in msg or "closed" in msg:
+                    await self._ensure_page()
+                    continue
                 if "Execution context was destroyed" in msg or "navigation" in msg:
                     try:
                         await self.page.wait_for_load_state("domcontentloaded", timeout=5000)
@@ -236,6 +304,7 @@ class Br:
         last_err: Exception | None = None
         for _ in range(3):
             try:
+                await self._ensure_page()
                 t = await self.page.evaluate(consts.JS_EXTRACT_TEXT)
                 if not isinstance(t, str):
                     return ""
@@ -244,6 +313,9 @@ class Br:
             except Exception as e:
                 last_err = e
                 msg = str(e)
+                if "Target page" in msg or "closed" in msg:
+                    await self._ensure_page()
+                    continue
                 if "Execution context was destroyed" in msg or "navigation" in msg:
                     try:
                         await self.page.wait_for_load_state("domcontentloaded", timeout=5000)
@@ -260,6 +332,7 @@ class Br:
     async def bbox_center(self, selector: str) -> Optional[tuple[float, float, float]]:
         if self.view_only:
             return None
+        await self._ensure_page()
         loc = self.page.locator(selector).first
         try:
             box = await loc.bounding_box()
@@ -304,6 +377,7 @@ class Br:
     async def type_into(self, selector: str, text: str) -> None:
         if self.view_only:
             return
+        await self._ensure_page()
         
         parts = [selector]
         if "," in selector:
@@ -349,6 +423,7 @@ class Br:
     async def press(self, key: str) -> None:
         if self.view_only or not self.page:
             return
+        await self._ensure_page()
         try:
             await self.page.keyboard.press(key)
         except Exception:
@@ -357,6 +432,7 @@ class Br:
     async def scroll(self, dy: int) -> None:
         if self.view_only or not self.page:
             return
+        await self._ensure_page()
         
         if self.use_system_cursor and sys_input.is_available() and not self.headless:
             sys_input.scroll(-dy // 100)

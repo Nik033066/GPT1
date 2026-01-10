@@ -23,7 +23,7 @@ class Cfg:
     planner_mode: str = os.environ.get("AG_PLANNER_MODE", "hybrid")
     
     # === Browser ===
-    auto_consent: bool = os.environ.get("AG_AUTO_CONSENT", "0").strip() in {"1", "true", "True", "yes", "YES"}
+    auto_consent: bool = os.environ.get("AG_AUTO_CONSENT", "1").strip() in {"1", "true", "True", "yes", "YES"}
     headless: bool = os.environ.get("AG_HEADLESS", "0").strip() in {"1", "true", "True", "yes", "YES"}
     browser: str = os.environ.get("AG_BROWSER", "chromium")
     cdp_url: str = os.environ.get("AG_CDP_URL", "")
@@ -31,4 +31,4 @@ class Cfg:
     
     # === Animazione ===
     action_delay_ms: int = int(os.environ.get("AG_ACTION_DELAY_MS", "0"))
-    demo_mode: bool = os.environ.get("AG_DEMO_MODE", "0").strip() in {"1", "true", "True", "yes", "YES"}
+    demo_mode: bool = os.environ.get("AG_DEMO_MODE", "1").strip() in {"1", "true", "True", "yes", "YES"}

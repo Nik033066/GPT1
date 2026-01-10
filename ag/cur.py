@@ -75,7 +75,8 @@ def _path_pts(
     px /= p_len
     py /= p_len
 
-    bulge = rnd.uniform(-1.0, 1.0) * min(30.0, 0.15 * d)
+    # Limita il bulge per prevenire movimenti troppo grandi verso il basso
+    bulge = rnd.uniform(-0.5, 0.5) * min(20.0, 0.10 * d)
 
     pts: list[tuple[float, float]] = []
     for i in range(steps + 1):
@@ -87,9 +88,10 @@ def _path_pts(
 
         curve = bulge * math.sin(math.pi * m)
         
-        jitter_scale = (1.0 - m) * 2.0
-        jx = rnd.gauss(0.0, 0.4) * jitter_scale
-        jy = rnd.gauss(0.0, 0.4) * jitter_scale
+        # Riduci il jitter per movimenti più stabili
+        jitter_scale = (1.0 - m) * 1.0
+        jx = rnd.gauss(0.0, 0.2) * jitter_scale
+        jy = rnd.gauss(0.0, 0.2) * jitter_scale
 
         x = base_x + px * curve + jx
         y = base_y + py * curve + jy
@@ -108,6 +110,7 @@ def _path_pts(
 class Cur:
     x: float = 0.0
     y: float = 0.0
+    demo_mode: bool = False
 
     def set(self, x: float, y: float) -> None:
         self.x = x
@@ -131,4 +134,7 @@ class Cur:
         
         for i, (px, py) in enumerate(result.points):
             delay = result.delay_per_step_ms if i < n_main else 12.0
+            # In demo mode, aumenta il delay per rendere i movimenti visibili
+            if self.demo_mode:
+                delay = max(delay, 100.0)  # Minimo 100ms per step in demo mode
             yield (px, py, delay)

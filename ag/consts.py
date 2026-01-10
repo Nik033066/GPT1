@@ -9,7 +9,7 @@ DEFAULT_TIMEOUT_MS = 30000
 
 # URL configurabili per evitare valori hardcoded nelle strategie
 DEFAULT_HOME_URL = os.environ.get("AG_HOME_URL", "https://google.com")
-ALT_SEARCH_URL = os.environ.get("AG_ALT_URL", "https://bing.com")
+ALT_SEARCH_URL = os.environ.get("AG_ALT_URL", "https://www.bing.com")
 DEFAULT_TARGET_SITE = os.environ.get("AG_TARGET_SITE", "https://openai.com")
 EXAMPLE_ARTICLE_URL = os.environ.get("AG_EXAMPLE_ARTICLE_URL", "https://example.com/article")
 ALT_NEWS_URL = os.environ.get("AG_ALT_NEWS_URL", "https://news.google.com")
@@ -47,8 +47,14 @@ COOKIE_CONSENT_SELECTORS = [
     "button:has-text('Accept')",
     "button:has-text('Agree')",
     "button:has-text('OK')",
+    "button:has-text('Acconsento')",
+    "button:has-text('I agree')",
     "[role='dialog'] button",
     "form[action*='consent'] button",
+    "#bnp_btn_accept",  # Bing
+    "#L2AGLb",          # Google
+    "button[id*='accept']",
+    "button[id*='consent']",
 ]
 
 MAC_BROWSER_APPS = [
