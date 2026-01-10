@@ -163,7 +163,7 @@ class Planner:
         if cookie_sel and "click" not in mem.lower()[:50]:
             return Act(action="click", selector=cookie_sel, thought="Chiudo banner cookie")
 
-        if "google." in url_lower and "/search" in url_lower and "type" in mem.lower():
+        if "google." in url_lower and "/search" in url_lower and "type" in mem.lower() and "h3" not in obs.text:
             return Act(action="scroll", dy=700, thought="Scorro per vedere risultati di ricerca")
         
         if "google." in url_lower and "/search" not in url_lower and "type" in mem.lower():
