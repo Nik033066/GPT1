@@ -11,6 +11,7 @@ from sources.tools.searxSearch import searxSearch
 from sources.browser import Browser
 from sources.logger import Logger
 from sources.memory import Memory
+from sources.schemas import executorResult
 
 class Action(Enum):
     REQUEST_EXIT = "REQUEST_EXIT"
@@ -341,17 +342,76 @@ class BrowserAgent(Agent):
         """
         complete = False
 
-        animate_thinking(f"Thinking...", color="status")
-        mem_begin_idx = self.memory.push('user', self.search_prompt(user_prompt))
-        ai_prompt, reasoning = await self.llm_request()
-        if Action.REQUEST_EXIT.value in ai_prompt:
-            pretty_print(f"Web agent requested exit.\n{reasoning}\n\n{ai_prompt}", color="failure")
-            return ai_prompt, "" 
+        ai_prompt = user_prompt.strip()
+        if not ai_prompt:
+            self.status_message = "Ready"
+            self.last_answer = "Error: Empty query."
+            self.last_reasoning = ""
+            return self.last_answer, self.last_reasoning
+
+        def format_search_results(results: List[dict], max_items: int) -> str:
+            top = results[:max_items]
+            lines = []
+            for i, res in enumerate(top, 1):
+                title = (res.get("title") or "").strip()
+                link = (res.get("link") or "").strip()
+                if not link:
+                    continue
+                if title:
+                    lines.append(f"{i}. {title}\n{link}")
+                else:
+                    lines.append(f"{i}. {link}")
+            return "Risultati trovati:\n\n" + ("\n\n".join(lines) if lines else "Nessun risultato utile.")
+
+        lowered = user_prompt.lower()
+        if "searxng" in lowered and any(k in lowered for k in ["documentazione", "docs", "documentation", "ufficiale", "official"]):
+            ai_prompt = "site:docs.searxng.org SearXNG documentation"
+
         animate_thinking(f"Searching...", color="status")
         self.status_message = "Searching..."
         search_result_raw = self.tools["web_search"].execute([ai_prompt], False)
+        web_search_success = not self.tools["web_search"].execution_failure_check(search_result_raw)
+        self.blocks_result.append(
+            executorResult(
+                block=ai_prompt,
+                feedback=self.tools["web_search"].interpreter_feedback(search_result_raw),
+                success=web_search_success,
+                tool_type="web_search",
+            )
+        )
         search_result = self.jsonify_search_results(search_result_raw)[:16]
         self.show_search_results(search_result)
+
+        wants_links = "link" in lowered or "links" in lowered
+        wants_links_only = wants_links and any(k in lowered for k in ["dammi", "dai", "fornisci", "mandami", "inviami", "give me", "provide"])
+        if self.browser is None or wants_links_only:
+            max_items = 5
+            if any(k in lowered for k in ["3 link", "tre link", "3 links", "tre links"]):
+                max_items = 3
+            if self.browser is not None:
+                first_link = ""
+                for res in search_result:
+                    link = (res.get("link") or "").strip()
+                    if link.startswith("http"):
+                        first_link = link
+                        break
+                if first_link:
+                    self.status_message = "Navigating..."
+                    try:
+                        if hasattr(self.browser, "driver") and self.browser.driver is not None:
+                            self.browser.driver.get(first_link)
+                            time.sleep(0.6)
+                        else:
+                            self.browser.go_to(first_link)
+                    except Exception:
+                        self.browser.go_to(first_link)
+                    self.browser.screenshot()
+            answer = format_search_results(search_result, max_items=max_items)
+            reasoning = ""
+            self.status_message = "Ready"
+            self.last_answer = answer
+            self.last_reasoning = reasoning
+            return answer, reasoning
         prompt = self.make_newsearch_prompt(user_prompt, search_result)
         unvisited = [None]
         while not complete and len(unvisited) > 0 and not self.stop:

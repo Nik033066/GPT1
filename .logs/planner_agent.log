@@ -1,1 +1,2430 @@
 2026-01-12 01:25:22,081 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 12:26:29,752 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:42,073 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:42,075 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:42,273 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:42,273 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:42,478 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:42,478 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:42,683 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:42,683 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:42,887 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:42,887 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:43,091 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:43,091 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:43,291 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:43,291 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:43,497 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:43,497 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:43,697 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:43,697 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:43,902 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:43,902 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:44,104 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:44,104 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:44,307 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:44,307 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:44,509 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:44,509 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:44,713 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:44,713 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:44,918 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:44,918 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:45,123 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:45,125 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:45,326 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:45,326 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:45,531 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:45,531 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:45,732 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:45,732 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:45,934 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:45,934 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:46,139 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:46,140 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:46,343 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:46,343 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:46,544 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:46,544 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:46,745 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:46,745 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:46,950 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:46,950 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:47,151 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:47,152 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:47,357 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:47,357 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:47,562 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:47,562 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:47,766 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:47,766 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:47,971 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:47,971 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:48,177 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:48,177 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:48,381 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:48,381 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:48,585 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:48,585 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:48,790 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:48,791 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:48,996 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:48,996 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:49,197 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:49,197 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:49,400 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:49,400 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:49,601 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:49,601 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:49,806 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:49,806 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:50,011 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:50,011 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:50,216 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:50,216 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:50,417 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:50,417 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:50,619 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:50,619 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:50,824 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:50,824 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:51,025 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:51,025 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:51,227 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:51,227 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:51,428 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:51,428 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:51,632 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:51,632 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:51,837 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:51,837 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:52,042 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:52,042 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:52,242 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:52,242 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:52,444 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:52,444 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:52,649 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:52,649 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:52,854 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:52,855 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:53,060 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:53,060 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:53,263 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:53,263 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:53,466 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:53,467 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:53,672 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:53,672 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:53,874 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:53,874 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:54,077 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:54,077 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:54,282 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:54,282 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:54,487 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:54,487 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:54,692 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:54,692 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:54,893 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:54,893 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:55,095 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:55,095 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:55,298 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:55,298 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:55,503 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:55,503 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:55,708 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:55,709 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:55,909 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:55,909 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:56,114 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:56,114 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:56,320 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:56,320 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:56,524 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:56,524 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:56,729 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:56,730 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:56,930 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:56,930 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:57,135 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:57,136 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:57,336 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:57,336 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:57,540 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:57,541 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:57,742 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:57,742 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:57,947 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:57,947 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:58,148 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:58,148 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:58,353 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:58,353 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:58,557 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:58,557 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:58,758 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:58,758 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:58,964 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:58,964 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:59,169 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:59,169 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:59,375 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:59,375 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:59,576 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:59,576 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:59,781 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:59,781 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:23:59,982 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:23:59,982 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:00,186 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:00,186 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:00,390 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:00,391 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:00,596 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:00,596 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:00,801 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:00,801 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:01,007 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:01,007 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:01,209 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:01,209 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:01,414 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:01,414 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:01,615 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:01,615 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:01,816 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:01,816 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:02,018 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:02,019 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:02,220 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:02,220 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:02,425 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:02,425 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:02,626 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:02,626 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:02,831 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:02,831 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:03,037 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:03,037 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:03,238 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:03,238 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:03,440 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:03,440 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:03,642 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:03,642 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:03,843 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:03,843 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:04,048 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:04,048 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:04,249 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:04,249 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:04,454 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:04,455 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:04,659 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:04,661 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:04,859 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:04,859 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:05,064 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:05,064 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:05,269 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:05,270 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:05,472 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:05,472 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:05,675 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:05,676 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:05,876 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:05,876 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:06,077 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:06,077 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:06,280 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:06,280 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:06,485 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:06,485 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:06,691 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:06,691 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:06,893 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:06,893 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:07,098 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:07,098 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:07,302 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:07,302 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:07,507 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:07,507 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:07,710 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:07,710 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:07,912 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:07,912 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:08,115 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:08,115 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:08,320 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:08,320 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:08,525 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:08,525 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:08,729 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:08,729 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:08,934 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:08,934 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:09,134 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:09,134 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:09,339 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:09,339 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:09,540 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:09,541 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:09,746 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:09,746 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:09,946 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:09,946 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:10,147 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:10,148 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:10,349 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:10,349 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:10,550 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:10,550 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:10,755 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:10,755 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:10,957 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:10,957 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:11,163 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:11,163 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:11,363 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:11,363 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:11,565 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:11,565 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:11,771 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:11,771 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:11,972 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:11,972 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:12,173 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:12,173 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:12,378 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:12,378 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:12,583 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:12,583 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:12,789 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:12,789 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:12,994 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:12,994 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:13,199 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:13,199 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:13,401 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:13,401 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:13,602 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:13,603 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:13,808 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:13,808 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:14,013 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:14,013 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:14,214 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:14,214 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:14,416 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:14,416 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:14,621 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:14,621 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:14,826 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:14,826 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:15,031 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:15,031 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:15,232 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:15,233 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:15,434 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:15,434 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:15,636 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:15,636 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:15,837 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:15,837 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:16,042 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:16,042 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:16,248 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:16,248 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:16,453 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:16,453 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:16,658 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:16,659 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:16,863 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:16,863 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:17,063 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:17,063 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:17,269 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:17,269 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:17,472 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:17,472 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:17,673 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:17,673 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:17,878 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:17,878 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:18,083 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:18,083 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:18,283 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:18,284 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:18,488 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:18,488 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:18,693 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:18,693 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:18,898 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:18,898 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:19,103 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:19,104 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:19,309 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:19,309 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:19,514 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:19,514 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:19,719 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:19,720 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:19,925 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:19,925 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:20,125 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:20,125 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:20,325 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:20,326 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:20,530 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:20,530 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:20,736 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:20,736 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:20,941 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:20,941 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:21,146 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:21,146 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:21,349 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:21,349 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:21,551 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:21,551 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:21,752 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:21,752 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:21,957 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:21,957 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:22,158 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:22,158 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:22,363 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:22,364 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:22,569 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:22,569 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:22,770 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:22,770 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:22,975 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:22,975 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:23,178 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:23,178 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:23,379 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:23,379 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:23,584 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:23,584 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:23,788 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:23,788 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:23,993 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:23,993 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:24,199 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:24,199 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:24,404 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:24,404 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:24,609 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:24,610 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:24,815 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:24,815 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:25,020 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:25,020 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:25,225 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:25,226 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:25,426 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:25,427 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:25,627 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:25,628 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:25,833 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:25,833 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:26,038 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:26,038 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:26,244 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:26,244 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:26,449 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:26,449 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:26,654 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:26,654 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:26,860 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:26,860 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:27,060 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:27,060 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:27,262 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:27,262 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:27,467 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:27,467 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:27,673 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:27,673 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:27,878 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:27,878 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:28,080 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:28,080 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:28,284 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:28,284 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:28,489 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:28,489 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:28,695 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:28,695 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:28,895 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:28,895 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:29,098 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:29,098 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:29,299 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:29,299 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:29,500 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:29,500 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:29,705 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:29,705 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:29,910 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:29,910 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:30,111 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:30,111 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:30,312 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:30,312 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:30,515 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:30,515 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:30,720 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:30,720 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:30,921 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:30,921 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:31,122 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:31,123 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:31,322 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:31,322 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:31,523 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:31,523 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:31,724 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:31,724 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:31,929 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:31,929 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:32,134 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:32,134 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:32,335 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:32,335 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:32,536 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:32,536 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:32,736 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:32,737 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:32,942 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:32,942 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:33,142 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:33,142 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:33,343 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:33,344 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:33,544 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:33,544 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:33,745 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:33,745 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:33,946 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:33,946 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:34,148 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:34,148 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:34,349 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:34,349 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:34,554 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:34,554 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:34,760 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:34,760 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:34,964 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:34,964 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:35,167 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:35,167 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:35,372 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:35,372 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:35,577 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:35,577 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:35,783 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:35,783 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:35,985 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:35,986 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:36,185 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:36,185 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:36,390 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:36,903 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:36,998 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:37,516 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:37,608 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:38,105 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:38,212 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:38,212 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:38,417 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:38,417 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:38,618 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:38,618 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:38,820 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:38,820 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:39,025 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:39,025 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:39,230 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:39,230 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:39,431 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:39,431 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:39,636 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:39,636 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:39,840 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:39,840 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:40,041 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:40,041 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:40,242 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:40,243 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:40,447 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:40,447 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:40,650 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:40,650 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:40,854 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:40,854 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:41,054 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:41,054 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:41,257 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:41,257 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:41,460 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:41,460 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:41,665 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:41,665 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:41,870 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:41,870 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:42,074 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:42,074 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:42,275 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:42,276 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:42,481 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:42,481 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:42,686 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:42,686 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:42,892 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:42,892 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:43,097 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:43,097 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:43,302 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:43,302 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:43,507 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:43,508 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:43,709 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:43,709 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:43,911 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:43,911 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:44,117 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:44,117 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:44,318 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:44,318 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:44,523 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:44,523 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:44,724 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:44,724 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:44,929 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:44,929 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:45,135 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:45,135 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:45,337 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:45,337 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:45,538 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:45,538 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:45,740 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:45,740 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:45,941 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:45,941 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:46,146 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:46,146 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:46,352 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:46,352 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:46,557 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:46,557 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:46,762 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:46,762 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:46,965 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:46,965 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:47,166 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:47,166 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:47,368 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:47,368 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:47,574 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:47,574 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:47,779 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:47,779 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:47,984 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:47,984 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:48,189 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:48,190 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:48,391 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:48,391 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:48,591 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:48,591 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:48,797 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:48,797 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:49,002 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:49,002 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:49,207 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:49,207 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:49,413 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:49,413 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:49,613 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:49,613 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:49,819 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:49,819 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:50,024 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:50,024 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:50,225 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:50,225 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:50,430 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:50,430 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:50,631 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:50,631 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:50,836 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:50,836 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:51,040 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:51,040 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:51,242 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:51,242 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:51,443 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:51,443 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:51,648 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:51,648 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:51,849 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:51,849 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:52,055 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:52,055 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:52,257 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:52,257 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:52,458 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:52,458 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:52,664 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:52,664 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:52,865 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:52,865 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:53,066 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:53,067 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:53,272 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:53,272 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:53,472 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:53,473 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:53,677 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:53,677 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:53,882 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:53,882 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:54,083 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:54,083 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:54,283 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:54,283 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:54,487 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:54,487 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:54,691 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:54,691 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:54,891 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:54,892 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:55,092 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:55,092 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:55,293 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:55,293 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:55,899 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:55,899 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:56,105 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:56,105 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:56,309 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:56,309 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:56,510 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:56,511 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:56,716 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:56,716 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:56,921 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:56,921 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:57,126 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:57,126 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:57,332 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:57,339 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:57,537 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:57,538 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:57,738 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:57,738 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:57,940 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:57,940 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:58,141 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:58,141 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:58,346 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:58,346 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:58,552 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:58,552 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:58,756 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:58,756 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:58,958 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:58,958 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:59,163 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:59,163 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:59,368 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:59,368 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:59,569 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:59,570 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:59,775 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:59,775 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:24:59,980 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:24:59,980 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:00,182 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:00,182 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:00,401 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:00,401 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:00,606 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:00,606 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:00,811 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:00,811 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:01,012 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:01,012 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:01,217 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:01,217 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:01,418 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:01,418 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:01,619 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:01,619 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:01,820 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:01,820 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:02,021 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:02,021 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:02,224 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:02,224 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:02,425 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:02,425 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:02,626 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:02,626 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:02,831 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:02,831 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:03,032 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:03,032 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:03,237 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:03,237 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:03,441 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:03,442 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:03,647 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:03,647 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:03,847 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:03,847 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:04,052 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:04,052 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:04,258 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:04,258 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:04,461 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:04,461 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:04,666 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:04,666 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:04,866 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:04,866 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:05,067 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:05,067 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:05,272 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:05,272 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:05,474 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:05,475 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:05,675 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:05,675 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:05,880 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:05,880 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:06,085 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:06,085 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:06,291 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:06,291 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:06,496 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:06,496 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:06,701 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:06,701 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:06,905 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:06,905 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:07,108 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:07,108 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:07,310 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:07,310 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:07,515 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:07,515 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:07,720 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:07,720 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:07,924 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:07,925 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:08,126 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:08,126 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:08,331 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:08,331 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:08,536 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:08,536 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:08,742 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:08,742 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:08,948 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:08,979 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:09,151 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:09,151 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:09,356 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:09,356 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:09,557 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:09,557 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:09,759 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:09,759 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:09,960 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:09,960 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:10,160 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:10,160 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:10,366 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:10,366 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:10,571 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:10,571 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:10,775 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:10,775 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:10,977 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:10,977 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:11,177 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:11,177 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:11,383 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:11,383 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:11,588 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:11,588 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:11,793 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:11,793 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:11,995 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:11,995 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:12,195 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:12,195 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:12,401 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:12,401 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:12,601 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:12,601 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:12,802 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:12,802 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:13,007 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:13,007 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:13,208 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:13,208 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:13,414 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:13,414 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:13,619 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:13,619 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:13,825 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:13,825 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:14,030 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:14,030 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:14,231 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:14,231 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:14,436 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:14,436 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:14,637 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:14,637 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:14,842 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:14,842 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:15,043 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:15,043 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:15,248 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:15,248 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:15,453 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:15,453 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:15,657 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:15,657 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:15,858 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:15,858 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:16,061 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:16,061 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:16,266 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:16,266 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:16,470 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:16,470 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:16,674 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:16,674 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:16,876 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:16,876 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:17,083 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:17,083 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:17,358 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:17,358 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:17,560 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:17,560 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:17,765 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:17,766 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:17,971 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:17,971 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:18,175 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:18,175 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:18,379 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:18,413 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:18,584 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:18,897 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:18,984 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:18,984 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:19,189 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:19,189 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:19,390 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:19,390 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:19,595 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:19,596 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:19,801 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:19,801 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:20,006 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:20,006 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:20,207 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:20,207 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:20,409 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:20,409 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:20,614 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:20,614 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:20,819 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:20,819 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:21,024 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:21,024 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:21,227 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:21,227 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:21,431 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:21,431 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:21,632 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:21,632 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:21,838 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:21,838 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:22,035 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:22,035 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:22,241 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:22,241 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:22,441 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:22,441 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:22,647 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:22,647 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:22,849 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:22,849 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:23,053 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:23,058 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:23,259 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:23,259 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:23,464 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:23,464 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:23,670 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:23,670 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:23,875 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:23,875 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:24,079 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:24,079 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:24,280 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:24,280 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:24,481 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:24,481 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:24,682 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:24,682 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:24,884 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:24,885 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:25,085 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:25,085 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:25,291 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:25,291 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:25,491 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:25,491 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:25,696 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:25,697 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:25,902 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:25,902 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:26,107 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:26,107 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:26,308 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:26,308 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:26,513 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:26,514 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:26,721 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:26,721 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:26,923 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:26,923 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:27,280 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:27,280 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:27,397 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:27,397 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:27,594 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:27,594 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:27,794 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:27,794 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:27,996 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:27,996 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:28,198 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:28,198 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:28,403 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:28,403 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:28,608 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:28,608 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:28,813 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:28,813 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:29,013 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:29,014 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:29,215 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:29,215 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:29,420 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:29,420 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:29,625 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:29,625 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:29,827 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:29,827 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:30,032 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:30,033 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:30,238 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:30,238 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:30,443 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:30,443 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:30,648 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:30,648 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:30,851 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:30,852 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:31,056 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:31,056 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:31,259 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:31,259 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:31,461 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:31,462 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:31,667 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:31,667 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:31,867 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:31,867 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:32,069 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:32,069 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:32,274 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:32,274 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:32,475 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:32,476 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:32,679 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:32,680 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:32,885 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:32,885 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:33,092 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:33,092 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:33,297 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:33,297 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:33,498 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:33,498 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:33,700 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:33,700 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:33,906 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:33,906 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:34,108 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:34,108 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:34,313 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:34,313 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:34,514 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:34,514 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:34,719 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:34,719 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:34,927 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:34,927 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:35,126 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:35,126 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:35,326 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:35,327 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:35,527 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:35,527 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:35,732 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:35,732 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:35,937 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:35,938 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:36,140 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:36,140 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:36,341 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:36,342 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:36,542 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:36,542 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:36,748 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:36,748 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:36,950 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:36,950 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:37,151 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:37,151 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:37,357 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:37,357 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:37,562 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:37,562 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:37,767 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:37,768 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:37,972 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:37,972 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:38,179 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:38,179 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:38,383 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:38,383 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:38,588 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:38,588 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:38,792 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:38,792 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:38,997 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:38,997 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:39,199 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:39,199 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:39,399 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:39,399 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:39,601 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:39,602 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:39,806 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:39,806 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:40,007 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:40,008 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:40,208 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:40,208 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:40,413 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:40,413 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:40,619 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:40,619 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:40,824 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:40,824 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:41,100 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:41,100 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:41,336 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:41,336 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:41,533 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:41,534 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:41,736 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:41,736 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:41,939 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:41,939 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:42,140 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:42,140 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:42,345 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:42,346 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:42,546 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:42,546 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:42,748 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:42,748 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:42,949 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:42,949 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:43,151 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:43,151 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:43,352 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:43,352 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:43,557 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:43,557 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:43,759 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:43,759 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:43,964 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:43,964 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:44,164 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:44,164 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:44,370 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:44,370 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:44,570 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:45,109 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:45,175 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:45,175 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:45,378 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:45,378 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:45,581 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:45,581 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:45,782 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:45,782 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:45,999 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:45,999 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:46,204 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:46,204 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:46,404 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:46,404 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:46,610 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:46,610 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:46,811 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:46,811 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:47,014 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:47,014 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:47,219 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:47,219 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:47,423 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:47,423 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:47,625 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:47,625 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:47,830 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:47,830 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:48,031 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:48,032 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:48,237 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:48,237 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:48,437 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:48,438 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:48,640 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:48,640 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:48,841 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:48,841 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:49,042 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:49,381 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:49,445 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:49,445 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:49,646 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:50,134 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:50,255 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:50,286 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:50,460 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:50,922 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:51,071 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:51,071 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:51,273 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:51,273 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:51,475 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:51,475 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:51,675 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:51,676 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:51,880 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:51,880 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:52,080 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:52,080 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:52,286 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:52,286 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:52,491 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:52,491 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:52,694 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:52,694 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:52,899 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:52,899 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:53,104 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:53,104 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:53,310 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:53,310 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:53,515 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:53,515 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:53,721 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:53,721 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:53,921 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:53,921 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:54,122 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:54,123 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:54,328 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:54,328 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:54,529 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:54,529 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:54,731 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:54,731 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:54,936 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:54,936 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:55,140 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:55,140 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:55,345 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:55,345 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:55,549 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:55,549 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:55,754 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:55,758 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:55,955 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:55,955 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:56,160 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:56,160 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:56,365 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:56,366 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:56,571 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:56,571 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:56,772 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:56,772 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:56,977 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:56,977 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:57,178 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:57,178 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:57,383 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:57,383 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:57,589 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:57,589 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:57,792 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:57,792 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:57,993 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:57,993 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:58,196 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:58,196 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:58,401 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:58,401 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:58,603 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:58,603 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:58,805 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:58,810 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:59,007 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:59,007 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:59,208 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:59,208 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:59,409 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:59,409 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:59,609 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:59,609 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:25:59,811 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:25:59,811 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:00,011 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:00,011 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:00,214 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:00,214 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:00,420 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:00,420 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:00,620 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:00,620 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:00,821 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:00,821 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:01,024 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:01,024 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:01,288 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:01,288 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:01,519 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:01,519 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:01,721 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:01,721 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:01,930 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:01,930 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:02,136 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:02,136 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:02,337 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:02,337 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:02,542 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:02,543 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:02,746 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:02,746 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:02,951 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:02,951 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:03,156 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:03,156 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:03,357 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:03,357 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:03,559 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:03,559 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:03,762 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:03,762 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:03,967 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:03,967 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:04,171 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:04,171 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:04,376 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:04,376 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:04,581 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:04,581 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:04,785 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:04,785 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:04,990 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:04,990 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:05,195 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:05,196 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:05,401 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:05,401 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:05,606 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:05,606 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:05,811 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:05,811 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:06,012 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:06,012 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:06,214 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:06,214 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:06,417 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:06,417 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:06,618 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:06,618 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:06,833 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:06,833 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:07,034 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:07,034 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:07,239 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:07,240 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:07,445 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:07,445 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:07,650 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:07,650 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:07,851 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:07,851 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:08,052 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:08,052 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:08,256 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:08,256 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:08,462 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:08,462 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:08,667 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:08,667 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:08,868 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:08,868 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:09,069 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:09,069 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:09,272 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:09,272 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:09,472 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:09,472 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:09,678 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:09,678 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:09,882 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:09,882 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:10,087 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:10,087 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:10,292 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:10,292 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:10,498 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:10,498 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:10,703 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:11,480 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:11,520 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:11,520 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:11,724 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:11,724 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:11,926 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:12,355 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:12,537 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:13,038 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:13,147 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:13,148 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:13,350 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:13,351 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:13,551 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:13,552 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:13,752 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:13,752 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:13,957 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:13,957 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:14,159 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:14,159 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:14,363 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:14,364 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:14,570 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:14,570 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:14,771 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:14,772 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:14,976 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:14,976 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:15,181 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:15,181 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:15,382 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:15,382 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:15,582 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:15,582 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:15,856 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:15,861 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:16,033 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:16,033 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:16,236 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:16,236 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:16,437 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:16,437 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:16,642 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:16,642 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:16,843 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:16,843 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:17,047 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:17,047 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:17,252 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:17,252 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:17,456 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:17,456 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:17,658 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:17,658 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:17,858 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:17,858 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:18,063 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:18,064 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:18,267 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:18,267 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:18,473 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:18,473 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:18,674 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:18,674 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:18,879 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:18,879 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:19,082 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:19,082 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:19,282 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:19,282 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:19,488 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:19,488 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:19,690 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:19,690 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:19,891 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:19,891 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:20,093 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:20,093 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:20,298 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:20,298 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:20,503 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:20,503 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:20,704 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:20,704 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:20,905 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:20,906 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:21,111 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:21,111 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:21,316 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:21,316 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:21,517 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:21,517 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:21,718 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:21,718 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:21,920 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:21,920 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:22,126 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:22,126 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:22,331 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:22,331 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:22,533 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:22,533 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:22,738 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:22,738 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:22,940 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:22,940 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:23,141 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:23,152 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:23,346 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:23,346 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:23,552 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:23,552 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:23,753 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:24,326 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:24,361 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:24,361 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:24,565 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:24,565 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:24,765 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:24,765 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:24,967 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:24,967 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:25,172 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:25,172 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:25,378 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:25,378 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:25,580 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:25,580 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:25,786 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:25,786 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:25,990 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:25,990 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:26,196 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:26,196 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:26,396 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:26,396 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:26,602 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:26,602 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:26,807 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:26,807 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:27,012 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:27,012 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:27,218 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:27,218 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:27,419 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:27,419 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:27,624 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:27,624 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:27,829 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:27,829 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:28,034 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:28,034 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:28,240 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:28,240 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:28,440 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:28,440 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:28,642 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:28,642 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:28,847 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:28,847 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:29,052 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:29,052 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:29,257 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:29,257 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:29,462 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:29,462 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:29,663 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:29,663 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:29,864 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:29,864 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:30,069 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:30,069 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:30,274 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:30,274 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:30,583 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:30,584 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:30,702 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:30,702 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:30,907 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:30,907 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:31,108 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:31,108 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:31,312 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:31,312 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:31,513 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:31,513 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:31,715 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:31,715 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:31,917 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:31,917 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:32,118 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:32,118 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:32,324 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:32,324 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:32,524 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:32,524 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:32,726 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:32,726 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:32,931 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:32,931 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:33,132 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:33,132 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:33,333 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:33,333 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:33,538 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:33,538 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:33,740 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:33,740 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:33,941 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:33,942 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:34,142 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:34,142 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:34,345 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:34,345 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:34,546 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:34,546 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:34,748 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:34,748 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:34,948 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:34,948 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:35,150 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:35,150 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:35,355 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:35,355 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:35,557 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:35,557 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:35,758 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:35,759 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:35,963 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:35,963 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:36,164 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:36,164 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:36,368 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:36,368 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:36,572 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:36,573 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:36,774 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:36,774 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:36,997 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:36,997 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:37,210 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:37,210 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:37,424 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:37,424 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:37,629 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:37,629 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:37,835 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:37,835 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:38,040 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:38,040 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:38,240 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:38,241 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:38,444 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:38,445 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:38,646 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:38,646 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:38,851 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:38,851 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:39,057 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:39,057 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:39,259 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:39,259 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:39,460 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:39,460 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:39,665 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:39,665 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:39,871 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:39,871 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:40,074 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:40,074 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:40,279 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:40,279 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:40,484 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:40,484 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:40,689 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:40,689 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:40,890 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:40,890 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:41,092 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:41,093 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:41,295 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:41,295 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:41,500 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:41,501 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:41,702 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:41,702 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:41,907 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:41,907 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:42,108 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:42,108 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:42,309 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:42,309 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:42,514 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:42,514 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:42,718 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:42,718 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:42,923 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:42,923 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:43,125 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:43,125 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:43,326 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:43,326 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:43,528 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:43,528 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:43,733 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:43,733 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:43,938 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:43,938 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:44,140 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:44,140 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:44,345 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:44,346 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:44,548 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:44,548 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:44,753 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:44,753 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:44,958 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:44,958 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:45,158 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:45,159 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:45,364 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:45,364 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:45,567 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:45,567 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:45,772 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:45,772 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:45,974 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:45,974 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:46,178 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:46,178 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:46,383 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:46,383 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:46,589 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:46,589 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:46,792 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:46,792 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:46,998 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:46,998 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:47,203 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:47,203 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:47,404 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:47,404 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:47,607 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:47,607 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:47,809 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:47,810 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:48,015 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:48,015 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:48,220 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:48,220 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:48,425 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:48,425 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:48,630 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:48,630 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:48,835 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:48,835 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:49,041 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:49,041 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:49,451 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:49,451 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:49,655 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:49,655 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:49,861 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:49,861 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:50,066 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:50,066 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:50,271 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:50,271 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:50,472 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:50,472 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:50,678 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:50,678 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:50,883 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:50,883 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:51,086 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:51,086 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:51,289 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:51,290 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:51,519 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:51,519 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:51,724 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:51,724 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:51,925 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:51,925 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:52,126 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:52,126 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:52,332 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:52,332 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:52,533 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:52,533 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:52,738 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:52,738 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:52,940 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:52,940 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:53,143 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:53,143 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:53,348 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:53,348 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:53,553 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:53,554 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:53,758 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:53,758 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:53,959 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:53,959 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:54,164 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:54,164 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:54,370 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:54,370 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:54,573 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:54,573 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:54,774 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:54,774 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:54,975 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:54,976 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:55,181 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:55,181 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:55,386 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:55,386 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:55,591 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:55,591 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:55,793 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:55,793 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:55,998 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:55,998 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:56,200 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:56,201 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:56,401 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:56,401 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:56,606 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:56,607 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:56,808 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:56,808 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:57,009 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:57,011 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:57,214 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:57,214 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:57,415 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:57,416 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:57,620 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:57,620 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:57,824 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:57,824 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:58,029 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:58,029 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:58,233 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:58,234 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:58,434 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:58,434 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:58,638 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:58,638 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:58,840 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:58,840 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:59,045 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:59,045 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:59,251 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:59,251 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:59,456 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:59,456 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:59,657 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:59,657 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:26:59,862 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:26:59,862 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:00,066 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:00,066 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:00,267 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:00,267 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:00,468 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:00,468 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:00,675 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:00,675 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:00,875 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:00,875 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:01,076 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:01,076 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:01,277 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:01,277 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:01,482 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:01,482 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:01,683 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:01,684 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:01,889 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:01,890 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:02,091 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:02,091 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:02,292 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:02,292 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:02,497 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:02,497 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:02,702 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:02,703 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:02,907 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:02,907 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:03,113 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:03,113 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:03,318 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:03,318 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:03,523 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:03,523 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:03,724 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:03,724 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:03,925 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:03,925 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:04,126 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:04,126 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:04,331 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:04,331 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:04,536 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:04,537 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:04,742 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:04,742 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:04,943 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:04,943 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:05,148 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:05,148 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:05,349 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:05,349 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:05,550 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:05,550 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:05,755 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:05,756 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:05,959 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:05,959 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:06,165 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:06,165 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:06,366 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:06,366 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:06,571 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:06,571 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:06,775 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:06,775 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:06,980 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:06,980 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:07,181 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:07,181 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:07,386 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:07,386 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:07,591 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:07,592 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:07,792 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:07,792 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:07,996 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:07,996 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:08,201 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:08,201 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:08,402 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:08,402 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:08,607 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:08,607 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:08,812 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:08,812 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:09,017 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:09,017 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:09,218 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:09,218 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:09,421 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:09,421 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:09,625 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:09,625 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:09,830 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:09,830 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:10,031 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:10,031 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:10,236 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:10,237 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:10,440 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:10,440 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:10,641 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:10,641 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:10,844 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:10,844 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:11,045 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:11,045 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:11,250 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:11,250 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:11,451 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:11,451 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:11,656 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:11,656 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:11,858 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:11,858 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:12,063 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:12,074 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:12,264 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:12,264 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:12,467 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:12,467 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:12,668 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:12,668 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:12,873 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:12,873 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:13,077 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:13,077 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:13,282 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:13,282 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:13,487 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:13,487 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:13,690 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:13,690 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:13,896 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:13,896 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:14,101 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:14,101 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:14,306 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:14,306 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:14,508 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:14,508 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:14,709 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:14,710 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:14,915 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:14,915 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:15,117 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:15,118 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:15,324 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:15,324 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:15,528 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:15,528 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:15,734 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:15,734 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:15,935 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:15,935 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:16,136 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:16,136 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:16,340 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:16,340 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:16,541 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:16,541 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:16,745 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:16,745 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:16,950 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:16,950 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:17,155 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:17,156 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:17,357 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:17,357 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:17,558 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:17,558 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:17,764 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:17,764 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:17,964 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:17,964 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:18,165 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:18,165 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:18,367 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:18,367 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:18,572 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:18,572 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:18,774 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:18,774 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:18,975 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:18,975 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:19,176 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:19,177 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:19,382 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:19,382 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:19,587 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:19,587 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:19,792 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:19,792 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:19,995 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:19,995 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:20,200 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:20,200 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:20,405 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:20,405 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:20,607 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:20,607 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:20,808 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:20,808 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:21,014 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:21,014 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:21,214 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:21,215 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:21,419 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:21,419 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:21,628 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:21,628 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:21,825 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:21,825 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:22,031 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:22,031 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:22,235 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:22,235 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:22,437 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:22,437 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:22,642 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:22,642 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:22,843 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:22,843 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:23,048 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:23,048 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:23,253 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:23,253 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:23,458 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:23,458 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:23,662 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:23,662 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:23,867 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:23,867 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:24,072 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:24,072 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:24,274 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:24,274 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:24,474 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:24,475 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:24,675 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:24,675 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:24,880 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:24,881 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:25,083 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:25,083 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:25,284 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:25,284 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:25,489 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:25,489 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:25,695 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:25,695 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:25,915 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:25,915 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:26,102 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:26,102 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:26,307 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:26,307 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:26,509 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:26,509 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:26,715 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:26,715 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:26,920 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:26,920 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:27,125 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:27,125 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:27,330 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:27,330 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:27,532 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:27,532 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:27,733 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:27,734 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:27,934 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:27,934 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:28,139 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:28,140 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:28,342 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:28,343 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:28,548 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:28,548 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:28,753 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:28,753 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:28,954 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:28,954 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:29,156 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:29,156 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:29,357 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:29,357 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:29,563 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:29,563 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:29,764 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:29,764 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:29,965 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:29,965 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:30,170 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:30,170 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:30,373 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:30,373 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:30,576 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:30,576 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:30,776 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:30,776 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:30,981 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:30,981 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:31,183 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:31,183 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:31,385 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:31,385 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:31,586 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:31,586 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:31,790 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:31,790 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:31,994 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:31,994 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:32,197 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:32,197 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:32,403 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:32,403 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:32,608 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:32,608 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:32,810 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:32,810 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:33,015 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:33,016 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:33,217 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:33,217 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:33,423 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:33,423 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:33,628 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:33,628 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:33,833 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:33,833 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:34,038 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:34,038 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:34,250 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:34,250 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:34,453 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:34,453 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:34,653 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:34,653 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:34,859 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:34,859 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:35,060 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:35,060 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:35,263 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:35,263 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:35,466 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:35,466 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:35,671 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:35,671 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:35,876 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:35,876 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:36,081 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:36,081 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:36,281 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:36,282 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:36,484 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:36,485 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:36,692 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:36,692 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:36,895 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:36,895 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:37,099 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:37,099 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:37,301 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:37,302 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:37,502 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:37,502 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:37,707 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:37,707 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:37,909 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:37,910 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:38,110 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:38,110 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:38,315 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:38,315 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:38,517 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:38,517 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:38,721 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:38,721 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:38,925 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:38,926 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:39,131 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:39,131 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:39,332 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:39,332 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:39,537 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:39,537 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:39,741 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:39,741 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:39,943 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:39,943 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:40,147 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:40,147 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:40,352 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:40,352 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:40,557 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:40,557 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:40,761 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:40,761 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:40,966 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:40,966 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:41,166 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:41,166 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:41,372 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:41,372 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:41,573 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:41,573 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:41,777 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:41,777 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:41,982 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:41,982 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:42,184 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:42,184 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:42,389 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:42,389 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:42,591 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:42,591 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:42,797 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:42,797 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:43,002 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:43,002 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:43,208 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:43,208 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:43,410 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:43,410 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:43,614 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:43,614 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:43,820 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:43,820 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:44,021 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:44,021 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:44,224 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:44,225 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:44,430 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:44,430 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:44,632 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:44,632 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:44,837 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:44,837 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:45,038 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:45,038 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:45,241 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:45,241 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:45,442 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:45,442 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:45,643 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:45,643 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:45,848 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:45,848 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:46,049 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:46,049 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:46,254 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:46,254 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:46,457 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:46,457 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:46,660 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:46,660 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:46,861 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:46,861 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:47,067 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:47,067 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:27:47,270 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:27:47,270 - planner_agent.log - WARNING - Agent Talk does not exist.
+2026-01-12 13:28:33,842 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:28:33,843 - planner_agent.log - INFO - Created agent casual with task: Say hello
+2026-01-12 13:28:33,843 - planner_agent.log - INFO - Agent casual was given info:
+ []
+2026-01-12 13:28:34,043 - planner_agent.log - INFO - Plan made:
+```json
+{"plan": [{"agent": "casual", "id": "1", "need": [], "task": "Say hello"}]}
+```
+2026-01-12 13:28:34,043 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:28:34,043 - planner_agent.log - INFO - Created agent casual with task: Say hello
+2026-01-12 13:28:34,043 - planner_agent.log - INFO - Agent casual was given info:
+ []
+2026-01-12 13:28:34,043 - planner_agent.log - INFO - Next agent needs: [].
+ Match previous agent result: {}
+2026-01-12 13:28:34,043 - planner_agent.log - INFO - Prompt for agent:
+
+        You are given informations from your AI friends work:
+        No needed informations.
+        Your task is:
+        Say hello
+        
+2026-01-12 13:28:34,043 - planner_agent.log - INFO - Agent casual started working on Say hello.
+2026-01-12 13:28:34,245 - planner_agent.log - INFO - Agent casual finished working on Say hello. Success: True
+2026-01-12 13:28:34,245 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:28:34,245 - planner_agent.log - INFO - Created agent casual with task: Say hello
+2026-01-12 13:28:34,245 - planner_agent.log - INFO - Agent casual was given info:
+ []
+2026-01-12 13:28:34,446 - planner_agent.log - INFO - Plan made:
+```json
+{"plan": [{"agent": "casual", "id": "1", "need": [], "task": "Say hello"}]}
+```
+2026-01-12 13:28:34,446 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:28:34,446 - planner_agent.log - INFO - Created agent casual with task: Say hello
+2026-01-12 13:28:34,446 - planner_agent.log - INFO - Agent casual was given info:
+ []
+2026-01-12 13:28:34,446 - planner_agent.log - INFO - Plan updated:
+[['Say hello', {'agent': 'casual', 'id': '1', 'task': 'Say hello', 'need': []}]]
+2026-01-12 13:31:57,460 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:31:57,462 - planner_agent.log - INFO - Created agent casual with task: Say hello
+2026-01-12 13:31:57,462 - planner_agent.log - INFO - Agent casual was given info:
+ []
+2026-01-12 13:31:57,665 - planner_agent.log - INFO - Plan made:
+```json
+{"plan": [{"agent": "casual", "id": "1", "need": [], "task": "Say hello"}]}
+```
+2026-01-12 13:31:57,665 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:31:57,665 - planner_agent.log - INFO - Created agent casual with task: Say hello
+2026-01-12 13:31:57,665 - planner_agent.log - INFO - Agent casual was given info:
+ []
+2026-01-12 13:31:57,665 - planner_agent.log - INFO - Prompt for agent:
+
+        You are given informations from your AI friends work:
+        No needed informations.
+        Your task is:
+        Say hello
+        
+2026-01-12 13:31:57,665 - planner_agent.log - INFO - Agent casual started working on Say hello.
+2026-01-12 13:31:57,870 - planner_agent.log - INFO - Agent casual finished working on Say hello. Success: True
+2026-01-12 13:31:57,870 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:31:57,871 - planner_agent.log - INFO - Created agent casual with task: Say hello
+2026-01-12 13:31:57,871 - planner_agent.log - INFO - Agent casual was given info:
+ []
+2026-01-12 13:31:58,071 - planner_agent.log - INFO - Plan made:
+```json
+{"plan": [{"agent": "casual", "id": "1", "need": [], "task": "Say hello"}]}
+```
+2026-01-12 13:31:58,071 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 13:31:58,071 - planner_agent.log - INFO - Created agent casual with task: Say hello
+2026-01-12 13:31:58,071 - planner_agent.log - INFO - Agent casual was given info:
+ []
+2026-01-12 13:31:58,071 - planner_agent.log - INFO - Plan updated:
+[['Say hello', {'agent': 'casual', 'id': '1', 'task': 'Say hello', 'need': []}]]

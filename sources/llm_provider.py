@@ -230,7 +230,7 @@ class Provider:
             else:
                 device = "cpu"
 
-            dtype = torch.float16 if device in {"cuda", "mps"} else torch.float32
+            dtype = torch.float16 if device == "cuda" else torch.float32
 
             pretty_print(f"Loading {self.model} on {device}...", color="status")
 
@@ -274,19 +274,46 @@ class Provider:
         inputs = tok(prompt, return_tensors="pt").to(mdl.device)
         input_len = inputs.input_ids.shape[1]
 
-        # Generate
-        with torch.no_grad():
-            out = mdl.generate(
-                **inputs,
-                max_new_tokens=2048,
-                do_sample=True,
-                temperature=0.7,
-                top_p=0.9,
-                eos_token_id=tok.eos_token_id,
-            )
+        def generate_once():
+            max_new_tokens = int(os.getenv("LLM_MAX_NEW_TOKENS", "512"))
+            max_time = float(os.getenv("LLM_MAX_TIME", "45"))
+            eos_ids = [tok.eos_token_id]
+            if tok.pad_token_id is not None:
+                eos_ids.append(tok.pad_token_id)
+            with torch.no_grad():
+                return mdl.generate(
+                    **inputs,
+                    max_new_tokens=max_new_tokens,
+                    max_time=max_time,
+                    do_sample=True,
+                    temperature=0.7,
+                    top_p=0.9,
+                    eos_token_id=eos_ids,
+                    pad_token_id=tok.pad_token_id,
+                )
 
-        # Decode output (skip input tokens)
+        out = generate_once()
+
         response = tok.decode(out[0][input_len:], skip_special_tokens=True)
+
+        if len(response.strip()) < 8 and str(mdl.device).startswith("mps"):
+            pretty_print("Short generation on MPS; falling back to CPU.", color="warning")
+            mdl_cpu = mdl.to("cpu")
+            inputs_cpu = tok(prompt, return_tensors="pt").to(mdl_cpu.device)
+            input_len_cpu = inputs_cpu.input_ids.shape[1]
+            with torch.no_grad():
+                out_cpu = mdl_cpu.generate(
+                    **inputs_cpu,
+                    max_new_tokens=int(os.getenv("LLM_MAX_NEW_TOKENS", "512")),
+                    do_sample=True,
+                    temperature=0.7,
+                    top_p=0.9,
+                    eos_token_id=[tok.eos_token_id, tok.pad_token_id]
+                    if tok.pad_token_id is not None
+                    else tok.eos_token_id,
+                    pad_token_id=tok.pad_token_id,
+                )
+            response = tok.decode(out_cpu[0][input_len_cpu:], skip_special_tokens=True)
 
         # Clean up response - extract JSON if present
         response = self._extract_json_from_response(response)

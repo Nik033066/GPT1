@@ -1,0 +1,30 @@
+# SearXNG settings for Agentic Local
+use_default_settings: true
+
+server:
+  secret_key: "agentic-local-secret-key-2025"
+  limiter: false
+  image_proxy: true
+
+search:
+  safe_search: 0
+  autocomplete: ""
+  default_lang: ""
+  formats:
+    - html
+    - json
+
+ui:
+  static_use_hash: true
+  infinite_scroll: true
+  default_theme: simple
+
+general:
+  instance_name: "Agentic Local Search"
+  debug: false
+  donation_url: false
+
+outgoing:
+  request_timeout: 10.0
+  pool_connections: 100
+  pool_maxsize: 20

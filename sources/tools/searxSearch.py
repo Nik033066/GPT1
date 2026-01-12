@@ -95,7 +95,27 @@ class searxSearch(Tools):
                 return "No search results, web search failed."
             return "\n\n".join(results)  # Return results as a single string, separated by newlines
         except requests.exceptions.RequestException as e:
-            raise Exception("\nSearxng search failed. did you run start_services.sh? is docker still running?") from e
+            error_msg = str(e)
+            if "403" in error_msg:
+                return f"Error: SearxNG instance returned 403 Forbidden. This usually means:\n" \
+                       f"1. The SearxNG instance is blocking requests (rate limiting/bot protection)\n" \
+                       f"2. The instance requires authentication\n" \
+                       f"3. The instance is misconfigured\n\n" \
+                       f"Solutions:\n" \
+                       f"1. Use the local SearxNG instance: run './start_with_searxng.sh'\n" \
+                       f"2. Find another public SearxNG instance\n" \
+                       f"3. Set up your own SearxNG instance\n\n" \
+                       f"Current URL: {self.base_url}"
+            elif "Connection refused" in error_msg or "ConnectionError" in error_msg:
+                return f"Error: Cannot connect to SearxNG at {self.base_url}.\n" \
+                       f"Make sure SearxNG is running. Try:\n" \
+                       f"1. Run './start_with_searxng.sh' to start with local SearxNG\n" \
+                       f"2. Check if Docker is running: 'docker ps'\n" \
+                       f"3. Check the SearxNG URL in your .env file"
+            else:
+                return f"Error: SearxNG search failed - {error_msg}\n" \
+                       f"Current SearxNG URL: {self.base_url}\n" \
+                       f"Try running './start_with_searxng.sh' for local setup"
 
     def execution_failure_check(self, output: str) -> bool:
         """

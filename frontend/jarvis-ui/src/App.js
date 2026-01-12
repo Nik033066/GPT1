@@ -6,7 +6,7 @@ import { ThemeToggle } from "./components/ThemeToggle";
 import { ResizableLayout } from "./components/ResizableLayout";
 import faviconPng from "./logo.jpg";
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:7777";
 console.log("Using backend URL:", BACKEND_URL);
 
 function App() {
@@ -180,10 +180,27 @@ function App() {
       updateData(data);
     } catch (err) {
       console.error("Error:", err);
+      const responseData = err?.response?.data;
+      const statusCode = err?.response?.status;
+      const serverMessage =
+        (typeof responseData?.reasoning === "string" && responseData.reasoning.trim()
+          ? responseData.reasoning
+          : null) ||
+        (typeof responseData?.error === "string" && responseData.error.trim()
+          ? responseData.error
+          : null);
+      const errorContent =
+        statusCode === 429
+          ? "Error: Il sistema sta ancora elaborando una richiesta. Aspetta qualche secondo o premi Stop."
+          : serverMessage
+        ? serverMessage.startsWith("Error:")
+          ? serverMessage
+          : `Error: ${serverMessage}`
+        : "Error: Unable to get a response.";
       setError("Failed to process query.");
       setMessages((prev) => [
         ...prev,
-        { type: "error", content: "Error: Unable to get a response." },
+        { type: "error", content: errorContent },
       ]);
     } finally {
       console.log("Query completed");
@@ -383,15 +400,26 @@ function App() {
                 </div>
               ) : (
                 <div className="screenshot">
-                  <img
-                    src={responseData?.screenshot || "placeholder.png"}
-                    alt="Screenshot"
-                    onError={(e) => {
-                      e.target.src = "placeholder.png";
-                      console.error("Failed to load screenshot");
-                    }}
-                    key={responseData?.screenshotTimestamp || "default"}
-                  />
+                  {responseData?.screenshot &&
+                  responseData.screenshot !== "placeholder.png" ? (
+                    <img
+                      src={responseData?.screenshot}
+                      alt="Screenshot"
+                      onError={(e) => {
+                        e.target.src = "placeholder.png";
+                        console.error("Failed to load screenshot");
+                      }}
+                      key={responseData?.screenshotTimestamp || "default"}
+                    />
+                  ) : (
+                    <div className="block">
+                      <p className="block-tool">Browser non disponibile</p>
+                      <pre>
+                        Nessuno screenshot. Le azioni di ricerca appaiono in Editor
+                        View come tool web_search.
+                      </pre>
+                    </div>
+                  )}
                 </div>
               )}
             </div>

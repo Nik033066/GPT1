@@ -1,0 +1,88 @@
+2026-01-12 12:23:43,326 - browser_agent.log - INFO - Extracted links: ['https://thriveonai.com/15-ai-startups-in-japan-to-take-note-of', 'www.google.com', 'https://test.org/about?page=1', 'https://weatherstack.com/documentation/']
+2026-01-12 12:23:43,327 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 12:23:43,327 - browser_agent.log - INFO - Extracted links: ['https://test.com']
+2026-01-12 12:23:43,327 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 12:32:51,899 - browser_agent.log - INFO - Extracted links: ['https://thriveonai.com/15-ai-startups-in-japan-to-take-note-of', 'www.google.com', 'https://test.org/about?page=1', 'https://weatherstack.com/documentation/']
+2026-01-12 12:32:51,900 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 12:32:51,900 - browser_agent.log - INFO - Extracted links: ['https://test.com']
+2026-01-12 12:32:51,900 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 12:39:12,600 - browser_agent.log - INFO - Extracted links: ['https://thriveonai.com/15-ai-startups-in-japan-to-take-note-of', 'www.google.com', 'https://test.org/about?page=1', 'https://weatherstack.com/documentation/']
+2026-01-12 12:39:12,600 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 12:39:12,600 - browser_agent.log - INFO - Extracted links: ['https://test.com']
+2026-01-12 12:39:12,600 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 12:41:41,658 - browser_agent.log - INFO - Extracted links: ['https://thriveonai.com/15-ai-startups-in-japan-to-take-note-of', 'www.google.com', 'https://test.org/about?page=1', 'https://weatherstack.com/documentation/']
+2026-01-12 12:41:41,659 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 12:41:41,659 - browser_agent.log - INFO - Extracted links: ['https://test.com']
+2026-01-12 12:41:41,659 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 12:44:09,075 - browser_agent.log - INFO - Search results: Link: https://sider.ai/it/blog/ai-tools/searxng-review-is-this-the-best-private-metasearch-you-can-actually-trust
+Preview: SearXNG è uno dei migliori motori di metaricerca incentrati sulla privacy disponibili oggi. Offre una seria personalizzazione, una pertinenza credibile quando è messo a punto e il pieno controllo quando è auto-ospitato. Non è senza attriti: dovrai lottare con i CAPTCHA e occasionali intoppi del motore, ma se ti preoccupi della privacy e della flessibilità, i compromessi valgono assolutamente la pena. Documentazione ufficiale di SearXNG e guida all'istanza.
+
+Link: https://newsletter.devol.it/guida-completa-a-searxng-privacy-e-liberta-nelle-tue-ricerche-online/
+Preview: SearXNG rappresenta una delle alternative più potenti e rispettose della privacy nel panorama dei motori di ricerca attuali. Questa guida vi illustrerà come configurare e utilizzare l'istanza italiana ospitata da Devol (searxng.devol.it), ...
+
+Link: https://www.nicfab.eu/it/posts/notes/searxng/
+Preview: Inoltre, SearXNG può essere usato su rete Tor per l’anonimato online. Oltre a quanto pubblicato nella pagina web dei documenti di SearXNG, non esiste una specifica privacy policy perché SearXNG è open source; ogni amministratore di sistema può decidere la privacy policy a seconda della ubicazione del server su cui è installata l’istanza.
+
+Link: https://searx.bndkt.io/info/it/about
+Preview: Per ulteriori informazioni, visitate la documentazione del progetto SearXNG su SearXNG docs. SearXNG non offre risultati personalizzati come Google, ma non genera un profilo dell’utente. SearXNG non si preoccupa di ciò che cercate, non condivide mai nulla con terze parti e non può essere ...
+
+Link: https://docs.searxng.org/
+Preview: Search without being tracked · SearXNG is a free internet metasearch engine which aggregates results from up to 244 search services. Users are neither tracked nor profiled. Additionally, SearXNG can be used over Tor for online anonymity
+
+Link: https://webcatalog.io/it/apps/searxng
+Preview: SEARXNG è un motore MetaSearch gratuito e open source che aggrega i risultati da più servizi di ricerca, fornendo agli utenti un'esperienza di ricerca completa e focalizzata sulla privacy. Supporta oltre 214 motori di ricerca, con 85 abilitati per impostazione predefinita, consentendo agli utenti di accedere a una vasta gamma di fonti di informazione senza essere tracciati o profilati.
+
+Link: https://silentwater.altervista.org/blog/searx-il-metamotore-di-ricerca-privato-e-open-source-da-installare-sul-proprio-computer/
+Preview: Con la vostra personale istanza di Searx potete dormire sogni tranquilli, solamente voi potrete tracciare le vostre ricerche e memorizzare i vostri dati. Potreste addirittura installare un’istanza su un piccolo computer come un Raspberry Pi, e usare il vostro privato motore di ricerca da qualsiasi altro dispositivo con una connessione internet. A questo proposito, vi rimando alla documentazione ufficiale.
+
+Link: https://searx.space/
+Preview: V - Vanilla instance: all static files comes from the SearXNG git repository.
+
+Link: https://www.reddit.com/r/Searx/comments/1ikhxh7/searxng_rarely_nets_the_main_page/?tl=it
+Preview: This site did not provide any description.
+
+Link: https://tivustream.com/searxng-come-creare-il-tuo-motore-di-ricerca-privato-su-windows-mac-o-linux/
+Preview: SearXNG è un metamotore di ricerca open source che interroga centinaia di fonti (Google, DuckDuckGo, Wikipedia, GitHub, Reddit…) ma non ti traccia, non raccoglie dati, e ti permette di scegliere quali motori usare. La parte migliore, e scopo di questo articolo, è che puoi installarlo sul tuo PC, in locale, senza richieste a Server esterni ed avendone il totale controllo per una privacy completa.
+
+Link: https://github.com/searxng/searxng
+Preview: SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled. - searxng/searxng
+
+Link: https://pietro.im/posts/searxng/
+Preview: SearXNG è un metamotore di ricerca che permette di effettuare ricerche web interrogando più siti contemporaneamente senza essere profilati. La cosa interessante oltre ai tantissimi servizi da cui può recuperare informazioni come Google e DuckduckGo è che Searxng non raccoglie nessun dato ...
+
+Link: https://webappsmagazine.blogspot.com/2025/08/searxng-il-motore-di-ricerca-che-mette.html
+Preview: Perché Scegliere SearXNG Si vive ... e sul profilo utente. SearXNG rompe questo ciclo: Libertà dalla bolla di filtro: Si ottengono risultati imparziali, non influenzati dalla propria cronologia di ricerca o dal profilo utente. Massima Privacy: Le ricerche rimangono private. Niente più pubblicità mirate basate su ciò che si era cercato in ...
+
+Link: https://ethicalhacking.freeflarum.com/d/960-searxng-la-ricerca-di-garuda-linux-motore-di-ricerca-personalizzabile
+Preview: Avevo già parlato dell'incredibile Garuda Linux che, fra le varie cose, fa uso di un proprio browser, FireDragon (almeno nella versione Garuda Linux KDE Dr46...
+
+Link: https://www.reddit.com/r/huggingface/comments/1g6vdv9/introducing_searxngwebsearchai_an_aidriven_web/?tl=it
+Preview: Web Scraping Personalizzabile: Esegui query e scraping sul web usando SearXNG attraverso molteplici motori di ricerca come Google, Bing, DuckDuckGo, ecc.
+
+Link: https://www.reddit.com/r/Searx/comments/18n842h/is_there_any_dummy_guide_on_how_to_set_up_your/?tl=it
+Preview: This site did not provide any description.
+2026-01-12 12:44:09,075 - browser_agent.log - INFO - Unvisited links: [{'title': 'Recensione di SearXNG: È questo il miglior meta-motore di ricerca privato di cui ti puoi fidare veramente?', 'snippet': "SearXNG è uno dei migliori motori di metaricerca incentrati sulla privacy disponibili oggi. Offre una seria personalizzazione, una pertinenza credibile quando è messo a punto e il pieno controllo quando è auto-ospitato. Non è senza attriti: dovrai lottare con i CAPTCHA e occasionali intoppi del motore, ma se ti preoccupi della privacy e della flessibilità, i compromessi valgono assolutamente la pena. Documentazione ufficiale di SearXNG e guida all'istanza.", 'link': 'https://sider.ai/it/blog/ai-tools/searxng-review-is-this-the-best-private-metasearch-you-can-actually-trust'}, {'title': 'Guida Completa a SearXNG: Privacy e Libertà nelle Tue Ricerche Online', 'snippet': "SearXNG rappresenta una delle alternative più potenti e rispettose della privacy nel panorama dei motori di ricerca attuali. Questa guida vi illustrerà come configurare e utilizzare l'istanza italiana ospitata da Devol (searxng.devol.it), ...", 'link': 'https://newsletter.devol.it/guida-completa-a-searxng-privacy-e-liberta-nelle-tue-ricerche-online/'}, {'title': 'SearXNG: il motore di meta-ricerca open e che rispetta la privacy | NicFab Blog', 'snippet': 'Inoltre, SearXNG può essere usato su rete Tor per l’anonimato online. Oltre a quanto pubblicato nella pagina web dei documenti di SearXNG, non esiste una specifica privacy policy perché SearXNG è open source; ogni amministratore di sistema può decidere la privacy policy a seconda della ubicazione del server su cui è installata l’istanza.', 'link': 'https://www.nicfab.eu/it/posts/notes/searxng/'}, {'title': 'Informazioni su SearXNG - SearXNG', 'snippet': 'Per ulteriori informazioni, visitate la documentazione del progetto SearXNG su SearXNG docs. SearXNG non offre risultati personalizzati come Google, ma non genera un profilo dell’utente. SearXNG non si preoccupa di ciò che cercate, non condivide mai nulla con terze parti e non può essere ...', 'link': 'https://searx.bndkt.io/info/it/about'}, {'title': 'Welcome to SearXNG — SearXNG Documentation (2026.1.11+cf74e1d9e)', 'snippet': 'Search without being tracked · SearXNG is a free internet metasearch engine which aggregates results from up to 244 search services. Users are neither tracked nor profiled. Additionally, SearXNG can be used over Tor for online anonymity', 'link': 'https://docs.searxng.org/'}, {'title': 'SearXNG - App desktop per Mac, Windows (PC)', 'snippet': "SEARXNG è un motore MetaSearch gratuito e open source che aggrega i risultati da più servizi di ricerca, fornendo agli utenti un'esperienza di ricerca completa e focalizzata sulla privacy. Supporta oltre 214 motori di ricerca, con 85 abilitati per impostazione predefinita, consentendo agli utenti di accedere a una vasta gamma di fonti di informazione senza essere tracciati o profilati.", 'link': 'https://webcatalog.io/it/apps/searxng'}, {'title': 'Searx il metamotore di ricerca privato e open source da installare sul proprio computer | Silent Water', 'snippet': 'Con la vostra personale istanza di Searx potete dormire sogni tranquilli, solamente voi potrete tracciare le vostre ricerche e memorizzare i vostri dati. Potreste addirittura installare un’istanza su un piccolo computer come un Raspberry Pi, e usare il vostro privato motore di ricerca da qualsiasi altro dispositivo con una connessione internet. A questo proposito, vi rimando alla documentazione ufficiale.', 'link': 'https://silentwater.altervista.org/blog/searx-il-metamotore-di-ricerca-privato-e-open-source-da-installare-sul-proprio-computer/'}, {'title': 'SearXNG instances', 'snippet': 'V - Vanilla instance: all static files comes from the SearXNG git repository.', 'link': 'https://searx.space/'}, {'title': 'r/Searx on Reddit: SearXNG raramente accede alla pagina principale', 'snippet': 'This site did not provide any description.', 'link': 'https://www.reddit.com/r/Searx/comments/1ikhxh7/searxng_rarely_nets_the_main_page/?tl=it'}, {'title': 'SearXNG Come Creare Il Tuo Motore Di Ricerca Privato Su Windows, Mac O Linux', 'snippet': 'SearXNG è un metamotore di ricerca open source che interroga centinaia di fonti (Google, DuckDuckGo, Wikipedia, GitHub, Reddit…) ma non ti traccia, non raccoglie dati, e ti permette di scegliere quali motori usare. La parte migliore, e scopo di questo articolo, è che puoi installarlo sul tuo PC, in locale, senza richieste a Server esterni ed avendone il totale controllo per una privacy completa.', 'link': 'https://tivustream.com/searxng-come-creare-il-tuo-motore-di-ricerca-privato-su-windows-mac-o-linux/'}, {'title': 'GitHub - searxng/searxng: SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.', 'snippet': 'SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled. - searxng/searxng', 'link': 'https://github.com/searxng/searxng'}, {'title': 'Motore di ricerca privato con SearXNG | Pietro Cyber Journal', 'snippet': 'SearXNG è un metamotore di ricerca che permette di effettuare ricerche web interrogando più siti contemporaneamente senza essere profilati. La cosa interessante oltre ai tantissimi servizi da cui può recuperare informazioni come Google e DuckduckGo è che Searxng non raccoglie nessun dato ...', 'link': 'https://pietro.im/posts/searxng/'}, {'title': 'SearXNG : il motore di ricerca che mette la Privacy al primo posto - Web Apps Magazine', 'snippet': 'Perché Scegliere SearXNG Si vive ... e sul profilo utente. SearXNG rompe questo ciclo: Libertà dalla bolla di filtro: Si ottengono risultati imparziali, non influenzati dalla propria cronologia di ricerca o dal profilo utente. Massima Privacy: Le ricerche rimangono private. Niente più pubblicità mirate basate su ciò che si era cercato in ...', 'link': 'https://webappsmagazine.blogspot.com/2025/08/searxng-il-motore-di-ricerca-che-mette.html'}, {'title': 'SearXNG: la ricerca di Garuda Linux, motore di ricerca personalizzabile - Ethical hacking Forum', 'snippet': "Avevo già parlato dell'incredibile Garuda Linux che, fra le varie cose, fa uso di un proprio browser, FireDragon (almeno nella versione Garuda Linux KDE Dr46...", 'link': 'https://ethicalhacking.freeflarum.com/d/960-searxng-la-ricerca-di-garuda-linux-motore-di-ricerca-personalizzabile'}, {'title': "r/huggingface on Reddit: Introduzione a SearXNG-WebSearch-AI: Un Web Scraper basato sull'IA!", 'snippet': 'Web Scraping Personalizzabile: Esegui query e scraping sul web usando SearXNG attraverso molteplici motori di ricerca come Google, Bing, DuckDuckGo, ecc.', 'link': 'https://www.reddit.com/r/huggingface/comments/1g6vdv9/introducing_searxngwebsearchai_an_aidriven_web/?tl=it'}, {'title': 'r/Searx on Reddit: Esiste una guida per principianti su come impostare la propria istanza di SearX/SearXNG con poca esperienza di codifica? Sarò anche in grado di utilizzarla su Android?', 'snippet': 'This site did not provide any description.', 'link': 'https://www.reddit.com/r/Searx/comments/18n842h/is_there_any_dummy_guide_on_how_to_set_up_your/?tl=it'}]
+2026-01-12 12:53:31,494 - browser_agent.log - INFO - Extracted links: ['https://thriveonai.com/15-ai-startups-in-japan-to-take-note-of', 'www.google.com', 'https://test.org/about?page=1', 'https://weatherstack.com/documentation/']
+2026-01-12 12:53:31,495 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 12:53:31,495 - browser_agent.log - INFO - Extracted links: ['https://test.com']
+2026-01-12 12:53:31,495 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 12:54:10,908 - browser_agent.log - INFO - Extracted links: ['https://thriveonai.com/15-ai-startups-in-japan-to-take-note-of', 'www.google.com', 'https://test.org/about?page=1', 'https://weatherstack.com/documentation/']
+2026-01-12 12:54:10,909 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 12:54:10,909 - browser_agent.log - INFO - Extracted links: ['https://test.com']
+2026-01-12 12:54:10,909 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 13:01:01,262 - browser_agent.log - INFO - Extracted links: ['https://thriveonai.com/15-ai-startups-in-japan-to-take-note-of', 'www.google.com', 'https://test.org/about?page=1', 'https://weatherstack.com/documentation/']
+2026-01-12 13:01:01,263 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 13:01:01,263 - browser_agent.log - INFO - Extracted links: ['https://test.com']
+2026-01-12 13:01:01,263 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 13:19:59,490 - browser_agent.log - INFO - Extracted links: ['https://thriveonai.com/15-ai-startups-in-japan-to-take-note-of', 'www.google.com', 'https://test.org/about?page=1', 'https://weatherstack.com/documentation/']
+2026-01-12 13:19:59,490 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 13:19:59,490 - browser_agent.log - INFO - Extracted links: ['https://test.com']
+2026-01-12 13:19:59,490 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 13:30:56,245 - browser_agent.log - INFO - Extracted links: ['https://thriveonai.com/15-ai-startups-in-japan-to-take-note-of', 'www.google.com', 'https://test.org/about?page=1', 'https://weatherstack.com/documentation/']
+2026-01-12 13:30:56,245 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 13:30:56,245 - browser_agent.log - INFO - Extracted links: ['https://test.com']
+2026-01-12 13:30:56,245 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 14:49:03,256 - browser_agent.log - INFO - Extracted links: ['https://thriveonai.com/15-ai-startups-in-japan-to-take-note-of', 'www.google.com', 'https://test.org/about?page=1', 'https://weatherstack.com/documentation/']
+2026-01-12 14:49:03,257 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 14:49:03,257 - browser_agent.log - INFO - Extracted links: ['https://test.com']
+2026-01-12 14:49:03,257 - browser_agent.log - INFO - Extracted links: []

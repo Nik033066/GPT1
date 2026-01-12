@@ -69,7 +69,7 @@ Edit `config.ini`:
 [MAIN]
 is_local = True
 provider_name = qwen
-provider_model = Qwen/Qwen3-4B
+provider_model = Qwen/Qwen2.5-7B-Instruct
 agent_name = Agentic
 save_session = True
 speak = False
@@ -85,7 +85,7 @@ stealth_mode = False
 
 | Provider | Model | Local |
 |----------|-------|-------|
-| `qwen` | Qwen/Qwen3-4B | Yes |
+| `qwen` | Qwen/Qwen2.5-7B-Instruct | Yes |
 | `huggingface-local` | Any HF model | Yes |
 | `ollama` | Any Ollama model | Yes |
 | `openai` | GPT-4, etc. | No |

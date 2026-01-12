@@ -13,6 +13,7 @@ from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 import uuid
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError
 
 from sources.llm_provider import Provider
 from sources.interaction import Interaction
@@ -98,11 +99,19 @@ def initialize_system():
     # Try to initialize browser, fallback to None if it fails
     browser = None
     try:
-        browser = Browser(
-            create_driver(headless=headless, stealth_mode=stealth_mode, lang=languages[0]),
-            anticaptcha_manual_install=stealth_mode
+        executor = ThreadPoolExecutor(max_workers=1)
+        future = executor.submit(
+            lambda: Browser(
+                create_driver(headless=headless, stealth_mode=stealth_mode, lang=languages[0]),
+                anticaptcha_manual_install=stealth_mode,
+            )
         )
+        browser = future.result(timeout=20)
+        executor.shutdown(wait=False, cancel_futures=True)
         logger.info("Browser initialized")
+    except FuturesTimeoutError:
+        logger.warning("Browser initialization timed out")
+        logger.info("Running without browser - BrowserAgent will use search-only mode")
     except Exception as e:
         logger.warning(f"Browser initialization failed: {e}")
         logger.info("Running without browser - BrowserAgent will use search-only mode")
@@ -174,9 +183,13 @@ async def is_active():
 
 @api.get("/stop")
 async def stop():
+    global is_generating
     logger.info("Stop endpoint called")
-    interaction.current_agent.request_stop()
-    return JSONResponse(status_code=200, content={"status": "stopped"})
+    if interaction.current_agent is not None:
+        interaction.current_agent.request_stop()
+    interaction.is_generating = False
+    is_generating = False
+    return JSONResponse(status_code=200, content={"status": "stop_requested"})
 
 @api.get("/latest_answer")
 async def get_latest_answer():
@@ -186,7 +199,7 @@ async def get_latest_answer():
     uid = str(uuid.uuid4())
     if not any(q["answer"] == interaction.current_agent.last_answer for q in query_resp_history):
         query_resp = {
-            "done": "false",
+            "done": "true" if not is_generating else "false",
             "answer": interaction.current_agent.last_answer,
             "reasoning": interaction.current_agent.last_reasoning,
             "agent_name": interaction.current_agent.agent_name if interaction.current_agent else "None",
@@ -240,55 +253,30 @@ async def process_query(request: QueryRequest):
     )
     if is_generating:
         logger.warning("Another query is being processed, please wait.")
+        query_resp.status = "Busy"
+        query_resp.reasoning = "Another query is being processed. Please wait or press Stop."
         return JSONResponse(status_code=429, content=query_resp.jsonify())
 
-    try:
-        is_generating = True
-        success = await think_wrapper(interaction, request.query)
-        is_generating = False
+    is_generating = True
 
-        if not success:
-            query_resp.answer = interaction.last_answer
-            query_resp.reasoning = interaction.last_reasoning
-            return JSONResponse(status_code=400, content=query_resp.jsonify())
+    async def run_query_in_background(query: str):
+        global is_generating
+        try:
+            def run_sync():
+                asyncio.run(think_wrapper(interaction, query))
 
-        if interaction.current_agent:
-            blocks_json = {f'{i}': block.jsonify() for i, block in enumerate(interaction.current_agent.get_blocks_result())}
-        else:
-            logger.error("No current agent found")
-            blocks_json = {}
-            query_resp.answer = "Error: No current agent"
-            return JSONResponse(status_code=400, content=query_resp.jsonify())
+            await asyncio.to_thread(run_sync)
+        except Exception as e:
+            logger.error(f"Background query error: {str(e)}")
+        finally:
+            is_generating = False
+            logger.info("Processing finished")
+            if config.getboolean('MAIN', 'save_session'):
+                interaction.save_session()
 
-        logger.info(f"Answer: {interaction.last_answer}")
-        logger.info(f"Blocks: {blocks_json}")
-        query_resp.done = "true"
-        query_resp.answer = interaction.last_answer
-        query_resp.reasoning = interaction.last_reasoning
-        query_resp.agent_name = interaction.current_agent.agent_name
-        query_resp.success = str(interaction.last_success)
-        query_resp.blocks = blocks_json
-        
-        query_resp_dict = {
-            "done": query_resp.done,
-            "answer": query_resp.answer,
-            "agent_name": query_resp.agent_name,
-            "success": query_resp.success,
-            "blocks": query_resp.blocks,
-            "status": query_resp.status,
-            "uid": query_resp.uid
-        }
-        query_resp_history.append(query_resp_dict)
-
-        logger.info("Query processed successfully")
-        return JSONResponse(status_code=200, content=query_resp.jsonify())
-    except Exception as e:
-        logger.error(f"An error occurred: {str(e)}")
-        sys.exit(1)
-    finally:
-        logger.info("Processing finished")
-        if config.getboolean('MAIN', 'save_session'):
-            interaction.save_session()
+    asyncio.create_task(run_query_in_background(request.query))
+    query_resp.status = "Processing"
+    return JSONResponse(status_code=202, content=query_resp.jsonify())
 
 if __name__ == "__main__":
     print("[Agentic Local] Starting server...")

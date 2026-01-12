@@ -1,3 +1,16 @@
 2026-01-12 01:17:13,695 - language.log - INFO - Identified: Hello, who are you? as en with conf -59.20277500152588
 2026-01-12 01:24:29,994 - language.log - INFO - Identified: hii as en with conf 9.061840057373047
 2026-01-12 01:25:11,650 - language.log - INFO - Identified: can you search a page anthropic ? as en with conf -43.39886999130249
+2026-01-12 11:07:17,593 - language.log - INFO - Identified: hello  as en with conf -10.251435279846191
+2026-01-12 11:16:16,977 - language.log - INFO - Identified: Search for the latest news about artificial intelligence as en with conf -116.52525329589844
+2026-01-12 11:48:41,705 - language.log - INFO - Identified: Cerca prezzi aggiornati di adattatori in Italia e dammi 5 risultati con link e prezzo. as en with conf -360.6381230354309
+2026-01-12 12:07:00,734 - language.log - INFO - Identified: ciao as en with conf 9.061840057373047
+2026-01-12 12:12:30,064 - language.log - INFO - Identified: cercami un documento sulla AI as en with conf -118.63476991653442
+2026-01-12 12:18:02,448 - language.log - INFO - Identified: cercami un documento sulla AI as en with conf -118.63476991653442
+2026-01-12 12:24:39,751 - language.log - INFO - Identified: sanity after tests as en with conf -25.016106128692627
+2026-01-12 13:08:09,515 - language.log - INFO - Identified: Ciao! Come stai? Rispondi in una frase. as en with conf -73.65823745727539
+2026-01-12 13:09:39,232 - language.log - INFO - Identified: Scrivi una funzione Python che somma due numeri e mostra un esempio. as en with conf -286.6627173423767
+2026-01-12 14:39:11,408 - language.log - INFO - Identified: ciao as en with conf 9.061840057373047
+2026-01-12 14:49:49,065 - language.log - INFO - Identified: Ciao! Come stai oggi? as en with conf -10.565330505371094
+2026-01-12 14:55:22,715 - language.log - INFO - Identified: Scrivi una frase di 20 parole in italiano che descrive un gatto curioso. as en with conf -275.48548412323
+2026-01-12 15:04:50,333 - language.log - INFO - Identified: Scrivi una frase di 20 parole in italiano che descrive un gatto curioso. as en with conf -275.48548412323

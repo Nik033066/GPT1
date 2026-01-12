@@ -60,7 +60,8 @@ class TestSearxSearch(unittest.TestCase):
         try:
             result = self.search_tool.execute([self.valid_query])
             print(f"Output from test_execute_request_exception: {result}")
-            self.assertTrue("Error during search" in result)
+            self.assertTrue(isinstance(result, str))
+            self.assertTrue(result.startswith("Error:"))
         finally:
             self.search_tool.base_url = original_base_url  # Restore the original base_url
 

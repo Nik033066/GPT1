@@ -43,3 +43,616 @@
 2026-01-12 01:25:11,646 - backend.log - INFO - Processing query: can you search a page anthropic ?
 2026-01-12 01:25:11,647 - backend.log - INFO - Agents request is being processed
 2026-01-12 01:25:11,992 - backend.log - INFO - Health check endpoint called
+2026-01-12 11:04:36,400 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 11:04:38,746 - backend.log - INFO - Browser initialized
+2026-01-12 11:04:38,765 - backend.log - INFO - Agents initialized
+2026-01-12 11:04:44,740 - backend.log - INFO - Interaction initialized
+2026-01-12 11:07:09,141 - backend.log - INFO - Health check endpoint called
+2026-01-12 11:07:17,059 - backend.log - INFO - Processing query: hello 
+2026-01-12 11:07:17,059 - backend.log - INFO - Agents request is being processed
+2026-01-12 11:07:20,072 - backend.log - INFO - Health check endpoint called
+2026-01-12 11:11:07,407 - backend.log - INFO - Answer: Hello there! 🌟 How's your day going so far? Feeling like chatting about anything in particular, or just want to zone out for a bit? 😄
+2026-01-12 11:11:07,407 - backend.log - INFO - Blocks: {}
+2026-01-12 11:11:07,409 - backend.log - INFO - Query processed successfully
+2026-01-12 11:11:07,409 - backend.log - INFO - Processing finished
+2026-01-12 11:11:08,070 - backend.log - INFO - Health check endpoint called
+2026-01-12 11:16:16,927 - backend.log - INFO - Processing query: Search for the latest news about artificial intelligence
+2026-01-12 11:16:16,928 - backend.log - INFO - Agents request is being processed
+2026-01-12 11:16:19,931 - backend.log - INFO - Health check endpoint called
+2026-01-12 11:16:29,414 - backend.log - ERROR - Error in think_wrapper: 
+Searxng search failed. did you run start_services.sh? is docker still running?
+2026-01-12 11:16:29,415 - backend.log - ERROR - An error occurred: 
+Searxng search failed. did you run start_services.sh? is docker still running?
+2026-01-12 11:16:29,415 - backend.log - INFO - Processing finished
+2026-01-12 11:16:29,459 - backend.log - INFO - Health check endpoint called
+2026-01-12 11:33:44,678 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 11:33:45,915 - backend.log - INFO - Browser initialized
+2026-01-12 11:33:45,940 - backend.log - INFO - Agents initialized
+2026-01-12 11:33:52,683 - backend.log - INFO - Interaction initialized
+2026-01-12 11:38:35,909 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 11:38:37,353 - backend.log - INFO - Browser initialized
+2026-01-12 11:38:37,373 - backend.log - INFO - Agents initialized
+2026-01-12 11:38:42,057 - backend.log - INFO - Interaction initialized
+2026-01-12 11:40:02,214 - backend.log - INFO - Health check endpoint called
+2026-01-12 11:48:41,155 - backend.log - INFO - Processing query: Cerca prezzi aggiornati di adattatori in Italia e dammi 5 risultati con link e prezzo.
+2026-01-12 11:48:41,155 - backend.log - INFO - Agents request is being processed
+2026-01-12 11:48:42,512 - backend.log - ERROR - Error in think_wrapper: [Errno 5] Input/output error
+2026-01-12 11:48:42,512 - backend.log - ERROR - An error occurred: [Errno 5] Input/output error
+2026-01-12 11:48:42,512 - backend.log - INFO - Processing finished
+2026-01-12 11:48:42,640 - backend.log - INFO - Health check endpoint called
+2026-01-12 11:49:33,295 - backend.log - INFO - Is active endpoint called
+2026-01-12 11:49:33,524 - backend.log - INFO - Health check endpoint called
+2026-01-12 11:55:19,751 - backend.log - INFO - Processing query: trova 3 guide affidabili su AI , confrontale e dimmi quale scegliere (con link)
+2026-01-12 11:55:19,751 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 11:55:20,421 - backend.log - INFO - Health check endpoint called
+2026-01-12 11:56:36,279 - backend.log - INFO - Processing query: ciao
+2026-01-12 11:56:36,279 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 11:56:37,778 - backend.log - INFO - Health check endpoint called
+2026-01-12 11:56:41,441 - backend.log - INFO - Processing query: ciao
+2026-01-12 11:56:41,441 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 11:56:43,778 - backend.log - INFO - Health check endpoint called
+2026-01-12 11:56:47,315 - backend.log - INFO - Is active endpoint called
+2026-01-12 11:56:47,421 - backend.log - INFO - Health check endpoint called
+2026-01-12 11:58:44,030 - backend.log - INFO - Processing query: rova 3 guide affidabili su AI , confrontale e dimmi quale scegliere (con link).”
+2026-01-12 11:58:44,030 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 11:58:44,421 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:00:28,458 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 12:00:29,393 - backend.log - INFO - Browser initialized
+2026-01-12 12:00:29,416 - backend.log - INFO - Agents initialized
+2026-01-12 12:00:34,940 - backend.log - INFO - Interaction initialized
+2026-01-12 12:00:34,970 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:00:34,972 - backend.log - INFO - Processing query: ciao
+2026-01-12 12:00:34,972 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 12:01:32,539 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 12:01:34,331 - backend.log - INFO - Browser initialized
+2026-01-12 12:01:34,352 - backend.log - INFO - Agents initialized
+2026-01-12 12:01:39,030 - backend.log - INFO - Interaction initialized
+2026-01-12 12:01:39,049 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:01:39,050 - backend.log - INFO - Processing query: ciao
+2026-01-12 12:01:39,051 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 12:02:07,373 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:02:08,421 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:02:09,550 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:02:10,115 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:02:10,116 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:02:10,283 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:02:10,284 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:02:10,465 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:02:10,467 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:02:10,899 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:02:10,901 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:02:11,422 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:02:12,116 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:02:12,299 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:02:12,301 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:02:12,465 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:02:12,467 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:02:12,650 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:02:12,651 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:02:12,800 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:02:12,801 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:02:13,049 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:02:13,050 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:02:14,268 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:03:55,798 - backend.log - INFO - Processing query: cercami una documentazione sull'intelligenza artficiale
+2026-01-12 12:03:55,798 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 12:03:58,817 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:04:51,294 - backend.log - INFO - Processing query: test
+2026-01-12 12:04:51,294 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 12:04:52,820 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:06:16,250 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 12:06:17,811 - backend.log - INFO - Browser initialized
+2026-01-12 12:06:17,843 - backend.log - INFO - Agents initialized
+2026-01-12 12:06:22,932 - backend.log - INFO - Interaction initialized
+2026-01-12 12:06:25,820 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:07:00,181 - backend.log - INFO - Processing query: ciao
+2026-01-12 12:07:00,184 - backend.log - INFO - Agents request is being processed
+2026-01-12 12:07:01,817 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:08:14,203 - backend.log - INFO - Answer: Ciao! How's your day going so far? Feeling like diving into some light chatter or do you have a specific topic in mind? 😊
+2026-01-12 12:08:14,204 - backend.log - INFO - Blocks: {}
+2026-01-12 12:08:14,206 - backend.log - INFO - Query processed successfully
+2026-01-12 12:08:14,206 - backend.log - INFO - Processing finished
+2026-01-12 12:08:16,819 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:09:40,991 - backend.log - INFO - Processing query: ciao
+2026-01-12 12:09:40,993 - backend.log - INFO - Agents request is being processed
+2026-01-12 12:09:41,217 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:10:18,166 - backend.log - INFO - Answer: Ciao again! It seems like we're on a roll with greetings. Are you here to share a joke, maybe discuss the weather, or perhaps just chat about life in general? 🌞💬
+2026-01-12 12:10:18,166 - backend.log - INFO - Blocks: {}
+2026-01-12 12:10:18,167 - backend.log - INFO - Query processed successfully
+2026-01-12 12:10:18,167 - backend.log - INFO - Processing finished
+2026-01-12 12:10:18,671 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:12:30,042 - backend.log - INFO - Processing query: cercami un documento sulla AI
+2026-01-12 12:12:30,043 - backend.log - INFO - Agents request is being processed
+2026-01-12 12:12:32,911 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:14:57,786 - backend.log - INFO - Answer: {response.status_code}
+2026-01-12 12:14:57,787 - backend.log - INFO - Blocks: {'0': {'block': "\nimport os\nos.listdir('.')\n", 'feedback': '[success] Execution success, code output:\nNone\n', 'success': True, 'tool_type': 'python'}, '1': {'block': '\nai*\n', 'feedback': 'File Finder Results:\nFailed to process: Error: No filename provided', 'success': False, 'tool_type': 'file_finder'}}
+2026-01-12 12:14:57,788 - backend.log - INFO - Query processed successfully
+2026-01-12 12:14:57,788 - backend.log - INFO - Processing finished
+2026-01-12 12:14:58,781 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:16:42,348 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 12:17:42,581 - backend.log - WARNING - Browser initialization failed: Message: session not created
+from unknown error: unable to discover open pages; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   chromedriver                        0x0000000100b77dfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x0000000100b6fcb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x000000010066ab90 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74192
+3   chromedriver                        0x00000001006a253c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 301948
+4   chromedriver                        0x000000010069d7ac _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 282092
+5   chromedriver                        0x000000010069b118 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 272216
+6   chromedriver                        0x00000001006def4c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 550284
+7   chromedriver                        0x00000001006de98c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 548812
+8   chromedriver                        0x00000001006a622c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+9   chromedriver                        0x0000000100b3c194 cxxbridge1$str$ptr + 2786176
+10  chromedriver                        0x0000000100b3f900 cxxbridge1$str$ptr + 2800364
+11  chromedriver                        0x0000000100b1c42c cxxbridge1$str$ptr + 2655768
+12  chromedriver                        0x0000000100b40170 cxxbridge1$str$ptr + 2802524
+13  chromedriver                        0x0000000100b0ce10 cxxbridge1$str$ptr + 2592764
+14  chromedriver                        0x0000000100b5f14c cxxbridge1$str$ptr + 2929464
+15  chromedriver                        0x0000000100b5f2cc cxxbridge1$str$ptr + 2929848
+16  chromedriver                        0x0000000100b6f910 cxxbridge1$str$ptr + 2996988
+17  libsystem_pthread.dylib             0x000000018813dc08 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000188138ba8 thread_start + 8
+
+2026-01-12 12:17:42,581 - backend.log - INFO - Running without browser - BrowserAgent will use search-only mode
+2026-01-12 12:17:42,605 - backend.log - INFO - Agents initialized
+2026-01-12 12:17:48,338 - backend.log - INFO - Interaction initialized
+2026-01-12 12:17:49,871 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:18:01,901 - backend.log - INFO - Processing query: cercami un documento sulla AI
+2026-01-12 12:18:01,901 - backend.log - INFO - Agents request is being processed
+2026-01-12 12:18:04,865 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:19:38,157 - backend.log - INFO - Processing finished
+2026-01-12 12:19:40,867 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:19:48,404 - backend.log - INFO - Processing query: cercami un documento sulla AI
+2026-01-12 12:19:48,406 - backend.log - INFO - Agents request is being processed
+2026-01-12 12:19:49,898 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:20:21,446 - backend.log - INFO - Processing query: test busy 1
+2026-01-12 12:20:21,447 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 12:20:21,669 - backend.log - INFO - Processing query: test busy 2
+2026-01-12 12:20:21,669 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 12:20:23,450 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:20:23,735 - backend.log - INFO - Processing query: test after busy
+2026-01-12 12:20:23,736 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 12:20:26,449 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:20:39,625 - backend.log - INFO - Processing query: test after wait
+2026-01-12 12:20:39,626 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 12:20:41,464 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:20:45,827 - backend.log - INFO - Processing finished
+2026-01-12 12:20:47,802 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:24:39,719 - backend.log - INFO - Processing query: sanity after tests
+2026-01-12 12:24:39,721 - backend.log - INFO - Agents request is being processed
+2026-01-12 12:24:44,184 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:26:13,194 - backend.log - INFO - Processing query: cercami un documento sulla AI per il machine learninf
+2026-01-12 12:26:13,197 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 12:26:16,214 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:27:03,416 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:27:03,556 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:27:03,556 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:27:03,693 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:27:03,694 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:27:04,209 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:27:27,168 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:27:28,211 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:27:56,658 - backend.log - INFO - Processing finished
+2026-01-12 12:30:44,660 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 12:31:45,177 - backend.log - WARNING - Browser initialization failed: Message: session not created
+from unknown error: unable to discover open pages; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   chromedriver                        0x0000000100c37dfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x0000000100c2fcb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x000000010072ab90 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74192
+3   chromedriver                        0x000000010076253c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 301948
+4   chromedriver                        0x000000010075d7ac _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 282092
+5   chromedriver                        0x000000010075b118 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 272216
+6   chromedriver                        0x000000010079ef4c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 550284
+7   chromedriver                        0x000000010079e98c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 548812
+8   chromedriver                        0x000000010076622c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+9   chromedriver                        0x0000000100bfc194 cxxbridge1$str$ptr + 2786176
+10  chromedriver                        0x0000000100bff900 cxxbridge1$str$ptr + 2800364
+11  chromedriver                        0x0000000100bdc42c cxxbridge1$str$ptr + 2655768
+12  chromedriver                        0x0000000100c00170 cxxbridge1$str$ptr + 2802524
+13  chromedriver                        0x0000000100bcce10 cxxbridge1$str$ptr + 2592764
+14  chromedriver                        0x0000000100c1f14c cxxbridge1$str$ptr + 2929464
+15  chromedriver                        0x0000000100c1f2cc cxxbridge1$str$ptr + 2929848
+16  chromedriver                        0x0000000100c2f910 cxxbridge1$str$ptr + 2996988
+17  libsystem_pthread.dylib             0x000000018813dc08 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000188138ba8 thread_start + 8
+
+2026-01-12 12:31:45,178 - backend.log - INFO - Running without browser - BrowserAgent will use search-only mode
+2026-01-12 12:31:45,222 - backend.log - INFO - Agents initialized
+2026-01-12 12:31:53,415 - backend.log - INFO - Interaction initialized
+2026-01-12 12:33:38,309 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 12:33:58,312 - backend.log - WARNING - Browser initialization timed out
+2026-01-12 12:33:58,313 - backend.log - INFO - Running without browser - BrowserAgent will use search-only mode
+2026-01-12 12:33:58,349 - backend.log - INFO - Agents initialized
+2026-01-12 12:34:06,503 - backend.log - INFO - Interaction initialized
+2026-01-12 12:34:17,971 - backend.log - INFO - Processing query: Cerca sul web la documentazione ufficiale di SearxNG e dammi 3 link.
+2026-01-12 12:34:17,973 - backend.log - INFO - Agents request is being processed
+2026-01-12 12:35:21,723 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:40:07,954 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 12:40:27,957 - backend.log - WARNING - Browser initialization timed out
+2026-01-12 12:40:27,958 - backend.log - INFO - Running without browser - BrowserAgent will use search-only mode
+2026-01-12 12:40:27,979 - backend.log - INFO - Agents initialized
+2026-01-12 12:40:36,332 - backend.log - INFO - Interaction initialized
+2026-01-12 12:40:43,154 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:40:54,996 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:40:55,004 - backend.log - INFO - Processing query: Cerca sul web la documentazione ufficiale di SearxNG e dammi 3 link.
+2026-01-12 12:40:55,004 - backend.log - INFO - Agents request is being processed
+2026-01-12 12:40:56,226 - backend.log - INFO - Processing finished
+2026-01-12 12:43:48,601 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 12:43:50,058 - backend.log - INFO - Browser initialized
+2026-01-12 12:43:50,109 - backend.log - INFO - Agents initialized
+2026-01-12 12:43:58,243 - backend.log - INFO - Interaction initialized
+2026-01-12 12:43:58,800 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:44:07,853 - backend.log - INFO - Stop endpoint called
+2026-01-12 12:44:07,861 - backend.log - INFO - Processing query: Cerca sul web la documentazione ufficiale di SearxNG e dammi 3 link.
+2026-01-12 12:44:07,861 - backend.log - INFO - Agents request is being processed
+2026-01-12 12:47:39,985 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:47:53,272 - backend.log - INFO - Processing query: Cerca sul web la documentazione ufficiale di SearxNG e dammi 3 link.
+2026-01-12 12:47:53,290 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 12:51:26,186 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 12:51:27,934 - backend.log - INFO - Browser initialized
+2026-01-12 12:51:27,972 - backend.log - INFO - Agents initialized
+2026-01-12 12:51:34,489 - backend.log - INFO - Interaction initialized
+2026-01-12 12:51:50,634 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:51:58,355 - backend.log - INFO - Processing query: Cerca sul web la documentazione ufficiale di SearxNG e dammi 3 link.
+2026-01-12 12:51:58,356 - backend.log - INFO - Agents request is being processed
+2026-01-12 12:51:59,769 - backend.log - INFO - Processing finished
+2026-01-12 12:52:45,794 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 12:52:46,924 - backend.log - INFO - Browser initialized
+2026-01-12 12:52:46,963 - backend.log - INFO - Agents initialized
+2026-01-12 12:52:54,895 - backend.log - INFO - Interaction initialized
+2026-01-12 12:53:02,631 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:53:10,276 - backend.log - INFO - Processing query: Cerca sul web la documentazione ufficiale di SearxNG e dammi 3 link.
+2026-01-12 12:53:10,278 - backend.log - INFO - Agents request is being processed
+2026-01-12 12:53:11,897 - backend.log - INFO - Processing finished
+2026-01-12 12:57:16,172 - backend.log - INFO - Health check endpoint called
+2026-01-12 12:58:15,674 - backend.log - INFO - Processing query: cercami un documento di studio 
+2026-01-12 12:58:15,675 - backend.log - INFO - Agents request is being processed
+2026-01-12 12:58:17,106 - backend.log - INFO - Processing finished
+2026-01-12 12:58:17,108 - backend.log - INFO - Health check endpoint called
+2026-01-12 13:00:30,230 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 13:00:33,159 - backend.log - INFO - Browser initialized
+2026-01-12 13:00:33,197 - backend.log - INFO - Agents initialized
+2026-01-12 13:00:41,465 - backend.log - INFO - Interaction initialized
+2026-01-12 13:00:42,726 - backend.log - INFO - Health check endpoint called
+2026-01-12 13:01:41,932 - backend.log - INFO - Processing query: Cerca sul web la documentazione ufficiale di SearxNG e dammi 3 link.
+2026-01-12 13:01:42,023 - backend.log - INFO - Agents request is being processed
+2026-01-12 13:01:57,939 - backend.log - INFO - Processing finished
+2026-01-12 13:01:57,941 - backend.log - INFO - Health check endpoint called
+2026-01-12 13:03:23,890 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 13:03:24,622 - backend.log - INFO - Browser initialized
+2026-01-12 13:03:24,650 - backend.log - INFO - Agents initialized
+2026-01-12 13:03:35,647 - backend.log - INFO - Interaction initialized
+2026-01-12 13:03:38,990 - backend.log - INFO - Health check endpoint called
+2026-01-12 13:03:55,804 - backend.log - INFO - Processing query: Cerca sul web la documentazione ufficiale di SearxNG e dammi 3 link.
+2026-01-12 13:03:55,805 - backend.log - INFO - Agents request is being processed
+2026-01-12 13:03:59,138 - backend.log - INFO - Processing finished
+2026-01-12 13:03:59,139 - backend.log - INFO - Health check endpoint called
+2026-01-12 13:08:08,819 - backend.log - INFO - Stop endpoint called
+2026-01-12 13:08:08,843 - backend.log - INFO - Processing query: Ciao! Come stai? Rispondi in una frase.
+2026-01-12 13:08:08,850 - backend.log - INFO - Agents request is being processed
+2026-01-12 13:08:27,525 - backend.log - INFO - Health check endpoint called
+2026-01-12 13:09:39,106 - backend.log - INFO - Stop endpoint called
+2026-01-12 13:09:39,119 - backend.log - INFO - Processing query: Scrivi una funzione Python che somma due numeri e mostra un esempio.
+2026-01-12 13:09:39,121 - backend.log - INFO - Agents request is being processed
+2026-01-12 13:14:43,299 - backend.log - INFO - Health check endpoint called
+2026-01-12 13:32:13,665 - backend.log - INFO - Processing query: ciao
+2026-01-12 13:32:13,671 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 13:32:14,180 - backend.log - INFO - Health check endpoint called
+2026-01-12 13:35:13,930 - backend.log - INFO - Processing query: Scrivi una funzione Python che somma due numeri.
+2026-01-12 13:35:13,932 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 13:35:14,176 - backend.log - INFO - Health check endpoint called
+2026-01-12 13:36:47,134 - backend.log - INFO - Processing query: ciao
+2026-01-12 13:36:47,141 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 13:36:47,176 - backend.log - INFO - Health check endpoint called
+2026-01-12 13:37:55,765 - backend.log - INFO - Processing query: ciao
+2026-01-12 13:37:55,765 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 13:37:56,177 - backend.log - INFO - Health check endpoint called
+2026-01-12 13:54:34,030 - backend.log - INFO - Processing query: Scrivi una funzione Python che somma due numeri.
+2026-01-12 13:54:34,052 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 13:54:34,053 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:05:58,727 - backend.log - INFO - Processing query: Trova il file README.md nella cartella di lavoro.
+2026-01-12 14:05:58,762 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:05:59,638 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:24:24,050 - backend.log - INFO - Processing query: cercami un documento sulla AI
+2026-01-12 14:24:24,061 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:24:26,068 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:36:58,435 - backend.log - INFO - Processing query: Cerca sul web la documentazione ufficiale di SearxNG e dammi 3 link.
+2026-01-12 14:36:58,597 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:36:59,669 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:38:45,739 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 14:38:47,025 - backend.log - INFO - Browser initialized
+2026-01-12 14:38:47,057 - backend.log - INFO - Agents initialized
+2026-01-12 14:38:55,150 - backend.log - INFO - Interaction initialized
+2026-01-12 14:38:56,666 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:39:10,781 - backend.log - INFO - Processing query: ciao
+2026-01-12 14:39:10,781 - backend.log - INFO - Agents request is being processed
+2026-01-12 14:39:11,668 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:46:01,093 - backend.log - INFO - Processing finished
+2026-01-12 14:46:02,673 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:49:48,988 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:49:49,013 - backend.log - INFO - Agents request is being processed
+2026-01-12 14:49:49,032 - backend.log - INFO - Processing query: Scrivi una funzione Python che somma due numeri e mostra un esempio.
+2026-01-12 14:49:49,033 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:49:51,253 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:50:30,516 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:30,517 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:31,521 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:31,521 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:32,528 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:32,528 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:33,256 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:50:33,534 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:33,534 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:34,541 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:34,542 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:35,550 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:35,552 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:36,255 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:50:36,559 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:36,559 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:37,562 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:37,562 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:38,568 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:38,568 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:39,254 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:50:39,575 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:39,575 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:40,578 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:40,578 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:41,584 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:41,585 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:42,258 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:50:42,591 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:42,591 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:43,592 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:43,592 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:44,598 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:44,599 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:45,254 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:50:45,604 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:45,604 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:46,606 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:46,606 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:47,612 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:47,613 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:48,255 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:50:48,616 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:48,616 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:49,621 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:49,621 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:50,627 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:50,627 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:51,496 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:50:51,633 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:51,633 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:52,636 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:52,636 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:53,639 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:53,640 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:54,254 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:50:54,647 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:54,647 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:55,653 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:55,653 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:56,656 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:56,656 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:57,262 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:50:57,662 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:57,662 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:58,666 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:58,666 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:50:59,673 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:50:59,673 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:00,255 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:00,675 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:00,675 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:01,676 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:01,677 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:02,679 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:02,679 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:03,255 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:03,686 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:03,686 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:04,690 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:04,690 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:05,696 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:05,696 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:06,255 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:06,702 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:06,702 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:07,708 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:07,708 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:08,720 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:09,014 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:09,256 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:10,021 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:10,021 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:11,027 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:11,028 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:12,029 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:12,029 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:12,259 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:13,032 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:13,032 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:14,043 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:14,043 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:15,045 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:15,045 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:15,254 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:16,048 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:16,048 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:17,055 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:17,055 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:18,061 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:18,061 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:18,262 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:19,070 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:19,070 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:20,077 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:20,077 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:21,079 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:21,079 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:21,259 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:22,082 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:22,082 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:23,088 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:23,088 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:24,089 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:24,091 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:24,256 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:25,097 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:25,097 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:26,103 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:26,109 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:27,115 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:27,115 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:27,258 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:28,120 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:28,120 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:29,125 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:29,130 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:30,136 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:30,136 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:30,256 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:31,138 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:31,138 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:32,144 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:32,144 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:33,168 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:33,168 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:33,254 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:34,175 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:34,175 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:35,182 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:35,182 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:36,187 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:36,187 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:36,254 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:37,195 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:37,196 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:38,200 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:38,200 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:39,208 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:39,208 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:39,260 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:40,214 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:40,215 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:41,220 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:41,220 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:42,226 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:42,226 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:42,258 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:43,228 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:43,228 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:44,234 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:44,234 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:45,239 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:45,240 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:45,254 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:46,304 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:46,304 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:47,310 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:47,311 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:48,260 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:48,317 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:48,317 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:49,320 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:49,320 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:50,322 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:50,322 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:51,255 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:51,328 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:51,329 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:52,331 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:52,331 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:53,337 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:53,337 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:54,255 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:54,343 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:54,343 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:55,345 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:55,345 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:56,347 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:56,348 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:57,257 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:51:57,357 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:57,358 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:58,360 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:58,456 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:51:59,463 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:51:59,463 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:00,254 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:52:00,466 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:00,466 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:01,471 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:01,471 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:02,474 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:02,475 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:03,254 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:52:03,481 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:03,482 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:04,489 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:04,489 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:05,495 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:05,495 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:06,254 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:52:06,497 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:06,497 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:07,502 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:07,502 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:08,506 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:08,508 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:09,254 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:52:10,645 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:10,645 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:11,648 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:11,648 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:12,254 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:52:12,653 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:12,654 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:13,660 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:13,660 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:14,661 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:14,663 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:15,255 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:52:15,665 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:15,665 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:16,673 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:16,673 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:17,679 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:17,680 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:18,260 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:52:18,686 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:18,686 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:19,692 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:20,257 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:21,257 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:52:21,262 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:21,262 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:22,268 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:22,268 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:23,274 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:23,274 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:24,256 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:52:24,280 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:24,280 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-12 14:52:24,833 - backend.log - INFO - Processing finished
+2026-01-12 14:52:25,287 - backend.log - INFO - Processing query: Ciao! Come stai oggi?
+2026-01-12 14:52:25,289 - backend.log - INFO - Agents request is being processed
+2026-01-12 14:52:27,260 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:55:07,492 - backend.log - INFO - Processing finished
+2026-01-12 14:55:09,255 - backend.log - INFO - Health check endpoint called
+2026-01-12 14:55:22,323 - backend.log - INFO - Processing query: Scrivi una frase di 20 parole in italiano che descrive un gatto curioso.
+2026-01-12 14:55:22,347 - backend.log - INFO - Agents request is being processed
+2026-01-12 14:55:24,257 - backend.log - INFO - Health check endpoint called
+2026-01-12 15:01:12,531 - backend.log - INFO - Processing finished
+2026-01-12 15:01:15,251 - backend.log - INFO - Health check endpoint called
+2026-01-12 15:04:24,321 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 15:04:26,167 - backend.log - INFO - Browser initialized
+2026-01-12 15:04:26,199 - backend.log - INFO - Agents initialized
+2026-01-12 15:04:33,545 - backend.log - INFO - Interaction initialized
+2026-01-12 15:04:35,668 - backend.log - INFO - Health check endpoint called
+2026-01-12 15:04:49,742 - backend.log - INFO - Processing query: Scrivi una frase di 20 parole in italiano che descrive un gatto curioso.
+2026-01-12 15:04:49,743 - backend.log - INFO - Agents request is being processed
+2026-01-12 15:04:50,737 - backend.log - INFO - Health check endpoint called

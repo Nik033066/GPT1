@@ -264,9 +264,11 @@ class PlannerAgent(Agent):
         agents_tasks = await self.make_plan(goal)
 
         if agents_tasks == []:
+            self.status_message = "Ready"
             return "Failed to parse the tasks.", ""
         i = 0
         steps = len(agents_tasks)
+        answer = ""
         while i < steps and not self.stop:
             task_name, task = agents_tasks[i][0], agents_tasks[i][1]
             self.status_message = "Starting agents..."
@@ -275,8 +277,8 @@ class PlannerAgent(Agent):
             pretty_print(f"Assigned agent {task['agent']} to {task_name}", color="info")
             if speech_module: speech_module.speak(f"I will {task_name}. I assigned the {task['agent']} agent to the task.")
 
-            if agents_work_result is not None:
-                required_infos = self.get_work_result_agent(task['need'], agents_work_result)
+            task_needs = task.get('need') or []
+            required_infos = self.get_work_result_agent(task_needs, agents_work_result) if task_needs else {}
             try:
                 answer, success = await self.start_agent_process(task, required_infos)
             except Exception as e:
@@ -288,4 +290,5 @@ class PlannerAgent(Agent):
             steps = len(agents_tasks)
             i += 1
 
+        self.status_message = "Ready"
         return answer, ""

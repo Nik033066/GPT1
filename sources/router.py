@@ -449,6 +449,12 @@ class AgentRouter:
         assert len(self.agents) > 0, "No agents available."
         if len(self.agents) == 1:
             return self.agents[0]
+        lowered = text.lower()
+        if any(k in lowered for k in ["cerca sul web", "cercami sul web", "su internet", "cerca su internet", "cercami su internet", "browser", "link", "documentazione", "documento", "ufficiale", "docs", "documentation"]):
+            for agent in self.agents:
+                if agent.role == "web":
+                    pretty_print(f"Selected agent: {agent.agent_name} (roles: {agent.role})", color="warning")
+                    return agent
         lang = self.lang_analysis.detect_language(text)
         text = self.find_first_sentence(text)
         text = self.lang_analysis.translate(text, lang)
