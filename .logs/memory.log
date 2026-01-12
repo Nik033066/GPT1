@@ -272,3 +272,145 @@
 2026-01-12 14:55:42,697 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-7B-Instruct: 4096 tokens.
 2026-01-12 15:01:12,539 - memory.log - INFO - Saved memory json at conversations/code_agent/memory_2026-01-12_14-38-47.txt
 2026-01-12 15:04:51,948 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-7B-Instruct: 4096 tokens.
+2026-01-12 15:39:55,678 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-7B-Instruct: 4096 tokens.
+2026-01-12 16:24:47,352 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-7B-Instruct: 4096 tokens.
+2026-01-12 16:28:00,663 - memory.log - INFO - Saved memory json at conversations/casual_agent/memory_2026-01-12_16-24-11.txt
+2026-01-12 16:28:00,665 - memory.log - INFO - Saved memory json at conversations/code_agent/memory_2026-01-12_16-24-11.txt
+2026-01-12 16:28:00,666 - memory.log - INFO - Saved memory json at conversations/file_agent/memory_2026-01-12_16-24-11.txt
+2026-01-12 16:28:00,666 - memory.log - INFO - Saved memory json at conversations/browser_agent/memory_2026-01-12_16-24-11.txt
+2026-01-12 16:28:00,667 - memory.log - INFO - Saved memory json at conversations/planner_agent/memory_2026-01-12_16-24-12.txt
+2026-01-12 16:28:01,284 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-7B-Instruct: 4096 tokens.
+2026-01-12 16:30:02,945 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:31:41,004 - memory.log - INFO - Saved memory json at conversations/casual_agent/memory_2026-01-12_16-29-02.txt
+2026-01-12 16:31:41,004 - memory.log - INFO - Saved memory json at conversations/code_agent/memory_2026-01-12_16-29-02.txt
+2026-01-12 16:31:41,004 - memory.log - INFO - Saved memory json at conversations/file_agent/memory_2026-01-12_16-29-02.txt
+2026-01-12 16:31:41,004 - memory.log - INFO - Saved memory json at conversations/browser_agent/memory_2026-01-12_16-29-02.txt
+2026-01-12 16:31:41,004 - memory.log - INFO - Saved memory json at conversations/planner_agent/memory_2026-01-12_16-29-02.txt
+2026-01-12 16:34:35,687 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:34:35,688 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:34:48,918 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:34:48,958 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:35:13,720 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:35:13,869 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:35:42,297 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:35:42,297 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:35:48,848 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:35:48,849 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:35:53,748 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:35:53,749 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:36:16,152 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:36:16,184 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:36:37,850 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:36:37,851 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:36:44,593 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:36:44,594 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:36:58,608 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:36:58,706 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:37:15,072 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:37:15,073 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:37:19,981 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:37:19,981 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:37:38,229 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:37:38,310 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:37:56,532 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:37:56,533 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:38:03,910 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:38:03,910 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:38:19,353 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:38:19,440 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:38:36,993 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:38:36,994 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:38:43,326 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:38:43,326 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:38:50,679 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:38:50,680 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:38:57,403 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:38:57,403 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:39:02,327 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:39:02,328 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:39:09,069 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:39:09,069 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:39:15,824 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:39:15,824 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:39:20,962 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:39:20,964 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:39:27,893 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:39:27,894 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:39:34,647 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:39:34,647 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:39:39,353 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:39:39,355 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:39:46,090 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:39:46,091 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:39:52,843 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:39:52,845 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:39:57,542 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:39:57,542 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:40:04,287 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:40:04,288 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:40:11,040 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:40:11,041 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:40:15,741 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:40:15,742 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:40:22,694 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:40:22,695 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:40:29,448 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:40:29,449 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:40:34,144 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:40:34,145 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:40:40,891 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:40:40,892 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:40:47,642 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:40:47,643 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:40:52,350 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:40:52,351 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:40:59,312 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:40:59,313 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:41:06,060 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:41:06,061 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:41:10,760 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:41:10,761 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:41:17,700 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:41:17,701 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:41:24,436 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:41:24,436 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:41:29,341 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:41:29,342 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:41:36,279 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:41:36,279 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:41:43,018 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:41:43,019 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:41:47,715 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:41:47,715 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:41:54,451 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:41:54,451 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:42:01,375 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:42:01,375 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:42:06,072 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:42:06,072 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:42:13,012 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:42:13,013 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:42:19,938 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:42:19,938 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:42:24,828 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:42:24,828 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:42:31,748 - memory.log - INFO - Memory clear performed.
+2026-01-12 16:42:31,748 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:43:16,591 - memory.log - INFO - Saved memory json at conversations/browser_agent/memory_2026-01-12_16-29-02.txt
+2026-01-12 16:46:19,784 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:46:37,528 - memory.log - INFO - Saved memory json at conversations/casual_agent/memory_2026-01-12_16-46-00.txt
+2026-01-12 16:46:37,529 - memory.log - INFO - Saved memory json at conversations/code_agent/memory_2026-01-12_16-46-00.txt
+2026-01-12 16:46:37,529 - memory.log - INFO - Saved memory json at conversations/file_agent/memory_2026-01-12_16-46-00.txt
+2026-01-12 16:46:37,529 - memory.log - INFO - Saved memory json at conversations/browser_agent/memory_2026-01-12_16-46-00.txt
+2026-01-12 16:46:37,529 - memory.log - INFO - Saved memory json at conversations/planner_agent/memory_2026-01-12_16-46-00.txt
+2026-01-12 16:55:10,783 - memory.log - INFO - Estimated context size for Qwen/Qwen2.5-3B-Instruct: 1024 tokens.
+2026-01-12 16:56:11,143 - memory.log - INFO - Saved memory json at conversations/casual_agent/memory_2026-01-12_16-52-24.txt
+2026-01-12 16:56:11,143 - memory.log - INFO - Saved memory json at conversations/code_agent/memory_2026-01-12_16-52-24.txt
+2026-01-12 16:56:11,144 - memory.log - INFO - Saved memory json at conversations/file_agent/memory_2026-01-12_16-52-24.txt
+2026-01-12 16:56:11,144 - memory.log - INFO - Saved memory json at conversations/browser_agent/memory_2026-01-12_16-52-24.txt
+2026-01-12 16:56:11,144 - memory.log - INFO - Saved memory json at conversations/planner_agent/memory_2026-01-12_16-52-24.txt
+2026-01-12 17:10:15,877 - memory.log - INFO - Saved memory json at conversations/casual_agent/memory_2026-01-12_17-08-49.txt
+2026-01-12 17:10:15,878 - memory.log - INFO - Saved memory json at conversations/code_agent/memory_2026-01-12_17-08-49.txt
+2026-01-12 17:10:15,878 - memory.log - INFO - Saved memory json at conversations/file_agent/memory_2026-01-12_17-08-49.txt
+2026-01-12 17:10:15,879 - memory.log - INFO - Saved memory json at conversations/browser_agent/memory_2026-01-12_17-08-49.txt
+2026-01-12 17:10:15,879 - memory.log - INFO - Saved memory json at conversations/planner_agent/memory_2026-01-12_17-08-49.txt

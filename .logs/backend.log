@@ -656,3 +656,127 @@ Stacktrace:
 2026-01-12 15:04:49,742 - backend.log - INFO - Processing query: Scrivi una frase di 20 parole in italiano che descrive un gatto curioso.
 2026-01-12 15:04:49,743 - backend.log - INFO - Agents request is being processed
 2026-01-12 15:04:50,737 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:23:51,947 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-7B-Instruct)
+2026-01-12 16:24:11,953 - backend.log - WARNING - Browser initialization timed out
+2026-01-12 16:24:11,953 - backend.log - INFO - Running without browser - BrowserAgent will use search-only mode
+2026-01-12 16:24:12,001 - backend.log - INFO - Agents initialized
+2026-01-12 16:24:18,131 - backend.log - INFO - Interaction initialized
+2026-01-12 16:24:20,452 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:24:46,454 - backend.log - INFO - Processing query: ciao, come stai ? 
+2026-01-12 16:24:46,456 - backend.log - INFO - Agents request is being processed
+2026-01-12 16:24:49,460 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:25:16,625 - backend.log - INFO - Stop endpoint called
+2026-01-12 16:25:19,462 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:25:30,417 - backend.log - INFO - Processing query: ciao, come stai ? 
+2026-01-12 16:25:30,494 - backend.log - INFO - Agents request is being processed
+2026-01-12 16:25:33,367 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:25:44,028 - backend.log - INFO - Stop endpoint called
+2026-01-12 16:25:45,367 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:27:04,753 - backend.log - INFO - Processing query: ciao, come stai ?
+2026-01-12 16:27:04,765 - backend.log - INFO - Agents request is being processed
+2026-01-12 16:27:07,765 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:28:00,638 - backend.log - ERROR - Error in think_wrapper: Provider qwen failed: MPS backend out of memory (MPS allocated: 30.12 GiB, other allocations: 2.89 MiB, max allowed: 30.19 GiB). Tried to allocate 2.03 GiB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+2026-01-12 16:28:00,643 - backend.log - ERROR - Background query error: Provider qwen failed: MPS backend out of memory (MPS allocated: 30.12 GiB, other allocations: 2.89 MiB, max allowed: 30.19 GiB). Tried to allocate 2.03 GiB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+2026-01-12 16:28:00,643 - backend.log - INFO - Processing finished
+2026-01-12 16:28:01,764 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:29:01,132 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-3B-Instruct)
+2026-01-12 16:29:02,241 - backend.log - INFO - Browser initialized
+2026-01-12 16:29:02,269 - backend.log - INFO - Agents initialized
+2026-01-12 16:29:08,812 - backend.log - INFO - Interaction initialized
+2026-01-12 16:29:11,654 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:30:02,049 - backend.log - INFO - Processing query: ciao come stai ? 
+2026-01-12 16:30:02,050 - backend.log - INFO - Agents request is being processed
+2026-01-12 16:30:02,687 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:31:41,003 - backend.log - INFO - Processing finished
+2026-01-12 16:31:41,061 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:34:33,538 - backend.log - INFO - Processing query: puoi cercare la pagina di anthropic 
+2026-01-12 16:34:33,539 - backend.log - INFO - Agents request is being processed
+2026-01-12 16:34:35,670 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:42:37,681 - backend.log - INFO - Stop endpoint called
+2026-01-12 16:42:38,942 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:43:16,581 - backend.log - INFO - Processing finished
+2026-01-12 16:43:17,949 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:45:59,878 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-3B-Instruct)
+2026-01-12 16:46:00,654 - backend.log - INFO - Browser initialized
+2026-01-12 16:46:00,698 - backend.log - INFO - Agents initialized
+2026-01-12 16:46:06,221 - backend.log - INFO - Interaction initialized
+2026-01-12 16:46:08,980 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:46:18,889 - backend.log - INFO - Processing query: puoi controllare dal sito come funziona il modello di anthropic ?
+2026-01-12 16:46:18,890 - backend.log - INFO - Agents request is being processed
+2026-01-12 16:46:21,898 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:46:37,528 - backend.log - INFO - Processing finished
+2026-01-12 16:46:39,902 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:50:48,937 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-3B-Instruct)
+2026-01-12 16:50:49,543 - backend.log - INFO - Browser initialized
+2026-01-12 16:50:49,572 - backend.log - INFO - Agents initialized
+2026-01-12 16:50:55,495 - backend.log - INFO - Interaction initialized
+2026-01-12 16:50:59,383 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:52:23,919 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-3B-Instruct)
+2026-01-12 16:52:24,584 - backend.log - INFO - Browser initialized
+2026-01-12 16:52:24,607 - backend.log - INFO - Agents initialized
+2026-01-12 16:52:28,886 - backend.log - INFO - Interaction initialized
+2026-01-12 16:52:29,381 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:55:09,942 - backend.log - INFO - Processing query: cercami la pagian di anthropic 
+2026-01-12 16:55:09,944 - backend.log - INFO - Agents request is being processed
+2026-01-12 16:55:12,950 - backend.log - INFO - Health check endpoint called
+2026-01-12 16:56:11,143 - backend.log - INFO - Processing finished
+2026-01-12 16:56:13,007 - backend.log - INFO - Health check endpoint called
+2026-01-12 17:07:50,567 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-3B-Instruct)
+2026-01-12 17:07:50,602 - backend.log - WARNING - Browser initialization failed: Message: session not created
+from disconnected: unable to connect to renderer; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   chromedriver                        0x0000000100ff7dfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x0000000100fefcb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x0000000100aeab90 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74192
+3   chromedriver                        0x0000000100b22c0c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 303692
+4   chromedriver                        0x0000000100b1d958 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 282520
+5   chromedriver                        0x0000000100b1b118 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 272216
+6   chromedriver                        0x0000000100b5ef4c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 550284
+7   chromedriver                        0x0000000100b5e98c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 548812
+8   chromedriver                        0x0000000100b2622c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+9   chromedriver                        0x0000000100fbc194 cxxbridge1$str$ptr + 2786176
+10  chromedriver                        0x0000000100fbf900 cxxbridge1$str$ptr + 2800364
+11  chromedriver                        0x0000000100f9c42c cxxbridge1$str$ptr + 2655768
+12  chromedriver                        0x0000000100fc0170 cxxbridge1$str$ptr + 2802524
+13  chromedriver                        0x0000000100f8ce10 cxxbridge1$str$ptr + 2592764
+14  chromedriver                        0x0000000100fdf14c cxxbridge1$str$ptr + 2929464
+15  chromedriver                        0x0000000100fdf2cc cxxbridge1$str$ptr + 2929848
+16  chromedriver                        0x0000000100fef910 cxxbridge1$str$ptr + 2996988
+17  libsystem_pthread.dylib             0x000000018813dc08 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000188138ba8 thread_start + 8
+
+2026-01-12 17:07:50,602 - backend.log - INFO - Running without browser - BrowserAgent will use search-only mode
+2026-01-12 17:07:50,622 - backend.log - INFO - Agents initialized
+2026-01-12 17:07:57,736 - backend.log - INFO - Interaction initialized
+2026-01-12 17:08:48,996 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-3B-Instruct)
+2026-01-12 17:08:49,028 - backend.log - WARNING - Browser initialization failed: Message: session not created
+from disconnected: unable to connect to renderer; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   chromedriver                        0x000000010057bdfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x0000000100573cb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x000000010006eb90 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74192
+3   chromedriver                        0x00000001000a6c0c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 303692
+4   chromedriver                        0x00000001000a1958 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 282520
+5   chromedriver                        0x000000010009f118 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 272216
+6   chromedriver                        0x00000001000e2f4c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 550284
+7   chromedriver                        0x00000001000e298c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 548812
+8   chromedriver                        0x00000001000aa22c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+9   chromedriver                        0x0000000100540194 cxxbridge1$str$ptr + 2786176
+10  chromedriver                        0x0000000100543900 cxxbridge1$str$ptr + 2800364
+11  chromedriver                        0x000000010052042c cxxbridge1$str$ptr + 2655768
+12  chromedriver                        0x0000000100544170 cxxbridge1$str$ptr + 2802524
+13  chromedriver                        0x0000000100510e10 cxxbridge1$str$ptr + 2592764
+14  chromedriver                        0x000000010056314c cxxbridge1$str$ptr + 2929464
+15  chromedriver                        0x00000001005632cc cxxbridge1$str$ptr + 2929848
+16  chromedriver                        0x0000000100573910 cxxbridge1$str$ptr + 2996988
+17  libsystem_pthread.dylib             0x000000018813dc08 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000188138ba8 thread_start + 8
+
+2026-01-12 17:08:49,028 - backend.log - INFO - Running without browser - BrowserAgent will use search-only mode
+2026-01-12 17:08:49,046 - backend.log - INFO - Agents initialized
+2026-01-12 17:08:53,544 - backend.log - INFO - Interaction initialized
+2026-01-12 17:08:54,185 - backend.log - INFO - Health check endpoint called
+2026-01-12 17:10:14,517 - backend.log - INFO - Processing query: cercami anthropic
+2026-01-12 17:10:14,518 - backend.log - INFO - Agents request is being processed
+2026-01-12 17:10:15,876 - backend.log - INFO - Processing finished
+2026-01-12 17:10:17,403 - backend.log - INFO - Health check endpoint called

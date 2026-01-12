@@ -450,7 +450,25 @@ class AgentRouter:
         if len(self.agents) == 1:
             return self.agents[0]
         lowered = text.lower()
-        if any(k in lowered for k in ["cerca sul web", "cercami sul web", "su internet", "cerca su internet", "cercami su internet", "browser", "link", "documentazione", "documento", "ufficiale", "docs", "documentation"]):
+        # Italian and English keywords for web search detection
+        web_keywords = [
+            # Italian explicit web search
+            "cerca sul web", "cercami sul web", "su internet", "cerca su internet",
+            "cercami su internet", "cerca online", "cercami online",
+            # Italian general search (often means web search)
+            "cercami", "cerca la pagina", "cerca il sito", "cerca informazioni",
+            "trovami", "trova la pagina", "trova il sito", "trova informazioni",
+            # Italian page/site references
+            "pagina di", "pagina del", "pagina della", "sito di", "sito del", "sito della",
+            "sito web", "sito ufficiale", "pagina ufficiale", "pagina web",
+            # English keywords
+            "search for", "search the web", "find the page", "find the site",
+            "look up", "google", "website", "webpage",
+            # Common terms
+            "browser", "link", "documentazione", "documento", "ufficiale",
+            "docs", "documentation", "url", "http", "www"
+        ]
+        if any(k in lowered for k in web_keywords):
             for agent in self.agents:
                 if agent.role == "web":
                     pretty_print(f"Selected agent: {agent.agent_name} (roles: {agent.role})", color="warning")

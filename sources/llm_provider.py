@@ -230,7 +230,8 @@ class Provider:
             else:
                 device = "cpu"
 
-            dtype = torch.float16 if device == "cuda" else torch.float32
+            # Use float16 for GPU (CUDA/MPS) to save memory, float32 for CPU
+            dtype = torch.float16 if device in ("cuda", "mps") else torch.float32
 
             pretty_print(f"Loading {self.model} on {device}...", color="status")
 

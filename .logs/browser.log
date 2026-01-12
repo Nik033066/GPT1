@@ -44,3 +44,214 @@
 2026-01-12 15:04:25,204 - browser.log - INFO - Taking full page screenshot...
 2026-01-12 15:04:26,162 - browser.log - INFO - Full page screenshot saved as updated_screen.png
 2026-01-12 15:04:26,164 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 16:29:01,866 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 16:29:02,226 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 16:29:02,230 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 16:34:44,803 - browser.log - INFO - Applying web safety measures...
+2026-01-12 16:34:44,804 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 16:34:46,610 - browser.log - INFO - Navigated to: https://www.anthropic.com
+2026-01-12 16:34:46,731 - browser.log - INFO - Extracted text: [Start of page]
+
+This is some text inside of a div block.
+
+• Log in to ClaudeLog in to Claude
+
+This ...
+2026-01-12 16:34:46,731 - browser.log - INFO - Extracted text length: 2408
+2026-01-12 16:34:47,898 - browser.log - INFO - Found 148 navigable links
+2026-01-12 16:34:48,411 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 16:34:48,422 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 16:34:48,916 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 16:35:06,898 - browser.log - INFO - Applying web safety measures...
+2026-01-12 16:35:06,899 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 16:35:12,029 - browser.log - INFO - Navigated to: https://www.anthropic.com/news/claude-opus-4-5
+2026-01-12 16:35:12,111 - browser.log - INFO - Extracted text: [Start of page]
+
+Skip to main contentSkip to footer
+
+# Introducing Claude Opus 4.5
+
+24 nov 2025
+
+[IM...
+2026-01-12 16:35:12,111 - browser.log - INFO - Extracted text length: 17123
+2026-01-12 16:35:12,824 - browser.log - INFO - Found 99 navigable links
+2026-01-12 16:35:12,825 - browser.log - WARNING - URL too long: https://platform.claude.com/docs/en/build-with-claude/context-editing#client-side-compaction-sdk
+2026-01-12 16:35:12,825 - browser.log - WARNING - URL too long: https://platform.claude.com/docs/en/build-with-claude/context-editing#using-with-the-memory-tool
+2026-01-12 16:35:12,825 - browser.log - WARNING - URL too long: https://claude.ai/redirect/website.v1.41a6ace1-fa54-43de-8070-b4b04c74236f/download
+2026-01-12 16:35:12,825 - browser.log - WARNING - URL too long: https://claude.ai/redirect/website.v1.41a6ace1-fa54-43de-8070-b4b04c74236f/chrome
+2026-01-12 16:35:12,825 - browser.log - WARNING - URL too long: https://twitter.com/intent/tweet?text=https://www.anthropic.com/news/claude-opus-4-5
+2026-01-12 16:35:12,825 - browser.log - WARNING - URL too long: https://www.linkedin.com/shareArticle?mini=true&url=https://www.anthropic.com/news/claude-opus-4-5
+2026-01-12 16:35:12,825 - browser.log - WARNING - URL too long: https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy
+2026-01-12 16:35:13,336 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 16:35:13,345 - browser.log - INFO - No input element on page.
+2026-01-12 16:35:13,345 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 16:35:13,717 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 16:36:05,481 - browser.log - INFO - Applying web safety measures...
+2026-01-12 16:36:05,482 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 16:36:09,810 - browser.log - INFO - Navigated to: https://www.01net.it/anthropic-rende-disponibile-la-ricerca-web-nellapi-di-claude
+2026-01-12 16:36:10,179 - browser.log - INFO - Extracted text: [Start of page]
+
+
+
+[End of page]...
+2026-01-12 16:36:10,179 - browser.log - INFO - Extracted text length: 32
+2026-01-12 16:36:14,740 - browser.log - ERROR - Error getting navigable links: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.193); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001034d7dfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x00000001034cfcb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x0000000102fcab90 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74192
+3   chromedriver                        0x0000000102fd0a50 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 98448
+4   chromedriver                        0x0000000102fd2b34 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 106868
+5   chromedriver                        0x0000000102fd2bec _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107052
+6   chromedriver                        0x000000010300cd5c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 344988
+7   chromedriver                        0x0000000103007808 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323144
+8   chromedriver                        0x0000000103052a28 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630888
+9   chromedriver                        0x000000010300622c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+10  chromedriver                        0x000000010349c194 cxxbridge1$str$ptr + 2786176
+11  chromedriver                        0x000000010349f900 cxxbridge1$str$ptr + 2800364
+12  chromedriver                        0x000000010347c42c cxxbridge1$str$ptr + 2655768
+13  chromedriver                        0x00000001034a0170 cxxbridge1$str$ptr + 2802524
+14  chromedriver                        0x000000010346ce10 cxxbridge1$str$ptr + 2592764
+15  chromedriver                        0x00000001034bf14c cxxbridge1$str$ptr + 2929464
+16  chromedriver                        0x00000001034bf2cc cxxbridge1$str$ptr + 2929848
+17  chromedriver                        0x00000001034cf910 cxxbridge1$str$ptr + 2996988
+18  libsystem_pthread.dylib             0x000000018813dc08 _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000188138ba8 thread_start + 8
+
+2026-01-12 16:36:15,253 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 16:36:15,780 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 16:36:16,141 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 16:36:56,412 - browser.log - INFO - Applying web safety measures...
+2026-01-12 16:36:56,412 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 16:36:57,160 - browser.log - INFO - Navigated to: https://support.anthropic.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web
+2026-01-12 16:36:57,213 - browser.log - INFO - Extracted text: [Start of page]
+
+[IMAGE: Anthropic Help Center]
+
+Come abilitare la ricerca web in una chat
+
+Come fun...
+2026-01-12 16:36:57,213 - browser.log - INFO - Extracted text length: 5359
+2026-01-12 16:36:57,429 - browser.log - INFO - Found 25 navigable links
+2026-01-12 16:36:57,429 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#main-content
+2026-01-12 16:36:57,429 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#h_c3af02fcd1
+2026-01-12 16:36:57,429 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#h_24335cf586
+2026-01-12 16:36:57,429 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#h_df19472568
+2026-01-12 16:36:57,429 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#h_304e095254
+2026-01-12 16:36:57,429 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#h_72e7287264
+2026-01-12 16:36:57,429 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#h_82182dd649
+2026-01-12 16:36:57,429 - browser.log - WARNING - URL too long: https://downloads.intercomcdn.com/i/o/lupk8zyo/1770635515/1f5828de863972362d671de435bb/Screenshot+2025-10-09+at+3_44_19%E2%80%AFPM.png?expires=1768233600&signature=8b3718eac6e06b35853542c4c4eafce68bfb1e8fc6bf6efb217fef4f090700d3&req=dScgFs99mIReXPMW1HO4zULH6M2iw%2BSzxIyOw8vc%2B3mgZ0XM9A3EdZEYF0M3%0AXBHA7YRkqfaIlO2cm%2Bk%3D%0A
+2026-01-12 16:36:57,429 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/9267304-informazioni-sull-utilizzo-dei-piani-team-e-enterprise
+2026-01-12 16:36:57,429 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/11088861-utilizzo-della-ricerca-su-claude
+2026-01-12 16:36:57,429 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/11845131-utilizzo-di-claude-code-con-il-tuo-piano-team-o-enterprise
+2026-01-12 16:36:57,429 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/11940350-configurazione-del-modello-di-codice-claude
+2026-01-12 16:36:57,429 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/12920969-applicare-i-punti-di-forza-di-claude-opus-4-5-al-tuo-lavoro-quotidiano
+2026-01-12 16:36:57,940 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 16:36:58,098 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 16:36:58,601 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 16:37:14,962 - browser.log - ERROR - Error navigating to https://support.claude.ai/faq/search-web-integration: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+0   chromedriver                        0x00000001034d7dfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x00000001034cfcb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x0000000102fcab90 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74192
+3   chromedriver                        0x0000000102fc2c14 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 41556
+4   chromedriver                        0x0000000102fb5978 cxxbridge1$string$len + 4672
+5   chromedriver                        0x0000000102fb739c cxxbridge1$string$len + 11364
+6   chromedriver                        0x0000000102fb5db4 cxxbridge1$string$len + 5756
+7   chromedriver                        0x0000000102fb56e8 cxxbridge1$string$len + 4016
+8   chromedriver                        0x0000000102fb5474 cxxbridge1$string$len + 3388
+9   chromedriver                        0x0000000102fb3294 chromedriver + 209556
+10  chromedriver                        0x0000000102fb3d04 chromedriver + 212228
+11  chromedriver                        0x0000000102fcdd14 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 86868
+12  chromedriver                        0x00000001030534e0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633632
+13  chromedriver                        0x0000000103052a28 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630888
+14  chromedriver                        0x000000010300622c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+15  chromedriver                        0x000000010349c194 cxxbridge1$str$ptr + 2786176
+16  chromedriver                        0x000000010349f900 cxxbridge1$str$ptr + 2800364
+17  chromedriver                        0x000000010347c42c cxxbridge1$str$ptr + 2655768
+18  chromedriver                        0x00000001034a0170 cxxbridge1$str$ptr + 2802524
+19  chromedriver                        0x000000010346ce10 cxxbridge1$str$ptr + 2592764
+20  chromedriver                        0x00000001034bf14c cxxbridge1$str$ptr + 2929464
+21  chromedriver                        0x00000001034bf2cc cxxbridge1$str$ptr + 2929848
+22  chromedriver                        0x00000001034cf910 cxxbridge1$str$ptr + 2996988
+23  libsystem_pthread.dylib             0x000000018813dc08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000188138ba8 thread_start + 8
+
+2026-01-12 16:37:31,748 - browser.log - INFO - Applying web safety measures...
+2026-01-12 16:37:31,748 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 16:37:36,156 - browser.log - INFO - Navigated to: https://www.roberto-serra.com/news/claude-ia-anthropic-ricerca-sul-web
+2026-01-12 16:37:36,247 - browser.log - INFO - Extracted text: [Start of page]
+
+[IMAGE: logo roberto serra 2025]
+
+Intercettiamo e proponiamo soluzioni attraverso i...
+2026-01-12 16:37:36,247 - browser.log - INFO - Extracted text length: 20362
+2026-01-12 16:37:37,305 - browser.log - INFO - Found 128 navigable links
+2026-01-12 16:37:37,305 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/news/claude-ia-anthropic-ricerca-sul-web/#content
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/iscrizione-newsletter-seo-roberto-serra-ec/
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.bloomberg.com/news/articles/2025-03-03/anthropic-finalizes-megaround-at-61-5-billion-valuation
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.wired.it/article/anthropic-google-investe-2-miliardi-openai-claude-2-chatgpt/
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.bloomberg.com/news/articles/2025-03-03/anthropic-finalizes-megaround-at-61-5-billion-valuation
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://lsvp.com/stories/lightspeed-announces-lead-investment-in-anthropics-3-5b-series-e-financing/
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.theinformation.com/briefings/anthropic-reaches-1-4-billion-in-annualized-revenue
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/deep-research-il-futuro-della-seo-e-nei-dati-in-tempo-reale/
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/news/perplexity-deep-research-contro-google/
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/news/google-deep-research-cosa-e-impatto-seo/
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://edition.cnn.com/2024/10/21/media/rupert-murdoch-dow-jones-perplexity-lawsuit/index.html
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/news/perplexity-deep-research-contro-google/
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/news/claude-ia-anthropic-ricerca-sul-web/#comment-1546
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/news/claude-ia-anthropic-ricerca-sul-web/#comment-1548
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/news/claude-ia-anthropic-ricerca-sul-web/#comment-1561
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/news/claude-ia-anthropic-ricerca-sul-web/#comment-1583
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/news/claude-ia-anthropic-ricerca-sul-web/#comment-1587
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/news/claude-ia-anthropic-ricerca-sul-web/#comment-1586
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/news/claude-ia-anthropic-ricerca-sul-web/#comment-1596
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/news/claude-ia-anthropic-ricerca-sul-web/#comment-1595
+2026-01-12 16:37:37,306 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/iscrizione-newsletter-seo-roberto-serra-ec/
+2026-01-12 16:37:37,307 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/3-regole-posizionamento-sui-motori-di-ricerca/
+2026-01-12 16:37:37,307 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/seo-copywriting-cosa-e-e-come-si-fa-guida-con-esempi/
+2026-01-12 16:37:37,307 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/google-search-quality-raters-guidelines-file-italiano/
+2026-01-12 16:37:37,307 - browser.log - WARNING - URL too long: https://www.roberto-serra.com/come-mettere-i-link-interni-senza-improvvisare-e-facendosi-guidare-dai-dati/
+2026-01-12 16:37:37,819 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 16:37:37,832 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 16:37:38,218 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 16:38:14,694 - browser.log - INFO - Applying web safety measures...
+2026-01-12 16:38:14,694 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 16:38:18,168 - browser.log - INFO - Navigated to: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web
+2026-01-12 16:38:18,223 - browser.log - INFO - Extracted text: [Start of page]
+
+[IMAGE: Anthropic Help Center]
+
+Come abilitare la ricerca web in una chat
+
+Come fun...
+2026-01-12 16:38:18,223 - browser.log - INFO - Extracted text length: 5359
+2026-01-12 16:38:18,470 - browser.log - INFO - Found 25 navigable links
+2026-01-12 16:38:18,471 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#main-content
+2026-01-12 16:38:18,471 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#h_c3af02fcd1
+2026-01-12 16:38:18,471 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#h_24335cf586
+2026-01-12 16:38:18,471 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#h_df19472568
+2026-01-12 16:38:18,471 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#h_304e095254
+2026-01-12 16:38:18,471 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#h_72e7287264
+2026-01-12 16:38:18,471 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/10684626-abilitazione-e-utilizzo-della-ricerca-web#h_82182dd649
+2026-01-12 16:38:18,471 - browser.log - WARNING - URL too long: https://downloads.intercomcdn.com/i/o/lupk8zyo/1770635515/1f5828de863972362d671de435bb/Screenshot+2025-10-09+at+3_44_19%E2%80%AFPM.png?expires=1768233600&signature=8b3718eac6e06b35853542c4c4eafce68bfb1e8fc6bf6efb217fef4f090700d3&req=dScgFs99mIReXPMW1HO4zULH6M2iw%2BSzxIyOw8vc%2B3mgZ0XM9A3EdZEYF0M3%0AXBHA7YRkqfaIlO2cm%2Bk%3D%0A
+2026-01-12 16:38:18,471 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/9267304-informazioni-sull-utilizzo-dei-piani-team-e-enterprise
+2026-01-12 16:38:18,471 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/11088861-utilizzo-della-ricerca-su-claude
+2026-01-12 16:38:18,471 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/11845131-utilizzo-di-claude-code-con-il-tuo-piano-team-o-enterprise
+2026-01-12 16:38:18,471 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/11940350-configurazione-del-modello-di-codice-claude
+2026-01-12 16:38:18,471 - browser.log - WARNING - URL too long: https://support.claude.com/it/articles/12920969-applicare-i-punti-di-forza-di-claude-opus-4-5-al-tuo-lavoro-quotidiano
+2026-01-12 16:38:18,982 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 16:38:18,991 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 16:38:19,347 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 16:46:00,267 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 16:46:00,640 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 16:46:00,650 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 16:50:49,213 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 16:50:49,540 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 16:50:49,541 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 16:52:24,234 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 16:52:24,580 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 16:52:24,582 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js

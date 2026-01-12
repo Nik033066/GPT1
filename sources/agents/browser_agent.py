@@ -414,7 +414,10 @@ class BrowserAgent(Agent):
             return answer, reasoning
         prompt = self.make_newsearch_prompt(user_prompt, search_result)
         unvisited = [None]
-        while not complete and len(unvisited) > 0 and not self.stop:
+        max_iterations = 5  # Prevent infinite loops
+        iteration_count = 0
+        while not complete and len(unvisited) > 0 and not self.stop and iteration_count < max_iterations:
+            iteration_count += 1
             self.memory.clear()
             unvisited = self.select_unvisited(search_result)
             answer, reasoning = await self.llm_decide(prompt, show_reasoning = False)

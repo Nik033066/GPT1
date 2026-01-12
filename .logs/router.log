@@ -10,3 +10,8 @@
 2026-01-12 14:50:07,599 - router.log - INFO - Routing Vote for text Ciao! Come stai oggi?: BART: talk (0.7292824605624391) LLM-router: talk (0.270717539437561)
 2026-01-12 14:55:42,658 - router.log - INFO - Routing Vote for text Scrivi una frase di 20 parole in italiano che descrive un gatto curioso.: BART: code (0.7041506794021808) LLM-router: web (0.2958493205978192)
 2026-01-12 15:04:51,947 - router.log - INFO - Routing Vote for text Scrivi una frase di 20 parole in italiano che descrive un gatto curioso.: BART: code (0.6349024877988908) LLM-router: web (0.36509751220110914)
+2026-01-12 16:24:47,352 - router.log - INFO - Routing Vote for text ciao, come stai ?: BART: talk (0.67591296731643) LLM-router: talk (0.3240870326835699)
+2026-01-12 16:30:02,944 - router.log - INFO - Routing Vote for text ciao come stai ?: BART: talk (0.6934620473146164) LLM-router: talk (0.3065379526853836)
+2026-01-12 16:34:33,832 - router.log - INFO - Routing Vote for text puoi cercare la pagina di anthropic: BART: web (0.469477457766659) LLM-router: web (0.5305225422333409)
+2026-01-12 16:46:19,784 - router.log - INFO - Routing Vote for text puoi controllare dal sito come funziona il modello di anthropic ?: BART: talk (0.5147715948221043) LLM-router: talk (0.4852284051778956)
+2026-01-12 16:55:10,783 - router.log - INFO - Routing Vote for text cercami la pagian di anthropic: BART: code (0.549846841050295) LLM-router: web (0.450153158949705)

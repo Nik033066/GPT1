@@ -14,3 +14,9 @@
 2026-01-12 14:49:49,065 - language.log - INFO - Identified: Ciao! Come stai oggi? as en with conf -10.565330505371094
 2026-01-12 14:55:22,715 - language.log - INFO - Identified: Scrivi una frase di 20 parole in italiano che descrive un gatto curioso. as en with conf -275.48548412323
 2026-01-12 15:04:50,333 - language.log - INFO - Identified: Scrivi una frase di 20 parole in italiano che descrive un gatto curioso. as en with conf -275.48548412323
+2026-01-12 16:24:47,002 - language.log - INFO - Identified: ciao, come stai ?  as en with conf 9.061840057373047
+2026-01-12 16:27:04,787 - language.log - INFO - Identified: ciao, come stai ? as en with conf 9.061840057373047
+2026-01-12 16:30:02,611 - language.log - INFO - Identified: ciao come stai ?  as en with conf -8.969848155975342
+2026-01-12 16:34:33,540 - language.log - INFO - Identified: puoi cercare la pagina di anthropic  as en with conf -111.24872541427612
+2026-01-12 16:46:19,443 - language.log - INFO - Identified: puoi controllare dal sito come funziona il modello di anthropic ? as en with conf -284.97165298461914
+2026-01-12 16:55:10,487 - language.log - INFO - Identified: cercami la pagian di anthropic  as en with conf -86.12984609603882
