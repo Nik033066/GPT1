@@ -1,7 +1,7 @@
 #!/bin/bash
-# Jarvis AI - Start Script
+# Agentic Local - Start Script
 
-echo "🚀 Starting Jarvis AI..."
+echo "🚀 Starting Agentic Local..."
 echo ""
 
 # Check if Python is available
@@ -45,7 +45,7 @@ FRONTEND_PID=$!
 cd ../..
 
 echo ""
-echo "✅ Jarvis AI is running!"
+echo "✅ Agentic Local is running!"
 echo "   - Backend:  http://localhost:7777"
 echo "   - Frontend: http://localhost:3000"
 echo ""

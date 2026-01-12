@@ -1,7 +1,7 @@
-# Jarvis AI - Local Multi-Agent System
+# Agentic Local - Multi-Agent System
 
 <p align="center">
-  <img src="logo.jpg" width="200" height="200" alt="Jarvis AI Logo">
+  <img src="logo.jpg" width="200" height="200" alt="Agentic Local Logo">
 </p>
 
 A fully local AI agent system powered by **Qwen3** running on your machine (M1/M2 Mac, CUDA GPU, or CPU).
@@ -27,8 +27,8 @@ A fully local AI agent system powered by **Qwen3** running on your machine (M1/M
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/jarvis-ai.git
-cd jarvis-ai
+git clone https://github.com/yourusername/agentic-local.git
+cd agentic-local
 
 # Install Python dependencies
 pip install -r requirements.txt
@@ -70,7 +70,7 @@ Edit `config.ini`:
 is_local = True
 provider_name = qwen
 provider_model = Qwen/Qwen3-4B
-agent_name = Jarvis
+agent_name = Agentic
 save_session = True
 speak = False
 listen = False

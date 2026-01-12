@@ -45,7 +45,7 @@ def is_running_in_docker():
 
 from celery import Celery
 
-api = FastAPI(title="Jarvis AI API", version="1.0.0")
+api = FastAPI(title="Agentic Local API", version="1.0.0")
 celery_app = Celery("tasks", broker="redis://localhost:6379/0", backend="redis://localhost:6379/0")
 celery_app.conf.update(task_track_started=True)
 logger = Logger("backend.log")
@@ -66,7 +66,7 @@ api.mount("/screenshots", StaticFiles(directory=".screenshots"), name="screensho
 
 def initialize_system():
     stealth_mode = config.getboolean('BROWSER', 'stealth_mode')
-    personality_folder = "jarvis" if config.getboolean('MAIN', 'jarvis_personality') else "base"
+    personality_folder = "custom" if config.getboolean('MAIN', 'custom_personality') else "base"
     languages = config["MAIN"]["languages"].split(' ')
     
     # Force headless mode in Docker containers
@@ -291,7 +291,7 @@ async def process_query(request: QueryRequest):
             interaction.save_session()
 
 if __name__ == "__main__":
-    print("[Jarvis AI] Starting server...")
+    print("[Agentic Local] Starting server...")
     envport = os.getenv("BACKEND_PORT")
     port = int(envport) if envport else 7777
     uvicorn.run(api, host="0.0.0.0", port=port)

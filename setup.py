@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="jarvis-ai",
+    name="agentic-local",
     version="1.0.0",
     description="Local Multi-Agent AI System with Qwen",
     long_description=long_description,
@@ -37,7 +37,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "jarvis=cli:main",
+            "agentic=cli:main",
         ],
     },
     classifiers=[

@@ -20,7 +20,7 @@ config.read('config.ini')
 async def main():
     pretty_print("Initializing...", color="status")
     stealth_mode = config.getboolean('BROWSER', 'stealth_mode')
-    personality_folder = "jarvis" if config.getboolean('MAIN', 'jarvis_personality') else "base"
+    personality_folder = "custom" if config.getboolean('MAIN', 'custom_personality') else "base"
     languages = config["MAIN"]["languages"].split(' ')
 
     provider = Provider(provider_name=config["MAIN"]["provider_name"],

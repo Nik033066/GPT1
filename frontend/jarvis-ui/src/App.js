@@ -205,10 +205,10 @@ function App() {
       <header className="header">
         <div className="header-brand">
           <div className="logo-container">
-            <img src={faviconPng} alt="Jarvis AI" className="logo-icon" />
+            <img src={faviconPng} alt="Agentic Local" className="logo-icon" />
           </div>
           <div className="brand-text">
-            <h1>Jarvis AI</h1>
+            <h1>Agentic Local</h1>
           </div>
         </div>
         <div className="header-status">
