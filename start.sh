@@ -10,6 +10,12 @@ if ! command -v python3 &> /dev/null; then
     exit 1
 fi
 
+# Ensure critical variables are set
+export MPLCONFIGDIR=/tmp/mplconfig
+mkdir -p $MPLCONFIGDIR
+export WORK_DIR=${WORK_DIR:-$(pwd)/workspace}
+mkdir -p $WORK_DIR
+
 # Create screenshots directory
 mkdir -p .screenshots
 

@@ -147,7 +147,7 @@ def create_chrome_options(headless=False, stealth_mode=True, crx_path="./crx/nop
     chrome_options.add_argument("--disable-extensions")
     chrome_options.add_argument("--disable-background-timer-throttling")
     chrome_options.add_argument("--timezone=Europe/Paris")
-    chrome_options.add_argument('--remote-debugging-port=9222')
+    # chrome_options.add_argument('--remote-debugging-port=9222') # Removed to prevent port conflicts
     chrome_options.add_argument('--disable-background-timer-throttling')
     chrome_options.add_argument('--disable-backgrounding-occluded-windows')
     chrome_options.add_argument('--disable-renderer-backgrounding')
@@ -200,21 +200,14 @@ def create_undetected_chromedriver(service, chrome_options) -> webdriver.Chrome:
     try:
         driver = uc.Chrome(service=service, options=chrome_options)
     except Exception as e:
-        pretty_print(f"Failed to create Chrome driver: {str(e)}. Trying to bypass SSL...", color="failure")
+        pretty_print(f"Failed to create UC driver: {str(e)}. Trying fallback to standard Chrome...", color="warning")
         try:
-            bypass_ssl()
-            # Create NEW options object - this is the key fix
-            fresh_options = create_chrome_options(
-                headless=any("--headless" in arg for arg in chrome_options.arguments),
-                stealth_mode=True,  # We're in stealth mode if we reach this point
-                crx_path="./crx/nopecha.crx"  # Default path
-            )
-            driver = uc.Chrome(service=service, options=fresh_options)
-        except Exception as e:
-            pretty_print(f"Failed to create Chrome driver, fallback failed:\n{str(e)}.", color="failure")
-            raise e
+            # Fallback to standard Chrome with stealth
+            driver = webdriver.Chrome(service=service, options=chrome_options)
+        except Exception as e2:
+             pretty_print(f"Failed to create standard Chrome driver: {str(e2)}.", color="failure")
+             raise e2
     
-    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})") 
     return driver
 
 def create_driver(headless=False, stealth_mode=True, crx_path="./crx/nopecha.crx", lang="en") -> webdriver.Chrome:
@@ -261,6 +254,15 @@ class Browser:
         if anticaptcha_manual_install:
             self.load_anticatpcha_manually()
     
+    def close(self):
+        """Close the browser instance."""
+        try:
+            self.logger.info("Closing browser...")
+            self.driver.quit()
+            self.logger.info("Browser closed.")
+        except Exception as e:
+            self.logger.error(f"Error closing browser: {str(e)}")
+
     def setup_tabs(self):
         self.tabs = self.driver.window_handles
         try:
@@ -324,6 +326,7 @@ class Browser:
             time.sleep(random.uniform(0.01, 0.2))
             self.human_scroll()
             self.logger.log(f"Navigated to: {url}")
+            self.screenshot() # Update screenshot for UI
             return True
         except TimeoutException as e:
             self.logger.error(f"Timeout waiting for {url} to load: {str(e)}")
@@ -447,6 +450,7 @@ class Browser:
                 time.sleep(0.1)
                 element.click()
                 self.logger.info(f"Clicked element at {xpath}")
+                self.screenshot()
                 return True
             except ElementClickInterceptedException as e:
                 self.logger.error(f"Error click_element: {str(e)}")
@@ -597,6 +601,7 @@ class Browser:
                         try:
                             checkbox.click()
                             self.logger.info(f"Ticked checkbox {index}")
+                            self.screenshot()
                         except ElementClickInterceptedException:
                             self.driver.execute_script("arguments[0].click();", checkbox)
                             self.logger.warning(f"Click checkbox {index} intercepted")
@@ -673,6 +678,7 @@ class Browser:
                     element.clear()
                     element.send_keys(value)
                     self.logger.info(f"Filled {name} with {value}")
+            self.screenshot()
             return True
         except Exception as e:
             self.logger.error(f"Error filling form inputs: {str(e)}")
@@ -713,6 +719,7 @@ class Browser:
                 "window.scrollTo(0, document.body.scrollHeight);"
             )
             time.sleep(0.5)
+            self.screenshot()
             return True
         except Exception as e:
             self.logger.error(f"Error scrolling: {str(e)}")

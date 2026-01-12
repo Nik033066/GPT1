@@ -6,6 +6,10 @@
 
 A fully local AI agent system powered by **Qwen3** running on your machine (M1/M2 Mac, CUDA GPU, or CPU).
 
+## 📚 Architecture & Schema
+
+For a detailed view of the system architecture, file structure, and execution sequence, please refer to [ARCHITECTURE.md](ARCHITECTURE.md).
+
 ## Features
 
 - **6 Specialized Agents**: Casual, Browser, Coder, File, Planner, MCP
@@ -44,12 +48,18 @@ cd ../..
 
 ### Running
 
-**Option 1: Quick Start Script**
+**Option 1: Complete Start (Recommended)**
+Starts Backend, Frontend, and SearxNG (for web search).
+```bash
+./start_with_searxng.sh
+```
+
+**Option 2: Quick Start (No Search)**
 ```bash
 ./start.sh
 ```
 
-**Option 2: Manual Start**
+**Option 3: Manual Start**
 ```bash
 # Terminal 1 - Backend
 python3 api.py

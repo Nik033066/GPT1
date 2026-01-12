@@ -178,6 +178,12 @@ class BrowserAgent(Agent):
         You must always take notes.
         """
     
+    def filter_error_lines(self, text: str) -> str:
+        """Filter out lines starting with 'Error:' to avoid spamming the user."""
+        lines = text.split('\n')
+        filtered = [line for line in lines if not line.strip().lower().startswith("error:")]
+        return '\n'.join(filtered).strip()
+
     async def llm_decide(self, prompt: str, show_reasoning: bool = False) -> Tuple[str, str]:
         animate_thinking("Thinking...", color="status")
         self.memory.push('user', prompt)
@@ -185,7 +191,11 @@ class BrowserAgent(Agent):
         self.last_reasoning = reasoning
         if show_reasoning:
             pretty_print(reasoning, color="failure")
-        pretty_print(answer, color="output")
+        
+        display_answer = self.filter_error_lines(answer)
+        if display_answer:
+            pretty_print(display_answer, color="output")
+            
         return answer, reasoning
     
     def select_unvisited(self, search_result: List[str]) -> List[str]:
@@ -382,6 +392,14 @@ class BrowserAgent(Agent):
         search_result = self.jsonify_search_results(search_result_raw)[:16]
         self.show_search_results(search_result)
 
+        if self.browser:
+            import urllib.parse
+            search_url = f"http://localhost:8080/search?q={urllib.parse.quote(ai_prompt)}"
+            try:
+                self.browser.go_to(search_url)
+            except Exception as e:
+                self.logger.warning(f"Failed to navigate to search url: {e}")
+
         wants_links = "link" in lowered or "links" in lowered
         wants_links_only = wants_links and any(k in lowered for k in ["dammi", "dai", "fornisci", "mandami", "inviami", "give me", "provide"])
         if self.browser is None or wants_links_only:
@@ -424,10 +442,12 @@ class BrowserAgent(Agent):
             if self.stop:
                 pretty_print(f"Requested stop.", color="failure")
                 break
-            if self.last_answer == answer:
+            
+            filtered_answer = self.filter_error_lines(answer)
+            if self.last_answer == filtered_answer:
                 prompt = self.stuck_prompt(user_prompt, unvisited)
                 continue
-            self.last_answer = answer
+            self.last_answer = filtered_answer
             pretty_print('▂'*32, color="status")
 
             extracted_form = self.extract_form(answer)
@@ -491,10 +511,11 @@ class BrowserAgent(Agent):
         mem_last_idx = self.memory.push('user', prompt)
         self.status_message = "Summarizing findings..."
         answer, reasoning = await self.llm_request()
-        pretty_print(answer, color="output")
+        filtered_answer = self.filter_error_lines(answer)
+        pretty_print(filtered_answer, color="output")
         self.status_message = "Ready"
-        self.last_answer = answer
-        return answer, reasoning
+        self.last_answer = filtered_answer
+        return filtered_answer, reasoning
 
 if __name__ == "__main__":
     pass

@@ -255,3 +255,387 @@ Come fun...
 2026-01-12 16:52:24,234 - browser.log - INFO - Taking full page screenshot...
 2026-01-12 16:52:24,580 - browser.log - INFO - Full page screenshot saved as updated_screen.png
 2026-01-12 16:52:24,582 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 18:11:17,211 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:11:17,481 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:11:17,483 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 18:11:18,937 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:11:18,937 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:11:21,916 - browser.log - INFO - Navigated to: http://example.com
+2026-01-12 18:11:21,923 - browser.log - INFO - Extracted text: [Start of page]
+
+This domain is for use in documentation examples without needing permission. Avoid ...
+2026-01-12 18:11:21,923 - browser.log - INFO - Extracted text length: 133
+2026-01-12 18:11:53,190 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:11:53,478 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:11:53,480 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 18:11:54,352 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:11:54,352 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:11:58,071 - browser.log - INFO - Navigated to: http://example.com
+2026-01-12 18:11:58,082 - browser.log - INFO - Extracted text: [Start of page]
+
+This domain is for use in documentation examples without needing permission. Avoid ...
+2026-01-12 18:11:58,083 - browser.log - INFO - Extracted text length: 133
+2026-01-12 18:12:44,885 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:12:45,185 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:12:45,187 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 18:12:48,038 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:12:48,038 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:12:54,206 - browser.log - INFO - Navigated to: https://www.google.com
+2026-01-12 18:12:54,246 - browser.log - INFO - Extracted text: [Start of page]
+
+[IMAGE: Miniatura per l'allegato del file]
+
+Scegli su cosa lasciare un feedback
+
+Ca...
+2026-01-12 18:12:54,246 - browser.log - INFO - Extracted text length: 1968
+2026-01-12 18:12:54,246 - browser.log - INFO - Closing browser...
+2026-01-12 18:12:54,302 - browser.log - INFO - Browser closed.
+2026-01-12 18:13:21,371 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:13:21,647 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:13:21,649 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 18:13:22,717 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:13:22,717 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:13:25,202 - browser.log - INFO - Navigated to: https://www.google.com
+2026-01-12 18:13:25,265 - browser.log - INFO - Extracted text: [Start of page]
+
+[IMAGE: Miniatura per l'allegato del file]
+
+Scegli su cosa lasciare un feedback
+
+Ca...
+2026-01-12 18:13:25,266 - browser.log - INFO - Extracted text length: 1968
+2026-01-12 18:13:25,266 - browser.log - INFO - Closing browser...
+2026-01-12 18:13:25,320 - browser.log - INFO - Browser closed.
+2026-01-12 18:32:02,884 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:32:03,251 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:32:03,254 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 18:33:57,253 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:33:57,255 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:34:00,833 - browser.log - INFO - Navigated to: https://www.anthropic.it/informativa-privacy
+2026-01-12 18:34:00,888 - browser.log - INFO - Extracted text: [Start of page]
+
+Anthropic Società Benefit srl | Via Giotto 49 – 50121 Firenze (FI)
+
+055 6279119
+
+[I...
+2026-01-12 18:34:00,889 - browser.log - INFO - Extracted text length: 26336
+2026-01-12 18:34:01,210 - browser.log - INFO - Found 53 navigable links
+2026-01-12 18:34:01,719 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 18:34:01,728 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:34:02,165 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:34:25,198 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:34:25,198 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:34:28,403 - browser.log - INFO - Navigated to: https://www.anthropic.com
+2026-01-12 18:34:28,506 - browser.log - INFO - Extracted text: [Start of page]
+
+This is some text inside of a div block.
+
+• Log in to ClaudeLog in to Claude
+
+This ...
+2026-01-12 18:34:28,507 - browser.log - INFO - Extracted text length: 2408
+2026-01-12 18:34:29,332 - browser.log - INFO - Found 148 navigable links
+2026-01-12 18:34:29,841 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 18:34:29,851 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:34:30,123 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:34:53,000 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:34:53,001 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:34:59,966 - browser.log - INFO - Navigated to: https://www.anthropic.com/research
+2026-01-12 18:34:59,997 - browser.log - INFO - Extracted text: [Start of page]
+
+Skip to main contentSkip to footer
+
+Our research teams investigate the safety, inne...
+2026-01-12 18:34:59,997 - browser.log - INFO - Extracted text length: 3468
+2026-01-12 18:35:00,711 - browser.log - INFO - Found 92 navigable links
+2026-01-12 18:35:00,711 - browser.log - WARNING - URL too long: https://www.anthropic.com/research/next-generation-constitutional-classifiers
+2026-01-12 18:35:00,711 - browser.log - WARNING - URL too long: https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
+2026-01-12 18:35:00,711 - browser.log - WARNING - URL too long: https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy
+2026-01-12 18:35:01,218 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 18:35:01,227 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:35:01,859 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:35:35,967 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:35:35,967 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:35:42,917 - browser.log - INFO - Navigated to: https://www.anthropic.com/j
+2026-01-12 18:35:42,944 - browser.log - INFO - Extracted text: [Start of page]
+
+Skip to main contentSkip to footer
+
+A 404 poem by Claude Haiku 4.5Claude Sonnet 4.5...
+2026-01-12 18:35:42,944 - browser.log - INFO - Extracted text length: 159
+2026-01-12 18:35:43,005 - browser.log - INFO - Found 7 navigable links
+2026-01-12 18:35:43,508 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 18:35:43,510 - browser.log - INFO - No input element on page.
+2026-01-12 18:35:43,510 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:35:43,803 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:43:27,457 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:43:27,772 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:43:27,775 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 18:43:29,875 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:43:29,875 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:43:32,816 - browser.log - INFO - Navigated to: https://example.com
+2026-01-12 18:43:32,816 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:43:33,091 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:43:34,099 - browser.log - INFO - Scrolling to the bottom of the page...
+2026-01-12 18:43:34,607 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:43:34,873 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:43:34,895 - browser.log - INFO - Found 1 navigable links
+2026-01-12 18:43:34,909 - browser.log - ERROR - Scrolling to element for click_element.
+2026-01-12 18:43:38,659 - browser.log - INFO - Clicked element at //a
+2026-01-12 18:43:38,659 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:43:38,963 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:43:38,966 - browser.log - INFO - Closing browser...
+2026-01-12 18:43:38,966 - browser.log - INFO - Browser closed.
+2026-01-12 18:43:55,136 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:43:55,422 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:43:55,425 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 18:43:56,498 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:43:56,498 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:43:59,031 - browser.log - INFO - Navigated to: https://example.com
+2026-01-12 18:43:59,031 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:43:59,304 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:44:00,313 - browser.log - INFO - Scrolling to the bottom of the page...
+2026-01-12 18:44:00,824 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:44:01,074 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:44:01,090 - browser.log - INFO - Found 1 navigable links
+2026-01-12 18:44:01,102 - browser.log - ERROR - Scrolling to element for click_element.
+2026-01-12 18:44:04,368 - browser.log - INFO - Clicked element at //a
+2026-01-12 18:44:04,368 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:44:04,656 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:44:04,659 - browser.log - INFO - Closing browser...
+2026-01-12 18:44:04,726 - browser.log - INFO - Browser closed.
+2026-01-12 18:50:44,315 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:50:44,624 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:50:44,625 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 18:50:58,467 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:50:58,770 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:50:58,772 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 18:52:12,450 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:52:12,758 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:52:12,760 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 18:53:05,816 - browser.log - WARNING - Timeout while waiting for page to bypass 'checking your browser'
+2026-01-12 18:53:05,817 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:53:05,817 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:53:09,097 - browser.log - INFO - Navigated to: http://localhost:8080/search?q=cercami%20una%20ricetta%20per%20la%20pasta%20alla%20carbonara
+2026-01-12 18:53:09,097 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:53:09,392 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:53:38,904 - browser.log - WARNING - Timeout while waiting for page to bypass 'checking your browser'
+2026-01-12 18:53:38,904 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:53:38,905 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:53:43,153 - browser.log - INFO - Navigated to: https://ricette.giallozafferano.it/Spaghetti-alla-Carbonara.html
+2026-01-12 18:53:43,154 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:53:43,497 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:53:43,602 - browser.log - INFO - Extracted text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+2026-01-12 18:53:43,602 - browser.log - INFO - Extracted text length: 13255
+2026-01-12 18:53:44,424 - browser.log - INFO - Found 154 navigable links
+2026-01-12 18:53:44,425 - browser.log - WARNING - URL too long: https://www.giallozafferano.com/recipes/Spaghetti-Carbonara-Bacon-and-egg-spaghetti.html
+2026-01-12 18:53:44,929 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 18:53:44,933 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:53:45,262 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:54:09,805 - browser.log - WARNING - Timeout while waiting for page to bypass 'checking your browser'
+2026-01-12 18:54:09,806 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:54:09,806 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:54:13,488 - browser.log - INFO - Navigated to: https://ricette.giallozafferano.it/ricette-con-Guanciale.html
+2026-01-12 18:54:13,488 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:54:13,799 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:54:13,848 - browser.log - INFO - Extracted text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+2026-01-12 18:54:13,848 - browser.log - INFO - Extracted text length: 3390
+2026-01-12 18:54:14,303 - browser.log - INFO - Found 93 navigable links
+2026-01-12 18:54:14,303 - browser.log - WARNING - URL too long: https://play.google.com/store/apps/details?id=it.banzai.media.gzricette&hl=it&gl=US
+2026-01-12 18:54:14,303 - browser.log - WARNING - URL too long: https://digital.mondadori.it/condizioni_di_partecipazione_giallozafferano.html
+2026-01-12 18:54:14,303 - browser.log - WARNING - URL too long: https://digital.mondadori.it/docs/digital/informativa-privacy-mondadori-digital-spa.html
+2026-01-12 18:54:14,303 - browser.log - WARNING - URL too long: https://digital.mondadori.it/docs/digital/cookie-policy-mondadori-digital-spa.html
+2026-01-12 18:54:14,303 - browser.log - WARNING - URL too long: https://www.gruppomondadori.it/governance/etica-e-comportamento/codice-etico
+2026-01-12 18:54:14,304 - browser.log - WARNING - URL too long: https://digital.mondadori.it/docs/digital/informativa-privacy-mondadori-digital-spa.html
+2026-01-12 18:54:14,304 - browser.log - WARNING - URL too long: https://digital.mondadori.it/condizioni_di_partecipazione_giallozafferano.html
+2026-01-12 18:54:14,810 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 18:54:14,820 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:54:15,131 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:54:46,165 - browser.log - WARNING - Timeout while waiting for page to bypass 'checking your browser'
+2026-01-12 18:54:46,166 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:54:46,166 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:54:50,921 - browser.log - INFO - Navigated to: https://www.giallozafferano.it/ricette-cat
+2026-01-12 18:54:50,922 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:54:51,275 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:54:51,377 - browser.log - INFO - Extracted text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+2026-01-12 18:54:51,377 - browser.log - INFO - Extracted text length: 6673
+2026-01-12 18:54:52,641 - browser.log - INFO - Found 246 navigable links
+2026-01-12 18:54:52,641 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Crepes-dolci-e-salate-ricetta-base.html
+2026-01-12 18:54:52,641 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Besciamella.html#anchor=gz-comments-anchor
+2026-01-12 18:54:52,641 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html#anchor=gz-comments-anchor
+2026-01-12 18:54:52,641 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Torta-rustica-di-mele.html#anchor=gz-comments-anchor
+2026-01-12 18:54:53,150 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 18:54:53,161 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:54:53,485 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:55:19,633 - browser.log - WARNING - Timeout while waiting for page to bypass 'checking your browser'
+2026-01-12 18:55:19,633 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:55:19,633 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:55:21,010 - browser.log - INFO - Navigated to: https://ricette.giallozafferano.it
+2026-01-12 18:55:21,010 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:55:21,320 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:55:21,433 - browser.log - INFO - Extracted text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+2026-01-12 18:55:21,433 - browser.log - INFO - Extracted text length: 6673
+2026-01-12 18:55:22,678 - browser.log - INFO - Found 246 navigable links
+2026-01-12 18:55:22,678 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Torta-tenerina.html#anchor=gz-comments-anchor
+2026-01-12 18:55:22,678 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Tortino-di-cioccolato-con-cuore-fondente.html
+2026-01-12 18:55:22,678 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Tortino-di-cioccolato-con-cuore-fondente.html#anchor=gz-comments-anchor
+2026-01-12 18:55:22,678 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Tortino-di-cioccolato-con-cuore-fondente.html
+2026-01-12 18:55:22,678 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Crema-al-mascarpone.html#anchor=gz-comments-anchor
+2026-01-12 18:55:22,678 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Crepes-dolci-e-salate-ricetta-base.html
+2026-01-12 18:55:22,678 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Crepes-dolci-e-salate-ricetta-base.html#anchor=gz-comments-anchor
+2026-01-12 18:55:22,678 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Crepes-dolci-e-salate-ricetta-base.html
+2026-01-12 18:55:23,186 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 18:55:23,199 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:55:23,527 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:56:05,275 - browser.log - WARNING - Timeout while waiting for page to bypass 'checking your browser'
+2026-01-12 18:56:05,275 - browser.log - INFO - Applying web safety measures...
+2026-01-12 18:56:05,275 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 18:56:10,616 - browser.log - INFO - Navigated to: https://ricette.giallozafferano.it/ricette-cat/Dolci-e-Desserts
+2026-01-12 18:56:10,616 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:56:10,888 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:56:10,940 - browser.log - INFO - Extracted text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+2026-01-12 18:56:10,940 - browser.log - INFO - Extracted text length: 3390
+2026-01-12 18:56:11,460 - browser.log - INFO - Found 93 navigable links
+2026-01-12 18:56:11,460 - browser.log - WARNING - URL too long: https://play.google.com/store/apps/details?id=it.banzai.media.gzricette&hl=it&gl=US
+2026-01-12 18:56:11,460 - browser.log - WARNING - URL too long: https://digital.mondadori.it/condizioni_di_partecipazione_giallozafferano.html
+2026-01-12 18:56:11,460 - browser.log - WARNING - URL too long: https://digital.mondadori.it/docs/digital/informativa-privacy-mondadori-digital-spa.html
+2026-01-12 18:56:11,460 - browser.log - WARNING - URL too long: https://digital.mondadori.it/docs/digital/cookie-policy-mondadori-digital-spa.html
+2026-01-12 18:56:11,460 - browser.log - WARNING - URL too long: https://www.gruppomondadori.it/governance/etica-e-comportamento/codice-etico
+2026-01-12 18:56:11,460 - browser.log - WARNING - URL too long: https://digital.mondadori.it/docs/digital/informativa-privacy-mondadori-digital-spa.html
+2026-01-12 18:56:11,460 - browser.log - WARNING - URL too long: https://digital.mondadori.it/condizioni_di_partecipazione_giallozafferano.html
+2026-01-12 18:56:11,967 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 18:56:11,974 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:56:12,275 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:59:39,840 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 18:59:40,091 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 18:59:40,094 - browser.log - INFO - Loading js at ./sources/web_scripts/spoofing.js
+2026-01-12 19:00:05,505 - browser.log - WARNING - Timeout while waiting for page to bypass 'checking your browser'
+2026-01-12 19:00:05,505 - browser.log - INFO - Applying web safety measures...
+2026-01-12 19:00:05,505 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 19:00:07,165 - browser.log - INFO - Navigated to: http://localhost:8080/search?q=cercami%20la%20ricetta%20per%20la%20pasta%20al%20sugo
+2026-01-12 19:00:07,165 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 19:00:07,462 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 19:00:35,144 - browser.log - WARNING - Timeout while waiting for page to bypass 'checking your browser'
+2026-01-12 19:00:35,145 - browser.log - INFO - Applying web safety measures...
+2026-01-12 19:00:35,145 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 19:00:38,604 - browser.log - INFO - Navigated to: https://ricette.giallozafferano.it/Spaghetti-al-pomodoro.html
+2026-01-12 19:00:38,604 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 19:00:38,905 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 19:00:39,025 - browser.log - INFO - Extracted text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+2026-01-12 19:00:39,025 - browser.log - INFO - Extracted text length: 12000
+2026-01-12 19:00:40,020 - browser.log - INFO - Found 170 navigable links
+2026-01-12 19:00:40,528 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 19:00:40,536 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 19:00:40,841 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 19:01:04,283 - browser.log - WARNING - Timeout while waiting for page to bypass 'checking your browser'
+2026-01-12 19:01:04,284 - browser.log - INFO - Applying web safety measures...
+2026-01-12 19:01:04,284 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 19:01:09,455 - browser.log - INFO - Navigated to: https://www.giallozafferano.it/ricette-cat
+2026-01-12 19:01:09,455 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 19:01:09,814 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 19:01:09,917 - browser.log - INFO - Extracted text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+2026-01-12 19:01:09,917 - browser.log - INFO - Extracted text length: 6673
+2026-01-12 19:01:11,202 - browser.log - INFO - Found 246 navigable links
+2026-01-12 19:01:11,203 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Crepes-dolci-e-salate-ricetta-base.html
+2026-01-12 19:01:11,203 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Crepes-dolci-e-salate-ricetta-base.html#anchor=gz-comments-anchor
+2026-01-12 19:01:11,203 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Crepes-dolci-e-salate-ricetta-base.html
+2026-01-12 19:01:11,203 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Besciamella.html#anchor=gz-comments-anchor
+2026-01-12 19:01:11,203 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html#anchor=gz-comments-anchor
+2026-01-12 19:01:11,203 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Torta-rustica-di-mele.html#anchor=gz-comments-anchor
+2026-01-12 19:01:11,711 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 19:01:11,724 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 19:01:12,047 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 19:01:36,807 - browser.log - WARNING - Timeout while waiting for page to bypass 'checking your browser'
+2026-01-12 19:01:36,808 - browser.log - INFO - Applying web safety measures...
+2026-01-12 19:01:36,808 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 19:01:38,913 - browser.log - INFO - Navigated to: https://www.giallozafferano.it/ricette-cat/Pasta-e-Pezzi-di-Carni
+2026-01-12 19:01:38,913 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 19:01:39,245 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 19:01:39,352 - browser.log - INFO - Extracted text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+2026-01-12 19:01:39,352 - browser.log - INFO - Extracted text length: 6673
+2026-01-12 19:01:40,620 - browser.log - INFO - Found 246 navigable links
+2026-01-12 19:01:40,620 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Crema-al-mascarpone.html#anchor=gz-comments-anchor
+2026-01-12 19:01:40,620 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Crepes-dolci-e-salate-ricetta-base.html
+2026-01-12 19:01:40,620 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Crepes-dolci-e-salate-ricetta-base.html#anchor=gz-comments-anchor
+2026-01-12 19:01:40,620 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Crepes-dolci-e-salate-ricetta-base.html
+2026-01-12 19:01:40,620 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Besciamella.html#anchor=gz-comments-anchor
+2026-01-12 19:01:40,620 - browser.log - WARNING - URL too long: https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html#anchor=gz-comments-anchor
+2026-01-12 19:01:41,127 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 19:01:41,138 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 19:01:41,461 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 19:02:07,887 - browser.log - INFO - Applying web safety measures...
+2026-01-12 19:02:07,887 - browser.log - INFO - Loading js at ./sources/web_scripts/inject_safety_script.js
+2026-01-12 19:02:10,947 - browser.log - INFO - Navigated to: https://www.cucchiaio.it/ricetta/spaghetti-al-pomodoro
+2026-01-12 19:02:10,947 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 19:02:11,307 - browser.log - INFO - Full page screenshot saved as updated_screen.png
+2026-01-12 19:02:11,412 - browser.log - INFO - Extracted text: [Start of page]
+
+• [IMAGE: Newsletter]
+
+Cerca nei contenuti del sito
+
+• Dolci da fare a casa
+
+: 10 m...
+2026-01-12 19:02:11,413 - browser.log - INFO - Extracted text length: 6933
+2026-01-12 19:02:12,962 - browser.log - INFO - Found 288 navigable links
+2026-01-12 19:02:12,962 - browser.log - WARNING - URL too long: https://www.shoped.it/shop/i-nostri-brand/?testata=cucchiaiodargento#logo-testata
+2026-01-12 19:02:12,962 - browser.log - WARNING - URL too long: https://www.cucchiaio.it/fotogallery/50-ricette-di-primi-piatti-di-pasta.5/
+2026-01-12 19:02:12,962 - browser.log - WARNING - URL too long: https://www.cucchiaio.it/ricetta/spaghetti-alla-chitarra-pomodoro-e-stracciatella/
+2026-01-12 19:02:12,962 - browser.log - WARNING - URL too long: https://www.cucchiaio.it/ricetta/spaghetti-pomodoro--vaniglia-e-capperi-fritti/
+2026-01-12 19:02:12,962 - browser.log - WARNING - URL too long: https://www.cucchiaio.it/ricetta/spaghetti-con-pomodori-infornati-e-pesche-gialle/
+2026-01-12 19:02:12,962 - browser.log - WARNING - URL too long: https://www.cucchiaio.it/ricetta/ricetta-spaghetti-quattro-pomidoro-capperi-fritti/
+2026-01-12 19:02:12,962 - browser.log - WARNING - URL too long: https://www.cucchiaio.it/ricetta/ricetta-piennolo-acciughe-capperi-arrosto-pecorino-sardo-90gg/
+2026-01-12 19:02:13,471 - browser.log - INFO - Loading js at ./sources/web_scripts/find_inputs.js
+2026-01-12 19:02:13,482 - browser.log - INFO - Taking full page screenshot...
+2026-01-12 19:02:13,848 - browser.log - INFO - Full page screenshot saved as updated_screen.png

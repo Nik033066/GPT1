@@ -2805,3 +2805,879 @@ Preview: Creiamo strumenti di editing intuitivi e di livello mondiale per le azi
 Link: https://support.anthropic.com/it/articles/8114490-dove-posso-trovare-la-documentazione-della-vostra-api
 Preview: Puoi accedere alla nostra documentazione API tramite https://console.anthropic.com/docs/.
 2026-01-12 16:42:31,748 - browser_agent.log - INFO - Unvisited links: [{'title': "Anthropic rende disponibile la ricerca web nell'API di Claude", 'snippet': 'Gli sviluppatori possono ora aumentare le conoscenze complete di Claude con dati attuali e del mondo reale abilitando lo strumento di ricerca sul web quando effettuano richieste all’API Messages di Anthropic.', 'link': 'https://www.01net.it/anthropic-rende-disponibile-la-ricerca-web-nellapi-di-claude/'}, {'title': 'Home \\\\ Anthropic', 'snippet': "Introducing the best model in the world for coding, agents, computer use, and enterprise workflows. When you're talking to a large language model, what exactly is it that you're talking to? At Anthropic, we build AI to serve humanity's long-term well-being.", 'link': 'https://www.anthropic.com/'}, {'title': 'Utilizzo della ricerca su Claude | Anthropic Help Center', 'snippet': 'Esplora automaticamente diversi angoli della tua domanda e affronta sistematicamente le domande aperte. Con la ricerca, Claude fornisce risposte approfondite in ...', 'link': 'https://support.claude.com/it/articles/11088861-utilizzo-della-ricerca-su-claude'}, {'title': 'Come usare Claude di Anthropic, l\'IA "etica" - SmartWorld', 'snippet': "7 apr 2025 — Se preferisci installare l'app Claude, ecco come procedere: Su Android apri il Play Store, poi tocca in basso l'icona Ricerca, digita Claude e ...", 'link': 'https://www.smartworld.it/guide/come-usare-claude-anthropic.html'}, {'title': "Ora anche Claude, l'IA di Anthropic, naviga sul web - Roberto Serra", 'snippet': '5 apr 2025 ... Anthropic ha finalmente attivato la funzione di ricerca internet per Claude, sebbene sia al momento disponibile solo per utenti paganti negli\xa0...', 'link': 'https://www.roberto-serra.com/news/claude-ia-anthropic-ricerca-sul-web/'}, {'title': 'Perplexity crea un motore di ricerca avanzato utilizzando Claude 3 ...', 'snippet': "Scopri come il motore di ricerca basato sull'IA di Perplexity utilizza Amazon Bedrock e Claude 3 di Anthropic per fornire risposte accurate e complete alle ...", 'link': 'https://aws.amazon.com/it/solutions/case-studies/perplexity-bedrock-case-study/'}, {'title': 'Ricerca sul web con i modelli Anthropic Claude | Generative AI on Vertex AI', 'snippet': 'La funzionalità di ricerca web per Claude 4.0 e modelli successivi è una funzionalità facoltativa dei modelli Claude di Anthropic. Puoi attivarlo fornendo lo ...', 'link': 'https://docs.cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude/web-search%3Fhl%3Dit'}, {'title': 'Contatti | Anthropic', 'snippet': 'Scopri i nostri contatti per richiedere informazioni e consulenze per lo sviluppo di progetti inclusivi per le persone con disabilità.', 'link': 'https://www.anthropic.it/contatti/'}, {'title': 'Strumento di ricerca web - Anthropic', 'snippet': 'Lo strumento di ricerca web dà a Claude accesso diretto ai contenuti web in tempo reale, permettendogli di rispondere alle domande con informazioni aggiornate oltre il suo limite di conoscenza.', 'link': 'https://docs.anthropic.com/it/docs/agents-and-tools/tool-use/web-search-tool'}, {'title': "Comprendere l'uso del computer Anthropic: una guida completa", 'snippet': "30 mag 2025 ... Anthropic Computer Use consente all'IA di operare i computer in modo naturale, eliminando la necessità di interfacce personalizzate. Esplora la\xa0...", 'link': 'https://www.flowhunt.io/it/blog/understanding-anthropic-computer-use-a-comprehensive-guide/'}, {'title': 'Anthropic ha appena rilasciato Claude per Chrome – AI che ... - Reddit', 'snippet': '20 dic 2025 ... Ovviamente, puoi produrre un rapporto di ricerca approfondito ... pagina - Claude non può assistere con il contenuto di questa pagina.', 'link': 'https://www.reddit.com/r/ClaudeAI/comments/1prcypb/anthropic_just_dropped_claude_for_chrome_ai_that/?tl=it'}, {'title': "Chi è e cosa fa Anthropic, l'azienda di Intelligenza artificiale di 2 ...", 'snippet': "Fondata dai fratelli Amodei, Anthropic è una delle più innovative aziende di intelligenza artificiale. Esploreremo la sua storia, l'etica, le tecnologie, il ruolo di Claude, la cultura e la sfida...", 'link': 'https://www.businessonline.it/news/chi-e-cosa-fa-anthropic-lazienda-di-intelligenza-artificiale-di-2-fratelli-italiani-la-storia-risultati-e-prospettive_n80430.html'}, {'title': 'Musa motivazionale - Claude Docs - Claude Console - Anthropic', 'snippet': "Contenuto. System, Il tuo compito è generare un messaggio motivazionale personalizzato o un'affermazione basata sull'input dell'utente.", 'link': 'https://console.anthropic.com/docs/it/resources/prompt-library/motivational-muse'}, {'title': "Anthropics Technology Ltd | Trucco e soluzioni per l'imaging umano", 'snippet': 'Creiamo strumenti di editing intuitivi e di livello mondiale per le aziende e gli utenti finali. La nostra tecnologia include ricerca di funzionalità, applicazione di trucco dal vivo, strumenti di modifica personalizzati e molto altro.', 'link': 'https://www.anthropics.com/it/'}, {'title': 'Dove posso trovare la documentazione della vostra API? | Anthropic Help Center', 'snippet': 'Puoi accedere alla nostra documentazione API tramite https://console.anthropic.com/docs/.', 'link': 'https://support.anthropic.com/it/articles/8114490-dove-posso-trovare-la-documentazione-della-vostra-api'}]
+2026-01-12 18:15:31,615 - browser_agent.log - INFO - Search results: 
+2026-01-12 18:15:31,615 - browser_agent.log - INFO - Unvisited links: []
+2026-01-12 18:15:54,646 - browser_agent.log - INFO - Search results: 
+2026-01-12 18:15:54,646 - browser_agent.log - INFO - Unvisited links: []
+2026-01-12 18:15:54,853 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 18:15:54,853 - browser_agent.log - WARNING - No suitable link selected.
+2026-01-12 18:15:54,853 - browser_agent.log - INFO - Search results: 
+2026-01-12 18:21:29,282 - browser_agent.log - INFO - Search results: 
+2026-01-12 18:21:29,283 - browser_agent.log - INFO - Unvisited links: []
+2026-01-12 18:21:29,484 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 18:21:29,484 - browser_agent.log - WARNING - No suitable link selected.
+2026-01-12 18:21:29,484 - browser_agent.log - INFO - Search results: 
+2026-01-12 18:22:39,194 - browser_agent.log - INFO - Search results: 
+2026-01-12 18:22:39,195 - browser_agent.log - INFO - Unvisited links: []
+2026-01-12 18:22:39,400 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 18:22:39,400 - browser_agent.log - WARNING - No suitable link selected.
+2026-01-12 18:22:39,401 - browser_agent.log - INFO - Search results: 
+2026-01-12 18:23:24,161 - browser_agent.log - INFO - Search results: 
+2026-01-12 18:23:24,162 - browser_agent.log - INFO - Unvisited links: []
+2026-01-12 18:23:24,367 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 18:23:24,367 - browser_agent.log - WARNING - No suitable link selected.
+2026-01-12 18:23:24,367 - browser_agent.log - INFO - Search results: 
+2026-01-12 18:25:05,560 - browser_agent.log - INFO - Search results: 
+2026-01-12 18:25:05,561 - browser_agent.log - INFO - Unvisited links: []
+2026-01-12 18:25:05,767 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 18:25:05,767 - browser_agent.log - WARNING - No suitable link selected.
+2026-01-12 18:25:05,768 - browser_agent.log - INFO - Search results: 
+2026-01-12 18:33:48,659 - browser_agent.log - INFO - Search results: Link: https://www.anthropic.it/informativa-privacy/
+Preview: Tipologie di Dati raccolti. Fra i Dati Personali raccolti da questa Applicazione, in modo autonomo o tramite terze parti, ci sono: nome; cognome; email; sito ...
+
+Link: https://www.anthropic.com/
+Preview: Introducing the best model in the world for coding, agents, computer use, and enterprise workflows. When you're talking to a large language model, what exactly is it that you're talking to? At Anthropic, we build AI to serve humanity's long-term well-being.
+
+Link: https://www.anthropic.com/company
+Preview: Anthropic is dedicated to building systems that people can rely on and generating research about the opportunities and risks of AI. We aim to build frontier AI systems that are reliable, interpretable, and steerable.
+
+Link: https://www.repubblica.it/tecnologia/2025/10/13/news/anthropic_studio_avvelenare_ia_quanti_documenti_servono-424909610/
+Preview: 13 ott 2025 — Anthropic, una delle aziende più influenti al mondo nello sviluppo di IA, ha scoperto che bastano appena 250 documenti malevoli per creare una ...
+
+Link: https://it.newsroom.ibm.com/anthropic
+Preview: 9 ott 2025 ... Per maggiori informazioni, visitate il sito www.ibm.com/it-it. ... ufficiale per l'AI, il cloud e la trasformazione digitale · IBM ...
+
+Link: https://mimir.bot/guida-completa-a-claude-ai-cose-come-funziona-e-suoi-rischi/
+Preview: 11 dic 2025 — Claude AI è l'assistente di intelligenza artificiale conversazionale sviluppato da Anthropic, progettato per supportare utenti e imprese.
+
+Link: https://www.anthropic.it/contatti/
+Preview: Scopri i nostri contatti per richiedere informazioni e consulenze per lo sviluppo di progetti inclusivi per le persone con disabilità.
+
+Link: https://lilys.ai/it/notes/claude-desktop-20251029/download-install-anthropic-claude-ai-windows-app
+Preview: 7 nov 2025 ... Il primo link è quello del sito web ufficiale di Anthropic [5]. L'app è disponibile per i sistemi operativi Windows e Mac [6]. Selezionare ...
+
+Link: https://it.linkedin.com/pulse/guida-completa-claude-di-anthropic-15-funzionalit%25C3%25A0-chiave-bozzo-hotnf
+Preview: L'obiettivo di questo percorso è guidarvi, passo dopo passo, attraverso quindici funzionalità chiave che vi consentiranno di ottimizzare la ...
+
+Link: https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/come-usare-claude/
+Preview: Claude è in grado di fare ragionamenti avanzati, analizzare immagini, documenti e grafici, generare codici e effettuare traduzioni tra diverse lingue. Offre risultati di ottima qualità con un'interfaccia intuitiva e tiene conto della sicurezza e degli aspetti etici.
+
+Link: https://www.businessonline.it/news/chi-e-cosa-fa-anthropic-lazienda-di-intelligenza-artificiale-di-2-fratelli-italiani-la-storia-risultati-e-prospettive_n80430.html
+Preview: Consapevoli della crescente influenza esercitata dagli attori commerciali, Dario e Daniela decidono di lasciare OpenAI, portando con sé un piccolo gruppo di colleghi allineati alla loro visione. Questa decisione coraggiosa sfocia nel febbraio 2021 nella fondazione di Anthropic, con sede nel cuore di San Francisco.
+
+Link: https://en.wikipedia.org/wiki/Anthropic
+Preview: Anthropic PBC is an American artificial intelligence (AI) company founded in 2021. It has developed a family of large language models (LLMs) named Claude. The company researches and develops AI to "study their safety properties at the technological frontier" and use this research to deploy ...
+
+Link: https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/claude-arriva-anche-in-europa-cosa-cambia-con-lai-di-anthropic/
+Preview: Con una nota sulla pagina ufficiale Anthropic ha confermato l’arrivo dei modelli Claude 3 in Europa. Le funzioni a disposizione e i vari piani in abbonamento
+
+Link: https://www.ai4business.it/intelligenza-artificiale/claude-ai-ecco-lassistente-virtuale-intelligente-per-professionisti/
+Preview: Claude è disponibile dal sito ufficiale di Anthropic previa registrazione con due piani principali: la versione Claude Instant con una minor latenza, più economica e più veloce ma con minori capacità nel dialogo, oppure la versione più potente e completa Claude, in grado di gestire dialoghi complessi. Data di pubblicazione 6 ottobre 2025
+
+Link: https://www.wired.it/article/anthropic-claude-opt-out-dati-addestramento/
+Preview: La modifica ai termini di utilizzo e alla policy sulla privacy di Claude entrerà in funzione il prossimo 28 settembre e entro tale data gli utenti sono chiamati necessariamente a scegliere se acconsentire o meno alla richiesta. In caso negativo, è necessario opporsi tramite opt-out. In ogni caso, è indispensabile rispondere per continuare ad accedere agli strumenti connessi. Ecco tutto ciò che c'è da sapere. Nel post sul sito ufficiale, Anthropic spiega il motivo che ha portato alla modifica dei termini di servizio chiedendo agli utenti il permesso di utilizzare i dati delle chat e delle sessioni di coding per l'addestramento dei suoi modelli di linguattio.
+
+Link: https://www.anthropic.it/chi-siamo/
+Preview: Scopri la storia, la mission e i valori dell'azienda Anthropic, la realtà specializzata nella progettazione di spazi realmente inclusivi.
+2026-01-12 18:33:48,660 - browser_agent.log - INFO - Unvisited links: [{'title': 'Informativa privacy | Anthropic', 'snippet': 'Tipologie di Dati raccolti. Fra i Dati Personali raccolti da questa Applicazione, in modo autonomo o tramite terze parti, ci sono: nome; cognome; email; sito\xa0...', 'link': 'https://www.anthropic.it/informativa-privacy/'}, {'title': 'Home \\\\ Anthropic', 'snippet': "Introducing the best model in the world for coding, agents, computer use, and enterprise workflows. When you're talking to a large language model, what exactly is it that you're talking to? At Anthropic, we build AI to serve humanity's long-term well-being.", 'link': 'https://www.anthropic.com/'}, {'title': 'Company \\ Anthropic', 'snippet': 'Anthropic is dedicated to building systems that people can rely on and generating research about the opportunities and risks of AI. We aim to build frontier AI systems that are reliable, interpretable, and steerable.', 'link': 'https://www.anthropic.com/company'}, {'title': "Bastano 250 documenti per avvelenare un'IA - la Repubblica", 'snippet': '13 ott 2025 — Anthropic, una delle aziende più influenti al mondo nello sviluppo di IA, ha scoperto che bastano appena 250 documenti malevoli per creare una ...', 'link': 'https://www.repubblica.it/tecnologia/2025/10/13/news/anthropic_studio_avvelenare_ia_quanti_documenti_servono-424909610/'}, {'title': 'IBM e Anthropic collaborano per accelerare lo sviluppo di software ...', 'snippet': "9 ott 2025 ... Per maggiori informazioni, visitate il sito www.ibm.com/it-it. ... ufficiale per l'AI, il cloud e la trasformazione digitale · IBM\xa0...", 'link': 'https://it.newsroom.ibm.com/anthropic'}, {'title': "Guida completa a Claude AI: cos'è, come funziona e suoi rischi - Blog", 'snippet': "11 dic 2025 — Claude AI è l'assistente di intelligenza artificiale conversazionale sviluppato da Anthropic, progettato per supportare utenti e imprese.", 'link': 'https://mimir.bot/guida-completa-a-claude-ai-cose-come-funziona-e-suoi-rischi/'}, {'title': 'Contatti | Anthropic', 'snippet': 'Scopri i nostri contatti per richiedere informazioni e consulenze per lo sviluppo di progetti inclusivi per le persone con disabilità.', 'link': 'https://www.anthropic.it/contatti/'}, {'title': "Come scaricare e installare l'app desktop ufficiale di Claude AI su ...", 'snippet': "7 nov 2025 ... Il primo link è quello del sito web ufficiale di Anthropic [5]. L'app è disponibile per i sistemi operativi Windows e Mac [6]. Selezionare\xa0...", 'link': 'https://lilys.ai/it/notes/claude-desktop-20251029/download-install-anthropic-claude-ai-windows-app'}, {'title': 'Guida completa a Claude di Anthropic: 15 funzionalità chiave per ...', 'snippet': "L'obiettivo di questo percorso è guidarvi, passo dopo passo, attraverso quindici funzionalità chiave che vi consentiranno di ottimizzare la ...", 'link': 'https://it.linkedin.com/pulse/guida-completa-claude-di-anthropic-15-funzionalit%25C3%25A0-chiave-bozzo-hotnf'}, {'title': 'Cosa può fare Claude di Anthropic?', 'snippet': "Claude è in grado di fare ragionamenti avanzati, analizzare immagini, documenti e grafici, generare codici e effettuare traduzioni tra diverse lingue. Offre risultati di ottima qualità con un'interfaccia intuitiva e tiene conto della sicurezza e degli aspetti etici.", 'link': 'https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/come-usare-claude/'}, {'title': "Chi è e cosa fa Anthropic, l'azienda di Intelligenza artificiale di 2 fratelli italiani. La storia, risultati e prospettive", 'snippet': 'Consapevoli della crescente influenza esercitata dagli attori commerciali, Dario e Daniela decidono di lasciare OpenAI, portando con sé un piccolo gruppo di colleghi allineati alla loro visione. Questa decisione coraggiosa sfocia nel febbraio 2021 nella fondazione di Anthropic, con sede nel cuore di San Francisco.', 'link': 'https://www.businessonline.it/news/chi-e-cosa-fa-anthropic-lazienda-di-intelligenza-artificiale-di-2-fratelli-italiani-la-storia-risultati-e-prospettive_n80430.html'}, {'title': 'Anthropic - Wikipedia', 'snippet': 'Anthropic PBC is an American artificial intelligence (AI) company founded in 2021. It has developed a family of large language models (LLMs) named Claude. The company researches and develops AI to "study their safety properties at the technological frontier" and use this research to deploy ...', 'link': 'https://en.wikipedia.org/wiki/Anthropic'}, {'title': "Claude arriva anche in Europa, cosa cambia con l'AI di Anthropic - FASTWEBPLUS", 'snippet': 'Con una nota sulla pagina ufficiale Anthropic ha confermato l’arrivo dei modelli Claude 3 in Europa. Le funzioni a disposizione e i vari piani in abbonamento', 'link': 'https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/claude-arriva-anche-in-europa-cosa-cambia-con-lai-di-anthropic/'}, {'title': "Claude Anthropic: tutto sull'assistente virtuale per professionisti - AI4Business", 'snippet': 'Claude è disponibile dal sito ufficiale di Anthropic previa registrazione con due piani principali: la versione Claude Instant con una minor latenza, più economica e più veloce ma con minori capacità nel dialogo, oppure la versione più potente e completa Claude, in grado di gestire dialoghi complessi. Data di pubblicazione 6 ottobre 2025', 'link': 'https://www.ai4business.it/intelligenza-artificiale/claude-ai-ecco-lassistente-virtuale-intelligente-per-professionisti/'}, {'title': 'Anthropic userà le chat con gli utenti per addestrare Claude, ecco come evitare che lo faccia anche con te | Wired Italia', 'snippet': "La modifica ai termini di utilizzo e alla policy sulla privacy di Claude entrerà in funzione il prossimo 28 settembre e entro tale data gli utenti sono chiamati necessariamente a scegliere se acconsentire o meno alla richiesta. In caso negativo, è necessario opporsi tramite opt-out. In ogni caso, è indispensabile rispondere per continuare ad accedere agli strumenti connessi. Ecco tutto ciò che c'è da sapere. Nel post sul sito ufficiale, Anthropic spiega il motivo che ha portato alla modifica dei termini di servizio chiedendo agli utenti il permesso di utilizzare i dati delle chat e delle sessioni di coding per l'addestramento dei suoi modelli di linguattio.", 'link': 'https://www.wired.it/article/anthropic-claude-opt-out-dati-addestramento/'}, {'title': 'Chi siamo | Anthropic', 'snippet': "Scopri la storia, la mission e i valori dell'azienda Anthropic, la realtà specializzata nella progettazione di spazi realmente inclusivi.", 'link': 'https://www.anthropic.it/chi-siamo/'}]
+2026-01-12 18:33:54,762 - browser_agent.log - INFO - Extracted links: ['https://www.anthropic.it/informativa-privacy/']
+2026-01-12 18:33:54,762 - browser_agent.log - INFO - Selected link: https://www.anthropic.it/informativa-privacy
+2026-01-12 18:34:01,728 - browser_agent.log - INFO - Making navigation prompt with page text: [Start of page]
+
+Anthropic Società Benefit srl | Via Giotto 49 – 50121 Firenze (FI)
+
+055 6279119
+
+[I...
+remaining links: [0] https://g.co/kgs/SPd4mZa
+[1] https://www.facebook.com/profile.php
+[2] https://www.instagram.com/anthropic_srl/
+[3] https://www.linkedin.com/company/anthropic-sb-srl/
+[4] https://www.anthropic.it/informativa-privacy/
+[5] https://www.anthropic.it/
+[6] https://www.anthropic.it/
+[7] https://www.anthropic.it/informativa-privacy/
+[8] https://www.anthropic.it/informativa-privacy/
+[9] https://www.anthropic.it/progetti/
+[10] https://www.anthropic.it/informativa-privacy/
+[11] https://www.anthropic.it/lavora-con-noi/
+[12] https://www.anthropic.it/blog/
+[13] https://www.anthropic.it/contatti/
+[14] https://www.iubenda.com/app/privacy-policy/99493789/cookie-policy
+[15] https://www.iubenda.com/it/generatore-di-privacy-e-cookie-policy
+[16] https://www.anthropic.it/informativa-privacy/
+[17] https://www.anthropic.it/informativa-cookie/
+[18] https://www.linkedin.com/company/anthropic-sb-srl/
+[19] https://www.facebook.com/profile.php
+[20] https://www.instagram.com/anthropic_srl/
+[21] https://ammodino.it/
+2026-01-12 18:34:01,728 - browser_agent.log - INFO - Inputs form: [s]()
+2026-01-12 18:34:01,728 - browser_agent.log - INFO - Notes: 
+2026-01-12 18:34:02,167 - browser_agent.log - INFO - Unvisited links: [{'title': 'Informativa privacy | Anthropic', 'snippet': 'Tipologie di Dati raccolti. Fra i Dati Personali raccolti da questa Applicazione, in modo autonomo o tramite terze parti, ci sono: nome; cognome; email; sito\xa0...', 'link': 'https://www.anthropic.it/informativa-privacy/'}, {'title': 'Home \\\\ Anthropic', 'snippet': "Introducing the best model in the world for coding, agents, computer use, and enterprise workflows. When you're talking to a large language model, what exactly is it that you're talking to? At Anthropic, we build AI to serve humanity's long-term well-being.", 'link': 'https://www.anthropic.com/'}, {'title': 'Company \\ Anthropic', 'snippet': 'Anthropic is dedicated to building systems that people can rely on and generating research about the opportunities and risks of AI. We aim to build frontier AI systems that are reliable, interpretable, and steerable.', 'link': 'https://www.anthropic.com/company'}, {'title': "Bastano 250 documenti per avvelenare un'IA - la Repubblica", 'snippet': '13 ott 2025 — Anthropic, una delle aziende più influenti al mondo nello sviluppo di IA, ha scoperto che bastano appena 250 documenti malevoli per creare una ...', 'link': 'https://www.repubblica.it/tecnologia/2025/10/13/news/anthropic_studio_avvelenare_ia_quanti_documenti_servono-424909610/'}, {'title': 'IBM e Anthropic collaborano per accelerare lo sviluppo di software ...', 'snippet': "9 ott 2025 ... Per maggiori informazioni, visitate il sito www.ibm.com/it-it. ... ufficiale per l'AI, il cloud e la trasformazione digitale · IBM\xa0...", 'link': 'https://it.newsroom.ibm.com/anthropic'}, {'title': "Guida completa a Claude AI: cos'è, come funziona e suoi rischi - Blog", 'snippet': "11 dic 2025 — Claude AI è l'assistente di intelligenza artificiale conversazionale sviluppato da Anthropic, progettato per supportare utenti e imprese.", 'link': 'https://mimir.bot/guida-completa-a-claude-ai-cose-come-funziona-e-suoi-rischi/'}, {'title': 'Contatti | Anthropic', 'snippet': 'Scopri i nostri contatti per richiedere informazioni e consulenze per lo sviluppo di progetti inclusivi per le persone con disabilità.', 'link': 'https://www.anthropic.it/contatti/'}, {'title': "Come scaricare e installare l'app desktop ufficiale di Claude AI su ...", 'snippet': "7 nov 2025 ... Il primo link è quello del sito web ufficiale di Anthropic [5]. L'app è disponibile per i sistemi operativi Windows e Mac [6]. Selezionare\xa0...", 'link': 'https://lilys.ai/it/notes/claude-desktop-20251029/download-install-anthropic-claude-ai-windows-app'}, {'title': 'Guida completa a Claude di Anthropic: 15 funzionalità chiave per ...', 'snippet': "L'obiettivo di questo percorso è guidarvi, passo dopo passo, attraverso quindici funzionalità chiave che vi consentiranno di ottimizzare la ...", 'link': 'https://it.linkedin.com/pulse/guida-completa-claude-di-anthropic-15-funzionalit%25C3%25A0-chiave-bozzo-hotnf'}, {'title': 'Cosa può fare Claude di Anthropic?', 'snippet': "Claude è in grado di fare ragionamenti avanzati, analizzare immagini, documenti e grafici, generare codici e effettuare traduzioni tra diverse lingue. Offre risultati di ottima qualità con un'interfaccia intuitiva e tiene conto della sicurezza e degli aspetti etici.", 'link': 'https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/come-usare-claude/'}, {'title': "Chi è e cosa fa Anthropic, l'azienda di Intelligenza artificiale di 2 fratelli italiani. La storia, risultati e prospettive", 'snippet': 'Consapevoli della crescente influenza esercitata dagli attori commerciali, Dario e Daniela decidono di lasciare OpenAI, portando con sé un piccolo gruppo di colleghi allineati alla loro visione. Questa decisione coraggiosa sfocia nel febbraio 2021 nella fondazione di Anthropic, con sede nel cuore di San Francisco.', 'link': 'https://www.businessonline.it/news/chi-e-cosa-fa-anthropic-lazienda-di-intelligenza-artificiale-di-2-fratelli-italiani-la-storia-risultati-e-prospettive_n80430.html'}, {'title': 'Anthropic - Wikipedia', 'snippet': 'Anthropic PBC is an American artificial intelligence (AI) company founded in 2021. It has developed a family of large language models (LLMs) named Claude. The company researches and develops AI to "study their safety properties at the technological frontier" and use this research to deploy ...', 'link': 'https://en.wikipedia.org/wiki/Anthropic'}, {'title': "Claude arriva anche in Europa, cosa cambia con l'AI di Anthropic - FASTWEBPLUS", 'snippet': 'Con una nota sulla pagina ufficiale Anthropic ha confermato l’arrivo dei modelli Claude 3 in Europa. Le funzioni a disposizione e i vari piani in abbonamento', 'link': 'https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/claude-arriva-anche-in-europa-cosa-cambia-con-lai-di-anthropic/'}, {'title': "Claude Anthropic: tutto sull'assistente virtuale per professionisti - AI4Business", 'snippet': 'Claude è disponibile dal sito ufficiale di Anthropic previa registrazione con due piani principali: la versione Claude Instant con una minor latenza, più economica e più veloce ma con minori capacità nel dialogo, oppure la versione più potente e completa Claude, in grado di gestire dialoghi complessi. Data di pubblicazione 6 ottobre 2025', 'link': 'https://www.ai4business.it/intelligenza-artificiale/claude-ai-ecco-lassistente-virtuale-intelligente-per-professionisti/'}, {'title': 'Anthropic userà le chat con gli utenti per addestrare Claude, ecco come evitare che lo faccia anche con te | Wired Italia', 'snippet': "La modifica ai termini di utilizzo e alla policy sulla privacy di Claude entrerà in funzione il prossimo 28 settembre e entro tale data gli utenti sono chiamati necessariamente a scegliere se acconsentire o meno alla richiesta. In caso negativo, è necessario opporsi tramite opt-out. In ogni caso, è indispensabile rispondere per continuare ad accedere agli strumenti connessi. Ecco tutto ciò che c'è da sapere. Nel post sul sito ufficiale, Anthropic spiega il motivo che ha portato alla modifica dei termini di servizio chiedendo agli utenti il permesso di utilizzare i dati delle chat e delle sessioni di coding per l'addestramento dei suoi modelli di linguattio.", 'link': 'https://www.wired.it/article/anthropic-claude-opt-out-dati-addestramento/'}, {'title': 'Chi siamo | Anthropic', 'snippet': "Scopri la storia, la mission e i valori dell'azienda Anthropic, la realtà specializzata nella progettazione di spazi realmente inclusivi.", 'link': 'https://www.anthropic.it/chi-siamo/'}]
+2026-01-12 18:34:17,702 - browser_agent.log - INFO - Extracted links: ['https://www.anthropic.it/informativa-privacy']
+2026-01-12 18:34:17,716 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 18:34:17,716 - browser_agent.log - INFO - Skipping already visited or current link: https://www.anthropic.it/informativa-privacy
+2026-01-12 18:34:17,716 - browser_agent.log - WARNING - No suitable link selected.
+2026-01-12 18:34:17,719 - browser_agent.log - INFO - Search results: Link: https://www.anthropic.it/informativa-privacy/
+Preview: Tipologie di Dati raccolti. Fra i Dati Personali raccolti da questa Applicazione, in modo autonomo o tramite terze parti, ci sono: nome; cognome; email; sito ...
+
+Link: https://www.anthropic.com/
+Preview: Introducing the best model in the world for coding, agents, computer use, and enterprise workflows. When you're talking to a large language model, what exactly is it that you're talking to? At Anthropic, we build AI to serve humanity's long-term well-being.
+
+Link: https://www.anthropic.com/company
+Preview: Anthropic is dedicated to building systems that people can rely on and generating research about the opportunities and risks of AI. We aim to build frontier AI systems that are reliable, interpretable, and steerable.
+
+Link: https://www.repubblica.it/tecnologia/2025/10/13/news/anthropic_studio_avvelenare_ia_quanti_documenti_servono-424909610/
+Preview: 13 ott 2025 — Anthropic, una delle aziende più influenti al mondo nello sviluppo di IA, ha scoperto che bastano appena 250 documenti malevoli per creare una ...
+
+Link: https://it.newsroom.ibm.com/anthropic
+Preview: 9 ott 2025 ... Per maggiori informazioni, visitate il sito www.ibm.com/it-it. ... ufficiale per l'AI, il cloud e la trasformazione digitale · IBM ...
+
+Link: https://mimir.bot/guida-completa-a-claude-ai-cose-come-funziona-e-suoi-rischi/
+Preview: 11 dic 2025 — Claude AI è l'assistente di intelligenza artificiale conversazionale sviluppato da Anthropic, progettato per supportare utenti e imprese.
+
+Link: https://www.anthropic.it/contatti/
+Preview: Scopri i nostri contatti per richiedere informazioni e consulenze per lo sviluppo di progetti inclusivi per le persone con disabilità.
+
+Link: https://lilys.ai/it/notes/claude-desktop-20251029/download-install-anthropic-claude-ai-windows-app
+Preview: 7 nov 2025 ... Il primo link è quello del sito web ufficiale di Anthropic [5]. L'app è disponibile per i sistemi operativi Windows e Mac [6]. Selezionare ...
+
+Link: https://it.linkedin.com/pulse/guida-completa-claude-di-anthropic-15-funzionalit%25C3%25A0-chiave-bozzo-hotnf
+Preview: L'obiettivo di questo percorso è guidarvi, passo dopo passo, attraverso quindici funzionalità chiave che vi consentiranno di ottimizzare la ...
+
+Link: https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/come-usare-claude/
+Preview: Claude è in grado di fare ragionamenti avanzati, analizzare immagini, documenti e grafici, generare codici e effettuare traduzioni tra diverse lingue. Offre risultati di ottima qualità con un'interfaccia intuitiva e tiene conto della sicurezza e degli aspetti etici.
+
+Link: https://www.businessonline.it/news/chi-e-cosa-fa-anthropic-lazienda-di-intelligenza-artificiale-di-2-fratelli-italiani-la-storia-risultati-e-prospettive_n80430.html
+Preview: Consapevoli della crescente influenza esercitata dagli attori commerciali, Dario e Daniela decidono di lasciare OpenAI, portando con sé un piccolo gruppo di colleghi allineati alla loro visione. Questa decisione coraggiosa sfocia nel febbraio 2021 nella fondazione di Anthropic, con sede nel cuore di San Francisco.
+
+Link: https://en.wikipedia.org/wiki/Anthropic
+Preview: Anthropic PBC is an American artificial intelligence (AI) company founded in 2021. It has developed a family of large language models (LLMs) named Claude. The company researches and develops AI to "study their safety properties at the technological frontier" and use this research to deploy ...
+
+Link: https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/claude-arriva-anche-in-europa-cosa-cambia-con-lai-di-anthropic/
+Preview: Con una nota sulla pagina ufficiale Anthropic ha confermato l’arrivo dei modelli Claude 3 in Europa. Le funzioni a disposizione e i vari piani in abbonamento
+
+Link: https://www.ai4business.it/intelligenza-artificiale/claude-ai-ecco-lassistente-virtuale-intelligente-per-professionisti/
+Preview: Claude è disponibile dal sito ufficiale di Anthropic previa registrazione con due piani principali: la versione Claude Instant con una minor latenza, più economica e più veloce ma con minori capacità nel dialogo, oppure la versione più potente e completa Claude, in grado di gestire dialoghi complessi. Data di pubblicazione 6 ottobre 2025
+
+Link: https://www.wired.it/article/anthropic-claude-opt-out-dati-addestramento/
+Preview: La modifica ai termini di utilizzo e alla policy sulla privacy di Claude entrerà in funzione il prossimo 28 settembre e entro tale data gli utenti sono chiamati necessariamente a scegliere se acconsentire o meno alla richiesta. In caso negativo, è necessario opporsi tramite opt-out. In ogni caso, è indispensabile rispondere per continuare ad accedere agli strumenti connessi. Ecco tutto ciò che c'è da sapere. Nel post sul sito ufficiale, Anthropic spiega il motivo che ha portato alla modifica dei termini di servizio chiedendo agli utenti il permesso di utilizzare i dati delle chat e delle sessioni di coding per l'addestramento dei suoi modelli di linguattio.
+
+Link: https://www.anthropic.it/chi-siamo/
+Preview: Scopri la storia, la mission e i valori dell'azienda Anthropic, la realtà specializzata nella progettazione di spazi realmente inclusivi.
+2026-01-12 18:34:17,720 - browser_agent.log - INFO - Unvisited links: [{'title': 'Informativa privacy | Anthropic', 'snippet': 'Tipologie di Dati raccolti. Fra i Dati Personali raccolti da questa Applicazione, in modo autonomo o tramite terze parti, ci sono: nome; cognome; email; sito\xa0...', 'link': 'https://www.anthropic.it/informativa-privacy/'}, {'title': 'Home \\\\ Anthropic', 'snippet': "Introducing the best model in the world for coding, agents, computer use, and enterprise workflows. When you're talking to a large language model, what exactly is it that you're talking to? At Anthropic, we build AI to serve humanity's long-term well-being.", 'link': 'https://www.anthropic.com/'}, {'title': 'Company \\ Anthropic', 'snippet': 'Anthropic is dedicated to building systems that people can rely on and generating research about the opportunities and risks of AI. We aim to build frontier AI systems that are reliable, interpretable, and steerable.', 'link': 'https://www.anthropic.com/company'}, {'title': "Bastano 250 documenti per avvelenare un'IA - la Repubblica", 'snippet': '13 ott 2025 — Anthropic, una delle aziende più influenti al mondo nello sviluppo di IA, ha scoperto che bastano appena 250 documenti malevoli per creare una ...', 'link': 'https://www.repubblica.it/tecnologia/2025/10/13/news/anthropic_studio_avvelenare_ia_quanti_documenti_servono-424909610/'}, {'title': 'IBM e Anthropic collaborano per accelerare lo sviluppo di software ...', 'snippet': "9 ott 2025 ... Per maggiori informazioni, visitate il sito www.ibm.com/it-it. ... ufficiale per l'AI, il cloud e la trasformazione digitale · IBM\xa0...", 'link': 'https://it.newsroom.ibm.com/anthropic'}, {'title': "Guida completa a Claude AI: cos'è, come funziona e suoi rischi - Blog", 'snippet': "11 dic 2025 — Claude AI è l'assistente di intelligenza artificiale conversazionale sviluppato da Anthropic, progettato per supportare utenti e imprese.", 'link': 'https://mimir.bot/guida-completa-a-claude-ai-cose-come-funziona-e-suoi-rischi/'}, {'title': 'Contatti | Anthropic', 'snippet': 'Scopri i nostri contatti per richiedere informazioni e consulenze per lo sviluppo di progetti inclusivi per le persone con disabilità.', 'link': 'https://www.anthropic.it/contatti/'}, {'title': "Come scaricare e installare l'app desktop ufficiale di Claude AI su ...", 'snippet': "7 nov 2025 ... Il primo link è quello del sito web ufficiale di Anthropic [5]. L'app è disponibile per i sistemi operativi Windows e Mac [6]. Selezionare\xa0...", 'link': 'https://lilys.ai/it/notes/claude-desktop-20251029/download-install-anthropic-claude-ai-windows-app'}, {'title': 'Guida completa a Claude di Anthropic: 15 funzionalità chiave per ...', 'snippet': "L'obiettivo di questo percorso è guidarvi, passo dopo passo, attraverso quindici funzionalità chiave che vi consentiranno di ottimizzare la ...", 'link': 'https://it.linkedin.com/pulse/guida-completa-claude-di-anthropic-15-funzionalit%25C3%25A0-chiave-bozzo-hotnf'}, {'title': 'Cosa può fare Claude di Anthropic?', 'snippet': "Claude è in grado di fare ragionamenti avanzati, analizzare immagini, documenti e grafici, generare codici e effettuare traduzioni tra diverse lingue. Offre risultati di ottima qualità con un'interfaccia intuitiva e tiene conto della sicurezza e degli aspetti etici.", 'link': 'https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/come-usare-claude/'}, {'title': "Chi è e cosa fa Anthropic, l'azienda di Intelligenza artificiale di 2 fratelli italiani. La storia, risultati e prospettive", 'snippet': 'Consapevoli della crescente influenza esercitata dagli attori commerciali, Dario e Daniela decidono di lasciare OpenAI, portando con sé un piccolo gruppo di colleghi allineati alla loro visione. Questa decisione coraggiosa sfocia nel febbraio 2021 nella fondazione di Anthropic, con sede nel cuore di San Francisco.', 'link': 'https://www.businessonline.it/news/chi-e-cosa-fa-anthropic-lazienda-di-intelligenza-artificiale-di-2-fratelli-italiani-la-storia-risultati-e-prospettive_n80430.html'}, {'title': 'Anthropic - Wikipedia', 'snippet': 'Anthropic PBC is an American artificial intelligence (AI) company founded in 2021. It has developed a family of large language models (LLMs) named Claude. The company researches and develops AI to "study their safety properties at the technological frontier" and use this research to deploy ...', 'link': 'https://en.wikipedia.org/wiki/Anthropic'}, {'title': "Claude arriva anche in Europa, cosa cambia con l'AI di Anthropic - FASTWEBPLUS", 'snippet': 'Con una nota sulla pagina ufficiale Anthropic ha confermato l’arrivo dei modelli Claude 3 in Europa. Le funzioni a disposizione e i vari piani in abbonamento', 'link': 'https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/claude-arriva-anche-in-europa-cosa-cambia-con-lai-di-anthropic/'}, {'title': "Claude Anthropic: tutto sull'assistente virtuale per professionisti - AI4Business", 'snippet': 'Claude è disponibile dal sito ufficiale di Anthropic previa registrazione con due piani principali: la versione Claude Instant con una minor latenza, più economica e più veloce ma con minori capacità nel dialogo, oppure la versione più potente e completa Claude, in grado di gestire dialoghi complessi. Data di pubblicazione 6 ottobre 2025', 'link': 'https://www.ai4business.it/intelligenza-artificiale/claude-ai-ecco-lassistente-virtuale-intelligente-per-professionisti/'}, {'title': 'Anthropic userà le chat con gli utenti per addestrare Claude, ecco come evitare che lo faccia anche con te | Wired Italia', 'snippet': "La modifica ai termini di utilizzo e alla policy sulla privacy di Claude entrerà in funzione il prossimo 28 settembre e entro tale data gli utenti sono chiamati necessariamente a scegliere se acconsentire o meno alla richiesta. In caso negativo, è necessario opporsi tramite opt-out. In ogni caso, è indispensabile rispondere per continuare ad accedere agli strumenti connessi. Ecco tutto ciò che c'è da sapere. Nel post sul sito ufficiale, Anthropic spiega il motivo che ha portato alla modifica dei termini di servizio chiedendo agli utenti il permesso di utilizzare i dati delle chat e delle sessioni di coding per l'addestramento dei suoi modelli di linguattio.", 'link': 'https://www.wired.it/article/anthropic-claude-opt-out-dati-addestramento/'}, {'title': 'Chi siamo | Anthropic', 'snippet': "Scopri la storia, la mission e i valori dell'azienda Anthropic, la realtà specializzata nella progettazione di spazi realmente inclusivi.", 'link': 'https://www.anthropic.it/chi-siamo/'}]
+2026-01-12 18:34:23,624 - browser_agent.log - INFO - Extracted links: ['https://www.anthropic.com/']
+2026-01-12 18:34:23,624 - browser_agent.log - INFO - Selected link: https://www.anthropic.com
+2026-01-12 18:34:29,851 - browser_agent.log - INFO - Making navigation prompt with page text: [Start of page]
+
+This is some text inside of a div block.
+
+• Log in to ClaudeLog in to Claude
+
+This ...
+remaining links: [0] https://www.anthropic.com/
+[1] https://www.anthropic.com/
+[2] https://www.anthropic.com/
+[3] https://www.anthropic.com/research
+[4] https://www.anthropic.com/economic-futures
+[5] https://www.anthropic.com/news
+[6] https://claude.ai/
+[7] https://www.anthropic.com/research
+[8] https://claude.com/product/overview
+[9] https://www.anthropic.com/news/claude-opus-4-5
+[10] https://anthropic.com/news/claude-opus-4-5
+[11] https://www.anthropic.com/engineering/advanced-tool-use
+[12] https://www.anthropic.com/claude/opus
+[13] https://www.anthropic.com/news/core-views-on-ai-safety
+[14] https://www.anthropic.com/rsp-updates
+[15] https://www.anthropic.com/learn
+[16] https://www.anthropic.com/news/claude-haiku-4-5
+[17] https://www.anthropic.com/news/claude-sonnet-4-5
+[18] https://www.anthropic.com/economic-index
+[19] https://www.anthropic.com/news/claude-opus-4-1
+[20] https://www.anthropic.com/research/project-vend-1
+[21] https://www.anthropic.com/research/agentic-misalignment
+[22] https://www.anthropic.com/research/tracing-thoughts-language-model
+[23] https://www.anthropic.com/jobs
+[24] https://www.anthropic.com/contact-sales
+[25] https://www.linkedin.com/company/anthropicresearch
+[26] https://x.com/AnthropicAI
+[27] https://www.youtube.com/@anthropic-ai
+[28] https://claude.com/product/overview
+[29] https://claude.com/product/claude-code
+[30] https://claude.com/chrome
+[31] https://claude.com/claude-in-excel
+[32] https://claude.com/claude-in-slack
+[33] https://www.claude.com/skills
+[34] https://claude.com/pricing/max
+[35] https://claude.com/pricing/team
+[36] https://claude.com/pricing/enterprise
+[37] https://claude.com/download
+[38] https://claude.com/pricing
+[39] https://claude.ai/login
+[40] https://www.anthropic.com/claude/opus
+[41] https://www.anthropic.com/claude/sonnet
+[42] https://www.anthropic.com/claude/haiku
+[43] https://claude.com/solutions/agents
+[44] https://claude.com/solutions/code-modernization
+[45] https://claude.com/solutions/coding
+[46] https://claude.com/solutions/customer-support
+[47] https://claude.com/solutions/education
+[48] https://claude.com/solutions/financial-services
+[49] https://claude.com/solutions/government
+[50] https://claude.com/solutions/healthcare
+[51] https://claude.com/solutions/life-sciences
+[52] https://claude.com/solutions/nonprofits
+[53] http://claude.com/platform/api
+[54] https://platform.claude.com/docs
+[55] https://claude.com/pricing
+[56] https://claude.com/regional-compliance
+[57] https://claude.com/partners/amazon-bedrock
+[58] https://claude.com/partners/google-cloud-vertex-ai
+[59] https://console.anthropic.com/
+[60] https://www.claude.com/blog
+[61] https://claude.com/partners
+[62] https://claude.com/partners/mcp
+[63] https://www.anthropic.com/learn
+[64] https://www.claude.com/customers
+[65] https://www.anthropic.com/engineering
+[66] https://www.anthropic.com/events
+[67] https://claude.com/partners/powered-by-claude
+[68] https://claude.com/partners/services
+[69] https://claude.com/programs/startups
+[70] https://claude.com/resources/tutorials
+[71] https://claude.com/resources/use-cases
+[72] https://www.anthropic.com/company
+[73] https://www.anthropic.com/careers
+[74] https://www.anthropic.com/economic-futures
+[75] https://www.anthropic.com/research
+[76] https://www.anthropic.com/news
+[77] https://www.anthropic.com/responsible-scaling-policy
+[78] https://trust.anthropic.com/
+[79] https://www.anthropic.com/transparency
+[80] https://www.anthropic.com/supported-countries
+[81] https://status.anthropic.com/
+[82] https://support.claude.com/
+[83] https://www.anthropic.com/legal/privacy
+[84] https://www.anthropic.com/responsible-disclosure-policy
+[85] https://www.anthropic.com/legal/commercial-terms
+[86] https://www.anthropic.com/legal/consumer-terms
+[87] https://www.anthropic.com/legal/aup
+2026-01-12 18:34:29,851 - browser_agent.log - INFO - Inputs form: 
+2026-01-12 18:34:29,851 - browser_agent.log - INFO - Notes: 
+
+
+2026-01-12 18:34:30,126 - browser_agent.log - INFO - Unvisited links: [{'title': 'Informativa privacy | Anthropic', 'snippet': 'Tipologie di Dati raccolti. Fra i Dati Personali raccolti da questa Applicazione, in modo autonomo o tramite terze parti, ci sono: nome; cognome; email; sito\xa0...', 'link': 'https://www.anthropic.it/informativa-privacy/'}, {'title': 'Home \\\\ Anthropic', 'snippet': "Introducing the best model in the world for coding, agents, computer use, and enterprise workflows. When you're talking to a large language model, what exactly is it that you're talking to? At Anthropic, we build AI to serve humanity's long-term well-being.", 'link': 'https://www.anthropic.com/'}, {'title': 'Company \\ Anthropic', 'snippet': 'Anthropic is dedicated to building systems that people can rely on and generating research about the opportunities and risks of AI. We aim to build frontier AI systems that are reliable, interpretable, and steerable.', 'link': 'https://www.anthropic.com/company'}, {'title': "Bastano 250 documenti per avvelenare un'IA - la Repubblica", 'snippet': '13 ott 2025 — Anthropic, una delle aziende più influenti al mondo nello sviluppo di IA, ha scoperto che bastano appena 250 documenti malevoli per creare una ...', 'link': 'https://www.repubblica.it/tecnologia/2025/10/13/news/anthropic_studio_avvelenare_ia_quanti_documenti_servono-424909610/'}, {'title': 'IBM e Anthropic collaborano per accelerare lo sviluppo di software ...', 'snippet': "9 ott 2025 ... Per maggiori informazioni, visitate il sito www.ibm.com/it-it. ... ufficiale per l'AI, il cloud e la trasformazione digitale · IBM\xa0...", 'link': 'https://it.newsroom.ibm.com/anthropic'}, {'title': "Guida completa a Claude AI: cos'è, come funziona e suoi rischi - Blog", 'snippet': "11 dic 2025 — Claude AI è l'assistente di intelligenza artificiale conversazionale sviluppato da Anthropic, progettato per supportare utenti e imprese.", 'link': 'https://mimir.bot/guida-completa-a-claude-ai-cose-come-funziona-e-suoi-rischi/'}, {'title': 'Contatti | Anthropic', 'snippet': 'Scopri i nostri contatti per richiedere informazioni e consulenze per lo sviluppo di progetti inclusivi per le persone con disabilità.', 'link': 'https://www.anthropic.it/contatti/'}, {'title': "Come scaricare e installare l'app desktop ufficiale di Claude AI su ...", 'snippet': "7 nov 2025 ... Il primo link è quello del sito web ufficiale di Anthropic [5]. L'app è disponibile per i sistemi operativi Windows e Mac [6]. Selezionare\xa0...", 'link': 'https://lilys.ai/it/notes/claude-desktop-20251029/download-install-anthropic-claude-ai-windows-app'}, {'title': 'Guida completa a Claude di Anthropic: 15 funzionalità chiave per ...', 'snippet': "L'obiettivo di questo percorso è guidarvi, passo dopo passo, attraverso quindici funzionalità chiave che vi consentiranno di ottimizzare la ...", 'link': 'https://it.linkedin.com/pulse/guida-completa-claude-di-anthropic-15-funzionalit%25C3%25A0-chiave-bozzo-hotnf'}, {'title': 'Cosa può fare Claude di Anthropic?', 'snippet': "Claude è in grado di fare ragionamenti avanzati, analizzare immagini, documenti e grafici, generare codici e effettuare traduzioni tra diverse lingue. Offre risultati di ottima qualità con un'interfaccia intuitiva e tiene conto della sicurezza e degli aspetti etici.", 'link': 'https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/come-usare-claude/'}, {'title': "Chi è e cosa fa Anthropic, l'azienda di Intelligenza artificiale di 2 fratelli italiani. La storia, risultati e prospettive", 'snippet': 'Consapevoli della crescente influenza esercitata dagli attori commerciali, Dario e Daniela decidono di lasciare OpenAI, portando con sé un piccolo gruppo di colleghi allineati alla loro visione. Questa decisione coraggiosa sfocia nel febbraio 2021 nella fondazione di Anthropic, con sede nel cuore di San Francisco.', 'link': 'https://www.businessonline.it/news/chi-e-cosa-fa-anthropic-lazienda-di-intelligenza-artificiale-di-2-fratelli-italiani-la-storia-risultati-e-prospettive_n80430.html'}, {'title': 'Anthropic - Wikipedia', 'snippet': 'Anthropic PBC is an American artificial intelligence (AI) company founded in 2021. It has developed a family of large language models (LLMs) named Claude. The company researches and develops AI to "study their safety properties at the technological frontier" and use this research to deploy ...', 'link': 'https://en.wikipedia.org/wiki/Anthropic'}, {'title': "Claude arriva anche in Europa, cosa cambia con l'AI di Anthropic - FASTWEBPLUS", 'snippet': 'Con una nota sulla pagina ufficiale Anthropic ha confermato l’arrivo dei modelli Claude 3 in Europa. Le funzioni a disposizione e i vari piani in abbonamento', 'link': 'https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/claude-arriva-anche-in-europa-cosa-cambia-con-lai-di-anthropic/'}, {'title': "Claude Anthropic: tutto sull'assistente virtuale per professionisti - AI4Business", 'snippet': 'Claude è disponibile dal sito ufficiale di Anthropic previa registrazione con due piani principali: la versione Claude Instant con una minor latenza, più economica e più veloce ma con minori capacità nel dialogo, oppure la versione più potente e completa Claude, in grado di gestire dialoghi complessi. Data di pubblicazione 6 ottobre 2025', 'link': 'https://www.ai4business.it/intelligenza-artificiale/claude-ai-ecco-lassistente-virtuale-intelligente-per-professionisti/'}, {'title': 'Anthropic userà le chat con gli utenti per addestrare Claude, ecco come evitare che lo faccia anche con te | Wired Italia', 'snippet': "La modifica ai termini di utilizzo e alla policy sulla privacy di Claude entrerà in funzione il prossimo 28 settembre e entro tale data gli utenti sono chiamati necessariamente a scegliere se acconsentire o meno alla richiesta. In caso negativo, è necessario opporsi tramite opt-out. In ogni caso, è indispensabile rispondere per continuare ad accedere agli strumenti connessi. Ecco tutto ciò che c'è da sapere. Nel post sul sito ufficiale, Anthropic spiega il motivo che ha portato alla modifica dei termini di servizio chiedendo agli utenti il permesso di utilizzare i dati delle chat e delle sessioni di coding per l'addestramento dei suoi modelli di linguattio.", 'link': 'https://www.wired.it/article/anthropic-claude-opt-out-dati-addestramento/'}, {'title': 'Chi siamo | Anthropic', 'snippet': "Scopri la storia, la mission e i valori dell'azienda Anthropic, la realtà specializzata nella progettazione di spazi realmente inclusivi.", 'link': 'https://www.anthropic.it/chi-siamo/'}]
+2026-01-12 18:34:49,185 - browser_agent.log - INFO - Extracted links: ['https://www.anthropic.com', 'https://www.anthropic.com/']
+2026-01-12 18:34:49,185 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 18:34:49,185 - browser_agent.log - INFO - Extracted links: ['https://www.anthropic.com/research']
+2026-01-12 18:34:49,185 - browser_agent.log - INFO - Skipping already visited or current link: https://www.anthropic.com
+2026-01-12 18:34:49,185 - browser_agent.log - INFO - Selected link: https://www.anthropic.com/research
+2026-01-12 18:35:01,226 - browser_agent.log - INFO - Making navigation prompt with page text: [Start of page]
+
+Skip to main contentSkip to footer
+
+Our research teams investigate the safety, inne...
+remaining links: [0] https://www.anthropic.com/
+[2] https://www.anthropic.com/economic-futures
+[3] https://www.anthropic.com/news
+[4] https://claude.ai/
+[5] https://www.anthropic.com/research/team/alignment
+[6] https://www.anthropic.com/research/team/economic-research
+[7] https://www.anthropic.com/research/team/interpretability
+[8] https://www.anthropic.com/research/team/societal-impacts
+[9] https://www.anthropic.com/research/project-vend-2
+[10] https://www.anthropic.com/research/introspection
+[11] https://www.anthropic.com/research/tracing-thoughts-language-model
+[12] https://www.anthropic.com/research/constitutional-classifiers
+[13] https://www.anthropic.com/research/alignment-faking
+[14] https://www.anthropic.com/research/bloom
+[15] https://www.anthropic.com/research/project-vend-2
+[16] https://www.anthropic.com/research/anthropic-interviewer
+[17] https://www.anthropic.com/research/estimating-productivity-gains
+[18] https://www.anthropic.com/research/prompt-injection-defenses
+[19] https://www.anthropic.com/research/emergent-misalignment-reward-hacking
+[20] https://www.anthropic.com/research/project-fetch-robot-dog
+[21] https://www.anthropic.com/research/deprecation-commitments
+[23] https://www.anthropic.com/jobs
+[24] https://www.anthropic.com/
+[25] https://claude.com/product/overview
+[26] https://claude.com/product/claude-code
+[27] https://claude.com/chrome
+[28] https://claude.com/claude-in-excel
+[29] https://claude.com/claude-in-slack
+[30] https://www.claude.com/skills
+[31] https://claude.com/pricing/max
+[32] https://claude.com/pricing/team
+[33] https://claude.com/pricing/enterprise
+[34] https://claude.ai/download
+[35] https://claude.com/pricing
+[36] https://claude.ai/
+[37] https://www.anthropic.com/claude/opus
+[38] https://www.anthropic.com/claude/sonnet
+[39] https://www.anthropic.com/claude/haiku
+[40] https://claude.com/solutions/agents
+[41] https://claude.com/solutions/code-modernization
+[42] https://claude.com/solutions/coding
+[43] https://claude.com/solutions/customer-support
+[44] https://claude.com/solutions/education
+[45] https://claude.com/solutions/financial-services
+[46] https://claude.com/solutions/government
+[47] https://claude.com/solutions/healthcare
+[48] https://claude.com/solutions/life-sciences
+[49] https://claude.com/solutions/nonprofits
+[50] https://claude.com/platform/api
+[51] https://platform.claude.com/docs
+[52] https://claude.com/pricing
+[53] https://claude.com/regional-compliance
+[54] https://claude.com/partners/amazon-bedrock
+[55] https://claude.com/partners/google-cloud-vertex-ai
+[56] https://platform.claude.com/
+[57] https://claude.com/blog
+[58] https://claude.com/partners
+[59] https://claude.com/connectors
+[60] https://www.anthropic.com/learn
+[61] https://claude.com/customers
+[62] https://www.anthropic.com/engineering
+[63] https://www.anthropic.com/events
+[64] https://claude.com/partners/powered-by-claude
+[65] https://claude.com/partners/services
+[66] https://claude.com/programs/startups
+[67] https://claude.com/resources/tutorials
+[68] https://claude.com/resources/use-cases
+[69] https://www.anthropic.com/company
+[70] https://www.anthropic.com/careers
+[71] https://www.anthropic.com/economic-index
+[73] https://www.anthropic.com/news
+[74] https://trust.anthropic.com/
+[75] https://www.anthropic.com/transparency
+[76] https://www.anthropic.com/supported-countries
+[77] https://status.anthropic.com/
+[78] https://support.claude.com/en/
+[79] https://www.anthropic.com/legal/privacy
+[80] https://www.anthropic.com/responsible-disclosure-policy
+[81] https://www.anthropic.com/legal/commercial-terms
+[82] https://www.anthropic.com/legal/consumer-terms
+[83] https://www.anthropic.com/legal/aup
+[84] https://www.linkedin.com/company/anthropicresearch
+[85] https://x.com/AnthropicAI
+[86] https://www.youtube.com/@anthropic-ai
+2026-01-12 18:35:01,227 - browser_agent.log - INFO - Inputs form: [text]()
+2026-01-12 18:35:01,227 - browser_agent.log - INFO - Notes: 
+
+
+
+2026-01-12 18:35:01,861 - browser_agent.log - INFO - Unvisited links: [{'title': 'Informativa privacy | Anthropic', 'snippet': 'Tipologie di Dati raccolti. Fra i Dati Personali raccolti da questa Applicazione, in modo autonomo o tramite terze parti, ci sono: nome; cognome; email; sito\xa0...', 'link': 'https://www.anthropic.it/informativa-privacy/'}, {'title': 'Home \\\\ Anthropic', 'snippet': "Introducing the best model in the world for coding, agents, computer use, and enterprise workflows. When you're talking to a large language model, what exactly is it that you're talking to? At Anthropic, we build AI to serve humanity's long-term well-being.", 'link': 'https://www.anthropic.com/'}, {'title': 'Company \\ Anthropic', 'snippet': 'Anthropic is dedicated to building systems that people can rely on and generating research about the opportunities and risks of AI. We aim to build frontier AI systems that are reliable, interpretable, and steerable.', 'link': 'https://www.anthropic.com/company'}, {'title': "Bastano 250 documenti per avvelenare un'IA - la Repubblica", 'snippet': '13 ott 2025 — Anthropic, una delle aziende più influenti al mondo nello sviluppo di IA, ha scoperto che bastano appena 250 documenti malevoli per creare una ...', 'link': 'https://www.repubblica.it/tecnologia/2025/10/13/news/anthropic_studio_avvelenare_ia_quanti_documenti_servono-424909610/'}, {'title': 'IBM e Anthropic collaborano per accelerare lo sviluppo di software ...', 'snippet': "9 ott 2025 ... Per maggiori informazioni, visitate il sito www.ibm.com/it-it. ... ufficiale per l'AI, il cloud e la trasformazione digitale · IBM\xa0...", 'link': 'https://it.newsroom.ibm.com/anthropic'}, {'title': "Guida completa a Claude AI: cos'è, come funziona e suoi rischi - Blog", 'snippet': "11 dic 2025 — Claude AI è l'assistente di intelligenza artificiale conversazionale sviluppato da Anthropic, progettato per supportare utenti e imprese.", 'link': 'https://mimir.bot/guida-completa-a-claude-ai-cose-come-funziona-e-suoi-rischi/'}, {'title': 'Contatti | Anthropic', 'snippet': 'Scopri i nostri contatti per richiedere informazioni e consulenze per lo sviluppo di progetti inclusivi per le persone con disabilità.', 'link': 'https://www.anthropic.it/contatti/'}, {'title': "Come scaricare e installare l'app desktop ufficiale di Claude AI su ...", 'snippet': "7 nov 2025 ... Il primo link è quello del sito web ufficiale di Anthropic [5]. L'app è disponibile per i sistemi operativi Windows e Mac [6]. Selezionare\xa0...", 'link': 'https://lilys.ai/it/notes/claude-desktop-20251029/download-install-anthropic-claude-ai-windows-app'}, {'title': 'Guida completa a Claude di Anthropic: 15 funzionalità chiave per ...', 'snippet': "L'obiettivo di questo percorso è guidarvi, passo dopo passo, attraverso quindici funzionalità chiave che vi consentiranno di ottimizzare la ...", 'link': 'https://it.linkedin.com/pulse/guida-completa-claude-di-anthropic-15-funzionalit%25C3%25A0-chiave-bozzo-hotnf'}, {'title': 'Cosa può fare Claude di Anthropic?', 'snippet': "Claude è in grado di fare ragionamenti avanzati, analizzare immagini, documenti e grafici, generare codici e effettuare traduzioni tra diverse lingue. Offre risultati di ottima qualità con un'interfaccia intuitiva e tiene conto della sicurezza e degli aspetti etici.", 'link': 'https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/come-usare-claude/'}, {'title': "Chi è e cosa fa Anthropic, l'azienda di Intelligenza artificiale di 2 fratelli italiani. La storia, risultati e prospettive", 'snippet': 'Consapevoli della crescente influenza esercitata dagli attori commerciali, Dario e Daniela decidono di lasciare OpenAI, portando con sé un piccolo gruppo di colleghi allineati alla loro visione. Questa decisione coraggiosa sfocia nel febbraio 2021 nella fondazione di Anthropic, con sede nel cuore di San Francisco.', 'link': 'https://www.businessonline.it/news/chi-e-cosa-fa-anthropic-lazienda-di-intelligenza-artificiale-di-2-fratelli-italiani-la-storia-risultati-e-prospettive_n80430.html'}, {'title': 'Anthropic - Wikipedia', 'snippet': 'Anthropic PBC is an American artificial intelligence (AI) company founded in 2021. It has developed a family of large language models (LLMs) named Claude. The company researches and develops AI to "study their safety properties at the technological frontier" and use this research to deploy ...', 'link': 'https://en.wikipedia.org/wiki/Anthropic'}, {'title': "Claude arriva anche in Europa, cosa cambia con l'AI di Anthropic - FASTWEBPLUS", 'snippet': 'Con una nota sulla pagina ufficiale Anthropic ha confermato l’arrivo dei modelli Claude 3 in Europa. Le funzioni a disposizione e i vari piani in abbonamento', 'link': 'https://www.fastweb.it/fastweb-plus/intelligenza-artificiale/claude-arriva-anche-in-europa-cosa-cambia-con-lai-di-anthropic/'}, {'title': "Claude Anthropic: tutto sull'assistente virtuale per professionisti - AI4Business", 'snippet': 'Claude è disponibile dal sito ufficiale di Anthropic previa registrazione con due piani principali: la versione Claude Instant con una minor latenza, più economica e più veloce ma con minori capacità nel dialogo, oppure la versione più potente e completa Claude, in grado di gestire dialoghi complessi. Data di pubblicazione 6 ottobre 2025', 'link': 'https://www.ai4business.it/intelligenza-artificiale/claude-ai-ecco-lassistente-virtuale-intelligente-per-professionisti/'}, {'title': 'Anthropic userà le chat con gli utenti per addestrare Claude, ecco come evitare che lo faccia anche con te | Wired Italia', 'snippet': "La modifica ai termini di utilizzo e alla policy sulla privacy di Claude entrerà in funzione il prossimo 28 settembre e entro tale data gli utenti sono chiamati necessariamente a scegliere se acconsentire o meno alla richiesta. In caso negativo, è necessario opporsi tramite opt-out. In ogni caso, è indispensabile rispondere per continuare ad accedere agli strumenti connessi. Ecco tutto ciò che c'è da sapere. Nel post sul sito ufficiale, Anthropic spiega il motivo che ha portato alla modifica dei termini di servizio chiedendo agli utenti il permesso di utilizzare i dati delle chat e delle sessioni di coding per l'addestramento dei suoi modelli di linguattio.", 'link': 'https://www.wired.it/article/anthropic-claude-opt-out-dati-addestramento/'}, {'title': 'Chi siamo | Anthropic', 'snippet': "Scopri la storia, la mission e i valori dell'azienda Anthropic, la realtà specializzata nella progettazione di spazi realmente inclusivi.", 'link': 'https://www.anthropic.it/chi-siamo/'}]
+2026-01-12 18:35:32,207 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 18:35:32,207 - browser_agent.log - INFO - Extracted links: ['https://www.anthropic.com/j']
+2026-01-12 18:35:32,207 - browser_agent.log - INFO - Selected link: https://www.anthropic.com/j
+2026-01-12 18:35:43,510 - browser_agent.log - INFO - Making navigation prompt with page text: [Start of page]
+
+Skip to main contentSkip to footer
+
+A 404 poem by Claude Haiku 4.5Claude Sonnet 4.5...
+remaining links: [0] https://www.anthropic.com/
+[2] https://www.anthropic.com/economic-futures
+[3] https://www.anthropic.com/news
+[4] https://claude.ai/
+2026-01-12 18:35:43,510 - browser_agent.log - INFO - Inputs form: No input forms found on the page.
+2026-01-12 18:35:43,510 - browser_agent.log - INFO - Notes: 
+
+
+
+Note: On the current webpage, there is a clear section titled "Research teams" which lists various teams within Anthropic's research division including the Alignment team, Interpretability team, Societal Impacts team, and the Frontier Red Team. Each team focuses on different aspects of AI research such as understanding the inner workings of large language models, ensuring AI remains helpful, and exploring the real-world applications and societal impacts of AI. There is also a list of recent projects and research areas under "Research projects" which includes topics like prompt injection defenses, emergent misalignment reward hacking, and constitutional classifiers. The website also mentions a "News" section and a "Jobs" page, suggesting that this site serves as both a hub for research information and a recruitment platform.
+2026-01-12 18:53:09,397 - browser_agent.log - INFO - Search results: Link: https://ricette.giallozafferano.it/Spaghetti-alla-Carbonara.html
+Preview: In questa ricetta vi sveliamo passo dopo passo come ottenere la carbonara originale, cremosa e irresistibile, da preparare con gli spaghetti o con il formato di pasta che preferite.
+
+Link: https://www.casapappagallo.it/ricette/carbonara
+Preview: La pasta deve risultare umida in modo da incorporare al meglio il composto di uova, se necessario unite poca acqua di cottura. Aggiungete ora la salsa di uova e ...
+
+Link: https://blog.giallozafferano.it/dulcisinforno/spaghetti-alla-carbonara/
+Preview: Per prima cosa, mettete a scaldare una pentola di acqua. Come sale ne basta poco: circa metà del solito quantitativo, dato che il pecorino è già molto saporito.
+
+Link: https://www.barilla.com/it-it/ricette/tutte/spaghetti-alla-carbonara
+Preview: Per una carbonara diversa dal solito, puoi sostituire gli Spaghetti n. 5 ... Se desideri preparare una ricetta dal vero sapore romano, ti consigliamo di ...
+
+Link: https://www.fattoincasadabenedetta.it/ricetta/spaghetti-alla-carbonara/
+Preview: Gli spaghetti alla carbonara sono uno dei primi piatti più amati e conosciuti della cucina italiana. Una ricetta deliziosa, facile e veloce.
+
+Link: https://www.lacucinaitaliana.it/ricetta/primi/spaghetti-alla-carbonara-2/
+Preview: 21 ott 2025 ... Raccogliere i tuorli in una ciotola. Peparli, unire un mix di pecorino e grana grattugiati, un pizzico di sale e amalgamare con la frusta.
+
+Link: https://www.youtube.com/watch?v=4NtdxWciRzk
+Preview: 6 ott 2024 ... Co sta carbonara hanno fatto tanto casino per una ricetta così semplice, che mi sono stufato pure di cucinarla.
+
+Link: https://www.cookaround.com/ricetta/Pasta-alla-carbonara.html
+Preview: La pasta alla carbonara è un classico della cucina romana che conquista con la sua semplicità. In questo articolo trovi ingredienti, passaggi chiave e consigli per preparare una carbonara cremosa, seguendo la ricetta tradizionale con tuorli, guanciale e pecorino. Ideale con spaghetti o rigatoni.
+
+Link: https://www.pastadimartino.it/blogs/ricette/carbonara%3Fsrsltid%3DAfmBOoryoF_jefDIDY-ZPtrBvm1RFlHAZBvkQi2H1M_eNPf0j5N_lhtF
+Preview: Ingredienti per 4 persone. 400g Spaghetti Di Martino; 150g guanciale; 4 tuorli; 100g Pecorino Romano DOP; q.b. sale e pepe. Preparazione.
+
+Link: https://www.facebook.com/SoniaPeronaciLive/videos/la-carbonara-perfetta-cremosa-no-panna-solo-sapori-autentici-%EF%B8%8F-httpswwwsoniapero/897117775724564/
+Preview: 14 nov 2024 ... Con pochi ingredienti - uova, guanciale, pecorino e pepe - regala un'esperienza di gusto autentica e indimenticabile. INGREDIENTI: • Spaghetti ...
+
+Link: https://ricetta.it/pasta-alla-carbonara
+Preview: Scopri la ricetta originale della pasta alla carbonara: cremosa, veloce e con ingredienti autentici. Pronta in 15 minuti!
+
+Link: https://cesarine.com/it/blog/ricettario-cesarine/ricetta-pasta-carbonara%3Fsrsltid%3DAfmBOoqWjbmwuSYBgGykroTIGmTP0ahwGdee4L0Miz3JGwpgVOILbpYL
+Preview: 6 ott 2021 — Ingredienti · 350 g pasta mezze maniche · 150 g guanciale tagliato in fette alte 1 cm · 4 tuoli di uova freschissime (1 tuorlo a persona) + un uovo ...
+
+Link: https://www.ricettedellanonna.net/spaghetti-alla-carbonara/
+Preview: La pasta alla carbonara la ricetta originale romana di come preparala: ingredienti, dosi, fasi di preparazione, tempi di cottura e calorie.
+
+Link: https://www.pastadimartino.it/blogs/ricette/carbonara
+Preview: Cuoci gli Spaghetti nell'acqua bollente tenendo conto del tempo di cottura. Intanto in una ciotola mescola i tuorli con una buona parte del pecorino. Amalgama ...
+
+Link: https://www.youtube.com/watch?v=1iNq6vknu6M&vl=it
+Preview: 1 feb 2024 ... Ricetta ORIGINALE e DOC degli Spaghetti alla CARBONARA. Tutti i segreti per fare una Carbonara CREMOSA a Regola d'arte.
+
+Link: https://www.sicucina.it/ricetta/carbonara/
+Preview: In questa ricetta della Pasta alla Carbonara, utilizzeremo tutto quello che serve per raggiungere la perfezione assoluta e un rapporto perfetto tra ingredienti e dosi.
+2026-01-12 18:53:09,398 - browser_agent.log - INFO - Unvisited links: [{'title': 'Spaghetti alla Carbonara: ricetta originale, facile e cremosa', 'snippet': 'In questa ricetta vi sveliamo passo dopo passo come ottenere la carbonara originale, cremosa e irresistibile, da preparare con gli spaghetti o con il formato di pasta che preferite.', 'link': 'https://ricette.giallozafferano.it/Spaghetti-alla-Carbonara.html'}, {'title': 'Carbonara - Ricette Casa Pappagallo', 'snippet': 'La pasta deve risultare umida in modo da incorporare al meglio il composto di uova, se necessario unite poca acqua di cottura. Aggiungete ora la salsa di uova e\xa0...', 'link': 'https://www.casapappagallo.it/ricette/carbonara'}, {'title': 'Ricetta CARBONARA, ricetta originale cremosissima come a Roma', 'snippet': 'Per prima cosa, mettete a scaldare una pentola di acqua. Come sale ne basta poco: circa metà del solito quantitativo, dato che il pecorino è già molto saporito.', 'link': 'https://blog.giallozafferano.it/dulcisinforno/spaghetti-alla-carbonara/'}, {'title': 'Spaghetti alla carbonara: un classico intramontabile - Barilla', 'snippet': 'Per una carbonara diversa dal solito, puoi sostituire gli Spaghetti n. 5 ... Se desideri preparare una ricetta dal vero sapore romano, ti consigliamo di\xa0...', 'link': 'https://www.barilla.com/it-it/ricette/tutte/spaghetti-alla-carbonara'}, {'title': 'Spaghetti alla carbonara - Ricetta Fatto in casa da Benedetta', 'snippet': 'Gli spaghetti alla carbonara sono uno dei primi piatti più amati e conosciuti della cucina italiana. Una ricetta deliziosa, facile e veloce.', 'link': 'https://www.fattoincasadabenedetta.it/ricetta/spaghetti-alla-carbonara/'}, {'title': 'Spaghetti alla carbonara, la ricetta originale romana (foto)', 'snippet': '21 ott 2025 ... Raccogliere i tuorli in una ciotola. Peparli, unire un mix di pecorino e grana grattugiati, un pizzico di sale e amalgamare con la frusta.', 'link': 'https://www.lacucinaitaliana.it/ricetta/primi/spaghetti-alla-carbonara-2/'}, {'title': 'Carbonara in 5 minuti - YouTube', 'snippet': '6 ott 2024 ... Co sta carbonara hanno fatto tanto casino per una ricetta così semplice, che mi sono stufato pure di cucinarla.', 'link': 'https://www.youtube.com/watch?v=4NtdxWciRzk'}, {'title': 'Pasta alla carbonara: la ricetta originale romana | Cookaround', 'snippet': 'La pasta alla carbonara è un classico della cucina romana che conquista con la sua semplicità. In questo articolo trovi ingredienti, passaggi chiave e consigli per preparare una carbonara cremosa, seguendo la ricetta tradizionale con tuorli, guanciale e pecorino. Ideale con spaghetti o rigatoni.', 'link': 'https://www.cookaround.com/ricetta/Pasta-alla-carbonara.html'}, {'title': 'La Ricetta della Carbonara', 'snippet': 'Ingredienti per 4 persone. 400g Spaghetti Di Martino; 150g guanciale; 4 tuorli; 100g Pecorino Romano DOP; q.b. sale e pepe. Preparazione.', 'link': 'https://www.pastadimartino.it/blogs/ricette/carbonara%3Fsrsltid%3DAfmBOoryoF_jefDIDY-ZPtrBvm1RFlHAZBvkQi2H1M_eNPf0j5N_lhtF'}, {'title': 'La carbonara perfetta: cremosa, no panna, solo sapori autentici ...', 'snippet': "14 nov 2024 ... Con pochi ingredienti - uova, guanciale, pecorino e pepe - regala un'esperienza di gusto autentica e indimenticabile. INGREDIENTI: • Spaghetti\xa0...", 'link': 'https://www.facebook.com/SoniaPeronaciLive/videos/la-carbonara-perfetta-cremosa-no-panna-solo-sapori-autentici-%EF%B8%8F-httpswwwsoniapero/897117775724564/'}, {'title': 'Pasta alla Carbonara originale: la ricetta romana facile con guanciale', 'snippet': 'Scopri la ricetta originale della pasta alla carbonara: cremosa, veloce e con ingredienti autentici. Pronta in 15 minuti!', 'link': 'https://ricetta.it/pasta-alla-carbonara'}, {'title': 'La vera ricetta per la pasta alla Carbonara', 'snippet': '6 ott 2021 — Ingredienti · 350 g pasta mezze maniche · 150 g guanciale tagliato in fette alte 1 cm · 4 tuoli di uova freschissime (1 tuorlo a persona) + un uovo ...', 'link': 'https://cesarine.com/it/blog/ricettario-cesarine/ricetta-pasta-carbonara%3Fsrsltid%3DAfmBOoqWjbmwuSYBgGykroTIGmTP0ahwGdee4L0Miz3JGwpgVOILbpYL'}, {'title': 'Pasta alla carbonara ricetta tradizionale | Ricette della Nonna', 'snippet': 'La pasta alla carbonara la ricetta originale romana di come preparala: ingredienti, dosi, fasi di preparazione, tempi di cottura e calorie.', 'link': 'https://www.ricettedellanonna.net/spaghetti-alla-carbonara/'}, {'title': 'La Ricetta della Carbonara - Pastificio Di Martino', 'snippet': "Cuoci gli Spaghetti nell'acqua bollente tenendo conto del tempo di cottura. Intanto in una ciotola mescola i tuorli con una buona parte del pecorino. Amalgama\xa0...", 'link': 'https://www.pastadimartino.it/blogs/ricette/carbonara'}, {'title': 'Spaghetti alla Carbonara - Cremosi e con Tuorli Pastorizzati', 'snippet': "1 feb 2024 ... Ricetta ORIGINALE e DOC degli Spaghetti alla CARBONARA. Tutti i segreti per fare una Carbonara CREMOSA a Regola d'arte.", 'link': 'https://www.youtube.com/watch?v=1iNq6vknu6M&vl=it'}, {'title': 'Carbonara: Ricetta Originale Romana Cremosa e Infallibile', 'snippet': 'In questa ricetta della Pasta alla Carbonara, utilizzeremo tutto quello che serve per raggiungere la perfezione assoluta e un rapporto perfetto tra ingredienti e dosi.', 'link': 'https://www.sicucina.it/ricetta/carbonara/'}]
+2026-01-12 18:53:25,540 - browser_agent.log - INFO - Extracted links: ['https://ricette.giallozafferano.it/Spaghetti-alla-Carbonara.html']
+2026-01-12 18:53:25,541 - browser_agent.log - INFO - Selected link: https://ricette.giallozafferano.it/Spaghetti-alla-Carbonara.html
+2026-01-12 18:53:44,933 - browser_agent.log - INFO - Making navigation prompt with page text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+remaining links: [0] https://www.giallozafferano.it/
+[1] https://www.giallozafferano.it/ricette-cat/
+[2] https://www.giallozafferano.com/
+[3] https://ricette.giallozafferano.it/Gnocchi-alla-carbonara.html
+[4] https://ricette.giallozafferano.it/Risotto-alla-carbonara.html
+[5] https://ricette.giallozafferano.it/ricette-con-gli-Spaghetti/
+[6] https://ricette.giallozafferano.it/ricette-con-il-Guanciale/
+[7] https://ricette.giallozafferano.it/ricette-con-Tuorli/
+[8] https://ricette.giallozafferano.it/ricette-con-Pecorino-romano/
+[9] https://ricette.giallozafferano.it/ricette-con-Pepe-nero/
+2026-01-12 18:53:44,933 - browser_agent.log - INFO - Inputs form: [search]()
+[email]()
+[email]()
+[email]()
+[username]()
+[password]()
+[email]()
+2026-01-12 18:53:44,933 - browser_agent.log - INFO - Notes: 
+2026-01-12 18:53:45,264 - browser_agent.log - INFO - Unvisited links: [{'title': 'Carbonara - Ricette Casa Pappagallo', 'snippet': 'La pasta deve risultare umida in modo da incorporare al meglio il composto di uova, se necessario unite poca acqua di cottura. Aggiungete ora la salsa di uova e\xa0...', 'link': 'https://www.casapappagallo.it/ricette/carbonara'}, {'title': 'Ricetta CARBONARA, ricetta originale cremosissima come a Roma', 'snippet': 'Per prima cosa, mettete a scaldare una pentola di acqua. Come sale ne basta poco: circa metà del solito quantitativo, dato che il pecorino è già molto saporito.', 'link': 'https://blog.giallozafferano.it/dulcisinforno/spaghetti-alla-carbonara/'}, {'title': 'Spaghetti alla carbonara: un classico intramontabile - Barilla', 'snippet': 'Per una carbonara diversa dal solito, puoi sostituire gli Spaghetti n. 5 ... Se desideri preparare una ricetta dal vero sapore romano, ti consigliamo di\xa0...', 'link': 'https://www.barilla.com/it-it/ricette/tutte/spaghetti-alla-carbonara'}, {'title': 'Spaghetti alla carbonara - Ricetta Fatto in casa da Benedetta', 'snippet': 'Gli spaghetti alla carbonara sono uno dei primi piatti più amati e conosciuti della cucina italiana. Una ricetta deliziosa, facile e veloce.', 'link': 'https://www.fattoincasadabenedetta.it/ricetta/spaghetti-alla-carbonara/'}, {'title': 'Spaghetti alla carbonara, la ricetta originale romana (foto)', 'snippet': '21 ott 2025 ... Raccogliere i tuorli in una ciotola. Peparli, unire un mix di pecorino e grana grattugiati, un pizzico di sale e amalgamare con la frusta.', 'link': 'https://www.lacucinaitaliana.it/ricetta/primi/spaghetti-alla-carbonara-2/'}, {'title': 'Carbonara in 5 minuti - YouTube', 'snippet': '6 ott 2024 ... Co sta carbonara hanno fatto tanto casino per una ricetta così semplice, che mi sono stufato pure di cucinarla.', 'link': 'https://www.youtube.com/watch?v=4NtdxWciRzk'}, {'title': 'Pasta alla carbonara: la ricetta originale romana | Cookaround', 'snippet': 'La pasta alla carbonara è un classico della cucina romana che conquista con la sua semplicità. In questo articolo trovi ingredienti, passaggi chiave e consigli per preparare una carbonara cremosa, seguendo la ricetta tradizionale con tuorli, guanciale e pecorino. Ideale con spaghetti o rigatoni.', 'link': 'https://www.cookaround.com/ricetta/Pasta-alla-carbonara.html'}, {'title': 'La Ricetta della Carbonara', 'snippet': 'Ingredienti per 4 persone. 400g Spaghetti Di Martino; 150g guanciale; 4 tuorli; 100g Pecorino Romano DOP; q.b. sale e pepe. Preparazione.', 'link': 'https://www.pastadimartino.it/blogs/ricette/carbonara%3Fsrsltid%3DAfmBOoryoF_jefDIDY-ZPtrBvm1RFlHAZBvkQi2H1M_eNPf0j5N_lhtF'}, {'title': 'La carbonara perfetta: cremosa, no panna, solo sapori autentici ...', 'snippet': "14 nov 2024 ... Con pochi ingredienti - uova, guanciale, pecorino e pepe - regala un'esperienza di gusto autentica e indimenticabile. INGREDIENTI: • Spaghetti\xa0...", 'link': 'https://www.facebook.com/SoniaPeronaciLive/videos/la-carbonara-perfetta-cremosa-no-panna-solo-sapori-autentici-%EF%B8%8F-httpswwwsoniapero/897117775724564/'}, {'title': 'Pasta alla Carbonara originale: la ricetta romana facile con guanciale', 'snippet': 'Scopri la ricetta originale della pasta alla carbonara: cremosa, veloce e con ingredienti autentici. Pronta in 15 minuti!', 'link': 'https://ricetta.it/pasta-alla-carbonara'}, {'title': 'La vera ricetta per la pasta alla Carbonara', 'snippet': '6 ott 2021 — Ingredienti · 350 g pasta mezze maniche · 150 g guanciale tagliato in fette alte 1 cm · 4 tuoli di uova freschissime (1 tuorlo a persona) + un uovo ...', 'link': 'https://cesarine.com/it/blog/ricettario-cesarine/ricetta-pasta-carbonara%3Fsrsltid%3DAfmBOoqWjbmwuSYBgGykroTIGmTP0ahwGdee4L0Miz3JGwpgVOILbpYL'}, {'title': 'Pasta alla carbonara ricetta tradizionale | Ricette della Nonna', 'snippet': 'La pasta alla carbonara la ricetta originale romana di come preparala: ingredienti, dosi, fasi di preparazione, tempi di cottura e calorie.', 'link': 'https://www.ricettedellanonna.net/spaghetti-alla-carbonara/'}, {'title': 'La Ricetta della Carbonara - Pastificio Di Martino', 'snippet': "Cuoci gli Spaghetti nell'acqua bollente tenendo conto del tempo di cottura. Intanto in una ciotola mescola i tuorli con una buona parte del pecorino. Amalgama\xa0...", 'link': 'https://www.pastadimartino.it/blogs/ricette/carbonara'}, {'title': 'Spaghetti alla Carbonara - Cremosi e con Tuorli Pastorizzati', 'snippet': "1 feb 2024 ... Ricetta ORIGINALE e DOC degli Spaghetti alla CARBONARA. Tutti i segreti per fare una Carbonara CREMOSA a Regola d'arte.", 'link': 'https://www.youtube.com/watch?v=1iNq6vknu6M&vl=it'}, {'title': 'Carbonara: Ricetta Originale Romana Cremosa e Infallibile', 'snippet': 'In questa ricetta della Pasta alla Carbonara, utilizzeremo tutto quello che serve per raggiungere la perfezione assoluta e un rapporto perfetto tra ingredienti e dosi.', 'link': 'https://www.sicucina.it/ricetta/carbonara/'}]
+2026-01-12 18:53:58,025 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 18:53:58,026 - browser_agent.log - INFO - Extracted links: ['https://ricette.giallozafferano.it/ricette-con-Guanciale.html']
+2026-01-12 18:53:58,026 - browser_agent.log - INFO - Selected link: https://ricette.giallozafferano.it/ricette-con-Guanciale.html
+2026-01-12 18:54:14,819 - browser_agent.log - INFO - Making navigation prompt with page text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+remaining links: [0] https://www.giallozafferano.it/
+[1] https://www.giallozafferano.it/ricette-cat/
+[2] https://www.giallozafferano.com/
+[3] https://www.giallozafferano.it/
+[4] https://apps.apple.com/it/app/giallozafferano-le-ricette/id384387249
+[5] https://www.giallozafferano.it/
+[6] https://www.facebook.com/GialloZafferanolive
+[7] https://www.instagram.com/giallozafferano/
+[8] https://www.tiktok.com/@giallozafferano
+[9] https://www.youtube.com/user/GialloZafferanoTV
+[10] https://www.giallozafferano.it/staff/chisiamo.html
+[11] https://www.giallozafferano.it/utente/index/
+[12] https://www.giallozafferano.it/utente/registrazione
+[13] https://www.gruppomondadori.it/
+[14] https://blog.giallozafferano.it/community/
+[15] https://www.giallozafferano.it/in-edicola
+[16] https://shopping.giallozafferano.it/
+[17] https://www.giallozafferano.it/Ultime-ricette/
+[18] https://www.gruppomondadori.it/privacy-policy
+[20] https://www.giallozafferano.it/static/disclaimer.html
+[21] https://www.gruppomondadori.it/
+2026-01-12 18:54:14,819 - browser_agent.log - INFO - Inputs form: [search]()
+[email]()
+[email]()
+[email]()
+[username]()
+[password]()
+[email]()
+2026-01-12 18:54:14,819 - browser_agent.log - INFO - Notes: 
+
+2026-01-12 18:54:15,133 - browser_agent.log - INFO - Unvisited links: [{'title': 'Carbonara - Ricette Casa Pappagallo', 'snippet': 'La pasta deve risultare umida in modo da incorporare al meglio il composto di uova, se necessario unite poca acqua di cottura. Aggiungete ora la salsa di uova e\xa0...', 'link': 'https://www.casapappagallo.it/ricette/carbonara'}, {'title': 'Ricetta CARBONARA, ricetta originale cremosissima come a Roma', 'snippet': 'Per prima cosa, mettete a scaldare una pentola di acqua. Come sale ne basta poco: circa metà del solito quantitativo, dato che il pecorino è già molto saporito.', 'link': 'https://blog.giallozafferano.it/dulcisinforno/spaghetti-alla-carbonara/'}, {'title': 'Spaghetti alla carbonara: un classico intramontabile - Barilla', 'snippet': 'Per una carbonara diversa dal solito, puoi sostituire gli Spaghetti n. 5 ... Se desideri preparare una ricetta dal vero sapore romano, ti consigliamo di\xa0...', 'link': 'https://www.barilla.com/it-it/ricette/tutte/spaghetti-alla-carbonara'}, {'title': 'Spaghetti alla carbonara - Ricetta Fatto in casa da Benedetta', 'snippet': 'Gli spaghetti alla carbonara sono uno dei primi piatti più amati e conosciuti della cucina italiana. Una ricetta deliziosa, facile e veloce.', 'link': 'https://www.fattoincasadabenedetta.it/ricetta/spaghetti-alla-carbonara/'}, {'title': 'Spaghetti alla carbonara, la ricetta originale romana (foto)', 'snippet': '21 ott 2025 ... Raccogliere i tuorli in una ciotola. Peparli, unire un mix di pecorino e grana grattugiati, un pizzico di sale e amalgamare con la frusta.', 'link': 'https://www.lacucinaitaliana.it/ricetta/primi/spaghetti-alla-carbonara-2/'}, {'title': 'Carbonara in 5 minuti - YouTube', 'snippet': '6 ott 2024 ... Co sta carbonara hanno fatto tanto casino per una ricetta così semplice, che mi sono stufato pure di cucinarla.', 'link': 'https://www.youtube.com/watch?v=4NtdxWciRzk'}, {'title': 'Pasta alla carbonara: la ricetta originale romana | Cookaround', 'snippet': 'La pasta alla carbonara è un classico della cucina romana che conquista con la sua semplicità. In questo articolo trovi ingredienti, passaggi chiave e consigli per preparare una carbonara cremosa, seguendo la ricetta tradizionale con tuorli, guanciale e pecorino. Ideale con spaghetti o rigatoni.', 'link': 'https://www.cookaround.com/ricetta/Pasta-alla-carbonara.html'}, {'title': 'La Ricetta della Carbonara', 'snippet': 'Ingredienti per 4 persone. 400g Spaghetti Di Martino; 150g guanciale; 4 tuorli; 100g Pecorino Romano DOP; q.b. sale e pepe. Preparazione.', 'link': 'https://www.pastadimartino.it/blogs/ricette/carbonara%3Fsrsltid%3DAfmBOoryoF_jefDIDY-ZPtrBvm1RFlHAZBvkQi2H1M_eNPf0j5N_lhtF'}, {'title': 'La carbonara perfetta: cremosa, no panna, solo sapori autentici ...', 'snippet': "14 nov 2024 ... Con pochi ingredienti - uova, guanciale, pecorino e pepe - regala un'esperienza di gusto autentica e indimenticabile. INGREDIENTI: • Spaghetti\xa0...", 'link': 'https://www.facebook.com/SoniaPeronaciLive/videos/la-carbonara-perfetta-cremosa-no-panna-solo-sapori-autentici-%EF%B8%8F-httpswwwsoniapero/897117775724564/'}, {'title': 'Pasta alla Carbonara originale: la ricetta romana facile con guanciale', 'snippet': 'Scopri la ricetta originale della pasta alla carbonara: cremosa, veloce e con ingredienti autentici. Pronta in 15 minuti!', 'link': 'https://ricetta.it/pasta-alla-carbonara'}, {'title': 'La vera ricetta per la pasta alla Carbonara', 'snippet': '6 ott 2021 — Ingredienti · 350 g pasta mezze maniche · 150 g guanciale tagliato in fette alte 1 cm · 4 tuoli di uova freschissime (1 tuorlo a persona) + un uovo ...', 'link': 'https://cesarine.com/it/blog/ricettario-cesarine/ricetta-pasta-carbonara%3Fsrsltid%3DAfmBOoqWjbmwuSYBgGykroTIGmTP0ahwGdee4L0Miz3JGwpgVOILbpYL'}, {'title': 'Pasta alla carbonara ricetta tradizionale | Ricette della Nonna', 'snippet': 'La pasta alla carbonara la ricetta originale romana di come preparala: ingredienti, dosi, fasi di preparazione, tempi di cottura e calorie.', 'link': 'https://www.ricettedellanonna.net/spaghetti-alla-carbonara/'}, {'title': 'La Ricetta della Carbonara - Pastificio Di Martino', 'snippet': "Cuoci gli Spaghetti nell'acqua bollente tenendo conto del tempo di cottura. Intanto in una ciotola mescola i tuorli con una buona parte del pecorino. Amalgama\xa0...", 'link': 'https://www.pastadimartino.it/blogs/ricette/carbonara'}, {'title': 'Spaghetti alla Carbonara - Cremosi e con Tuorli Pastorizzati', 'snippet': "1 feb 2024 ... Ricetta ORIGINALE e DOC degli Spaghetti alla CARBONARA. Tutti i segreti per fare una Carbonara CREMOSA a Regola d'arte.", 'link': 'https://www.youtube.com/watch?v=1iNq6vknu6M&vl=it'}, {'title': 'Carbonara: Ricetta Originale Romana Cremosa e Infallibile', 'snippet': 'In questa ricetta della Pasta alla Carbonara, utilizzeremo tutto quello che serve per raggiungere la perfezione assoluta e un rapporto perfetto tra ingredienti e dosi.', 'link': 'https://www.sicucina.it/ricetta/carbonara/'}]
+2026-01-12 18:54:33,754 - browser_agent.log - INFO - Extracted links: ['https://ricette.giallozafferano.it/ricette-con-Guanciale.html']
+2026-01-12 18:54:33,755 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 18:54:33,755 - browser_agent.log - INFO - Extracted links: ['https://www.giallozafferano.it/ricette-cat/']
+2026-01-12 18:54:33,755 - browser_agent.log - INFO - Skipping already visited or current link: https://ricette.giallozafferano.it/ricette-con-Guanciale.html
+2026-01-12 18:54:33,755 - browser_agent.log - INFO - Selected link: https://www.giallozafferano.it/ricette-cat
+2026-01-12 18:54:53,161 - browser_agent.log - INFO - Making navigation prompt with page text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+remaining links: [0] https://www.giallozafferano.it/
+[1] https://www.giallozafferano.it/ricette-cat/
+[2] https://www.giallozafferano.com/
+[3] https://ricette.giallozafferano.it/Besciamella.html
+[4] https://www.giallozafferano.it/ricette-cat/Salse-e-Sughi/
+[5] https://ricette.giallozafferano.it/Besciamella.html
+[6] https://ricette.giallozafferano.it/Besciamella.html
+[7] https://ricette.giallozafferano.it/Besciamella.html
+[8] https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html
+[9] https://www.giallozafferano.it/ricette-cat/Dolci-e-Desserts/
+[10] https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html
+[11] https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html
+[12] https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html
+[13] https://ricette.giallozafferano.it/Torta-rustica-di-mele.html
+[14] https://www.giallozafferano.it/ricette-cat/Dolci-e-Desserts/
+[15] https://ricette.giallozafferano.it/Torta-rustica-di-mele.html
+[16] https://ricette.giallozafferano.it/Torta-rustica-di-mele.html
+[17] https://ricette.giallozafferano.it/Torta-rustica-di-mele.html
+[18] https://ricette.giallozafferano.it/Crema-pasticcera.html
+2026-01-12 18:54:53,161 - browser_agent.log - INFO - Inputs form: [search]()
+[email]()
+[email]()
+[email]()
+[username]()
+[password]()
+[email]()
+2026-01-12 18:54:53,161 - browser_agent.log - INFO - Notes: 
+
+
+2026-01-12 18:54:53,487 - browser_agent.log - INFO - Unvisited links: [{'title': 'Carbonara - Ricette Casa Pappagallo', 'snippet': 'La pasta deve risultare umida in modo da incorporare al meglio il composto di uova, se necessario unite poca acqua di cottura. Aggiungete ora la salsa di uova e\xa0...', 'link': 'https://www.casapappagallo.it/ricette/carbonara'}, {'title': 'Ricetta CARBONARA, ricetta originale cremosissima come a Roma', 'snippet': 'Per prima cosa, mettete a scaldare una pentola di acqua. Come sale ne basta poco: circa metà del solito quantitativo, dato che il pecorino è già molto saporito.', 'link': 'https://blog.giallozafferano.it/dulcisinforno/spaghetti-alla-carbonara/'}, {'title': 'Spaghetti alla carbonara: un classico intramontabile - Barilla', 'snippet': 'Per una carbonara diversa dal solito, puoi sostituire gli Spaghetti n. 5 ... Se desideri preparare una ricetta dal vero sapore romano, ti consigliamo di\xa0...', 'link': 'https://www.barilla.com/it-it/ricette/tutte/spaghetti-alla-carbonara'}, {'title': 'Spaghetti alla carbonara - Ricetta Fatto in casa da Benedetta', 'snippet': 'Gli spaghetti alla carbonara sono uno dei primi piatti più amati e conosciuti della cucina italiana. Una ricetta deliziosa, facile e veloce.', 'link': 'https://www.fattoincasadabenedetta.it/ricetta/spaghetti-alla-carbonara/'}, {'title': 'Spaghetti alla carbonara, la ricetta originale romana (foto)', 'snippet': '21 ott 2025 ... Raccogliere i tuorli in una ciotola. Peparli, unire un mix di pecorino e grana grattugiati, un pizzico di sale e amalgamare con la frusta.', 'link': 'https://www.lacucinaitaliana.it/ricetta/primi/spaghetti-alla-carbonara-2/'}, {'title': 'Carbonara in 5 minuti - YouTube', 'snippet': '6 ott 2024 ... Co sta carbonara hanno fatto tanto casino per una ricetta così semplice, che mi sono stufato pure di cucinarla.', 'link': 'https://www.youtube.com/watch?v=4NtdxWciRzk'}, {'title': 'Pasta alla carbonara: la ricetta originale romana | Cookaround', 'snippet': 'La pasta alla carbonara è un classico della cucina romana che conquista con la sua semplicità. In questo articolo trovi ingredienti, passaggi chiave e consigli per preparare una carbonara cremosa, seguendo la ricetta tradizionale con tuorli, guanciale e pecorino. Ideale con spaghetti o rigatoni.', 'link': 'https://www.cookaround.com/ricetta/Pasta-alla-carbonara.html'}, {'title': 'La Ricetta della Carbonara', 'snippet': 'Ingredienti per 4 persone. 400g Spaghetti Di Martino; 150g guanciale; 4 tuorli; 100g Pecorino Romano DOP; q.b. sale e pepe. Preparazione.', 'link': 'https://www.pastadimartino.it/blogs/ricette/carbonara%3Fsrsltid%3DAfmBOoryoF_jefDIDY-ZPtrBvm1RFlHAZBvkQi2H1M_eNPf0j5N_lhtF'}, {'title': 'La carbonara perfetta: cremosa, no panna, solo sapori autentici ...', 'snippet': "14 nov 2024 ... Con pochi ingredienti - uova, guanciale, pecorino e pepe - regala un'esperienza di gusto autentica e indimenticabile. INGREDIENTI: • Spaghetti\xa0...", 'link': 'https://www.facebook.com/SoniaPeronaciLive/videos/la-carbonara-perfetta-cremosa-no-panna-solo-sapori-autentici-%EF%B8%8F-httpswwwsoniapero/897117775724564/'}, {'title': 'Pasta alla Carbonara originale: la ricetta romana facile con guanciale', 'snippet': 'Scopri la ricetta originale della pasta alla carbonara: cremosa, veloce e con ingredienti autentici. Pronta in 15 minuti!', 'link': 'https://ricetta.it/pasta-alla-carbonara'}, {'title': 'La vera ricetta per la pasta alla Carbonara', 'snippet': '6 ott 2021 — Ingredienti · 350 g pasta mezze maniche · 150 g guanciale tagliato in fette alte 1 cm · 4 tuoli di uova freschissime (1 tuorlo a persona) + un uovo ...', 'link': 'https://cesarine.com/it/blog/ricettario-cesarine/ricetta-pasta-carbonara%3Fsrsltid%3DAfmBOoqWjbmwuSYBgGykroTIGmTP0ahwGdee4L0Miz3JGwpgVOILbpYL'}, {'title': 'Pasta alla carbonara ricetta tradizionale | Ricette della Nonna', 'snippet': 'La pasta alla carbonara la ricetta originale romana di come preparala: ingredienti, dosi, fasi di preparazione, tempi di cottura e calorie.', 'link': 'https://www.ricettedellanonna.net/spaghetti-alla-carbonara/'}, {'title': 'La Ricetta della Carbonara - Pastificio Di Martino', 'snippet': "Cuoci gli Spaghetti nell'acqua bollente tenendo conto del tempo di cottura. Intanto in una ciotola mescola i tuorli con una buona parte del pecorino. Amalgama\xa0...", 'link': 'https://www.pastadimartino.it/blogs/ricette/carbonara'}, {'title': 'Spaghetti alla Carbonara - Cremosi e con Tuorli Pastorizzati', 'snippet': "1 feb 2024 ... Ricetta ORIGINALE e DOC degli Spaghetti alla CARBONARA. Tutti i segreti per fare una Carbonara CREMOSA a Regola d'arte.", 'link': 'https://www.youtube.com/watch?v=1iNq6vknu6M&vl=it'}, {'title': 'Carbonara: Ricetta Originale Romana Cremosa e Infallibile', 'snippet': 'In questa ricetta della Pasta alla Carbonara, utilizzeremo tutto quello che serve per raggiungere la perfezione assoluta e un rapporto perfetto tra ingredienti e dosi.', 'link': 'https://www.sicucina.it/ricetta/carbonara/'}]
+2026-01-12 18:55:07,314 - browser_agent.log - INFO - Extracted links: ['https://www.giallozafferano.it/ricette-cat']
+2026-01-12 18:55:07,314 - browser_agent.log - INFO - Extracted links: ['https://ricette.giallozafferano.it/']
+2026-01-12 18:55:07,314 - browser_agent.log - INFO - Skipping already visited or current link: https://www.giallozafferano.it/ricette-cat
+2026-01-12 18:55:07,315 - browser_agent.log - INFO - Selected link: https://ricette.giallozafferano.it
+2026-01-12 18:55:23,198 - browser_agent.log - INFO - Making navigation prompt with page text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+remaining links: [0] https://www.giallozafferano.it/
+[1] https://www.giallozafferano.it/ricette-cat/
+[2] https://www.giallozafferano.com/
+[3] https://ricette.giallozafferano.it/Torta-tenerina.html
+[4] https://www.giallozafferano.it/ricette-cat/Dolci-e-Desserts/
+[5] https://ricette.giallozafferano.it/Torta-tenerina.html
+[6] https://ricette.giallozafferano.it/Torta-tenerina.html
+[7] https://ricette.giallozafferano.it/Torta-tenerina.html
+[8] https://www.giallozafferano.it/ricette-cat/Dolci-e-Desserts/
+[9] https://ricette.giallozafferano.it/Crema-al-mascarpone.html
+[10] https://www.giallozafferano.it/ricette-cat/Dolci-e-Desserts/
+[11] https://ricette.giallozafferano.it/Crema-al-mascarpone.html
+[12] https://ricette.giallozafferano.it/Crema-al-mascarpone.html
+[13] https://ricette.giallozafferano.it/Crema-al-mascarpone.html
+[14] https://www.giallozafferano.it/ricette-cat/Dolci-e-Desserts/
+2026-01-12 18:55:23,198 - browser_agent.log - INFO - Inputs form: [search]()
+[email]()
+[email]()
+[email]()
+[username]()
+[password]()
+[email]()
+2026-01-12 18:55:23,199 - browser_agent.log - INFO - Notes: 
+
+
+
+2026-01-12 18:55:23,529 - browser_agent.log - INFO - Unvisited links: [{'title': 'Carbonara - Ricette Casa Pappagallo', 'snippet': 'La pasta deve risultare umida in modo da incorporare al meglio il composto di uova, se necessario unite poca acqua di cottura. Aggiungete ora la salsa di uova e\xa0...', 'link': 'https://www.casapappagallo.it/ricette/carbonara'}, {'title': 'Ricetta CARBONARA, ricetta originale cremosissima come a Roma', 'snippet': 'Per prima cosa, mettete a scaldare una pentola di acqua. Come sale ne basta poco: circa metà del solito quantitativo, dato che il pecorino è già molto saporito.', 'link': 'https://blog.giallozafferano.it/dulcisinforno/spaghetti-alla-carbonara/'}, {'title': 'Spaghetti alla carbonara: un classico intramontabile - Barilla', 'snippet': 'Per una carbonara diversa dal solito, puoi sostituire gli Spaghetti n. 5 ... Se desideri preparare una ricetta dal vero sapore romano, ti consigliamo di\xa0...', 'link': 'https://www.barilla.com/it-it/ricette/tutte/spaghetti-alla-carbonara'}, {'title': 'Spaghetti alla carbonara - Ricetta Fatto in casa da Benedetta', 'snippet': 'Gli spaghetti alla carbonara sono uno dei primi piatti più amati e conosciuti della cucina italiana. Una ricetta deliziosa, facile e veloce.', 'link': 'https://www.fattoincasadabenedetta.it/ricetta/spaghetti-alla-carbonara/'}, {'title': 'Spaghetti alla carbonara, la ricetta originale romana (foto)', 'snippet': '21 ott 2025 ... Raccogliere i tuorli in una ciotola. Peparli, unire un mix di pecorino e grana grattugiati, un pizzico di sale e amalgamare con la frusta.', 'link': 'https://www.lacucinaitaliana.it/ricetta/primi/spaghetti-alla-carbonara-2/'}, {'title': 'Carbonara in 5 minuti - YouTube', 'snippet': '6 ott 2024 ... Co sta carbonara hanno fatto tanto casino per una ricetta così semplice, che mi sono stufato pure di cucinarla.', 'link': 'https://www.youtube.com/watch?v=4NtdxWciRzk'}, {'title': 'Pasta alla carbonara: la ricetta originale romana | Cookaround', 'snippet': 'La pasta alla carbonara è un classico della cucina romana che conquista con la sua semplicità. In questo articolo trovi ingredienti, passaggi chiave e consigli per preparare una carbonara cremosa, seguendo la ricetta tradizionale con tuorli, guanciale e pecorino. Ideale con spaghetti o rigatoni.', 'link': 'https://www.cookaround.com/ricetta/Pasta-alla-carbonara.html'}, {'title': 'La Ricetta della Carbonara', 'snippet': 'Ingredienti per 4 persone. 400g Spaghetti Di Martino; 150g guanciale; 4 tuorli; 100g Pecorino Romano DOP; q.b. sale e pepe. Preparazione.', 'link': 'https://www.pastadimartino.it/blogs/ricette/carbonara%3Fsrsltid%3DAfmBOoryoF_jefDIDY-ZPtrBvm1RFlHAZBvkQi2H1M_eNPf0j5N_lhtF'}, {'title': 'La carbonara perfetta: cremosa, no panna, solo sapori autentici ...', 'snippet': "14 nov 2024 ... Con pochi ingredienti - uova, guanciale, pecorino e pepe - regala un'esperienza di gusto autentica e indimenticabile. INGREDIENTI: • Spaghetti\xa0...", 'link': 'https://www.facebook.com/SoniaPeronaciLive/videos/la-carbonara-perfetta-cremosa-no-panna-solo-sapori-autentici-%EF%B8%8F-httpswwwsoniapero/897117775724564/'}, {'title': 'Pasta alla Carbonara originale: la ricetta romana facile con guanciale', 'snippet': 'Scopri la ricetta originale della pasta alla carbonara: cremosa, veloce e con ingredienti autentici. Pronta in 15 minuti!', 'link': 'https://ricetta.it/pasta-alla-carbonara'}, {'title': 'La vera ricetta per la pasta alla Carbonara', 'snippet': '6 ott 2021 — Ingredienti · 350 g pasta mezze maniche · 150 g guanciale tagliato in fette alte 1 cm · 4 tuoli di uova freschissime (1 tuorlo a persona) + un uovo ...', 'link': 'https://cesarine.com/it/blog/ricettario-cesarine/ricetta-pasta-carbonara%3Fsrsltid%3DAfmBOoqWjbmwuSYBgGykroTIGmTP0ahwGdee4L0Miz3JGwpgVOILbpYL'}, {'title': 'Pasta alla carbonara ricetta tradizionale | Ricette della Nonna', 'snippet': 'La pasta alla carbonara la ricetta originale romana di come preparala: ingredienti, dosi, fasi di preparazione, tempi di cottura e calorie.', 'link': 'https://www.ricettedellanonna.net/spaghetti-alla-carbonara/'}, {'title': 'La Ricetta della Carbonara - Pastificio Di Martino', 'snippet': "Cuoci gli Spaghetti nell'acqua bollente tenendo conto del tempo di cottura. Intanto in una ciotola mescola i tuorli con una buona parte del pecorino. Amalgama\xa0...", 'link': 'https://www.pastadimartino.it/blogs/ricette/carbonara'}, {'title': 'Spaghetti alla Carbonara - Cremosi e con Tuorli Pastorizzati', 'snippet': "1 feb 2024 ... Ricetta ORIGINALE e DOC degli Spaghetti alla CARBONARA. Tutti i segreti per fare una Carbonara CREMOSA a Regola d'arte.", 'link': 'https://www.youtube.com/watch?v=1iNq6vknu6M&vl=it'}, {'title': 'Carbonara: Ricetta Originale Romana Cremosa e Infallibile', 'snippet': 'In questa ricetta della Pasta alla Carbonara, utilizzeremo tutto quello che serve per raggiungere la perfezione assoluta e un rapporto perfetto tra ingredienti e dosi.', 'link': 'https://www.sicucina.it/ricetta/carbonara/'}]
+2026-01-12 18:55:52,777 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 18:55:52,778 - browser_agent.log - INFO - Extracted links: ['https://ricette.giallozafferano.it/ricette-cat/Dolci-e-Desserts/']
+2026-01-12 18:55:52,778 - browser_agent.log - INFO - Selected link: https://ricette.giallozafferano.it/ricette-cat/Dolci-e-Desserts
+2026-01-12 18:56:11,974 - browser_agent.log - INFO - Making navigation prompt with page text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+remaining links: [0] https://www.giallozafferano.it/
+[1] https://www.giallozafferano.it/ricette-cat/
+[2] https://www.giallozafferano.com/
+[3] https://www.giallozafferano.it/
+[4] https://apps.apple.com/it/app/giallozafferano-le-ricette/id384387249
+[5] https://www.giallozafferano.it/
+[6] https://www.facebook.com/GialloZafferanolive
+[7] https://www.instagram.com/giallozafferano/
+[8] https://www.tiktok.com/@giallozafferano
+[9] https://www.youtube.com/user/GialloZafferanoTV
+[10] https://www.giallozafferano.it/staff/chisiamo.html
+[11] https://www.giallozafferano.it/utente/index/
+[12] https://www.giallozafferano.it/utente/registrazione
+[13] https://www.gruppomondadori.it/
+[14] https://blog.giallozafferano.it/community/
+[15] https://www.giallozafferano.it/in-edicola
+[16] https://shopping.giallozafferano.it/
+[17] https://www.giallozafferano.it/Ultime-ricette/
+[18] https://www.gruppomondadori.it/privacy-policy
+[20] https://www.giallozafferano.it/static/disclaimer.html
+[21] https://www.gruppomondadori.it/
+2026-01-12 18:56:11,974 - browser_agent.log - INFO - Inputs form: [search]()
+[email]()
+[email]()
+[email]()
+[username]()
+[password]()
+[email]()
+2026-01-12 18:56:11,974 - browser_agent.log - INFO - Notes: 
+
+
+
+
+2026-01-12 19:00:07,468 - browser_agent.log - INFO - Search results: Link: https://ricette.giallozafferano.it/Spaghetti-al-pomodoro.html
+Preview: Spaghetti al pomodoro fresco, basilico e stracciatella ; Spaghetti 320 g ; Pomodori pelati 800 g ; Olio extravergine d'oliva 30 g ; Aglio 1 spicchio ; Basilico q.b. ...
+
+Link: https://www.cucchiaio.it/ricetta/spaghetti-al-pomodoro/
+Preview: Noi abbiamo scelto i classici pomodori pelati (che siano di ottima qualità) e li abbiamo fatti cuocere con olio extravergine di oliva e aglio. Abbiamo passato ...
+
+Link: https://www.tiktok.com/@our_cookingjourney/video/7280125581021269281?lang=en
+Preview: Sep 18, 2023 ... Really important. Infuse the oil with a garlic like this. And cook it for about a minute, maximum. Tomatoes goes in. A good pinch of salt. Next ...
+
+Link: https://www.youtube.com/watch?v=JzOKhUhdVLU
+Preview: May 30, 2017 ... L'olio non serve a niente e ci vogliono più pomodoro e decisamente più pecorino. ... Pasta all'Amatriciana - Ricetta depositata dal comune di ...
+
+Link: https://www.lacucinaitaliana.it/article/pasta-allo-scarpariello-ricetta-napoletana/
+Preview: Sep 8, 2024 ... La differenza fra lo scarpariello napoletano e un semplice piatto di pasta al sugo di pomodoro? In primis i formati di pasta tipici da ...
+
+Link: https://ricette.giallozafferano.it/Pasta-allo-scarpariello.html
+Preview: Nel frattempo lessate gli spaghetti 7 al dente. Una volta che il sugo di datterini sarà pronto, salatelo, togliete l'aglio 8 e aggiungete parte delle foglioline ...
+
+Link: https://www.tiktok.com/@piovonoricette/video/7565570115522137366
+Preview: Oct 26, 2025 ... Try this delicious Lemon Pasta recipe that combines Acini di Pepe pasta with a ... Ingredienti per circa 36 girelle Per la crema al ...
+
+Link: https://www.cookist.it/pasta-alla-genovese-la-ricetta/
+Preview: Come tutte le ricette della tradizione, anche la pasta alla genovese viene realizzata con leggere variazioni sul tema: c'è chi unisce la carne tritata al ...
+
+Link: https://www.youtube.com/watch?v=am2S411n4Tw
+Preview: Sep 19, 2024 ... INGREDIENTI E DOSI CLICCA https://cucinapassioneefantasia.altervista.org/tagliatelle-al-pomodoro-con-funghi-misti-congelati/ ...
+
+Link: https://www.tiktok.com/@tasteatlas/video/7523241586080189718
+Preview: Jul 4, 2025 ... Tottis Fettuccine Tomato Sugo Recipe. Busiate al sugo di pittinicchi e salsiccia: Ricetta. Scopri la ricetta dei busiate al sugo di pittinicchi ...
+2026-01-12 19:00:07,468 - browser_agent.log - INFO - Unvisited links: [{'title': 'Spaghetti al pomodoro - Ricette GialloZafferano', 'snippet': "Spaghetti al pomodoro fresco, basilico e stracciatella ; Spaghetti 320 g ; Pomodori pelati 800 g ; Olio extravergine d'oliva 30 g ; Aglio 1 spicchio ; Basilico q.b.\xa0...", 'link': 'https://ricette.giallozafferano.it/Spaghetti-al-pomodoro.html'}, {'title': "Ricetta Spaghetti al pomodoro - Il Cucchiaio d'Argento", 'snippet': 'Noi abbiamo scelto i classici pomodori pelati (che siano di ottima qualità) e li abbiamo fatti cuocere con olio extravergine di oliva e aglio. Abbiamo passato\xa0...', 'link': 'https://www.cucchiaio.it/ricetta/spaghetti-al-pomodoro/'}, {'title': 'Authentic Spaghetti al Pomodoro Recipe - TikTok', 'snippet': 'Sep 18, 2023 ... Really important. Infuse the oil with a garlic like this. And cook it for about a minute, maximum. Tomatoes goes in. A good pinch of salt. Next\xa0...', 'link': 'https://www.tiktok.com/@our_cookingjourney/video/7280125581021269281?lang=en'}, {'title': 'AMATRICIANA ORIGINAL RECIPE - YouTube', 'snippet': "May 30, 2017 ... L'olio non serve a niente e ci vogliono più pomodoro e decisamente più pecorino. ... Pasta all'Amatriciana - Ricetta depositata dal comune di\xa0...", 'link': 'https://www.youtube.com/watch?v=JzOKhUhdVLU'}, {'title': 'La pasta allo scarpariello: ricetta napoletana | La Cucina Italiana', 'snippet': 'Sep 8, 2024 ... La differenza fra lo scarpariello napoletano e un semplice piatto di pasta al sugo di pomodoro? In primis i formati di pasta tipici da\xa0...', 'link': 'https://www.lacucinaitaliana.it/article/pasta-allo-scarpariello-ricetta-napoletana/'}, {'title': 'Pasta allo scarpariello - Ricette GialloZafferano', 'snippet': "Nel frattempo lessate gli spaghetti 7 al dente. Una volta che il sugo di datterini sarà pronto, salatelo, togliete l'aglio 8 e aggiungete parte delle foglioline\xa0...", 'link': 'https://ricette.giallozafferano.it/Pasta-allo-scarpariello.html'}, {'title': 'Pastina al Pomodoro con un Ingrediente Speciale - TikTok', 'snippet': 'Oct 26, 2025 ... Try this delicious Lemon Pasta recipe that combines Acini di Pepe pasta with a ... Ingredienti per circa 36 girelle Per la crema al\xa0...', 'link': 'https://www.tiktok.com/@piovonoricette/video/7565570115522137366'}, {'title': 'Pasta alla genovese - Cookist', 'snippet': "Come tutte le ricette della tradizione, anche la pasta alla genovese viene realizzata con leggere variazioni sul tema: c'è chi unisce la carne tritata al\xa0...", 'link': 'https://www.cookist.it/pasta-alla-genovese-la-ricetta/'}, {'title': 'TAGLIATELLE WITH TOMATO SAUCE AND FROZEN ... - YouTube', 'snippet': 'Sep 19, 2024 ... INGREDIENTI E DOSI CLICCA https://cucinapassioneefantasia.altervista.org/tagliatelle-al-pomodoro-con-funghi-misti-congelati/\xa0...', 'link': 'https://www.youtube.com/watch?v=am2S411n4Tw'}, {'title': 'Busiate al sugo di pittinicchi e salsiccia: Ricetta | TikTok', 'snippet': 'Jul 4, 2025 ... Tottis Fettuccine Tomato Sugo Recipe. Busiate al sugo di pittinicchi e salsiccia: Ricetta. Scopri la ricetta dei busiate al sugo di pittinicchi\xa0...', 'link': 'https://www.tiktok.com/@tasteatlas/video/7523241586080189718'}]
+2026-01-12 19:00:21,984 - browser_agent.log - INFO - Extracted links: ['https://ricette.giallozafferano.it/Spaghetti-al-pomodoro.html']
+2026-01-12 19:00:21,984 - browser_agent.log - INFO - Selected link: https://ricette.giallozafferano.it/Spaghetti-al-pomodoro.html
+2026-01-12 19:00:40,536 - browser_agent.log - INFO - Making navigation prompt with page text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+remaining links: [0] https://www.giallozafferano.it/
+[1] https://www.giallozafferano.it/ricette-cat/
+[2] https://www.giallozafferano.com/
+2026-01-12 19:00:40,536 - browser_agent.log - INFO - Inputs form: [search]()
+[email]()
+[email]()
+[email]()
+[username]()
+[password]()
+[email]()
+2026-01-12 19:00:40,536 - browser_agent.log - INFO - Notes: 
+2026-01-12 19:00:40,846 - browser_agent.log - INFO - Unvisited links: [{'title': "Ricetta Spaghetti al pomodoro - Il Cucchiaio d'Argento", 'snippet': 'Noi abbiamo scelto i classici pomodori pelati (che siano di ottima qualità) e li abbiamo fatti cuocere con olio extravergine di oliva e aglio. Abbiamo passato\xa0...', 'link': 'https://www.cucchiaio.it/ricetta/spaghetti-al-pomodoro/'}, {'title': 'Authentic Spaghetti al Pomodoro Recipe - TikTok', 'snippet': 'Sep 18, 2023 ... Really important. Infuse the oil with a garlic like this. And cook it for about a minute, maximum. Tomatoes goes in. A good pinch of salt. Next\xa0...', 'link': 'https://www.tiktok.com/@our_cookingjourney/video/7280125581021269281?lang=en'}, {'title': 'AMATRICIANA ORIGINAL RECIPE - YouTube', 'snippet': "May 30, 2017 ... L'olio non serve a niente e ci vogliono più pomodoro e decisamente più pecorino. ... Pasta all'Amatriciana - Ricetta depositata dal comune di\xa0...", 'link': 'https://www.youtube.com/watch?v=JzOKhUhdVLU'}, {'title': 'La pasta allo scarpariello: ricetta napoletana | La Cucina Italiana', 'snippet': 'Sep 8, 2024 ... La differenza fra lo scarpariello napoletano e un semplice piatto di pasta al sugo di pomodoro? In primis i formati di pasta tipici da\xa0...', 'link': 'https://www.lacucinaitaliana.it/article/pasta-allo-scarpariello-ricetta-napoletana/'}, {'title': 'Pasta allo scarpariello - Ricette GialloZafferano', 'snippet': "Nel frattempo lessate gli spaghetti 7 al dente. Una volta che il sugo di datterini sarà pronto, salatelo, togliete l'aglio 8 e aggiungete parte delle foglioline\xa0...", 'link': 'https://ricette.giallozafferano.it/Pasta-allo-scarpariello.html'}, {'title': 'Pastina al Pomodoro con un Ingrediente Speciale - TikTok', 'snippet': 'Oct 26, 2025 ... Try this delicious Lemon Pasta recipe that combines Acini di Pepe pasta with a ... Ingredienti per circa 36 girelle Per la crema al\xa0...', 'link': 'https://www.tiktok.com/@piovonoricette/video/7565570115522137366'}, {'title': 'Pasta alla genovese - Cookist', 'snippet': "Come tutte le ricette della tradizione, anche la pasta alla genovese viene realizzata con leggere variazioni sul tema: c'è chi unisce la carne tritata al\xa0...", 'link': 'https://www.cookist.it/pasta-alla-genovese-la-ricetta/'}, {'title': 'TAGLIATELLE WITH TOMATO SAUCE AND FROZEN ... - YouTube', 'snippet': 'Sep 19, 2024 ... INGREDIENTI E DOSI CLICCA https://cucinapassioneefantasia.altervista.org/tagliatelle-al-pomodoro-con-funghi-misti-congelati/\xa0...', 'link': 'https://www.youtube.com/watch?v=am2S411n4Tw'}, {'title': 'Busiate al sugo di pittinicchi e salsiccia: Ricetta | TikTok', 'snippet': 'Jul 4, 2025 ... Tottis Fettuccine Tomato Sugo Recipe. Busiate al sugo di pittinicchi e salsiccia: Ricetta. Scopri la ricetta dei busiate al sugo di pittinicchi\xa0...', 'link': 'https://www.tiktok.com/@tasteatlas/video/7523241586080189718'}]
+2026-01-12 19:00:51,024 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 19:00:51,026 - browser_agent.log - INFO - Extracted links: ['https://www.giallozafferano.it/ricette-cat/']
+2026-01-12 19:00:51,026 - browser_agent.log - INFO - Selected link: https://www.giallozafferano.it/ricette-cat
+2026-01-12 19:01:11,723 - browser_agent.log - INFO - Making navigation prompt with page text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+remaining links: [0] https://www.giallozafferano.it/
+[1] https://www.giallozafferano.it/ricette-cat/
+[2] https://www.giallozafferano.com/
+[3] https://ricette.giallozafferano.it/Crema-al-mascarpone.html
+[4] https://ricette.giallozafferano.it/Crema-al-mascarpone.html
+[5] https://www.giallozafferano.it/ricette-cat/Dolci-e-Desserts/
+[6] https://ricette.giallozafferano.it/Besciamella.html
+[7] https://www.giallozafferano.it/ricette-cat/Salse-e-Sughi/
+[8] https://ricette.giallozafferano.it/Besciamella.html
+[9] https://ricette.giallozafferano.it/Besciamella.html
+[10] https://ricette.giallozafferano.it/Besciamella.html
+[11] https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html
+[12] https://www.giallozafferano.it/ricette-cat/Dolci-e-Desserts/
+[13] https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html
+[14] https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html
+[15] https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html
+[16] https://ricette.giallozafferano.it/Torta-rustica-di-mele.html
+[17] https://ricette.giallozafferano.it/Torta-rustica-di-mele.html
+2026-01-12 19:01:11,724 - browser_agent.log - INFO - Inputs form: [search]()
+[email]()
+[email]()
+[email]()
+[username]()
+[password]()
+[email]()
+2026-01-12 19:01:11,724 - browser_agent.log - INFO - Notes: 
+
+2026-01-12 19:01:12,049 - browser_agent.log - INFO - Unvisited links: [{'title': "Ricetta Spaghetti al pomodoro - Il Cucchiaio d'Argento", 'snippet': 'Noi abbiamo scelto i classici pomodori pelati (che siano di ottima qualità) e li abbiamo fatti cuocere con olio extravergine di oliva e aglio. Abbiamo passato\xa0...', 'link': 'https://www.cucchiaio.it/ricetta/spaghetti-al-pomodoro/'}, {'title': 'Authentic Spaghetti al Pomodoro Recipe - TikTok', 'snippet': 'Sep 18, 2023 ... Really important. Infuse the oil with a garlic like this. And cook it for about a minute, maximum. Tomatoes goes in. A good pinch of salt. Next\xa0...', 'link': 'https://www.tiktok.com/@our_cookingjourney/video/7280125581021269281?lang=en'}, {'title': 'AMATRICIANA ORIGINAL RECIPE - YouTube', 'snippet': "May 30, 2017 ... L'olio non serve a niente e ci vogliono più pomodoro e decisamente più pecorino. ... Pasta all'Amatriciana - Ricetta depositata dal comune di\xa0...", 'link': 'https://www.youtube.com/watch?v=JzOKhUhdVLU'}, {'title': 'La pasta allo scarpariello: ricetta napoletana | La Cucina Italiana', 'snippet': 'Sep 8, 2024 ... La differenza fra lo scarpariello napoletano e un semplice piatto di pasta al sugo di pomodoro? In primis i formati di pasta tipici da\xa0...', 'link': 'https://www.lacucinaitaliana.it/article/pasta-allo-scarpariello-ricetta-napoletana/'}, {'title': 'Pasta allo scarpariello - Ricette GialloZafferano', 'snippet': "Nel frattempo lessate gli spaghetti 7 al dente. Una volta che il sugo di datterini sarà pronto, salatelo, togliete l'aglio 8 e aggiungete parte delle foglioline\xa0...", 'link': 'https://ricette.giallozafferano.it/Pasta-allo-scarpariello.html'}, {'title': 'Pastina al Pomodoro con un Ingrediente Speciale - TikTok', 'snippet': 'Oct 26, 2025 ... Try this delicious Lemon Pasta recipe that combines Acini di Pepe pasta with a ... Ingredienti per circa 36 girelle Per la crema al\xa0...', 'link': 'https://www.tiktok.com/@piovonoricette/video/7565570115522137366'}, {'title': 'Pasta alla genovese - Cookist', 'snippet': "Come tutte le ricette della tradizione, anche la pasta alla genovese viene realizzata con leggere variazioni sul tema: c'è chi unisce la carne tritata al\xa0...", 'link': 'https://www.cookist.it/pasta-alla-genovese-la-ricetta/'}, {'title': 'TAGLIATELLE WITH TOMATO SAUCE AND FROZEN ... - YouTube', 'snippet': 'Sep 19, 2024 ... INGREDIENTI E DOSI CLICCA https://cucinapassioneefantasia.altervista.org/tagliatelle-al-pomodoro-con-funghi-misti-congelati/\xa0...', 'link': 'https://www.youtube.com/watch?v=am2S411n4Tw'}, {'title': 'Busiate al sugo di pittinicchi e salsiccia: Ricetta | TikTok', 'snippet': 'Jul 4, 2025 ... Tottis Fettuccine Tomato Sugo Recipe. Busiate al sugo di pittinicchi e salsiccia: Ricetta. Scopri la ricetta dei busiate al sugo di pittinicchi\xa0...', 'link': 'https://www.tiktok.com/@tasteatlas/video/7523241586080189718'}]
+2026-01-12 19:01:24,973 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 19:01:24,974 - browser_agent.log - INFO - Extracted links: ['https://www.giallozafferano.it/ricette-cat/Pasta-e-Pezzi-di-Carni/']
+2026-01-12 19:01:24,974 - browser_agent.log - INFO - Selected link: https://www.giallozafferano.it/ricette-cat/Pasta-e-Pezzi-di-Carni
+2026-01-12 19:01:41,138 - browser_agent.log - INFO - Making navigation prompt with page text: [Start of page]
+
+Le Ricette di GialloZafferano.it
+
+[IMAGE: Chiedi a ChefG]
+
+• Alici e sgombro con Ri...
+remaining links: [0] https://www.giallozafferano.it/
+[1] https://www.giallozafferano.it/ricette-cat/
+[2] https://www.giallozafferano.com/
+[3] https://ricette.giallozafferano.it/Crema-al-mascarpone.html
+[4] https://www.giallozafferano.it/ricette-cat/Dolci-e-Desserts/
+[5] https://ricette.giallozafferano.it/Crema-al-mascarpone.html
+[6] https://ricette.giallozafferano.it/Crema-al-mascarpone.html
+[7] https://ricette.giallozafferano.it/Crema-al-mascarpone.html
+[8] https://www.giallozafferano.it/ricette-cat/Dolci-e-Desserts/
+[9] https://ricette.giallozafferano.it/Besciamella.html
+[10] https://www.giallozafferano.it/ricette-cat/Salse-e-Sughi/
+[11] https://ricette.giallozafferano.it/Besciamella.html
+[12] https://ricette.giallozafferano.it/Besciamella.html
+[13] https://ricette.giallozafferano.it/Besciamella.html
+[14] https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html
+[15] https://www.giallozafferano.it/ricette-cat/Dolci-e-Desserts/
+[16] https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html
+[17] https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html
+[18] https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html
+2026-01-12 19:01:41,138 - browser_agent.log - INFO - Inputs form: [search]()
+[email]()
+[email]()
+[email]()
+[username]()
+[password]()
+[email]()
+2026-01-12 19:01:41,138 - browser_agent.log - INFO - Notes: 
+
+
+2026-01-12 19:01:41,462 - browser_agent.log - INFO - Unvisited links: [{'title': "Ricetta Spaghetti al pomodoro - Il Cucchiaio d'Argento", 'snippet': 'Noi abbiamo scelto i classici pomodori pelati (che siano di ottima qualità) e li abbiamo fatti cuocere con olio extravergine di oliva e aglio. Abbiamo passato\xa0...', 'link': 'https://www.cucchiaio.it/ricetta/spaghetti-al-pomodoro/'}, {'title': 'Authentic Spaghetti al Pomodoro Recipe - TikTok', 'snippet': 'Sep 18, 2023 ... Really important. Infuse the oil with a garlic like this. And cook it for about a minute, maximum. Tomatoes goes in. A good pinch of salt. Next\xa0...', 'link': 'https://www.tiktok.com/@our_cookingjourney/video/7280125581021269281?lang=en'}, {'title': 'AMATRICIANA ORIGINAL RECIPE - YouTube', 'snippet': "May 30, 2017 ... L'olio non serve a niente e ci vogliono più pomodoro e decisamente più pecorino. ... Pasta all'Amatriciana - Ricetta depositata dal comune di\xa0...", 'link': 'https://www.youtube.com/watch?v=JzOKhUhdVLU'}, {'title': 'La pasta allo scarpariello: ricetta napoletana | La Cucina Italiana', 'snippet': 'Sep 8, 2024 ... La differenza fra lo scarpariello napoletano e un semplice piatto di pasta al sugo di pomodoro? In primis i formati di pasta tipici da\xa0...', 'link': 'https://www.lacucinaitaliana.it/article/pasta-allo-scarpariello-ricetta-napoletana/'}, {'title': 'Pasta allo scarpariello - Ricette GialloZafferano', 'snippet': "Nel frattempo lessate gli spaghetti 7 al dente. Una volta che il sugo di datterini sarà pronto, salatelo, togliete l'aglio 8 e aggiungete parte delle foglioline\xa0...", 'link': 'https://ricette.giallozafferano.it/Pasta-allo-scarpariello.html'}, {'title': 'Pastina al Pomodoro con un Ingrediente Speciale - TikTok', 'snippet': 'Oct 26, 2025 ... Try this delicious Lemon Pasta recipe that combines Acini di Pepe pasta with a ... Ingredienti per circa 36 girelle Per la crema al\xa0...', 'link': 'https://www.tiktok.com/@piovonoricette/video/7565570115522137366'}, {'title': 'Pasta alla genovese - Cookist', 'snippet': "Come tutte le ricette della tradizione, anche la pasta alla genovese viene realizzata con leggere variazioni sul tema: c'è chi unisce la carne tritata al\xa0...", 'link': 'https://www.cookist.it/pasta-alla-genovese-la-ricetta/'}, {'title': 'TAGLIATELLE WITH TOMATO SAUCE AND FROZEN ... - YouTube', 'snippet': 'Sep 19, 2024 ... INGREDIENTI E DOSI CLICCA https://cucinapassioneefantasia.altervista.org/tagliatelle-al-pomodoro-con-funghi-misti-congelati/\xa0...', 'link': 'https://www.youtube.com/watch?v=am2S411n4Tw'}, {'title': 'Busiate al sugo di pittinicchi e salsiccia: Ricetta | TikTok', 'snippet': 'Jul 4, 2025 ... Tottis Fettuccine Tomato Sugo Recipe. Busiate al sugo di pittinicchi e salsiccia: Ricetta. Scopri la ricetta dei busiate al sugo di pittinicchi\xa0...', 'link': 'https://www.tiktok.com/@tasteatlas/video/7523241586080189718'}]
+2026-01-12 19:01:58,694 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 19:01:58,694 - browser_agent.log - INFO - Extracted links: ['https://www.giallozafferano.it/ricette-cat/']
+2026-01-12 19:01:58,694 - browser_agent.log - INFO - Skipping already visited or current link: https://www.giallozafferano.it/ricette-cat
+2026-01-12 19:01:58,694 - browser_agent.log - WARNING - No suitable link selected.
+2026-01-12 19:01:58,695 - browser_agent.log - INFO - Search results: Link: https://www.cucchiaio.it/ricetta/spaghetti-al-pomodoro/
+Preview: Noi abbiamo scelto i classici pomodori pelati (che siano di ottima qualità) e li abbiamo fatti cuocere con olio extravergine di oliva e aglio. Abbiamo passato ...
+
+Link: https://www.tiktok.com/@our_cookingjourney/video/7280125581021269281?lang=en
+Preview: Sep 18, 2023 ... Really important. Infuse the oil with a garlic like this. And cook it for about a minute, maximum. Tomatoes goes in. A good pinch of salt. Next ...
+
+Link: https://www.youtube.com/watch?v=JzOKhUhdVLU
+Preview: May 30, 2017 ... L'olio non serve a niente e ci vogliono più pomodoro e decisamente più pecorino. ... Pasta all'Amatriciana - Ricetta depositata dal comune di ...
+
+Link: https://www.lacucinaitaliana.it/article/pasta-allo-scarpariello-ricetta-napoletana/
+Preview: Sep 8, 2024 ... La differenza fra lo scarpariello napoletano e un semplice piatto di pasta al sugo di pomodoro? In primis i formati di pasta tipici da ...
+
+Link: https://ricette.giallozafferano.it/Pasta-allo-scarpariello.html
+Preview: Nel frattempo lessate gli spaghetti 7 al dente. Una volta che il sugo di datterini sarà pronto, salatelo, togliete l'aglio 8 e aggiungete parte delle foglioline ...
+
+Link: https://www.tiktok.com/@piovonoricette/video/7565570115522137366
+Preview: Oct 26, 2025 ... Try this delicious Lemon Pasta recipe that combines Acini di Pepe pasta with a ... Ingredienti per circa 36 girelle Per la crema al ...
+
+Link: https://www.cookist.it/pasta-alla-genovese-la-ricetta/
+Preview: Come tutte le ricette della tradizione, anche la pasta alla genovese viene realizzata con leggere variazioni sul tema: c'è chi unisce la carne tritata al ...
+
+Link: https://www.youtube.com/watch?v=am2S411n4Tw
+Preview: Sep 19, 2024 ... INGREDIENTI E DOSI CLICCA https://cucinapassioneefantasia.altervista.org/tagliatelle-al-pomodoro-con-funghi-misti-congelati/ ...
+
+Link: https://www.tiktok.com/@tasteatlas/video/7523241586080189718
+Preview: Jul 4, 2025 ... Tottis Fettuccine Tomato Sugo Recipe. Busiate al sugo di pittinicchi e salsiccia: Ricetta. Scopri la ricetta dei busiate al sugo di pittinicchi ...
+2026-01-12 19:01:58,695 - browser_agent.log - INFO - Unvisited links: [{'title': "Ricetta Spaghetti al pomodoro - Il Cucchiaio d'Argento", 'snippet': 'Noi abbiamo scelto i classici pomodori pelati (che siano di ottima qualità) e li abbiamo fatti cuocere con olio extravergine di oliva e aglio. Abbiamo passato\xa0...', 'link': 'https://www.cucchiaio.it/ricetta/spaghetti-al-pomodoro/'}, {'title': 'Authentic Spaghetti al Pomodoro Recipe - TikTok', 'snippet': 'Sep 18, 2023 ... Really important. Infuse the oil with a garlic like this. And cook it for about a minute, maximum. Tomatoes goes in. A good pinch of salt. Next\xa0...', 'link': 'https://www.tiktok.com/@our_cookingjourney/video/7280125581021269281?lang=en'}, {'title': 'AMATRICIANA ORIGINAL RECIPE - YouTube', 'snippet': "May 30, 2017 ... L'olio non serve a niente e ci vogliono più pomodoro e decisamente più pecorino. ... Pasta all'Amatriciana - Ricetta depositata dal comune di\xa0...", 'link': 'https://www.youtube.com/watch?v=JzOKhUhdVLU'}, {'title': 'La pasta allo scarpariello: ricetta napoletana | La Cucina Italiana', 'snippet': 'Sep 8, 2024 ... La differenza fra lo scarpariello napoletano e un semplice piatto di pasta al sugo di pomodoro? In primis i formati di pasta tipici da\xa0...', 'link': 'https://www.lacucinaitaliana.it/article/pasta-allo-scarpariello-ricetta-napoletana/'}, {'title': 'Pasta allo scarpariello - Ricette GialloZafferano', 'snippet': "Nel frattempo lessate gli spaghetti 7 al dente. Una volta che il sugo di datterini sarà pronto, salatelo, togliete l'aglio 8 e aggiungete parte delle foglioline\xa0...", 'link': 'https://ricette.giallozafferano.it/Pasta-allo-scarpariello.html'}, {'title': 'Pastina al Pomodoro con un Ingrediente Speciale - TikTok', 'snippet': 'Oct 26, 2025 ... Try this delicious Lemon Pasta recipe that combines Acini di Pepe pasta with a ... Ingredienti per circa 36 girelle Per la crema al\xa0...', 'link': 'https://www.tiktok.com/@piovonoricette/video/7565570115522137366'}, {'title': 'Pasta alla genovese - Cookist', 'snippet': "Come tutte le ricette della tradizione, anche la pasta alla genovese viene realizzata con leggere variazioni sul tema: c'è chi unisce la carne tritata al\xa0...", 'link': 'https://www.cookist.it/pasta-alla-genovese-la-ricetta/'}, {'title': 'TAGLIATELLE WITH TOMATO SAUCE AND FROZEN ... - YouTube', 'snippet': 'Sep 19, 2024 ... INGREDIENTI E DOSI CLICCA https://cucinapassioneefantasia.altervista.org/tagliatelle-al-pomodoro-con-funghi-misti-congelati/\xa0...', 'link': 'https://www.youtube.com/watch?v=am2S411n4Tw'}, {'title': 'Busiate al sugo di pittinicchi e salsiccia: Ricetta | TikTok', 'snippet': 'Jul 4, 2025 ... Tottis Fettuccine Tomato Sugo Recipe. Busiate al sugo di pittinicchi e salsiccia: Ricetta. Scopri la ricetta dei busiate al sugo di pittinicchi\xa0...', 'link': 'https://www.tiktok.com/@tasteatlas/video/7523241586080189718'}]
+2026-01-12 19:02:03,348 - browser_agent.log - INFO - Extracted links: ['https://www.cucchiaio.it/ricetta/spaghetti-al-pomodoro/']
+2026-01-12 19:02:03,349 - browser_agent.log - INFO - Selected link: https://www.cucchiaio.it/ricetta/spaghetti-al-pomodoro
+2026-01-12 19:02:13,481 - browser_agent.log - INFO - Making navigation prompt with page text: [Start of page]
+
+• [IMAGE: Newsletter]
+
+Cerca nei contenuti del sito
+
+• Dolci da fare a casa
+
+: 10 m...
+remaining links: [0] https://www.cucchiaio.it/
+[1] https://www.cucchiaio.it/profilo.tag_newsletter.html
+[3] https://www.cucchiaio.it/ricette/
+[4] https://www.cucchiaio.it/cucina/
+[5] https://www.cucchiaio.it/bere/
+[6] https://www.cucchiaio.it/attualita/
+[7] https://www.cucchiaio.it/dolci-da-fare-a-casa/
+[8] https://www.cucchiaio.it/idee-per-cena/
+[9] https://www.cucchiaio.it/video-ricette/
+[10] https://www.cucchiaio.it/ricette-con-philadelphia/
+[11] https://www.cucchiaio.it/
+[12] https://www.cucchiaio.it/ricette/
+[13] https://www.cucchiaio.it/ricette/portate_primi~3/
+[14] https://www.cucchiaio.it/ricette/ingredienti_verdure~1/
+[15] https://www.cucchiaio.it/ricette/verdure_pomodori~1/
+[16] https://www.cucchiaio.it/ricette/ingredienti_pasta~1/
+[17] https://www.cucchiaio.it/ricette/pasta_tipo~1/
+[18] https://www.cucchiaio.it/ricette/tipo_spaghetti~1/
+[19] https://www.cucchiaio.it/ricette/portate_primi~3/
+[20] https://www.cucchiaio.it/cucina/facili/
+[21] https://www.cucchiaio.it/cucina/ricorrenze/
+[22] https://www.cucchiaio.it/cucina/ricorrenze/in-famiglia/
+[23] https://www.cucchiaio.it/ricette/cotture_in-pentola~1/
+[24] https://www.cucchiaio.it/cucina/ricette-vegane/
+[25] http://wiki.cucchiaio.it/wiki/pepe/
+[26] https://www.cucchiaio.it/cucina/ricette-vegetariane/
+[27] https://www.cucchiaio.it/cucina/ricette-vegane/
+[28] https://www.cucchiaio.it/ricetta/penne-all-arrabbiata/
+[29] https://www.cucchiaio.it/ricetta/ricetta-bucatini-allamatriciana/
+[30] https://www.cucchiaio.it/ricetta/pasta-gustosa-al-pomodoro-fresco/
+[31] https://www.cucchiaio.it/ricetta/spaghetti-col-tonno-alla-bolognese/
+[32] https://www.cucchiaio.it/ricetta/spaghetti-alla-bottarga/
+[33] https://www.cucchiaio.it/ricetta/ricetta-spaghetti-salsa-pomodoro/
+[34] https://www.cucchiaio.it/ricetta/spaghetti-al-pomodoro-e-tonno/
+[35] https://www.cucchiaio.it/ricetta/ricetta-spaghetti-salsa-pomodoro/
+[37] https://www.cucchiaio.it/ricetta/ricetta-spaghetti-salsa-pomodoro/
+[38] https://www.cucchiaio.it/ricetta/ricetta-spaghetti-salsa-pomodoro/
+[39] https://www.cucchiaio.it/ricetta/ricetta-spaghetti-salsa-pomodoro/
+[40] https://www.cucchiaio.it/ricetta/ricetta-spaghetti-salsa-pomodoro/
+[41] https://www.cucchiaio.it/ricetta/spaghetti-col-tonno-alla-bolognese/
+[43] https://www.cucchiaio.it/ricetta/spaghetti-col-tonno-alla-bolognese/
+[44] https://www.cucchiaio.it/ricetta/spaghetti-col-tonno-alla-bolognese/
+[45] https://www.cucchiaio.it/ricetta/spaghetti-col-tonno-alla-bolognese/
+[46] https://www.cucchiaio.it/ricetta/spaghetti-col-tonno-alla-bolognese/
+[52] https://www.facebook.com/cucchiaio.it
+[53] http://www.instagram.com/cucchiaioit/
+[54] http://it.pinterest.com/cucchiaioit/pins/
+[55] https://www.cucchiaio.it/ricette/
+[56] https://www.cucchiaio.it/cucina/
+[57] https://www.cucchiaio.it/ricette-senza-glutine/
+[58] https://www.cucchiaio.it/bambini/
+[59] https://www.cucchiaio.it/dolci-da-fare-a-casa/
+[60] https://www.cucchiaio.it/cucina/ricette-vegetariane/
+[61] https://www.cucchiaio.it/cucina/ricorrenze/
+[62] https://www.cucchiaio.it/bere/cocktail/
+[63] https://www.cucchiaio.it/idee-per-cena/
+[64] https://www.cucchiaio.it/come-cucinare/
+[65] https://www.cucchiaio.it/attualita/
+[66] https://www.cucchiaio.it/ciotoladargento/
+[67] https://www.cucchiaio.it/buccia-ricette-per-bambini/
+[68] https://www.cucchiaio.it/buccia-ricette-per-bambini/
+[69] https://www.cucchiaio.it/bambini/
+[70] https://www.domusweb.it/
+[71] https://www.dueruote.it/
+[72] https://www.montagna.tv/
+[73] https://www.quattroruote.it/
+[74] https://ruoteclassiche.quattroruote.it/
+[75] https://www.motonline.it/
+[76] https://www.edidomus.it/
+[77] https://www.montagna.tv/
+[78] https://www.pista-asc.it/
+[79] https://www.quattroruotepro.it/
+[80] https://pubblicitaonline.edidomus.it/
+[81] https://www.shoped.it/
+[82] https://www.edidomus.it/policy/all-rights-reserved.html
+[83] http://www.edidomus.it/policy/disclaimer.html
+[84] http://www.edidomus.it/policy/index.php
+[86] https://www.edidomus.it/policy/index.html
+2026-01-12 19:02:13,482 - browser_agent.log - INFO - Inputs form: [param]()
+2026-01-12 19:02:13,482 - browser_agent.log - INFO - Notes: 
+
+
+
+

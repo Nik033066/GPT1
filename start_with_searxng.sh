@@ -72,7 +72,7 @@ else
 # Jarvis AI Configuration
 
 # Work directory for code execution (required)
-WORK_DIR=/tmp/jarvis_workspace
+WORK_DIR=$(pwd)/workspace
 
 # SearxNG search engine URL (required for web search)
 SEARXNG_BASE_URL=http://localhost:8080
@@ -86,7 +86,19 @@ BACKEND_PORT=7777
 # Frontend backend URL
 REACT_APP_BACKEND_URL=http://localhost:7777
 EOF
+    mkdir -p workspace
 fi
+
+# Load environment variables
+set -a
+source .env
+set +a
+
+# Ensure critical variables are set
+export MPLCONFIGDIR=/tmp/mplconfig
+mkdir -p $MPLCONFIGDIR
+export WORK_DIR=${WORK_DIR:-$(pwd)/workspace}
+mkdir -p $WORK_DIR
 
 # Check if Python is available
 if ! command -v python3 &> /dev/null; then
@@ -126,12 +138,19 @@ else
     BACKEND_PID=$!
 fi
 
-# Wait for backend to start
-sleep 3
-
-if [ -n "${BACKEND_PID:-}" ]; then
-    if ! kill -0 "$BACKEND_PID" 2>/dev/null; then
-        echo "❌ Backend failed to start"
+# Wait for backend to be ready
+echo "⏳ Waiting for backend to start..."
+MAX_RETRIES=30
+count=0
+while ! backend_healthy "$backend_port"; do
+    sleep 1
+    count=$((count + 1))
+    if [ $count -ge $MAX_RETRIES ]; then
+        echo "❌ Backend failed to start within $MAX_RETRIES seconds"
+        if [ -n "${BACKEND_PID:-}" ]; then
+            kill "$BACKEND_PID" 2>/dev/null
+        fi
+        # Stop SearxNG if backend fails
         if command -v docker-compose &> /dev/null; then
             docker-compose down
         else
@@ -139,18 +158,7 @@ if [ -n "${BACKEND_PID:-}" ]; then
         fi
         exit 1
     fi
-fi
-
-if ! backend_healthy "$backend_port"; then
-    echo "❌ Backend non risponde su http://localhost:$backend_port/health"
-    # Stop SearxNG if backend fails
-    if command -v docker-compose &> /dev/null; then
-        docker-compose down
-    else
-        docker compose down
-    fi
-    exit 1
-fi
+done
 
 echo "✅ Backend running on http://localhost:$backend_port"
 
