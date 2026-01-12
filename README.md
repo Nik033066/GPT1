@@ -1,75 +1,147 @@
-GPT1 (modulo `ag`) è un agente di navigazione web che usa un LLM per decidere passo‑passo cosa fare nel browser a partire da istruzioni testuali. Il modello non “vede” screenshot: osserva lo stato corrente tramite URL/titolo e un estratto testuale della pagina che include una lista di elementi interattivi con selettori; in base a questo sceglie una singola azione alla volta (navigate/click/type/press/scroll/wait/extract/back/done) e il runtime la esegue nel browser.
+# Jarvis AI - Local Multi-Agent System
 
-L’esecuzione usa Playwright con Chromium gestito dall’app. Il cursore visibile in pagina è un overlay (cursore “disegnato” dentro la pagina) e, se abiliti l’opzione dedicata su macOS, può essere mosso anche il cursore di sistema per rendere il movimento evidente mentre l’agente opera.
+<p align="center">
+  <img src="logo.jpg" width="200" height="200" alt="Jarvis AI Logo">
+</p>
 
-Installazione con Python 3.10+:
+A fully local AI agent system powered by **Qwen3** running on your machine (M1/M2 Mac, CUDA GPU, or CPU).
 
-```bash
-python3 -m pip install -e ".[web,hf,dev]"
-python3 -m playwright install chromium
-```
+## Features
 
-Avvio in modalità chat (sessione persistente: memoria e contesto restano tra un tuo messaggio e il successivo):
+- **6 Specialized Agents**: Casual, Browser, Coder, File, Planner, MCP
+- **Intelligent Routing**: Automatic agent selection based on task type
+- **Browser Automation**: Selenium-based web navigation
+- **100% Local LLM**: Qwen3 running on HuggingFace Transformers (no API keys needed)
+- **Modern Web UI**: React frontend with real-time updates
 
-```bash
-python3 -m ag --hf --planner-mode model
-```
+## Quick Start
 
-Esecuzione “single goal” (stampa il JSON risultato):
+### Prerequisites
 
-```bash
-python3 -m ag --hf --planner-mode model "trovami la pagina di OpenAI"
-```
+- Python 3.10+
+- Node.js 18+
+- Chrome browser
+- 8GB+ RAM (16GB recommended)
 
-Per vedere meglio i passaggi durante la ricerca (niente salti “troppo rapidi”), usa demo mode e una pausa tra le azioni:
-
-```bash
-python3 -m ag --hf --planner-mode model --demo-mode --action-delay-ms 700
-```
-
-Per muovere anche il cursore di sistema su macOS (oltre all’overlay), abilita:
+### Installation
 
 ```bash
-python3 -m ag --hf --planner-mode model --os-cursor
+# Clone the repository
+git clone https://github.com/yourusername/jarvis-ai.git
+cd jarvis-ai
+
+# Install Python dependencies
+pip install -r requirements.txt
+
+# Install HuggingFace model dependencies
+pip install transformers torch accelerate
+
+# Install frontend dependencies
+cd frontend/jarvis-ui
+npm install
+cd ../..
 ```
 
-Su macOS questa opzione può richiedere permessi di “Accessibilità” o “Input Monitoring” per il Terminale/Python. Senza permessi l’agente può comunque navigare (mouse virtuale Playwright), ma il puntatore di sistema potrebbe non muoversi.
+### Running
 
-Opzioni CLI principali (tutte sono opzionali e hanno un equivalente via variabile d’ambiente):
+**Option 1: Quick Start Script**
+```bash
+./start.sh
+```
+
+**Option 2: Manual Start**
+```bash
+# Terminal 1 - Backend
+python3 api.py
+
+# Terminal 2 - Frontend
+cd frontend/jarvis-ui
+npm start
+```
+
+Open http://localhost:3000 in your browser.
+
+## Configuration
+
+Edit `config.ini`:
+
+```ini
+[MAIN]
+is_local = True
+provider_name = qwen
+provider_model = Qwen/Qwen3-4B
+agent_name = Jarvis
+save_session = True
+speak = False
+listen = False
+languages = en
+
+[BROWSER]
+headless_browser = False
+stealth_mode = False
+```
+
+### Available Providers
+
+| Provider | Model | Local |
+|----------|-------|-------|
+| `qwen` | Qwen/Qwen3-4B | Yes |
+| `huggingface-local` | Any HF model | Yes |
+| `ollama` | Any Ollama model | Yes |
+| `openai` | GPT-4, etc. | No |
+| `deepseek` | DeepSeek | No |
+
+### Environment Variables
 
 ```bash
---planner-mode model|hybrid
---headless / --no-headless
---auto-consent / --no-auto-consent
---os-cursor / --no-os-cursor
---demo-mode / --no-demo-mode
---action-delay-ms <int>
---plan-timeout-ms <int>
+# Optional: HuggingFace token for gated models
+export HF_TOKEN="your_token_here"
+
+# Optional: For cloud providers
+export OPENAI_API_KEY="your_key"
+export DEEPSEEK_API_KEY="your_key"
 ```
 
-Variabili d’ambiente utili:
+## Project Structure
 
-```bash
-AG_MODEL_ID=Qwen/Qwen3-4B-Instruct-2507
-AG_HF_DEVICE=auto
-AG_MAX_STEPS=12
-AG_TIMEOUT_MS=30000
-AG_TEXT_BUDGET=6000
-AG_MODEL_TEXT_BUDGET=3500
-AG_PLAN_TIMEOUT_MS=180000
-AG_DEMO_MODE=1
-AG_ACTION_DELAY_MS=700
-AG_OS_CURSOR=1
-AG_HEADLESS=1
-AG_AUTO_CONSENT=1
+```
+.
+├── api.py              # FastAPI backend
+├── cli.py              # Command line interface
+├── config.ini          # Configuration
+├── sources/            # Core modules
+│   ├── agents/         # Agent implementations
+│   ├── tools/          # Agent tools
+│   ├── llm_provider.py # LLM providers
+│   ├── browser.py      # Browser automation
+│   ├── router.py       # Agent routing
+│   └── interaction.py  # Orchestration
+├── frontend/           # React web UI
+├── prompts/            # Agent system prompts
+└── llm_router/         # Classifier model
 ```
 
-Nota sulle prestazioni: con un modello 4B in locale il tempo di pianificazione per step può variare da pochi secondi a decine di secondi, soprattutto su pagine molto lunghe o molto dinamiche (es. Google). Per evitare blocchi indefiniti esiste un timeout di pianificazione configurabile; se scatta, l’agente termina la richiesta corrente con un messaggio di timeout.
+## Agents
 
-Per lo sviluppo: i test e i controlli del progetto sono eseguibili con:
+| Agent | Purpose |
+|-------|---------|
+| **CasualAgent** | General conversation |
+| **BrowserAgent** | Web search and navigation |
+| **CoderAgent** | Code generation and execution |
+| **FileAgent** | File operations |
+| **PlannerAgent** | Multi-step task planning |
+| **MCPAgent** | MCP server integration |
 
-```bash
-python3 -m pytest -q
-python3 -m ruff check .
-python3 -m mypy ag
-```
+## API Endpoints
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/query` | POST | Submit a task |
+| `/latest_answer` | GET | Get agent response |
+| `/screenshot` | GET | Get browser screenshot |
+| `/health` | GET | Health check |
+| `/stop` | GET | Stop current task |
+
+## License
+
+MIT License

@@ -1,0 +1,45 @@
+2026-01-12 01:11:44,211 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen3-4B)
+2026-01-12 01:13:26,984 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen3-4B)
+2026-01-12 01:13:27,108 - backend.log - WARNING - Browser initialization failed: ChromeDriver not found and could not be installed automatically. Please install it manually from https://chromedriver.chromium.org/downloads.and ensure it's in your PATH or specify the path directly.See know issues in readme if your chrome version is above 115.
+2026-01-12 01:13:27,108 - backend.log - INFO - Running without browser - BrowserAgent will use search-only mode
+2026-01-12 01:13:52,186 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen3-4B)
+2026-01-12 01:13:52,257 - backend.log - WARNING - Browser initialization failed: ChromeDriver not found and could not be installed automatically. Please install it manually from https://chromedriver.chromium.org/downloads.and ensure it's in your PATH or specify the path directly.See know issues in readme if your chrome version is above 115.
+2026-01-12 01:13:52,257 - backend.log - INFO - Running without browser - BrowserAgent will use search-only mode
+2026-01-12 01:14:27,002 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen3-4B)
+2026-01-12 01:14:27,078 - backend.log - WARNING - Browser initialization failed: ChromeDriver not found and could not be installed automatically. Please install it manually from https://chromedriver.chromium.org/downloads.and ensure it's in your PATH or specify the path directly.See know issues in readme if your chrome version is above 115.
+2026-01-12 01:14:27,078 - backend.log - INFO - Running without browser - BrowserAgent will use search-only mode
+2026-01-12 01:14:27,099 - backend.log - INFO - Agents initialized
+2026-01-12 01:16:20,510 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen3-4B)
+2026-01-12 01:16:20,627 - backend.log - WARNING - Browser initialization failed: ChromeDriver not found and could not be installed automatically. Please install it manually from https://chromedriver.chromium.org/downloads.and ensure it's in your PATH or specify the path directly.See know issues in readme if your chrome version is above 115.
+2026-01-12 01:16:20,627 - backend.log - INFO - Running without browser - BrowserAgent will use search-only mode
+2026-01-12 01:16:20,648 - backend.log - INFO - Agents initialized
+2026-01-12 01:16:26,765 - backend.log - INFO - Interaction initialized
+2026-01-12 01:16:29,570 - backend.log - INFO - Health check endpoint called
+2026-01-12 01:17:13,150 - backend.log - INFO - Processing query: Hello, who are you?
+2026-01-12 01:17:13,150 - backend.log - INFO - Agents request is being processed
+2026-01-12 01:18:48,686 - backend.log - INFO - Answer: Hello! I'm Jarvis, your personal AI assistant. I'm here to help with anything you need, whether it's answering questions, offering advice, or just chatting. I'm always ready to lend a ear, a helping hand, or a good bit of sarcasm. What's on your mind? 😊
+2026-01-12 01:18:48,686 - backend.log - INFO - Blocks: {}
+2026-01-12 01:18:48,686 - backend.log - INFO - Query processed successfully
+2026-01-12 01:18:48,686 - backend.log - INFO - Processing finished
+2026-01-12 01:20:04,854 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen3-4B)
+2026-01-12 01:20:04,984 - backend.log - WARNING - Browser initialization failed: ChromeDriver not found and could not be installed automatically. Please install it manually from https://chromedriver.chromium.org/downloads.and ensure it's in your PATH or specify the path directly.See know issues in readme if your chrome version is above 115.
+2026-01-12 01:20:04,984 - backend.log - INFO - Running without browser - BrowserAgent will use search-only mode
+2026-01-12 01:20:05,024 - backend.log - INFO - Agents initialized
+2026-01-12 01:20:11,581 - backend.log - INFO - Interaction initialized
+2026-01-12 01:21:07,302 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen3-4B)
+2026-01-12 01:21:07,382 - backend.log - WARNING - Browser initialization failed: ChromeDriver not found and could not be installed automatically. Please install it manually from https://chromedriver.chromium.org/downloads.and ensure it's in your PATH or specify the path directly.See know issues in readme if your chrome version is above 115.
+2026-01-12 01:21:07,382 - backend.log - INFO - Running without browser - BrowserAgent will use search-only mode
+2026-01-12 01:21:07,404 - backend.log - INFO - Agents initialized
+2026-01-12 01:21:11,898 - backend.log - INFO - Interaction initialized
+2026-01-12 01:24:05,009 - backend.log - INFO - Health check endpoint called
+2026-01-12 01:24:29,442 - backend.log - INFO - Processing query: hii
+2026-01-12 01:24:29,443 - backend.log - INFO - Agents request is being processed
+2026-01-12 01:24:32,453 - backend.log - INFO - Health check endpoint called
+2026-01-12 01:24:45,356 - backend.log - INFO - Answer: Hi there! How can I assist you today? 😊
+2026-01-12 01:24:45,356 - backend.log - INFO - Blocks: {}
+2026-01-12 01:24:45,356 - backend.log - INFO - Query processed successfully
+2026-01-12 01:24:45,356 - backend.log - INFO - Processing finished
+2026-01-12 01:24:47,453 - backend.log - INFO - Health check endpoint called
+2026-01-12 01:25:11,646 - backend.log - INFO - Processing query: can you search a page anthropic ?
+2026-01-12 01:25:11,647 - backend.log - INFO - Agents request is being processed
+2026-01-12 01:25:11,992 - backend.log - INFO - Health check endpoint called

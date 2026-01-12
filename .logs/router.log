@@ -1,0 +1,2 @@
+2026-01-12 01:17:14,081 - router.log - INFO - Routing Vote for text Hello, who are you?: BART: talk (0.7140887711202069) LLM-router: talk (0.28591122887979326)
+2026-01-12 01:25:11,990 - router.log - INFO - Routing Vote for text can you search a page anthropic ?: BART: planification (0.5369050766633208) LLM-router: web (0.46309492333667923)
