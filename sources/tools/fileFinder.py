@@ -37,25 +37,48 @@ class FileFinder(Tools):
         Reads the content of a file with arbitrary encoding.
         Args:
             file_path (str): The path to the file to read
+            file_type (str): The MIME type of the file
         Returns:
-            str: The content of the file in markdown format
+            str: The content of the file
         """
         mime_type, _ = mimetypes.guess_type(file_path)
         if mime_type:
             if mime_type.startswith(('image/', 'video/', 'audio/')):
-                return "can't read file type: image, video, or audio files are not supported."
-        content_raw = self.read_file(file_path)
-        if "text" in file_type:
-            content = content_raw
-        elif "pdf" in file_type:
-            from pypdf import PdfReader
-            reader = PdfReader(file_path)
-            content = '\n'.join([pt.extract_text() for pt in reader.pages])
-        elif "binary" in file_type:
-            content = content_raw.decode('utf-8', errors='replace')
-        else:
-            content = content_raw
-        return content
+                return "Can't read this file type: image, video, and audio files are not supported."
+
+        # Handle PDF files first (before trying to read as text)
+        if file_type and "pdf" in file_type.lower():
+            try:
+                from pypdf import PdfReader
+                reader = PdfReader(file_path)
+                pages_text = []
+                for i, page in enumerate(reader.pages):
+                    text = page.extract_text()
+                    if text:
+                        pages_text.append(f"--- Page {i+1} ---\n{text}")
+                if pages_text:
+                    return '\n\n'.join(pages_text)
+                return "PDF file found but no text could be extracted."
+            except ImportError:
+                return "Error: pypdf library not installed. Run: pip install pypdf"
+            except Exception as e:
+                return f"Error reading PDF: {e}"
+
+        # Handle text files
+        if file_type and "text" in file_type.lower():
+            return self.read_file(file_path)
+
+        # Handle binary files
+        if file_type and "binary" in file_type.lower():
+            try:
+                with open(file_path, 'rb') as f:
+                    content = f.read()
+                return content.decode('utf-8', errors='replace')
+            except Exception as e:
+                return f"Error reading binary file: {e}"
+
+        # Default: try to read as text
+        return self.read_file(file_path)
     
     def get_file_info(self, file_path: str) -> str:
         """

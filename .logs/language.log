@@ -21,3 +21,12 @@
 2026-01-12 16:46:19,443 - language.log - INFO - Identified: puoi controllare dal sito come funziona il modello di anthropic ? as en with conf -284.97165298461914
 2026-01-12 16:55:10,487 - language.log - INFO - Identified: cercami la pagian di anthropic  as en with conf -86.12984609603882
 2026-01-12 18:33:01,812 - language.log - INFO - Identified: ciao as en with conf 9.061840057373047
+2026-01-13 00:15:08,193 - language.log - INFO - Identified: mi dici solo il contenuto di questo file che ti ho caricato  as en with conf -303.6437740325928
+2026-01-13 00:21:32,958 - language.log - INFO - Identified: controlla questo file  as en with conf -78.75000143051147
+2026-01-13 00:24:40,934 - language.log - INFO - Identified: I uploaded file: demo.py. Please analyze/edit it. as en with conf -64.98608303070068
+2026-01-13 00:25:16,845 - language.log - INFO - Identified: controlla questo file as en with conf -78.75000143051147
+2026-01-13 00:28:25,931 - language.log - INFO - Identified: controlla questo file 
+[System Context: User is viewing file 'train.py'] as en with conf -143.9683713912964
+2026-01-13 00:37:18,830 - language.log - INFO - Identified: I uploaded file: train.py. Please analyze/edit it. as en with conf -50.600090980529785
+2026-01-13 00:38:55,785 - language.log - INFO - Identified: controlla questo file [System Context: User is viewing file 'train.py']
+[System Context: User is viewing file 'train.py'] as en with conf -209.1867413520813

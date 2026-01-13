@@ -3681,3 +3681,13 @@ remaining links: [0] https://www.cucchiaio.it/
 
 
 
+2026-01-12 23:46:01,446 - browser_agent.log - INFO - Search results: 
+2026-01-12 23:46:01,447 - browser_agent.log - INFO - Unvisited links: []
+2026-01-12 23:46:01,653 - browser_agent.log - INFO - Extracted links: []
+2026-01-12 23:46:01,653 - browser_agent.log - WARNING - No suitable link selected.
+2026-01-12 23:46:01,653 - browser_agent.log - INFO - Search results: 
+2026-01-13 00:23:21,235 - browser_agent.log - INFO - Search results: 
+2026-01-13 00:23:21,237 - browser_agent.log - INFO - Unvisited links: []
+2026-01-13 00:23:21,440 - browser_agent.log - INFO - Extracted links: []
+2026-01-13 00:23:21,440 - browser_agent.log - WARNING - No suitable link selected.
+2026-01-13 00:23:21,440 - browser_agent.log - INFO - Search results: 

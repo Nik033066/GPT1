@@ -33,8 +33,12 @@ class FileAgent(Agent):
             animate_thinking("Thinking...", color="status")
             answer, reasoning = await self.llm_request()
             self.last_reasoning = reasoning
+            
+            # Calculate offset for blocks
+            blocks_before = len(self.blocks_result)
             exec_success, _ = self.execute_modules(answer)
-            answer = self.remove_blocks(answer)
+            
+            answer = self.remove_blocks(answer, offset=blocks_before)
             self.last_answer = answer
         self.status_message = "Ready"
         return answer, reasoning

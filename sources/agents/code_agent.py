@@ -69,9 +69,13 @@ class CoderAgent(Agent):
             animate_thinking("Executing code...", color="status")
             self.status_message = "Executing code..."
             self.logger.info(f"Attempt {attempt + 1}:\n{answer}")
+            
+            # Calculate offset for blocks
+            blocks_before = len(self.blocks_result)
             exec_success, feedback = self.execute_modules(answer)
             self.logger.info(f"Execution result: {exec_success}")
-            answer = self.remove_blocks(answer)
+            
+            answer = self.remove_blocks(answer, offset=blocks_before)
             self.last_answer = answer
             await asyncio.sleep(0)
             if exec_success and self.get_last_tool_type() != "bash":

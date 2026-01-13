@@ -4,6 +4,7 @@ import axios from "axios";
 import "./App.css";
 import { ThemeToggle } from "./components/ThemeToggle";
 import { ResizableLayout } from "./components/ResizableLayout";
+import { EditorView } from "./components/EditorView";
 import faviconPng from "./logo.jpg";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:7777";
@@ -14,12 +15,16 @@ function App() {
   const [messages, setMessages] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [currentView, setCurrentView] = useState("blocks");
   const [responseData, setResponseData] = useState(null);
   const [isOnline, setIsOnline] = useState(false);
   const [status, setStatus] = useState("Agents ready");
   const [expandedReasoning, setExpandedReasoning] = useState(new Set());
   const messagesEndRef = useRef(null);
+  
+  // Editor/Viewer State
+  const [activeFile, setActiveFile] = useState(null);
+  const [viewMode, setViewMode] = useState("browser"); // "browser" or "editor"
+  const fileInputRef = useRef(null);
 
   const fetchLatestAnswer = useCallback(async () => {
     try {
@@ -143,38 +148,20 @@ function App() {
     }));
   };
 
-  const handleStop = async (e) => {
-    e.preventDefault();
+  const processQuery = async (text) => {
+    if (!text.trim()) return;
+    
     checkHealth();
-    setIsLoading(false);
-    setError(null);
-    try {
-      await axios.get(`${BACKEND_URL}/stop`);
-      setStatus("Requesting stop...");
-    } catch (err) {
-      console.error("Error stopping the agent:", err);
-    }
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    checkHealth();
-    if (!query.trim()) {
-      console.log("Empty query");
-      return;
-    }
-    setMessages((prev) => [...prev, { type: "user", content: query }]);
+    setMessages((prev) => [...prev, { type: "user", content: text }]);
     setIsLoading(true);
     setError(null);
 
     try {
-      console.log("Sending query:", query);
-      setQuery("waiting for response...");
+      console.log("Sending query:", text);
       const res = await axios.post(`${BACKEND_URL}/query`, {
-        query,
+        query: text,
         tts_enabled: false,
       });
-      setQuery("Enter your query...");
       console.log("Response:", res.data);
       const data = res.data;
       updateData(data);
@@ -205,16 +192,60 @@ function App() {
     } finally {
       console.log("Query completed");
       setIsLoading(false);
-      setQuery("");
     }
   };
 
-  const handleGetScreenshot = async () => {
+  const handleFileUpload = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    const formData = new FormData();
+    formData.append("file", file);
+
     try {
-      setCurrentView("screenshot");
+        const res = await axios.post(`${BACKEND_URL}/upload`, formData, {
+            headers: {
+                "Content-Type": "multipart/form-data",
+            },
+        });
+        const uploadedFilename = res.data.filename || file.name;
+        setActiveFile(uploadedFilename);
+        setViewMode("editor");
+        
+        await processQuery(`I uploaded file: ${uploadedFilename}. Please analyze/edit it.`);
     } catch (err) {
-      setError("Browser not in use");
+        console.error("Error uploading file:", err);
+        setError("Failed to upload file");
     }
+  };
+
+  const handleStop = async (e) => {
+    e.preventDefault();
+    checkHealth();
+    setIsLoading(false);
+    setError(null);
+    try {
+      await axios.get(`${BACKEND_URL}/stop`);
+      setStatus("Requesting stop...");
+    } catch (err) {
+      console.error("Error stopping the agent:", err);
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!query.trim()) {
+      console.log("Empty query");
+      return;
+    }
+    let textToSend = query;
+    // Add context about the active file if available
+    if (activeFile && viewMode === "editor") {
+        textToSend += `\n[System Context: User is viewing file '${activeFile}']`;
+    }
+
+    setQuery("");
+    await processQuery(textToSend);
   };
 
   return (
@@ -239,6 +270,20 @@ function App() {
           </div>
         </div>
         <div className="header-actions">
+          <div className="view-toggle">
+            <button 
+                className={`toggle-btn ${viewMode === "browser" ? "active" : ""}`}
+                onClick={() => setViewMode("browser")}
+            >
+                Browser
+            </button>
+            <button 
+                className={`toggle-btn ${viewMode === "editor" ? "active" : ""}`}
+                onClick={() => setViewMode("editor")}
+            >
+                Editor
+            </button>
+          </div>
           <div>
             <ThemeToggle />
           </div>
@@ -304,12 +349,26 @@ function App() {
                 System offline. Deploy backend first.
               </p>
             )}
-            <form onSubmit={handleSubmit} className="input-form">
+            <form onSubmit={handleSubmit} className="input-area">
+              <input
+                type="file"
+                ref={fileInputRef}
+                style={{ display: "none" }}
+                onChange={handleFileUpload}
+              />
+              <button
+                type="button"
+                className="upload-btn"
+                onClick={() => fileInputRef.current?.click()}
+                title="Upload File"
+              >
+                📎
+              </button>
               <input
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Type your query..."
+                placeholder="Enter your query..."
                 disabled={isLoading}
               />
               <div className="action-buttons">
@@ -343,6 +402,7 @@ function App() {
                       height="12"
                       fill="currentColor"
                       rx="2"
+                      stroke="none"
                     />
                   </svg>
                 </button>
@@ -350,80 +410,38 @@ function App() {
             </form>
           </div>
 
-          <div className="computer-section">
-            <h2>Computer View</h2>
-            <div className="view-selector">
-              <button
-                className={currentView === "blocks" ? "active" : ""}
-                onClick={() => setCurrentView("blocks")}
-              >
-                Editor View
-              </button>
-              <button
-                className={currentView === "screenshot" ? "active" : ""}
-                onClick={
-                  responseData?.screenshot
-                    ? () => setCurrentView("screenshot")
-                    : handleGetScreenshot
-                }
-              >
-                Browser View
-              </button>
-            </div>
-            <div className="content">
-              {error && <p className="error">{error}</p>}
-              {currentView === "blocks" ? (
-                <div className="blocks">
-                  {responseData &&
-                  responseData.blocks &&
-                  Object.values(responseData.blocks).length > 0 ? (
-                    Object.values(responseData.blocks).map((block, index) => (
-                      <div key={index} className="block">
-                        <p className="block-tool">Tool: {block.tool_type}</p>
-                        <pre>{block.block}</pre>
-                        <p className="block-feedback">
-                          Feedback: {block.feedback}
-                        </p>
-                        {block.success ? (
-                          <p className="block-success">Success</p>
-                        ) : (
-                          <p className="block-failure">Failure</p>
-                        )}
-                      </div>
-                    ))
-                  ) : (
-                    <div className="block">
-                      <p className="block-tool">Tool: No tool in use</p>
-                      <pre>No file opened</pre>
-                    </div>
-                  )}
-                </div>
-              ) : (
+          {viewMode === "editor" ? (
+            <EditorView activeFile={activeFile} onFileChange={setActiveFile} />
+          ) : (
+            <div className="computer-section">
+              <h2>Computer View</h2>
+              <div className="content">
+                {error && <p className="error">{error}</p>}
                 <div className="screenshot">
-                  {responseData?.screenshot &&
-                  responseData.screenshot !== "placeholder.png" ? (
-                    <img
-                      src={responseData?.screenshot}
-                      alt="Screenshot"
-                      onError={(e) => {
-                        e.target.src = "placeholder.png";
-                        console.error("Failed to load screenshot");
-                      }}
-                      key={responseData?.screenshotTimestamp || "default"}
-                    />
-                  ) : (
-                    <div className="block">
-                      <p className="block-tool">Browser non disponibile</p>
-                      <pre>
-                        Nessuno screenshot. Le azioni di ricerca appaiono in Editor
-                        View come tool web_search.
-                      </pre>
-                    </div>
-                  )}
+                    {responseData?.screenshot &&
+                    responseData.screenshot !== "placeholder.png" ? (
+                      <img
+                        src={responseData?.screenshot}
+                        alt="Screenshot"
+                        onError={(e) => {
+                          e.target.src = "placeholder.png";
+                          console.error("Failed to load screenshot");
+                        }}
+                        key={responseData?.screenshotTimestamp || "default"}
+                      />
+                    ) : (
+                      <div className="block">
+                        <p className="block-tool">Browser non disponibile</p>
+                        <pre>
+                          Nessuno screenshot. Le azioni di ricerca appaiono in Editor
+                          View come tool web_search.
+                        </pre>
+                      </div>
+                    )}
                 </div>
-              )}
+              </div>
             </div>
-          </div>
+          )}
         </ResizableLayout>
       </main>
     </div>

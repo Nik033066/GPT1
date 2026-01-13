@@ -834,3 +834,92 @@ Stacktrace:
 2026-01-12 18:59:54,889 - backend.log - INFO - Health check endpoint called
 2026-01-12 19:02:44,015 - backend.log - INFO - Processing finished
 2026-01-12 19:02:45,951 - backend.log - INFO - Health check endpoint called
+2026-01-12 23:50:19,748 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-3B-Instruct)
+2026-01-12 23:50:22,481 - backend.log - INFO - Browser initialized
+2026-01-12 23:50:22,506 - backend.log - INFO - Agents initialized
+2026-01-12 23:50:28,414 - backend.log - INFO - Interaction initialized
+2026-01-12 23:50:30,776 - backend.log - INFO - Health check endpoint called
+2026-01-12 23:58:05,444 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-3B-Instruct)
+2026-01-12 23:58:17,394 - backend.log - INFO - Browser initialized
+2026-01-12 23:58:17,414 - backend.log - INFO - Agents initialized
+2026-01-12 23:58:25,124 - backend.log - INFO - Interaction initialized
+2026-01-12 23:58:25,144 - backend.log - INFO - File uploaded: test_upload_file.txt
+2026-01-12 23:59:43,025 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-3B-Instruct)
+2026-01-12 23:59:46,269 - backend.log - INFO - Browser initialized
+2026-01-12 23:59:46,289 - backend.log - INFO - Agents initialized
+2026-01-12 23:59:52,192 - backend.log - INFO - Interaction initialized
+2026-01-12 23:59:52,213 - backend.log - INFO - File uploaded: test_upload_file.txt
+2026-01-13 00:07:21,067 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-3B-Instruct)
+2026-01-13 00:07:22,894 - backend.log - INFO - Browser initialized
+2026-01-13 00:07:22,916 - backend.log - INFO - Agents initialized
+2026-01-13 00:07:28,188 - backend.log - INFO - Interaction initialized
+2026-01-13 00:07:28,927 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:07:51,191 - backend.log - INFO - File uploaded: 8359.pdf
+2026-01-13 00:07:54,204 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:09:31,384 - backend.log - INFO - File uploaded: CV Alessandro di Martino.pdf
+2026-01-13 00:09:33,520 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:10:04,314 - backend.log - INFO - File uploaded: evaluate.py
+2026-01-13 00:10:07,101 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:14:51,083 - backend.log - INFO - File uploaded: train.py
+2026-01-13 00:14:52,101 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:15:07,667 - backend.log - INFO - Processing query: mi dici solo il contenuto di questo file che ti ho caricato 
+2026-01-13 00:15:07,670 - backend.log - INFO - Agents request is being processed
+2026-01-13 00:15:10,099 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:15:33,325 - backend.log - INFO - Processing finished
+2026-01-13 00:15:34,707 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:21:12,095 - backend.log - INFO - File uploaded: train.py
+2026-01-13 00:21:13,099 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:21:32,954 - backend.log - INFO - Processing query: controlla questo file 
+2026-01-13 00:21:32,955 - backend.log - INFO - Agents request is being processed
+2026-01-13 00:21:34,100 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:21:41,980 - backend.log - INFO - Processing finished
+2026-01-13 00:21:44,980 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:24:40,931 - backend.log - INFO - File uploaded: demo.py
+2026-01-13 00:24:40,932 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:24:40,933 - backend.log - INFO - Processing query: I uploaded file: demo.py. Please analyze/edit it.
+2026-01-13 00:24:40,933 - backend.log - INFO - Agents request is being processed
+2026-01-13 00:24:43,942 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:24:56,009 - backend.log - INFO - Processing finished
+2026-01-13 00:24:58,956 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:25:16,843 - backend.log - INFO - Processing query: controlla questo file
+2026-01-13 00:25:16,844 - backend.log - INFO - Agents request is being processed
+2026-01-13 00:25:19,852 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:25:28,511 - backend.log - INFO - Processing finished
+2026-01-13 00:25:28,871 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:28:25,925 - backend.log - INFO - Processing query: controlla questo file 
+[System Context: User is viewing file 'train.py']
+2026-01-13 00:28:25,927 - backend.log - INFO - Agents request is being processed
+2026-01-13 00:28:28,935 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:28:31,355 - backend.log - INFO - Processing finished
+2026-01-13 00:28:31,937 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:33:58,603 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-3B-Instruct)
+2026-01-13 00:34:00,200 - backend.log - INFO - Browser initialized
+2026-01-13 00:34:00,223 - backend.log - INFO - Agents initialized
+2026-01-13 00:34:05,708 - backend.log - INFO - Interaction initialized
+2026-01-13 00:34:35,314 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:34:52,674 - backend.log - INFO - Session reset requested
+2026-01-13 00:34:52,675 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:37:18,276 - backend.log - INFO - File uploaded: train.py
+2026-01-13 00:37:18,278 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:37:18,279 - backend.log - INFO - Processing query: I uploaded file: train.py. Please analyze/edit it.
+2026-01-13 00:37:18,280 - backend.log - INFO - Agents request is being processed
+2026-01-13 00:37:21,288 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:37:38,215 - backend.log - INFO - Processing query: controlla questo file
+[System Context: User is viewing file 'train.py']
+2026-01-13 00:37:38,215 - backend.log - WARNING - Another query is being processed, please wait.
+2026-01-13 00:37:41,233 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:37:41,663 - backend.log - INFO - Processing finished
+2026-01-13 00:37:44,233 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:38:46,910 - backend.log - INFO - Stop endpoint called
+2026-01-13 00:38:47,246 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:38:55,783 - backend.log - INFO - Processing query: controlla questo file [System Context: User is viewing file 'train.py']
+[System Context: User is viewing file 'train.py']
+2026-01-13 00:38:55,783 - backend.log - INFO - Agents request is being processed
+2026-01-13 00:38:58,792 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:39:07,060 - backend.log - INFO - Processing finished
+2026-01-13 00:39:07,793 - backend.log - INFO - Health check endpoint called
+2026-01-13 00:46:19,659 - backend.log - INFO - Provider initialized: qwen (Qwen/Qwen2.5-3B-Instruct)
+2026-01-13 00:46:20,844 - backend.log - INFO - Browser initialized
+2026-01-13 00:46:20,866 - backend.log - INFO - Agents initialized
+2026-01-13 00:46:27,584 - backend.log - INFO - Interaction initialized
+2026-01-13 00:49:15,638 - backend.log - INFO - Health check endpoint called

@@ -98,6 +98,16 @@ class Interaction:
         for agent in self.agents:
             agent.memory.save_memory(agent.type)
 
+    def reset_session(self) -> None:
+        """Reset the session memory for all agents."""
+        for agent in self.agents:
+            agent.memory.clear()
+        self.current_agent = None
+        self.last_query = None
+        self.last_answer = None
+        self.last_reasoning = None
+        pretty_print("Session reset.", color="status")
+
     def is_active(self) -> bool:
         return self.is_active
     

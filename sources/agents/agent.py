@@ -223,7 +223,7 @@ class Agent():
             else:
                 pretty_print(line, color="output")
 
-    def remove_blocks(self, text: str) -> str:
+    def remove_blocks(self, text: str, offset: int = 0) -> str:
         """
         Remove all code/query blocks within a tag from the answer text.
         """
@@ -231,7 +231,7 @@ class Agent():
         lines = text.split('\n')
         post_lines = []
         in_block = False
-        block_idx = 0
+        block_idx = offset
         for line in lines:
             if tag in line and not in_block:
                 in_block = True

@@ -92,6 +92,12 @@ class Memory():
             self.logger.info(f"Saved memory json at {path}")
             f.write(json_memory)
     
+    def clear(self) -> None:
+        """Clear the memory and reset to system prompt."""
+        system_prompt = self.memory[0] if self.memory else {'role': 'system', 'content': ''}
+        self.memory = [system_prompt]
+        self.logger.info("Memory cleared.")
+
     def find_last_session_path(self, path) -> str:
         """Find the last session path."""
         saved_sessions = []

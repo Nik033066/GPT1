@@ -2484,3 +2484,107 @@
 2026-01-12 18:25:07,631 - planner_agent.log - INFO - Created agent casual with task: Step two
 2026-01-12 18:25:07,631 - planner_agent.log - INFO - Plan updated:
 [['Step one', {'agent': 'casual', 'id': '1', 'task': 'Step one'}], ['Step two', {'agent': 'casual', 'id': '2', 'task': 'Step two'}]]
+2026-01-12 23:46:02,491 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 23:46:02,491 - planner_agent.log - INFO - Created agent casual with task: Step one
+2026-01-12 23:46:02,491 - planner_agent.log - INFO - Created agent casual with task: Step two
+2026-01-12 23:46:02,687 - planner_agent.log - INFO - Plan made:
+```json
+{"plan": [{"id": "1", "task": "Step one", "agent": "casual"}, {"id": "2", "task": "Step two", "agent": "casual"}]}
+```
+2026-01-12 23:46:02,688 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 23:46:02,688 - planner_agent.log - INFO - Created agent casual with task: Step one
+2026-01-12 23:46:02,688 - planner_agent.log - INFO - Created agent casual with task: Step two
+2026-01-12 23:46:02,688 - planner_agent.log - INFO - Prompt for agent:
+
+        You are given informations from your AI friends work:
+        No needed informations.
+        Your task is:
+        Step one
+        
+2026-01-12 23:46:02,688 - planner_agent.log - INFO - Agent casual started working on Step one.
+2026-01-12 23:46:02,894 - planner_agent.log - INFO - Agent casual finished working on Step one. Success: True
+2026-01-12 23:46:02,896 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 23:46:02,896 - planner_agent.log - INFO - Created agent casual with task: Step one
+2026-01-12 23:46:02,896 - planner_agent.log - INFO - Created agent casual with task: Step two
+2026-01-12 23:46:03,100 - planner_agent.log - INFO - Plan made:
+```json
+{"plan": [{"id": "1", "task": "Step one", "agent": "casual"}, {"id": "2", "task": "Step two", "agent": "casual"}]}
+```
+2026-01-12 23:46:03,100 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 23:46:03,100 - planner_agent.log - INFO - Created agent casual with task: Step one
+2026-01-12 23:46:03,100 - planner_agent.log - INFO - Created agent casual with task: Step two
+2026-01-12 23:46:03,100 - planner_agent.log - INFO - Plan updated:
+[['Step one', {'agent': 'casual', 'id': '1', 'task': 'Step one'}], ['Step two', {'agent': 'casual', 'id': '2', 'task': 'Step two'}]]
+2026-01-12 23:46:03,100 - planner_agent.log - INFO - Prompt for agent:
+
+        You are given informations from your AI friends work:
+        No needed informations.
+        Your task is:
+        Step two
+        
+2026-01-12 23:46:03,101 - planner_agent.log - INFO - Agent casual started working on Step two.
+2026-01-12 23:46:03,306 - planner_agent.log - INFO - Agent casual finished working on Step two. Success: True
+2026-01-12 23:46:03,307 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 23:46:03,307 - planner_agent.log - INFO - Created agent casual with task: Step one
+2026-01-12 23:46:03,307 - planner_agent.log - INFO - Created agent casual with task: Step two
+2026-01-12 23:46:03,512 - planner_agent.log - INFO - Plan made:
+```json
+{"plan": [{"id": "1", "task": "Step one", "agent": "casual"}, {"id": "2", "task": "Step two", "agent": "casual"}]}
+```
+2026-01-12 23:46:03,512 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-12 23:46:03,512 - planner_agent.log - INFO - Created agent casual with task: Step one
+2026-01-12 23:46:03,512 - planner_agent.log - INFO - Created agent casual with task: Step two
+2026-01-12 23:46:03,513 - planner_agent.log - INFO - Plan updated:
+[['Step one', {'agent': 'casual', 'id': '1', 'task': 'Step one'}], ['Step two', {'agent': 'casual', 'id': '2', 'task': 'Step two'}]]
+2026-01-13 00:23:22,265 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-13 00:23:22,265 - planner_agent.log - INFO - Created agent casual with task: Step one
+2026-01-13 00:23:22,265 - planner_agent.log - INFO - Created agent casual with task: Step two
+2026-01-13 00:23:22,465 - planner_agent.log - INFO - Plan made:
+```json
+{"plan": [{"id": "1", "task": "Step one", "agent": "casual"}, {"id": "2", "task": "Step two", "agent": "casual"}]}
+```
+2026-01-13 00:23:22,466 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-13 00:23:22,466 - planner_agent.log - INFO - Created agent casual with task: Step one
+2026-01-13 00:23:22,466 - planner_agent.log - INFO - Created agent casual with task: Step two
+2026-01-13 00:23:22,466 - planner_agent.log - INFO - Prompt for agent:
+
+        You are given informations from your AI friends work:
+        No needed informations.
+        Your task is:
+        Step one
+        
+2026-01-13 00:23:22,466 - planner_agent.log - INFO - Agent casual started working on Step one.
+2026-01-13 00:23:22,667 - planner_agent.log - INFO - Agent casual finished working on Step one. Success: True
+2026-01-13 00:23:22,669 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-13 00:23:22,669 - planner_agent.log - INFO - Created agent casual with task: Step one
+2026-01-13 00:23:22,669 - planner_agent.log - INFO - Created agent casual with task: Step two
+2026-01-13 00:23:22,868 - planner_agent.log - INFO - Plan made:
+```json
+{"plan": [{"id": "1", "task": "Step one", "agent": "casual"}, {"id": "2", "task": "Step two", "agent": "casual"}]}
+```
+2026-01-13 00:23:22,869 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-13 00:23:22,869 - planner_agent.log - INFO - Created agent casual with task: Step one
+2026-01-13 00:23:22,869 - planner_agent.log - INFO - Created agent casual with task: Step two
+2026-01-13 00:23:22,869 - planner_agent.log - INFO - Plan updated:
+[['Step one', {'agent': 'casual', 'id': '1', 'task': 'Step one'}], ['Step two', {'agent': 'casual', 'id': '2', 'task': 'Step two'}]]
+2026-01-13 00:23:22,869 - planner_agent.log - INFO - Prompt for agent:
+
+        You are given informations from your AI friends work:
+        No needed informations.
+        Your task is:
+        Step two
+        
+2026-01-13 00:23:22,869 - planner_agent.log - INFO - Agent casual started working on Step two.
+2026-01-13 00:23:23,071 - planner_agent.log - INFO - Agent casual finished working on Step two. Success: True
+2026-01-13 00:23:23,073 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-13 00:23:23,074 - planner_agent.log - INFO - Created agent casual with task: Step one
+2026-01-13 00:23:23,074 - planner_agent.log - INFO - Created agent casual with task: Step two
+2026-01-13 00:23:23,273 - planner_agent.log - INFO - Plan made:
+```json
+{"plan": [{"id": "1", "task": "Step one", "agent": "casual"}, {"id": "2", "task": "Step two", "agent": "casual"}]}
+```
+2026-01-13 00:23:23,274 - planner_agent.log - INFO - Found 0 tasks names.
+2026-01-13 00:23:23,274 - planner_agent.log - INFO - Created agent casual with task: Step one
+2026-01-13 00:23:23,274 - planner_agent.log - INFO - Created agent casual with task: Step two
+2026-01-13 00:23:23,274 - planner_agent.log - INFO - Plan updated:
+[['Step one', {'agent': 'casual', 'id': '1', 'task': 'Step one'}], ['Step two', {'agent': 'casual', 'id': '2', 'task': 'Step two'}]]

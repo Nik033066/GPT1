@@ -1,22 +1,27 @@
-# Agentic Local - Multi-Agent System
+# Agentic
 
 <p align="center">
-  <img src="logo.jpg" width="200" height="200" alt="Agentic Local Logo">
+  <img src="architecture_diagram.png" alt="Agentic Architecture" width="100%">
 </p>
 
-A fully local AI agent system powered by **Qwen3** running on your machine (M1/M2 Mac, CUDA GPU, or CPU).
+<p align="center">
+  <strong>A fully local multi-agent AI system</strong><br>
+  Powered by Qwen running on your machine (M1/M2 Mac, CUDA GPU, or CPU)
+</p>
 
-## 📚 Architecture & Schema
+---
 
-For a detailed view of the system architecture, file structure, and execution sequence, please refer to [ARCHITECTURE.md](ARCHITECTURE.md).
+## Overview
 
-## Features
+Agentic is an intelligent multi-agent system that automatically routes your requests to specialized agents. Each agent has unique capabilities and tools to handle different types of tasks.
 
-- **6 Specialized Agents**: Casual, Browser, Coder, File, Planner, MCP
-- **Intelligent Routing**: Automatic agent selection based on task type
-- **Browser Automation**: Selenium-based web navigation
-- **100% Local LLM**: Qwen3 running on HuggingFace Transformers (no API keys needed)
-- **Modern Web UI**: React frontend with real-time updates
+| Agent | Purpose | Tools |
+|-------|---------|-------|
+| **Casual** | General conversation, Q&A | — |
+| **Browser** | Web search and navigation | WebSearch, Selenium |
+| **Coder** | Code generation and execution | Python, Bash, C, Go, Java |
+| **File** | File operations | FileFinder, Bash |
+| **Planner** | Multi-step task orchestration | Coordinates other agents |
 
 ## Quick Start
 
@@ -30,46 +35,41 @@ For a detailed view of the system architecture, file structure, and execution se
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/agentic-local.git
-cd agentic-local
+# Clone
+git clone https://github.com/yourusername/agentic.git
+cd agentic
 
-# Install Python dependencies
+# Python dependencies
 pip install -r requirements.txt
 
-# Install HuggingFace model dependencies
-pip install transformers torch accelerate
-
-# Install frontend dependencies
-cd frontend/jarvis-ui
-npm install
-cd ../..
+# Frontend dependencies
+cd frontend/jarvis-ui && npm install && cd ../..
 ```
 
 ### Running
 
-**Option 1: Complete Start (Recommended)**
-Starts Backend, Frontend, and SearxNG (for web search).
+**Complete Start** (with web search):
 ```bash
 ./start_with_searxng.sh
 ```
 
-**Option 2: Quick Start (No Search)**
+**Quick Start** (no search):
 ```bash
 ./start.sh
 ```
 
-**Option 3: Manual Start**
+**Manual Start**:
 ```bash
-# Terminal 1 - Backend
+# Terminal 1: Backend
 python3 api.py
 
-# Terminal 2 - Frontend
-cd frontend/jarvis-ui
-npm start
+# Terminal 2: Frontend
+cd frontend/jarvis-ui && npm start
 ```
 
-Open http://localhost:3000 in your browser.
+Open **http://localhost:3000**
+
+---
 
 ## Configuration
 
@@ -91,56 +91,58 @@ headless_browser = False
 stealth_mode = False
 ```
 
-### Available Providers
+### LLM Providers
 
 | Provider | Model | Local |
-|----------|-------|-------|
-| `qwen` | Qwen/Qwen2.5-7B-Instruct | Yes |
-| `huggingface-local` | Any HF model | Yes |
-| `ollama` | Any Ollama model | Yes |
-| `openai` | GPT-4, etc. | No |
-| `deepseek` | DeepSeek | No |
+|----------|-------|:-----:|
+| `qwen` | Qwen2.5-7B-Instruct | ✓ |
+| `huggingface-local` | Any HF model | ✓ |
+| `ollama` | Any Ollama model | ✓ |
+| `openai` | GPT-4, etc. | ✗ |
+| `deepseek` | DeepSeek | ✗ |
 
-### Environment Variables
-
-```bash
-# Optional: HuggingFace token for gated models
-export HF_TOKEN="your_token_here"
-
-# Optional: For cloud providers
-export OPENAI_API_KEY="your_key"
-export DEEPSEEK_API_KEY="your_key"
-```
+---
 
 ## Project Structure
 
 ```
-.
-├── api.py              # FastAPI backend
-├── cli.py              # Command line interface
-├── config.ini          # Configuration
-├── sources/            # Core modules
-│   ├── agents/         # Agent implementations
-│   ├── tools/          # Agent tools
-│   ├── llm_provider.py # LLM providers
-│   ├── browser.py      # Browser automation
-│   ├── router.py       # Agent routing
-│   └── interaction.py  # Orchestration
-├── frontend/           # React web UI
-├── prompts/            # Agent system prompts
-└── llm_router/         # Classifier model
+agentic/
+├── api.py                  # FastAPI backend
+├── cli.py                  # Command line interface
+├── config.ini              # Configuration
+│
+├── sources/
+│   ├── agents/             # Agent implementations
+│   │   ├── agent.py        # Base agent class
+│   │   ├── casual_agent.py
+│   │   ├── browser_agent.py
+│   │   ├── code_agent.py
+│   │   ├── file_agent.py
+│   │   └── planner_agent.py
+│   │
+│   ├── tools/              # Agent tools
+│   │   ├── tools.py        # Base tool class
+│   │   ├── PyInterpreter.py
+│   │   ├── BashInterpreter.py
+│   │   ├── fileFinder.py   # Supports PDF reading
+│   │   └── searxSearch.py
+│   │
+│   ├── router.py           # Intelligent agent routing
+│   ├── llm_provider.py     # LLM providers
+│   ├── memory.py           # Conversation memory
+│   ├── browser.py          # Selenium automation
+│   └── interaction.py      # Orchestration
+│
+├── prompts/
+│   └── base/               # Agent system prompts
+│
+├── frontend/
+│   └── jarvis-ui/          # React web interface
+│
+└── conversations/          # Saved sessions
 ```
 
-## Agents
-
-| Agent | Purpose |
-|-------|---------|
-| **CasualAgent** | General conversation |
-| **BrowserAgent** | Web search and navigation |
-| **CoderAgent** | Code generation and execution |
-| **FileAgent** | File operations |
-| **PlannerAgent** | Multi-step task planning |
-| **MCPAgent** | MCP server integration |
+---
 
 ## API Endpoints
 
@@ -148,9 +150,44 @@ export DEEPSEEK_API_KEY="your_key"
 |----------|--------|-------------|
 | `/query` | POST | Submit a task |
 | `/latest_answer` | GET | Get agent response |
-| `/screenshot` | GET | Get browser screenshot |
+| `/screenshot` | GET | Browser screenshot |
 | `/health` | GET | Health check |
 | `/stop` | GET | Stop current task |
+
+---
+
+## Architecture
+
+For detailed architecture diagrams and execution flow, see [ARCHITECTURE.md](ARCHITECTURE.md).
+
+```
+User Request
+     ↓
+  Router  →  Classifies intent
+     ↓
+  Agent   →  CasualAgent | BrowserAgent | CoderAgent | FileAgent | PlannerAgent
+     ↓
+  Tools   →  Python | Bash | FileFinder | WebSearch | Selenium
+     ↓
+   LLM    →  Generates response
+     ↓
+  Memory  →  Stores context
+     ↓
+ Response
+```
+
+---
+
+## Features
+
+- **Intelligent Routing**: Automatic agent selection based on task type
+- **Multi-language Code Execution**: Python, Bash, C, Go, Java
+- **PDF Support**: File agent can read and analyze PDF documents
+- **Web Automation**: Selenium-based browsing with screenshot capture
+- **Conversation Memory**: Context preserved across interactions
+- **100% Local**: No API keys required with local LLM providers
+
+---
 
 ## License
 

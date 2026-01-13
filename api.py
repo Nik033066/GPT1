@@ -7,12 +7,13 @@ import configparser
 import asyncio
 import time
 from typing import List
-from fastapi import FastAPI
+from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 import uuid
+import shutil
 
 from sources.utility import pretty_print
 from sources.logger import Logger
@@ -22,6 +23,10 @@ from sources.startup import initialize_system
 from dotenv import load_dotenv
 
 load_dotenv()
+
+WORK_DIR = os.getenv("WORK_DIR", "/tmp/agentic_workspace")
+if not os.path.exists(WORK_DIR):
+    os.makedirs(WORK_DIR)
 
 
 from celery import Celery
@@ -60,6 +65,47 @@ async def get_screenshot():
         status_code=404,
         content={"error": "No screenshot available"}
     )
+
+@api.post("/upload")
+async def upload_file(file: UploadFile = File(...)):
+    try:
+        file_path = os.path.join(WORK_DIR, file.filename)
+        async with aiofiles.open(file_path, 'wb') as out_file:
+            content = await file.read()
+            await out_file.write(content)
+        logger.info(f"File uploaded: {file.filename}")
+        return JSONResponse(status_code=200, content={"filename": file.filename, "message": "File uploaded successfully"})
+    except Exception as e:
+        logger.error(f"Error uploading file: {str(e)}")
+        return JSONResponse(status_code=500, content={"error": str(e)})
+
+@api.get("/files/{filename}")
+async def get_file(filename: str):
+    file_path = os.path.join(WORK_DIR, filename)
+    if os.path.exists(file_path):
+        return FileResponse(file_path)
+    return JSONResponse(status_code=404, content={"error": "File not found"})
+
+@api.get("/files")
+async def list_files():
+    try:
+        files = os.listdir(WORK_DIR)
+        return JSONResponse(status_code=200, content={"files": files})
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": str(e)})
+
+@api.delete("/files/{filename}")
+async def delete_file(filename: str):
+    file_path = os.path.join(WORK_DIR, filename)
+    if os.path.exists(file_path):
+        try:
+            os.remove(file_path)
+            logger.info(f"File deleted: {filename}")
+            return JSONResponse(status_code=200, content={"message": f"File {filename} deleted"})
+        except Exception as e:
+            logger.error(f"Error deleting file {filename}: {str(e)}")
+            return JSONResponse(status_code=500, content={"error": str(e)})
+    return JSONResponse(status_code=404, content={"error": "File not found"})
 
 @api.get("/health")
 async def health_check():
