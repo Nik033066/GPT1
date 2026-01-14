@@ -1,7 +1,7 @@
 # Agentic
 
 <p align="center">
-  <img src="architecture_diagram.png" alt="Agentic Architecture" width="100%">
+  <video src="video1.mov" controls="controls" style="max-width: 100%;"></video>
 </p>
 
 <p align="center">
@@ -100,81 +100,6 @@ stealth_mode = False
 | `ollama` | Any Ollama model | ✓ |
 | `openai` | GPT-4, etc. | ✗ |
 | `deepseek` | DeepSeek | ✗ |
-
----
-
-## Project Structure
-
-```
-agentic/
-├── api.py                  # FastAPI backend
-├── cli.py                  # Command line interface
-├── config.ini              # Configuration
-│
-├── sources/
-│   ├── agents/             # Agent implementations
-│   │   ├── agent.py        # Base agent class
-│   │   ├── casual_agent.py
-│   │   ├── browser_agent.py
-│   │   ├── code_agent.py
-│   │   ├── file_agent.py
-│   │   └── planner_agent.py
-│   │
-│   ├── tools/              # Agent tools
-│   │   ├── tools.py        # Base tool class
-│   │   ├── PyInterpreter.py
-│   │   ├── BashInterpreter.py
-│   │   ├── fileFinder.py   # Supports PDF reading
-│   │   └── searxSearch.py
-│   │
-│   ├── router.py           # Intelligent agent routing
-│   ├── llm_provider.py     # LLM providers
-│   ├── memory.py           # Conversation memory
-│   ├── browser.py          # Selenium automation
-│   └── interaction.py      # Orchestration
-│
-├── prompts/
-│   └── base/               # Agent system prompts
-│
-├── frontend/
-│   └── jarvis-ui/          # React web interface
-│
-└── conversations/          # Saved sessions
-```
-
----
-
-## API Endpoints
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/query` | POST | Submit a task |
-| `/latest_answer` | GET | Get agent response |
-| `/screenshot` | GET | Browser screenshot |
-| `/health` | GET | Health check |
-| `/stop` | GET | Stop current task |
-
----
-
-## Architecture
-
-For detailed architecture diagrams and execution flow, see [ARCHITECTURE.md](ARCHITECTURE.md).
-
-```
-User Request
-     ↓
-  Router  →  Classifies intent
-     ↓
-  Agent   →  CasualAgent | BrowserAgent | CoderAgent | FileAgent | PlannerAgent
-     ↓
-  Tools   →  Python | Bash | FileFinder | WebSearch | Selenium
-     ↓
-   LLM    →  Generates response
-     ↓
-  Memory  →  Stores context
-     ↓
- Response
-```
 
 ---
 
