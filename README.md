@@ -1,7 +1,11 @@
 # Agentic
 
 <p align="center">
-  <video src="video1.mov" controls="controls" style="max-width: 100%;"></video>
+  <a href="video1.mov" target="_blank">
+    <strong>🎥 Watch the Demo Video (video1.mov)</strong>
+  </a>
+  <br>
+  <em>(Note: GitHub does not support inline playback of local video files. Click the link above to watch.)</em>
 </p>
 
 <p align="center">
